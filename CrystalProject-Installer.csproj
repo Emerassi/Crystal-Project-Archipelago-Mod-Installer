@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Hammerpelago_Installer</RootNamespace>
-    <AssemblyName>HammerwatchAPInstaller</AssemblyName>
+    <RootNamespace>CrystalProject_Installer</RootNamespace>
+    <AssemblyName>CrystalProjectAPInstaller</AssemblyName>
     <TargetFramework>net8.0-windows7.0</TargetFramework>
 	<IncludeAllContentForSelfExtract>true</IncludeAllContentForSelfExtract>
     <UseWPF>true</UseWPF>
