@@ -5,6 +5,9 @@ the [Archipelago GitHub](https://github.com/ArchipelagoMW/Archipelago/releases) 
 
 ## Crystal Project Mod Installation Procedures
 
+In your Steam library, right-click Crystal Project in the list and select "Properties...". Go to the Betas section, 
+open the Beta Participation dropdown, and select the archipelago branch (version 1.6.5).
+
 Download and extract the .zip file containing the installer and necessary files from the 
 [Releases](https://github.com/Emerassi/Crystal-Project-Archipelago-Mod-Installer) page. Run CrystalProjectAPInstaller.exe, and
 in the file dialogue box select your Crystal Project executable (Crystal Project.exe), or navigate to it if it is not
