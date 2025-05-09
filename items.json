@@ -1,0 +1,506 @@
+[
+  {
+    "ItemId": 0,
+    "Name": "Job - Warrior",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Job"
+  },
+  {
+    "ItemId": 5,
+    "Name": "Job - Monk",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Job"
+  },
+  {
+    "ItemId": 2,
+    "Name": "Job - Rogue",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Job"
+  },
+  {
+    "ItemId": 4,
+    "Name": "Job - Cleric",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Job"
+  },
+  {
+    "ItemId": 3,
+    "Name": "Job - Wizard",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Job"
+  },
+  {
+    "ItemId": 14,
+    "Name": "Job - Warlock",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Job"
+  },
+  {
+    "ItemId": 1,
+    "Name": "Job - Fencer",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Job"
+  },
+  {
+    "ItemId": 8,
+    "Name": "Job - Shaman",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Job"
+  },
+  {
+    "ItemId": 13,
+    "Name": "Job - Scholar",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Job"
+  },
+  {
+    "ItemId": 10,
+    "Name": "Job - Aegis",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Job"
+  },
+  {
+    "ItemId": 7,
+    "Name": "Job - Hunter",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Job"
+  },
+  {
+    "ItemId": 17,
+    "Name": "Job - Chemist",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Job"
+  },
+  {
+    "ItemId": 6,
+    "Name": "Job - Reaper",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Job"
+  },
+  {
+    "ItemId": 18,
+    "Name": "Job - Ninja",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Job"
+  },
+  {
+    "ItemId": 12,
+    "Name": "Job - Nomad",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Job"
+  },
+  {
+    "ItemId": 11,
+    "Name": "Job - Dervish",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Job"
+  },
+  {
+    "ItemId": 9,
+    "Name": "Job - Beatsmith",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Job"
+  },
+  {
+    "ItemId": 20,
+    "Name": "Job - Samurai",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Job"
+  },
+  {
+    "ItemId": 19,
+    "Name": "Job - Assassin",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Job"
+  },
+  {
+    "ItemId": 15,
+    "Name": "Job - Valkyrie",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Job"
+  },
+  {
+    "ItemId": 21,
+    "Name": "Job - Summoner",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Job"
+  },
+  {
+    "ItemId": 23,
+    "Name": "Job - Beastmaster",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Job"
+  },
+  {
+    "ItemId": 16,
+    "Name": "Job - Weaver",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Job"
+  },
+  {
+    "ItemId": 22,
+    "Name": "Job - Mimic",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Job"
+  },
+  {
+    "ItemId": 20,
+    "Name": "Item - Milk",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Item"
+  },
+  {
+    "ItemId": 132,
+    "Name": "Item - Shoudu Stew",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Item"
+  },
+  {
+    "ItemId": 11,
+    "Name": "Item - Rotten Salmon",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Item"
+  },
+  {
+    "ItemId": 10,
+    "Name": "Item - Fresh Salmon",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Item"
+  },
+  {
+    "ItemId": 31,
+    "Name": "Item - Gardeners Key",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Item"
+  },
+  {
+    "ItemId": 33,
+    "Name": "Item - Courtyard Key",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Item"
+  },
+  {
+    "ItemId": 36,
+    "Name": "Item - Luxury Key",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Item"
+  },
+  {
+    "ItemId": 40,
+    "Name": "Item - Cell Key",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Item"
+  },
+  {
+    "ItemId": 41,
+    "Name": "Item - South Wing Key",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Item"
+  },
+  {
+    "ItemId": 42,
+    "Name": "Item - East Wing Key",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Item"
+  },
+  {
+    "ItemId": 43,
+    "Name": "Item - West Wing Key",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Item"
+  },
+  {
+    "ItemId": 44,
+    "Name": "Item - Dark Wing Key",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Item"
+  },
+  {
+    "ItemId": 32,
+    "Name": "Item - Room 1 Key",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Item"
+  },
+  {
+    "ItemId": 60,
+    "Name": "Item - Pyramid Key",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Item"
+  },
+  {
+    "ItemId": 95,
+    "Name": "Item - Tram Key",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Item"
+  },
+  {
+    "ItemId": 29,
+    "Name": "Item - Small Key",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Item"
+  },
+  {
+    "ItemId": 30,
+    "Name": "Item - Boss Key",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Item"
+  },
+  {
+    "ItemId": 156,
+    "Name": "Item - Ice Cell Key",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Item"
+  },
+  {
+    "ItemId": 169,
+    "Name": "Item - Red Door Key",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Item"
+  },
+  {
+    "ItemId": 160,
+    "Name": "Item - Ice Puzzle Key",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Item"
+  },
+  {
+    "ItemId": 141,
+    "Name": "Item - Foliage Key",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Item"
+  },
+  {
+    "ItemId": 118,
+    "Name": "Item - Cave Key",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Item"
+  },
+  {
+    "ItemId": 116,
+    "Name": "Item - Canopy Key",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Item"
+  },
+  {
+    "ItemId": 175,
+    "Name": "Item - Rampart Key",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Item"
+  },
+  {
+    "ItemId": 192,
+    "Name": "Item - Forgotten Key",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Item"
+  },
+  {
+    "ItemId": 147,
+    "Name": "Item - Skeleton Key",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Item"
+  },
+  {
+    "ItemId": 7,
+    "Name": "Item - Quintar Pass",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Item"
+  },
+  {
+    "ItemId": 93,
+    "Name": "Item - Progressive Luxury Pass",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Item"
+  },
+  {
+    "ItemId": 37,
+    "Name": "Item - Ferry Pass",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Item"
+  },
+  {
+    "ItemId": 21,
+    "Name": "Item - Black Squirrel",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Item"
+  },
+  {
+    "ItemId": 6,
+    "Name": "Item - Dog Bone",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Item"
+  },
+  {
+    "ItemId": 16,
+    "Name": "Item - Clamshell",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Item"
+  },
+  {
+    "ItemId": 17,
+    "Name": "Item - Digested Head",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Item"
+  },
+  {
+    "ItemId": 24,
+    "Name": "Item - Lost Penguin",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Item"
+  },
+  {
+    "ItemId": 224,
+    "Name": "Item - Elevator Part",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Item"
+  },
+  {
+    "ItemId": 212,
+    "Name": "Item - Undersea Crab",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Item"
+  },
+  {
+    "ItemId": 81,
+    "Name": "Item - West Lookout Token",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Item"
+  },
+  {
+    "ItemId": 88,
+    "Name": "Item - Central Lookout Token",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Item"
+  },
+  {
+    "ItemId": 131,
+    "Name": "Item - North Lookout Token",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Item"
+  },
+  {
+    "ItemId": 197,
+    "Name": "Item - Crag Demon Horn",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Item"
+  },
+  {
+    "ItemId": 172,
+    "Name": "Item - Vermillion Book",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Item"
+  },
+  {
+    "ItemId": 173,
+    "Name": "Item - Viridian Book",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Item"
+  },
+  {
+    "ItemId": 174,
+    "Name": "Item - Cerulean Book",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Item"
+  },
+  {
+    "ItemId": 39,
+    "Name": "Item - Progressive Quintar Flute",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Item"
+  },
+  {
+    "ItemId": 50,
+    "Name": "Item - Ibek Bell",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Item"
+  },
+  {
+    "ItemId": 49,
+    "Name": "Item - Owl Drum",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Item"
+  },
+  {
+    "ItemId": 48,
+    "Name": "Item - Progressive Salmon Violin",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Item"
+  },
+  {
+    "ItemId": 23,
+    "Name": "Item - Gaea Stone",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Item"
+  },
+  {
+    "ItemId": 13,
+    "Name": "Item - Mercury Stone",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Item"
+  },
+  {
+    "ItemId": 57,
+    "Name": "Item - Poseidon Stone",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Item"
+  },
+  {
+    "ItemId": 59,
+    "Name": "Item - Mars Stone",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Item"
+  },
+  {
+    "ItemId": 65,
+    "Name": "Item - Ganymede Stone",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Item"
+  },
+  {
+    "ItemId": 66,
+    "Name": "Item - Triton Stone",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Item"
+  },
+  {
+    "ItemId": 155,
+    "Name": "Item - Callisto Stone",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Item"
+  },
+  {
+    "ItemId": 64,
+    "Name": "Item - Europa Stone",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Item"
+  },
+  {
+    "ItemId": 166,
+    "Name": "Item - Dione Stone",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Item"
+  },
+  {
+    "ItemId": 208,
+    "Name": "Item - Neptune Stone",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Item"
+  },
+  {
+    "ItemId": 140,
+    "Name": "Item - New World Stone",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Item"
+  },
+  {
+    "ItemId": 253,
+    "Name": "Item - Old World Stone",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Item"
+  },
+  {
+    "ItemId": 198,
+    "Name": "Scholar - Reverse Polarity",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Scholar"
+  }
+]

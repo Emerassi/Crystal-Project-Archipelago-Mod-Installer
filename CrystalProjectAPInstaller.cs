@@ -14,6 +14,7 @@ class CrystalProjectAPInstaller
 	[STAThread]
 	private static void Main(string[] args)
 	{
+		const string originalCrystalProjectExeName = "Crystal Project.exe.original";
 		const string crystalProjectExeName = "Crystal Project.exe";
 		const string crystalProjectArchipelagoName = "CrystalProjectAP.exe";
 		const string patchName = "CrystalProjectAP.bsdiff";
@@ -42,6 +43,7 @@ class CrystalProjectAPInstaller
 						line = line.Replace("\"path\"", "");
 						line = line.Substring(line.IndexOf('"') + 1);
 						line = line.Remove(line.Length - 1);
+						line = line.Replace("\\\\", "\\");
 						paths.Add(line);
 					}
 				}
@@ -69,7 +71,7 @@ class CrystalProjectAPInstaller
 				Console.Error.WriteLine(e.ToString());
 			}
 
-			Console.WriteLine("Please select a file in the dialogue window");
+			Console.WriteLine("Please select your Crystal Project.exe file in the dialogue window");
 			using System.Windows.Forms.OpenFileDialog openFileDialog = new();
 			openFileDialog.InitialDirectory = initialDirectory;
 			openFileDialog.Filter = "Crystal Project.exe|Crystal Project.exe";
@@ -84,7 +86,6 @@ class CrystalProjectAPInstaller
 		else
 		{
 			Console.Error.WriteLine("Installer located in Crystal Project install directory");
-			Console.Error.WriteLine("This method of installation is no longer supported. Please do not move any files before installing the mod");
 			Exit();
 			return;
 		}
@@ -92,35 +93,60 @@ class CrystalProjectAPInstaller
 		if (crystalProjectPath != null)
 		{
 			string crystalProjectExePath = Path.Combine(crystalProjectPath, crystalProjectExeName);
+			string originalCrystalProjectExePath = Path.Combine(crystalProjectPath, originalCrystalProjectExeName);
 			string crystalProjectArchipelagoExePath = Path.Combine(crystalProjectPath, crystalProjectArchipelagoName);
-			string apAssetsPath = Path.Combine(crystalProjectPath, "archipelago-assets");
-			string vanillaLocation = Path.Combine(apAssetsPath, crystalProjectExeName);
-			//Copy mod files to Crystal Project directory
-			if (Directory.Exists(apAssetsPath))
+
+			// check if original file exists, if not create it.  If it does exist, delete the existing .exe and replace it from original
+			if (!File.Exists(originalCrystalProjectExePath))
 			{
-				//Replace the modded exe with the vanilla one to apply the bsdiff
-				Console.WriteLine("Mod already installed, removing and reinstalling");
-				File.Copy(vanillaLocation, crystalProjectExePath, true);
-				Directory.Delete(apAssetsPath, true);
+				File.Copy(crystalProjectExePath, originalCrystalProjectExePath);
 			}
-			DeepCopy(installerPath, crystalProjectPath, new List<string> { "LICENSE.txt", "CrystalProjectAPInstaller.exe", patchName });
+			else
+			{
+				// We should only have an original file if we've already patched before.  In that case we need to delete the .exe and replace it from the original.
+				File.Delete(crystalProjectExePath);
+				File.Copy(originalCrystalProjectExePath, crystalProjectExePath);
+			}
+
+			//string apAssetsPath = Path.Combine(crystalProjectPath, "archipelago-assets");
+			//string vanillaLocation = Path.Combine(apAssetsPath, crystalProjectExeName);
+			//Copy mod files to Crystal Project directory
+			//if (Directory.Exists(apAssetsPath))
+			//{
+			//	//Replace the modded exe with the vanilla one to apply the bsdiff
+			//	Console.WriteLine("Mod already installed, removing and reinstalling");
+			//	File.Copy(vanillaLocation, crystalProjectExePath, true);
+			//	Directory.Delete(apAssetsPath, true);
+			//}
+
+			DeepCopy(installerPath, crystalProjectPath, new List<string>
+			{
+				"Bsdiff.Core.dll",
+				"CrystalProjectAPInstaller.deps.json",
+				"CrystalProjectAPInstaller.dll",
+				"CrystalProjectAPInstaller.exe",
+				"CrystalProjectAPInstaller.runtimeconfig.json",
+				"ICSharpCode.SharpZipLib.dll",
+				"LICENSE.txt",
+				"README.md",
+				patchName });
 			try
 			{
 				//Open crystal project exe path and compute the hash to make sure that it's the right version/vanilla
-				FileStream hammerwatchExeStream = new(crystalProjectExePath, FileMode.Open, FileAccess.Read, FileShare.Read);
-				using MD5 md5 = MD5.Create();
-				string exeHashString = BitConverter.ToString(md5.ComputeHash(hammerwatchExeStream)).Replace("-", "").ToLower();
-				hammerwatchExeStream.Dispose();
+				//FileStream hammerwatchExeStream = new(crystalProjectExePath, FileMode.Open, FileAccess.Read, FileShare.Read);
+				//using MD5 md5 = MD5.Create();
+				//string exeHashString = BitConverter.ToString(md5.ComputeHash(hammerwatchExeStream)).Replace("-", "").ToLower();
+				//hammerwatchExeStream.Dispose();
 
-				if (exeHashString != "ddf8414912a48b5b2b77873a66a41b57") //Vanilla hash
-				{
-					Console.Error.WriteLine("Vanilla Hammerwatch exe not found, please reinstall Hammerwatch");
-					Exit();
-					return;
-				}
-				File.Copy(crystalProjectExePath, vanillaLocation);
+				//if (exeHashString != "ddf8414912a48b5b2b77873a66a41b57") //Vanilla hash
+				//{
+				//	Console.Error.WriteLine("Vanilla Hammerwatch exe not found, please reinstall Hammerwatch");
+				//	Exit();
+				//	return;
+				//}
+				//File.Copy(crystalProjectExePath, vanillaLocation);
 
-				//Reopen the crystal project exe (should be vanilla at this point) and apply the bsdiff
+				//Reopen the crystal project exe(should be vanilla at this point) and apply the bsdiff
 				FileStream input = new(crystalProjectExePath, FileMode.Open, FileAccess.Read, FileShare.Read);
 				FileStream output = new(crystalProjectArchipelagoExePath, FileMode.Create);
 				BinaryPatchUtility.Apply(input, () => new FileStream(Path.Combine(installerPath, patchName), FileMode.Open, FileAccess.Read, FileShare.Read), output);
