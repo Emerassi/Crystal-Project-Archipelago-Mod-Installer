@@ -106,37 +106,46 @@ class CrystalProjectAPInstaller
 
 			try
 			{
+				string archipelagoBranchHashString = "9a1e47b7fb5198f86b13279beb9f6f50"; //1.6.5 Archipelago Branch hash
+				string archipelagoModdedVersionStrong = "332f81fd7904ba33872b1b6861ed137d"; //v0.2 Archipelago Modded hash
+
 				//Open crystal project exe path and compute the hash to make sure that it's the right version
 				FileStream crystalProjectBeforeStream = new(crystalProjectExePath, FileMode.Open, FileAccess.Read, FileShare.Read);
 				using MD5 md5 = MD5.Create();
 				string exeBeforeHashString = BitConverter.ToString(md5.ComputeHash(crystalProjectBeforeStream)).Replace("-", "").ToLower();
 				crystalProjectBeforeStream.Dispose();
 
-				if (exeBeforeHashString != "9a1e47b7fb5198f86b13279beb9f6f50") //1.6.5 Archipelago Branch hash
+				if (exeBeforeHashString == archipelagoModdedVersionStrong)
+				{
+					Console.WriteLine("\nYour Crystal Project.exe is already the archipelago modded version. Proceeding to copy other files.");
+				}
+				else if (exeBeforeHashString != archipelagoBranchHashString)
 				{
 					Console.Error.WriteLine("\nCrystal Project.exe file was not the expected version.  Are you in the Archipelago Beta branch on steam?  If yes, try verifying file integrity in Steam and trying again.\n");
 					Exit();
 					return;
 				}
-
-				//Reopen the crystal project exe(should be vanilla at this point) and apply the bsdiff
-				FileStream input = new(crystalProjectExePath, FileMode.Open, FileAccess.Read, FileShare.Read);
-				FileStream output = new(crystalProjectArchipelagoExePath, FileMode.Create);
-				BinaryPatchUtility.Apply(input, () => new FileStream(Path.Combine(installerPath, patchName), FileMode.Open, FileAccess.Read, FileShare.Read), output);
-				input.Dispose();
-				output.Dispose();
-				File.Move(crystalProjectArchipelagoExePath, crystalProjectExePath, true);
-
-				FileStream crystalProjectAfterStream = new(crystalProjectExePath, FileMode.Open, FileAccess.Read, FileShare.Read);
-				string exeAfterHashString = BitConverter.ToString(md5.ComputeHash(crystalProjectAfterStream)).Replace("-", "").ToLower();
-				crystalProjectAfterStream.Dispose();
-
-				if (exeAfterHashString != "332f81fd7904ba33872b1b6861ed137d") //v0.2 Archipelago Modded hash
+				else
 				{
-					Console.Error.WriteLine("\nSomething went wrong and the final version does not have the correct file hash.  Verify File Integrity in Steam and try again, or contact the developers.\n");
-					Exit();
-					return;
-				}
+					//Reopen the crystal project exe(should be vanilla at this point) and apply the bsdiff
+					FileStream input = new(crystalProjectExePath, FileMode.Open, FileAccess.Read, FileShare.Read);
+					FileStream output = new(crystalProjectArchipelagoExePath, FileMode.Create);
+					BinaryPatchUtility.Apply(input, () => new FileStream(Path.Combine(installerPath, patchName), FileMode.Open, FileAccess.Read, FileShare.Read), output);
+					input.Dispose();
+					output.Dispose();
+					File.Move(crystalProjectArchipelagoExePath, crystalProjectExePath, true);
+
+					FileStream crystalProjectAfterStream = new(crystalProjectExePath, FileMode.Open, FileAccess.Read, FileShare.Read);
+					string exeAfterHashString = BitConverter.ToString(md5.ComputeHash(crystalProjectAfterStream)).Replace("-", "").ToLower();
+					crystalProjectAfterStream.Dispose();
+
+					if (exeAfterHashString != archipelagoModdedVersionStrong)
+					{
+						Console.Error.WriteLine("\nSomething went wrong and the final version does not have the correct file hash.  Verify File Integrity in Steam and try again, or contact the developers.\n");
+						Exit();
+						return;
+					}
+				}				
 			}
 			catch (FileNotFoundException ex)
 			{
