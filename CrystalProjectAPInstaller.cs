@@ -16,7 +16,7 @@ class CrystalProjectAPInstaller
 	{
 		const string originalCrystalProjectExeName = "Crystal Project.exe.original";
 		const string crystalProjectExeName = "Crystal Project.exe";
-		const string crystalProjectArchipelagoName = "CrystalProjectAP.exe";
+		const string crystalProjectArchipelagoName = "CrystalProjectTemp.exe";
 		const string patchName = "CrystalProjectAP.bsdiff";
 
 		Console.WriteLine("Crystal Project Archipelago Installer");
@@ -85,7 +85,7 @@ class CrystalProjectAPInstaller
 		}
 		else
 		{
-			Console.Error.WriteLine("Installer located in Crystal Project install directory");
+			Console.Error.WriteLine("\nInstaller located in Crystal Project install directory.  Installer will not run correctly if you dropped it into the Crystal Project directory.\n");
 			Exit();
 			return;
 		}
@@ -96,29 +96,57 @@ class CrystalProjectAPInstaller
 			string originalCrystalProjectExePath = Path.Combine(crystalProjectPath, originalCrystalProjectExeName);
 			string crystalProjectArchipelagoExePath = Path.Combine(crystalProjectPath, crystalProjectArchipelagoName);
 
-			// check if original file exists, if not create it.  If it does exist, delete the existing .exe and replace it from original
-			if (!File.Exists(originalCrystalProjectExePath))
+			// We used to keep backup files around in the directory, but this is pointless because we have Steam.  It is the backup.
+			// Running verify files will restore a mistake in 2 seconds.
+			// This code exists now so that if anybody else runs the installer it'll clean up our old backup file.  This is something we can remove by v1.0 release.
+			if (File.Exists(originalCrystalProjectExePath))
 			{
-				File.Copy(crystalProjectExePath, originalCrystalProjectExePath);
-			}
-			else
-			{
-				// We should only have an original file if we've already patched before.  In that case we need to delete the .exe and replace it from the original.
-				File.Delete(crystalProjectExePath);
-				File.Copy(originalCrystalProjectExePath, crystalProjectExePath);
+				File.Delete(originalCrystalProjectExePath);
 			}
 
-			//string apAssetsPath = Path.Combine(crystalProjectPath, "archipelago-assets");
-			//string vanillaLocation = Path.Combine(apAssetsPath, crystalProjectExeName);
-			//Copy mod files to Crystal Project directory
-			//if (Directory.Exists(apAssetsPath))
-			//{
-			//	//Replace the modded exe with the vanilla one to apply the bsdiff
-			//	Console.WriteLine("Mod already installed, removing and reinstalling");
-			//	File.Copy(vanillaLocation, crystalProjectExePath, true);
-			//	Directory.Delete(apAssetsPath, true);
-			//}
+			try
+			{
+				//Open crystal project exe path and compute the hash to make sure that it's the right version
+				FileStream crystalProjectBeforeStream = new(crystalProjectExePath, FileMode.Open, FileAccess.Read, FileShare.Read);
+				using MD5 md5 = MD5.Create();
+				string exeBeforeHashString = BitConverter.ToString(md5.ComputeHash(crystalProjectBeforeStream)).Replace("-", "").ToLower();
+				crystalProjectBeforeStream.Dispose();
 
+				if (exeBeforeHashString != "9a1e47b7fb5198f86b13279beb9f6f50") //1.6.5 Archipelago Branch hash
+				{
+					Console.Error.WriteLine("\nCrystal Project.exe file was not the expected version.  Are you in the Archipelago Beta branch on steam?  If yes, try verifying file integrity in Steam and trying again.\n");
+					Exit();
+					return;
+				}
+
+				//Reopen the crystal project exe(should be vanilla at this point) and apply the bsdiff
+				FileStream input = new(crystalProjectExePath, FileMode.Open, FileAccess.Read, FileShare.Read);
+				FileStream output = new(crystalProjectArchipelagoExePath, FileMode.Create);
+				BinaryPatchUtility.Apply(input, () => new FileStream(Path.Combine(installerPath, patchName), FileMode.Open, FileAccess.Read, FileShare.Read), output);
+				input.Dispose();
+				output.Dispose();
+				File.Move(crystalProjectArchipelagoExePath, crystalProjectExePath, true);
+
+				FileStream crystalProjectAfterStream = new(crystalProjectExePath, FileMode.Open, FileAccess.Read, FileShare.Read);
+				string exeAfterHashString = BitConverter.ToString(md5.ComputeHash(crystalProjectAfterStream)).Replace("-", "").ToLower();
+				crystalProjectAfterStream.Dispose();
+
+				if (exeAfterHashString != "332f81fd7904ba33872b1b6861ed137d") //v0.2 Archipelago Modded hash
+				{
+					Console.Error.WriteLine("\nSomething went wrong and the final version does not have the correct file hash.  Verify File Integrity in Steam and try again, or contact the developers.\n");
+					Exit();
+					return;
+				}
+			}
+			catch (FileNotFoundException ex)
+			{
+				Console.Error.WriteLine($"\nCould not open '{ex.FileName}'.");
+				Console.Error.WriteLine("Make sure all supplied mod files exist in the same directory as the installer.\n");
+				Exit();
+				return;
+			}
+
+			// Don't attempt the copies until after we've finished all other verifications (i.e. file hash)
 			DeepCopy(installerPath, crystalProjectPath, new List<string>
 			{
 				"Bsdiff.Core.dll",
@@ -130,42 +158,12 @@ class CrystalProjectAPInstaller
 				"LICENSE.txt",
 				"README.md",
 				patchName });
-			try
-			{
-				//Open crystal project exe path and compute the hash to make sure that it's the right version/vanilla
-				//FileStream hammerwatchExeStream = new(crystalProjectExePath, FileMode.Open, FileAccess.Read, FileShare.Read);
-				//using MD5 md5 = MD5.Create();
-				//string exeHashString = BitConverter.ToString(md5.ComputeHash(hammerwatchExeStream)).Replace("-", "").ToLower();
-				//hammerwatchExeStream.Dispose();
 
-				//if (exeHashString != "ddf8414912a48b5b2b77873a66a41b57") //Vanilla hash
-				//{
-				//	Console.Error.WriteLine("Vanilla Hammerwatch exe not found, please reinstall Hammerwatch");
-				//	Exit();
-				//	return;
-				//}
-				//File.Copy(crystalProjectExePath, vanillaLocation);
-
-				//Reopen the crystal project exe(should be vanilla at this point) and apply the bsdiff
-				FileStream input = new(crystalProjectExePath, FileMode.Open, FileAccess.Read, FileShare.Read);
-				FileStream output = new(crystalProjectArchipelagoExePath, FileMode.Create);
-				BinaryPatchUtility.Apply(input, () => new FileStream(Path.Combine(installerPath, patchName), FileMode.Open, FileAccess.Read, FileShare.Read), output);
-				input.Dispose();
-				output.Dispose();
-				File.Move(crystalProjectArchipelagoExePath, crystalProjectExePath, true);
-			}
-			catch (FileNotFoundException ex)
-			{
-				Console.Error.WriteLine($"Could not open '{ex.FileName}'.");
-				Console.Error.WriteLine("Make sure all supplied mod files exist in the same directory as the installer");
-				Exit();
-				return;
-			}
-			Console.WriteLine("Patching successful!");
+			Console.WriteLine("\nPatching successful!\n");
 		}
 		else
 		{
-			Console.WriteLine("No valid file selected, exiting installation process");
+			Console.WriteLine("\n'Crystal Project.exe' file not selected, exiting installation process.\n");
 		}
 
 		Exit();

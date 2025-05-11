@@ -14,7 +14,7 @@ in the file dialogue box select your Crystal Project executable (Crystal Project
 automatically selected. If the installer displays the message "Patching successful!" you know the mod is successfully
 installed! You may launch Crystal Project as normal using Steam to play with Archipelago.
 
-To uninstall verify integrity of game files on Steam and it will return you to the unmodified version.
+To uninstall, verify integrity of game files on Steam and it will return you to the unmodified version.
 
 For more information about installation, generating a game, or using the mod see the 
 [Crystal Project Randomizer Setup Guide](https://github.com/Emerassi/CrystalProjectAPWorld/blob/main/worlds/crystal_project/docs/setup_en.md)
