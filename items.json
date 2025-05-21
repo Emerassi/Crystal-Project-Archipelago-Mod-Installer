@@ -378,6 +378,12 @@
     "Classification": "Item"
   },
   {
+    "ItemId": 167,
+    "Name": "Item - Babel Quintar",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Item"
+  },
+  {
     "ItemId": 197,
     "Name": "Item - Crag Demon Horn",
     "CateogryCode": "ItemClassification.progression",
@@ -398,6 +404,30 @@
   {
     "ItemId": 174,
     "Name": "Item - Cerulean Book",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Item"
+  },
+  {
+    "ItemId": 161,
+    "Name": "Item - Ancient Tablet A",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Item"
+  },
+  {
+    "ItemId": 162,
+    "Name": "Item - Ancient Tablet B",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Item"
+  },
+  {
+    "ItemId": 163,
+    "Name": "Item - Ancient Tablet C",
+    "CateogryCode": "ItemClassification.progression",
+    "Classification": "Item"
+  },
+  {
+    "ItemId": 500,
+    "Name": "Item - Progressive Level Cap",
     "CateogryCode": "ItemClassification.progression",
     "Classification": "Item"
   },

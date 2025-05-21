@@ -12,19 +12,19 @@
       },
       {
         "ConnectionName": "Poko Poko Desert",
-        "Rule": "logic.has_vertical_movement"
+        "Rule": "lambda state: logic.has_vertical_movement and logic.is_area_in_level_range(state, 2)"
       },
       {
         "ConnectionName": "Continental Tram",
-        "Rule": "logic.has_swimming"
+        "Rule": "lambda state: logic.has_swimming and logic.is_area_in_level_range(state, 5)"
       },
       {
         "ConnectionName": "Beaurior Volcano",
-        "Rule": "logic.has_vertical_movement"
+        "Rule": "lambda state: logic.has_vertical_movement and logic.is_area_in_level_range(state, 3)"
       },
       {
         "ConnectionName": "Yamagawa M.A.",
-        "Rule": "logic.has_swimming or logic.has_vertical_movement"
+        "Rule": "lambda state: (logic.has_swimming or logic.has_vertical_movement) and logic.is_area_in_level_range(state, 1)"
       }
     ],
     "Locations": [
@@ -65,7 +65,7 @@
       },
       {
         "LocationId": 54,
-        "LocationName": "Spawning Meadows Chest - Island",
+        "LocationName": "Spawning Meadows Chest - Promontory south of waterfall",
         "Rule": null,
         "Coordinates": "51, 111, -33",
         "MapLayer": 0
@@ -141,6 +141,27 @@
         "MapLayer": 0
       },
       {
+        "LocationId": 297,
+        "LocationName": "Spawning Meadows NPC - Promontory south of waterfall Secret Herb",
+        "Rule": null,
+        "Coordinates": "48, 112, -36",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 545,
+        "LocationName": "Spawning Meadows NPC - Secret Herb past mountain summit chest",
+        "Rule": null,
+        "Coordinates": "79, 112, -30",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 546,
+        "LocationName": "Spawning Meadows NPC - Cross trees and jump down for Secret Herb",
+        "Rule": null,
+        "Coordinates": "43, 104, -8",
+        "MapLayer": 0
+      },
+      {
         "LocationId": 84,
         "LocationName": "Spawning Meadows NPC - Map Nan",
         "Rule": null,
@@ -188,6 +209,104 @@
         "Rule": null,
         "Coordinates": "88, 118, 6",
         "MapLayer": 0
+      },
+      {
+        "LocationId": 13,
+        "LocationName": "Spawning Meadows Shop - Nans Knick Knacks 1",
+        "Rule": null,
+        "Coordinates": "112, 110, -29",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 10013,
+        "LocationName": "Spawning Meadows Shop - Nans Knick Knacks 2",
+        "Rule": null,
+        "Coordinates": "112, 110, -29",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 20013,
+        "LocationName": "Spawning Meadows Shop - Nans Knick Knacks 3",
+        "Rule": null,
+        "Coordinates": "112, 110, -29",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 30013,
+        "LocationName": "Spawning Meadows Shop - Nans Knick Knacks 4",
+        "Rule": null,
+        "Coordinates": "112, 110, -29",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 40013,
+        "LocationName": "Spawning Meadows Shop - Nans Knick Knacks 5",
+        "Rule": null,
+        "Coordinates": "112, 110, -29",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 50013,
+        "LocationName": "Spawning Meadows Shop - Nans Knick Knacks 6",
+        "Rule": null,
+        "Coordinates": "112, 110, -29",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 60013,
+        "LocationName": "Spawning Meadows Shop - Nans Knick Knacks 7",
+        "Rule": null,
+        "Coordinates": "112, 110, -29",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 70013,
+        "LocationName": "Spawning Meadows Shop - Nans Knick Knacks 8",
+        "Rule": null,
+        "Coordinates": "112, 110, -29",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 80013,
+        "LocationName": "Spawning Meadows Shop - Nans Knick Knacks 9",
+        "Rule": null,
+        "Coordinates": "112, 110, -29",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 90013,
+        "LocationName": "Spawning Meadows Shop - Nans Knick Knacks 10",
+        "Rule": null,
+        "Coordinates": "112, 110, -29",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 100013,
+        "LocationName": "Spawning Meadows Shop - Nans Knick Knacks 11",
+        "Rule": null,
+        "Coordinates": "112, 110, -29",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 110013,
+        "LocationName": "Spawning Meadows Shop - Nans Knick Knacks 12",
+        "Rule": null,
+        "Coordinates": "112, 110, -29",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 14,
+        "LocationName": "Spawning Meadows Shop - Nans Stew 1",
+        "Rule": null,
+        "Coordinates": "113, 110, -29",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 10014,
+        "LocationName": "Spawning Meadows Shop - Nans Stew 2",
+        "Rule": null,
+        "Coordinates": "113, 110, -29",
+        "MapLayer": 0
       }
     ]
   },
@@ -208,7 +327,7 @@
       },
       {
         "ConnectionName": "Yamagawa M.A.",
-        "Rule": null
+        "Rule": "lambda state: logic.is_area_in_level_range(state, 1)"
       },
       {
         "ConnectionName": "Seaside Cliffs",
@@ -220,15 +339,15 @@
       },
       {
         "ConnectionName": "Jade Cavern",
-        "Rule": "logic.has_golden_quintar"
+        "Rule": "lambda state: logic.has_golden_quintar and logic.is_area_in_level_range(state, 5)"
       },
       {
         "ConnectionName": "Greenshire Reprise",
-        "Rule": "logic.has_swimming"
+        "Rule": "lambda state: logic.has_swimming and logic.is_area_in_level_range(state, 2)"
       },
       {
         "ConnectionName": "Salmon Pass",
-        "Rule": "logic.has_swimming"
+        "Rule": "lambda state: logic.has_swimming and logic.is_area_in_level_range(state, 2)"
       },
       {
         "ConnectionName": "Proving Meadows",
@@ -440,6 +559,13 @@
         "MapLayer": 0
       },
       {
+        "LocationId": 1153,
+        "LocationName": "Delende NPC - Cartographer",
+        "Rule": null,
+        "Coordinates": "198, 131, -74",
+        "MapLayer": 0
+      },
+      {
         "LocationId": 87,
         "LocationName": "Delende Chest - Grans House 1",
         "Rule": null,
@@ -512,16 +638,247 @@
       {
         "LocationId": 153,
         "LocationName": "Delende Boss - Troll",
-        "Rule": null,
+        "Rule": "lambda state: logic.is_area_in_level_range(state, 4)",
         "Coordinates": "313, 140, -142",
         "MapLayer": 0
       },
       {
         "LocationId": 183,
         "LocationName": "Delende Boss - Gran...?",
-        "Rule": "lambda state: (state.has(\"Job - Scholar\", player) and state.has(\"Scholar - Reverse Polarity\", player))",
+        "Rule": "lambda state: logic.is_area_in_level_range(state, 2)",
         "Coordinates": "125, 116, -86",
         "MapLayer": 1
+      },
+      {
+        "LocationId": 52,
+        "LocationName": "Delende Shop - Fish Hatchery Weapon Merchant 1",
+        "Rule": null,
+        "Coordinates": "172, 133, -203",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 10052,
+        "LocationName": "Delende Shop - Fish Hatchery Weapon Merchant 2",
+        "Rule": null,
+        "Coordinates": "172, 133, -203",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 20052,
+        "LocationName": "Delende Shop - Fish Hatchery Weapon Merchant 3",
+        "Rule": null,
+        "Coordinates": "172, 133, -203",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 63,
+        "LocationName": "Delende Shop - Fish Hatchery Armor Merchant 1",
+        "Rule": null,
+        "Coordinates": "172, 133, -201",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 10063,
+        "LocationName": "Delende Shop - Fish Hatchery Armor Merchant 2",
+        "Rule": null,
+        "Coordinates": "172, 133, -201",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 20063,
+        "LocationName": "Delende Shop - Fish Hatchery Armor Merchant 3",
+        "Rule": null,
+        "Coordinates": "172, 133, -201",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 30063,
+        "LocationName": "Delende Shop - Fish Hatchery Armor Merchant 4",
+        "Rule": null,
+        "Coordinates": "172, 133, -201",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 40063,
+        "LocationName": "Delende Shop - Fish Hatchery Armor Merchant 5",
+        "Rule": null,
+        "Coordinates": "172, 133, -201",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 50063,
+        "LocationName": "Delende Shop - Fish Hatchery Armor Merchant 6",
+        "Rule": null,
+        "Coordinates": "172, 133, -201",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 60063,
+        "LocationName": "Delende Shop - Fish Hatchery Armor Merchant 7",
+        "Rule": null,
+        "Coordinates": "172, 133, -201",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 70063,
+        "LocationName": "Delende Shop - Fish Hatchery Armor Merchant 8",
+        "Rule": null,
+        "Coordinates": "172, 133, -201",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 199,
+        "LocationName": "Delende Shop - Fish Hatchery Fish Merchant 1",
+        "Rule": null,
+        "Coordinates": "178, 133, -202",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 10199,
+        "LocationName": "Delende Shop - Fish Hatchery Fish Merchant 2",
+        "Rule": null,
+        "Coordinates": "178, 133, -202",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 20199,
+        "LocationName": "Delende Shop - Fish Hatchery Fish Merchant 3",
+        "Rule": null,
+        "Coordinates": "178, 133, -202",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 30199,
+        "LocationName": "Delende Shop - Fish Hatchery Fish Merchant 4",
+        "Rule": null,
+        "Coordinates": "178, 133, -202",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 40199,
+        "LocationName": "Delende Shop - Fish Hatchery Fish Merchant 5",
+        "Rule": null,
+        "Coordinates": "178, 133, -202",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 50199,
+        "LocationName": "Delende Shop - Fish Hatchery Fish Merchant 6",
+        "Rule": null,
+        "Coordinates": "178, 133, -202",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 115,
+        "LocationName": "Delende Shop - Weapons Merchant camped in front of Pale Grotto 1",
+        "Rule": null,
+        "Coordinates": "278, 116, -206",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 10115,
+        "LocationName": "Delende Shop - Weapons Merchant camped in front of Pale Grotto 2",
+        "Rule": null,
+        "Coordinates": "278, 116, -206",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 20115,
+        "LocationName": "Delende Shop - Weapons Merchant camped in front of Pale Grotto 3",
+        "Rule": null,
+        "Coordinates": "278, 116, -206",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 30115,
+        "LocationName": "Delende Shop - Weapons Merchant camped in front of Pale Grotto 4",
+        "Rule": null,
+        "Coordinates": "278, 116, -206",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 40115,
+        "LocationName": "Delende Shop - Weapons Merchant camped in front of Pale Grotto 5",
+        "Rule": null,
+        "Coordinates": "278, 116, -206",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 446,
+        "LocationName": "Delende Shop - Armor Merchant camped in front of Pale Grotto 1",
+        "Rule": null,
+        "Coordinates": "279, 116, -206",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 10446,
+        "LocationName": "Delende Shop - Armor Merchant camped in front of Pale Grotto 2",
+        "Rule": null,
+        "Coordinates": "279, 116, -206",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 20446,
+        "LocationName": "Delende Shop - Armor Merchant camped in front of Pale Grotto 3",
+        "Rule": null,
+        "Coordinates": "279, 116, -206",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 30446,
+        "LocationName": "Delende Shop - Armor Merchant camped in front of Pale Grotto 4",
+        "Rule": null,
+        "Coordinates": "279, 116, -206",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 40446,
+        "LocationName": "Delende Shop - Armor Merchant camped in front of Pale Grotto 5",
+        "Rule": null,
+        "Coordinates": "279, 116, -206",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 50446,
+        "LocationName": "Delende Shop - Armor Merchant camped in front of Pale Grotto 6",
+        "Rule": null,
+        "Coordinates": "279, 116, -206",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 60446,
+        "LocationName": "Delende Shop - Armor Merchant camped in front of Pale Grotto 7",
+        "Rule": null,
+        "Coordinates": "279, 116, -206",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 70446,
+        "LocationName": "Delende Shop - Armor Merchant camped in front of Pale Grotto 8",
+        "Rule": null,
+        "Coordinates": "279, 116, -206",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 266,
+        "LocationName": "Delende Shop - Item Merchant camped in front of Pale Grotto 1",
+        "Rule": null,
+        "Coordinates": "274, 116, -202",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 10266,
+        "LocationName": "Delende Shop - Item Merchant camped in front of Pale Grotto 2",
+        "Rule": null,
+        "Coordinates": "274, 116, -202",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 20266,
+        "LocationName": "Delende Shop - Item Merchant camped in front of Pale Grotto 3",
+        "Rule": null,
+        "Coordinates": "274, 116, -202",
+        "MapLayer": 0
       }
     ]
   },
@@ -530,7 +887,7 @@
     "Connections": [
       {
         "ConnectionName": "Jade Cavern",
-        "Rule": "logic.has_golden_quintar"
+        "Rule": "lambda state: logic.has_golden_quintar and logic.is_area_in_level_range(state, 5)"
       },
       {
         "ConnectionName": "Delende",
@@ -603,11 +960,11 @@
       },
       {
         "ConnectionName": "Jojo Sewers",
-        "Rule": "logic.has_swimming"
+        "Rule": "lambda state: logic.has_swimming and logic.is_area_in_level_range(state, 1)"
       },
       {
         "ConnectionName": "Tall Tall Heights",
-        "Rule": "logic.has_swimming"
+        "Rule": "lambda state: logic.has_swimming and logic.is_area_in_level_range(state, 4)"
       },
       {
         "ConnectionName": "Salmon Pass",
@@ -735,7 +1092,7 @@
       },
       {
         "ConnectionName": "The Open Sea",
-        "Rule": "logic.has_swimming"
+        "Rule": "lambda state: logic.has_swimming and logic.is_area_in_level_range(state, 5)"
       },
       {
         "ConnectionName": "Mercury Shrine",
@@ -743,7 +1100,7 @@
       },
       {
         "ConnectionName": "Beaurior Volcano",
-        "Rule": "logic.has_vertical_movement"
+        "Rule": "lambda state: logic.has_vertical_movement and logic.is_area_in_level_range(state, 3)"
       }
     ],
     "Locations": [
@@ -970,6 +1327,69 @@
         "Rule": "logic.has_swimming",
         "Coordinates": "343, 81, 0",
         "MapLayer": 0
+      },
+      {
+        "LocationId": 116,
+        "LocationName": "Seaside Cliffs Shop - Camp Merchant 1",
+        "Rule": null,
+        "Coordinates": "302, 119, -64",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 10116,
+        "LocationName": "Seaside Cliffs Shop - Camp Merchant 2",
+        "Rule": null,
+        "Coordinates": "302, 119, -64",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 20116,
+        "LocationName": "Seaside Cliffs Shop - Camp Merchant 3",
+        "Rule": null,
+        "Coordinates": "302, 119, -64",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 30116,
+        "LocationName": "Seaside Cliffs Shop - Camp Merchant 4",
+        "Rule": null,
+        "Coordinates": "302, 119, -64",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 40116,
+        "LocationName": "Seaside Cliffs Shop - Camp Merchant 5",
+        "Rule": null,
+        "Coordinates": "302, 119, -64",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 50116,
+        "LocationName": "Seaside Cliffs Shop - Camp Merchant 6",
+        "Rule": null,
+        "Coordinates": "302, 119, -64",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 60116,
+        "LocationName": "Seaside Cliffs Shop - Camp Merchant 7",
+        "Rule": null,
+        "Coordinates": "302, 119, -64",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 70116,
+        "LocationName": "Seaside Cliffs Shop - Camp Merchant 8",
+        "Rule": null,
+        "Coordinates": "302, 119, -64",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 80116,
+        "LocationName": "Seaside Cliffs Shop - Camp Merchant 9",
+        "Rule": null,
+        "Coordinates": "302, 119, -64",
+        "MapLayer": 0
       }
     ]
   },
@@ -1029,7 +1449,7 @@
       },
       {
         "ConnectionName": "Beaurior Volcano",
-        "Rule": "logic.has_vertical_movement"
+        "Rule": "lambda state: logic.has_vertical_movement and logic.is_area_in_level_range(state, 3)"
       }
     ],
     "Locations": [
@@ -1038,6 +1458,27 @@
         "LocationName": "Mercury Shrine Chest - Pinnacle",
         "Rule": "lambda state: state.has(\"Item - Mercury Stone\", player)",
         "Coordinates": "204, 135, -6",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 132,
+        "LocationName": "Mercury Shrine Shop - Attendant 1",
+        "Rule": null,
+        "Coordinates": "202, 129, -4",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 10132,
+        "LocationName": "Mercury Shrine Shop - Attendant 2",
+        "Rule": null,
+        "Coordinates": "202, 129, -4",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 20132,
+        "LocationName": "Mercury Shrine Shop - Attendant 3",
+        "Rule": null,
+        "Coordinates": "202, 129, -4",
         "MapLayer": 0
       }
     ]
@@ -1055,7 +1496,7 @@
       },
       {
         "ConnectionName": "Lake Delende",
-        "Rule": null
+        "Rule": "lambda state: logic.is_area_in_level_range(state, 3)"
       }
     ],
     "Locations": [
@@ -1137,11 +1578,11 @@
       },
       {
         "ConnectionName": "Skumparadise",
-        "Rule": "lambda state: logic.has_jobs(state, 3)"
+        "Rule": "lambda state: logic.has_jobs(state, 3) and logic.is_area_in_level_range(state, 1)"
       },
       {
         "ConnectionName": "The Open Sea",
-        "Rule": "logic.has_swimming"
+        "Rule": "lambda state: logic.has_swimming and logic.is_area_in_level_range(state, 5)"
       }
     ],
     "Locations": [
@@ -1185,6 +1626,244 @@
         "LocationName": "Proving Meadows Chest - On the climb up outside Skumparadise",
         "Rule": null,
         "Coordinates": "401, 126, -196",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 253,
+        "LocationName": "Proving Meadows Shop - Item Merchant 1",
+        "Rule": null,
+        "Coordinates": "387, 109, -193",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 10253,
+        "LocationName": "Proving Meadows Shop - Item Merchant 2",
+        "Rule": null,
+        "Coordinates": "387, 109, -193",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 20253,
+        "LocationName": "Proving Meadows Shop - Item Merchant 3",
+        "Rule": null,
+        "Coordinates": "387, 109, -193",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 30253,
+        "LocationName": "Proving Meadows Shop - Item Merchant 4",
+        "Rule": null,
+        "Coordinates": "387, 109, -193",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 40253,
+        "LocationName": "Proving Meadows Shop - Item Merchant 5",
+        "Rule": null,
+        "Coordinates": "387, 109, -193",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 50253,
+        "LocationName": "Proving Meadows Shop - Item Merchant 6",
+        "Rule": null,
+        "Coordinates": "387, 109, -193",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 133,
+        "LocationName": "Proving Meadows Shop - Armor Merchant 1",
+        "Rule": null,
+        "Coordinates": "426, 109, -185",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 10133,
+        "LocationName": "Proving Meadows Shop - Armor Merchant 2",
+        "Rule": null,
+        "Coordinates": "426, 109, -185",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 20133,
+        "LocationName": "Proving Meadows Shop - Armor Merchant 3",
+        "Rule": null,
+        "Coordinates": "426, 109, -185",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 30133,
+        "LocationName": "Proving Meadows Shop - Armor Merchant 4",
+        "Rule": null,
+        "Coordinates": "426, 109, -185",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 40133,
+        "LocationName": "Proving Meadows Shop - Armor Merchant 5",
+        "Rule": null,
+        "Coordinates": "426, 109, -185",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 50133,
+        "LocationName": "Proving Meadows Shop - Armor Merchant 6",
+        "Rule": null,
+        "Coordinates": "426, 109, -185",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 60133,
+        "LocationName": "Proving Meadows Shop - Armor Merchant 7",
+        "Rule": null,
+        "Coordinates": "426, 109, -185",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 70133,
+        "LocationName": "Proving Meadows Shop - Armor Merchant 8",
+        "Rule": null,
+        "Coordinates": "426, 109, -185",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 80133,
+        "LocationName": "Proving Meadows Shop - Armor Merchant 9",
+        "Rule": null,
+        "Coordinates": "426, 109, -185",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 90133,
+        "LocationName": "Proving Meadows Shop - Armor Merchant 10",
+        "Rule": null,
+        "Coordinates": "426, 109, -185",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 100133,
+        "LocationName": "Proving Meadows Shop - Armor Merchant 11",
+        "Rule": null,
+        "Coordinates": "426, 109, -185",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 110133,
+        "LocationName": "Proving Meadows Shop - Armor Merchant 12",
+        "Rule": null,
+        "Coordinates": "426, 109, -185",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 120133,
+        "LocationName": "Proving Meadows Shop - Armor Merchant 13",
+        "Rule": null,
+        "Coordinates": "426, 109, -185",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 130133,
+        "LocationName": "Proving Meadows Shop - Armor Merchant 14",
+        "Rule": null,
+        "Coordinates": "426, 109, -185",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 117,
+        "LocationName": "Proving Meadows Shop - Weapon Merchant 1",
+        "Rule": null,
+        "Coordinates": "420, 109, -185",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 10117,
+        "LocationName": "Proving Meadows Shop - Weapon Merchant 2",
+        "Rule": null,
+        "Coordinates": "420, 109, -185",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 20117,
+        "LocationName": "Proving Meadows Shop - Weapon Merchant 3",
+        "Rule": null,
+        "Coordinates": "420, 109, -185",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 30117,
+        "LocationName": "Proving Meadows Shop - Weapon Merchant 4",
+        "Rule": null,
+        "Coordinates": "420, 109, -185",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 40117,
+        "LocationName": "Proving Meadows Shop - Weapon Merchant 5",
+        "Rule": null,
+        "Coordinates": "420, 109, -185",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 50117,
+        "LocationName": "Proving Meadows Shop - Weapon Merchant 6",
+        "Rule": null,
+        "Coordinates": "420, 109, -185",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 60117,
+        "LocationName": "Proving Meadows Shop - Weapon Merchant 7",
+        "Rule": null,
+        "Coordinates": "420, 109, -185",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 70117,
+        "LocationName": "Proving Meadows Shop - Weapon Merchant 8",
+        "Rule": null,
+        "Coordinates": "420, 109, -185",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 80117,
+        "LocationName": "Proving Meadows Shop - Weapon Merchant 9",
+        "Rule": null,
+        "Coordinates": "420, 109, -185",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 90117,
+        "LocationName": "Proving Meadows Shop - Weapon Merchant 10",
+        "Rule": null,
+        "Coordinates": "420, 109, -185",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 134,
+        "LocationName": "Proving Meadows Shop - Accessories Merchant 1",
+        "Rule": null,
+        "Coordinates": "428, 109, -185",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 10134,
+        "LocationName": "Proving Meadows Shop - Accessories Merchant 2",
+        "Rule": null,
+        "Coordinates": "428, 109, -185",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 20134,
+        "LocationName": "Proving Meadows Shop - Accessories Merchant 3",
+        "Rule": null,
+        "Coordinates": "428, 109, -185",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 30134,
+        "LocationName": "Proving Meadows Shop - Accessories Merchant 4",
+        "Rule": null,
+        "Coordinates": "428, 109, -185",
         "MapLayer": 0
       }
     ]
@@ -1293,27 +1972,27 @@
     "Connections": [
       {
         "ConnectionName": "Jojo Sewers",
-        "Rule": null
+        "Rule": "lambda state: logic.is_area_in_level_range(state, 1)"
       },
       {
         "ConnectionName": "Rolling Quintar Fields",
-        "Rule": null
+        "Rule": "lambda state: logic.is_area_in_level_range(state, 1)"
       },
       {
         "ConnectionName": "Cobblestone Crag",
-        "Rule": "logic.has_courtyard_key or logic.has_rental_quintar or logic.has_horizontal_movement"
+        "Rule": "lambda state: logic.has_key(state, COURTYARD_KEY) or logic.has_rental_quintar or logic.has_horizontal_movement"
       },
       {
         "ConnectionName": "Greenshire Reprise",
-        "Rule": "lambda state: logic.has_jobs(state, 6)"
+        "Rule": "lambda state: logic.has_jobs(state, 5) and logic.is_area_in_level_range(state, 2)"
       },
       {
         "ConnectionName": "Castle Sequoia",
-        "Rule": "logic.has_vertical_movement and logic.has_glide"
+        "Rule": "lambda state: logic.has_vertical_movement and logic.has_glide and logic.is_area_in_level_range(state, 5)"
       },
       {
         "ConnectionName": "Skumparadise",
-        "Rule": null
+        "Rule": "lambda state: logic.is_area_in_level_range(state, 1)"
       }
     ],
     "Locations": [
@@ -1362,21 +2041,21 @@
       {
         "LocationId": 1533,
         "LocationName": "Capital Sequoia Chest - Locked in Luxury Shop storage 1",
-        "Rule": "lambda state: logic.has_luxury_key and state.has_any({\"Item - Progressive Luxury Pass\"}, player)",
+        "Rule": "lambda state: logic.has_key(state, LUXURY_KEY) and state.has_any({\"Item - Progressive Luxury Pass\"}, player)",
         "Coordinates": "428, 176, -288",
         "MapLayer": 0
       },
       {
         "LocationId": 1532,
         "LocationName": "Capital Sequoia Chest - Locked in Luxury Shop storage 2",
-        "Rule": "lambda state: logic.has_luxury_key and state.has_any({\"Item - Progressive Luxury Pass\"}, player)",
+        "Rule": "lambda state: logic.has_key(state, LUXURY_KEY) and state.has_any({\"Item - Progressive Luxury Pass\"}, player)",
         "Coordinates": "432, 176, -289",
         "MapLayer": 0
       },
       {
         "LocationId": 1531,
         "LocationName": "Capital Sequoia Chest - Locked in Luxury Shop storage 3",
-        "Rule": "lambda state: logic.has_luxury_key and state.has_any({\"Item - Progressive Luxury Pass\"}, player)",
+        "Rule": "lambda state: logic.has_key(state, LUXURY_KEY) and state.has_any({\"Item - Progressive Luxury Pass\"}, player)",
         "Coordinates": "432, 177, -291",
         "MapLayer": 0
       },
@@ -1523,22 +2202,64 @@
       {
         "LocationId": 2652,
         "LocationName": "Capital Sequoia Chest - Gardeners Shed 1",
-        "Rule": "logic.has_gardeners_key",
+        "Rule": "lambda state: logic.has_key(state, GARDENERS_KEY)",
         "Coordinates": "426, 178, -348",
         "MapLayer": 0
       },
       {
         "LocationId": 2663,
         "LocationName": "Capital Sequoia Chest - Gardeners Shed 2",
-        "Rule": "logic.has_gardeners_key",
+        "Rule": "lambda state: logic.has_key(state, GARDENERS_KEY)",
         "Coordinates": "430, 178, -349",
         "MapLayer": 0
       },
       {
         "LocationId": 2664,
         "LocationName": "Capital Sequoia Chest - Gardeners Shed 3",
-        "Rule": "logic.has_gardeners_key",
+        "Rule": "lambda state: logic.has_key(state, GARDENERS_KEY)",
         "Coordinates": "428, 178, -349",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 560,
+        "LocationName": "Capital Sequoia NPC - Home Point Stone duck",
+        "Rule": null,
+        "Coordinates": "403, 161, -265",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 51162,
+        "LocationName": "Capital Sequoia NPC - Luxury Shop Lazy Guard 1",
+        "Rule": "lambda state: logic.has_jobs(state, 6)",
+        "Coordinates": "419, 171, -289",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 1162,
+        "LocationName": "Capital Sequoia NPC - Luxury Shop Lazy Guard 2",
+        "Rule": "lambda state: logic.has_jobs(state, 15)",
+        "Coordinates": "419, 171, -289",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 1529,
+        "LocationName": "Capital Sequoia NPC - Luxury Key Thief",
+        "Rule": null,
+        "Coordinates": "417, 171, -299",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 1661,
+        "LocationName": "Capital Sequoia NPC - Courtyard Chloe",
+        "Rule": null,
+        "Coordinates": "399, 155, -219",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 2486,
+        "LocationName": "Capital Sequoia NPC - Glinting Courtyard Key",
+        "Rule": null,
+        "Coordinates": "424, 150, -222",
         "MapLayer": 0
       },
       {
@@ -1642,7 +2363,7 @@
       {
         "LocationId": 567,
         "LocationName": "Capital Sequoia NPC - Lost Penguin atop sewer exit rooftop",
-        "Rule": "lambda state: logic.has_vertical_movement or logic.has_horizontal_movement or state.has(\"Item - Gaea Stone\", player)",
+        "Rule": null,
         "Coordinates": "386, 166, -262",
         "MapLayer": 0
       },
@@ -1684,8 +2405,946 @@
       {
         "LocationId": 458,
         "LocationName": "Capital Sequoia Boss - Enami",
-        "Rule": "logic.has_courtyard_key or logic.has_rental_quintar or logic.has_horizontal_movement",
+        "Rule": "lambda state: (logic.has_key(state, COURTYARD_KEY) or logic.has_rental_quintar or logic.has_horizontal_movement) and logic.is_area_in_level_range(state, 5)",
         "Coordinates": "379, 144, -235",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 379,
+        "LocationName": "Gaea Shrine Shop - Attendant 1",
+        "Rule": null,
+        "Coordinates": "374, 179, -328",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 10379,
+        "LocationName": "Gaea Shrine Shop - Attendant 2",
+        "Rule": null,
+        "Coordinates": "374, 179, -328",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 575,
+        "LocationName": "Capital Sequoia Shop - Candy Merchant 1",
+        "Rule": null,
+        "Coordinates": "415, 160, -254",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 10575,
+        "LocationName": "Capital Sequoia Shop - Candy Merchant 2",
+        "Rule": null,
+        "Coordinates": "415, 160, -254",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 1158,
+        "LocationName": "Capital Sequoia Shop - Map Seller 1",
+        "Rule": null,
+        "Coordinates": "437, 171, -290",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 11158,
+        "LocationName": "Capital Sequoia Shop - Map Seller 2",
+        "Rule": null,
+        "Coordinates": "437, 171, -290",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 21158,
+        "LocationName": "Capital Sequoia Shop - Map Seller 3",
+        "Rule": null,
+        "Coordinates": "437, 171, -290",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 31158,
+        "LocationName": "Capital Sequoia Shop - Map Seller 4",
+        "Rule": null,
+        "Coordinates": "437, 171, -290",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 41158,
+        "LocationName": "Capital Sequoia Shop - Map Seller 5",
+        "Rule": null,
+        "Coordinates": "437, 171, -290",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 51158,
+        "LocationName": "Capital Sequoia Shop - Map Seller 6",
+        "Rule": null,
+        "Coordinates": "437, 171, -290",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 61158,
+        "LocationName": "Capital Sequoia Shop - Map Seller 7",
+        "Rule": null,
+        "Coordinates": "437, 171, -290",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 71158,
+        "LocationName": "Capital Sequoia Shop - Map Seller 8",
+        "Rule": null,
+        "Coordinates": "437, 171, -290",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 81158,
+        "LocationName": "Capital Sequoia Shop - Map Seller 9",
+        "Rule": null,
+        "Coordinates": "437, 171, -290",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 91158,
+        "LocationName": "Capital Sequoia Shop - Map Seller 10",
+        "Rule": null,
+        "Coordinates": "437, 171, -290",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 599,
+        "LocationName": "Capital Sequoia Shop - Luxury Shop Martial Weapons 1",
+        "Rule": "lambda state: state.has_any({\"Item - Progressive Luxury Pass\"}, player)",
+        "Coordinates": "417, 175, -294",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 10599,
+        "LocationName": "Capital Sequoia Shop - Luxury Shop Martial Weapons 2",
+        "Rule": "lambda state: state.has_any({\"Item - Progressive Luxury Pass\"}, player)",
+        "Coordinates": "417, 175, -294",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 20599,
+        "LocationName": "Capital Sequoia Shop - Luxury Shop Martial Weapons 3",
+        "Rule": "lambda state: state.has_any({\"Item - Progressive Luxury Pass\"}, player)",
+        "Coordinates": "417, 175, -294",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 30599,
+        "LocationName": "Capital Sequoia Shop - Luxury Shop Martial Weapons 4",
+        "Rule": "lambda state: state.has_any({\"Item - Progressive Luxury Pass\"}, player)",
+        "Coordinates": "417, 175, -294",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 40599,
+        "LocationName": "Capital Sequoia Shop - Upgraded Luxury Shop Martial Weapons 1",
+        "Rule": "lambda state: state.has(\"Item - Progressive Luxury Pass\", player, 2)",
+        "Coordinates": "417, 175, -294",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 50599,
+        "LocationName": "Capital Sequoia Shop - Upgraded Luxury Shop Martial Weapons 2",
+        "Rule": "lambda state: state.has(\"Item - Progressive Luxury Pass\", player, 2)",
+        "Coordinates": "417, 175, -294",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 60599,
+        "LocationName": "Capital Sequoia Shop - Upgraded Luxury Shop Martial Weapons 3",
+        "Rule": "lambda state: state.has(\"Item - Progressive Luxury Pass\", player, 2)",
+        "Coordinates": "417, 175, -294",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 70599,
+        "LocationName": "Capital Sequoia Shop - Upgraded Luxury Shop Martial Weapons 4",
+        "Rule": "lambda state: state.has(\"Item - Progressive Luxury Pass\", player, 2)",
+        "Coordinates": "417, 175, -294",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 80599,
+        "LocationName": "Capital Sequoia Shop - Upgraded Luxury Shop Martial Weapons 5",
+        "Rule": "lambda state: state.has(\"Item - Progressive Luxury Pass\", player, 2)",
+        "Coordinates": "417, 175, -294",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 90599,
+        "LocationName": "Capital Sequoia Shop - Upgraded Luxury Shop Martial Weapons 6",
+        "Rule": "lambda state: state.has(\"Item - Progressive Luxury Pass\", player, 2)",
+        "Coordinates": "417, 175, -294",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 600,
+        "LocationName": "Capital Sequoia Shop - Luxury Shop Exotic Weapons 1",
+        "Rule": "lambda state: state.has_any({\"Item - Progressive Luxury Pass\"}, player)",
+        "Coordinates": "413, 175, -292",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 10600,
+        "LocationName": "Capital Sequoia Shop - Luxury Shop Exotic Weapons 2",
+        "Rule": "lambda state: state.has_any({\"Item - Progressive Luxury Pass\"}, player)",
+        "Coordinates": "413, 175, -292",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 20600,
+        "LocationName": "Capital Sequoia Shop - Luxury Shop Exotic Weapons 3",
+        "Rule": "lambda state: state.has_any({\"Item - Progressive Luxury Pass\"}, player)",
+        "Coordinates": "413, 175, -292",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 30600,
+        "LocationName": "Capital Sequoia Shop - Luxury Shop Exotic Weapons 4",
+        "Rule": "lambda state: state.has_any({\"Item - Progressive Luxury Pass\"}, player)",
+        "Coordinates": "413, 175, -292",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 40600,
+        "LocationName": "Capital Sequoia Shop - Upgraded Luxury Shop Exotic Weapons 1",
+        "Rule": "lambda state: state.has(\"Item - Progressive Luxury Pass\", player, 2)",
+        "Coordinates": "413, 175, -292",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 50600,
+        "LocationName": "Capital Sequoia Shop - Upgraded Luxury Shop Exotic Weapons 2",
+        "Rule": "lambda state: state.has(\"Item - Progressive Luxury Pass\", player, 2)",
+        "Coordinates": "413, 175, -292",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 60600,
+        "LocationName": "Capital Sequoia Shop - Upgraded Luxury Shop Exotic Weapons 3",
+        "Rule": "lambda state: state.has(\"Item - Progressive Luxury Pass\", player, 2)",
+        "Coordinates": "413, 175, -292",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 70600,
+        "LocationName": "Capital Sequoia Shop - Upgraded Luxury Shop Exotic Weapons 4",
+        "Rule": "lambda state: state.has(\"Item - Progressive Luxury Pass\", player, 2)",
+        "Coordinates": "413, 175, -292",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 601,
+        "LocationName": "Capital Sequoia Shop - Luxury Shop Heavy Armor 1",
+        "Rule": "lambda state: state.has_any({\"Item - Progressive Luxury Pass\"}, player)",
+        "Coordinates": "417, 171, -293",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 10601,
+        "LocationName": "Capital Sequoia Shop - Luxury Shop Heavy Armor 2",
+        "Rule": "lambda state: state.has_any({\"Item - Progressive Luxury Pass\"}, player)",
+        "Coordinates": "417, 171, -293",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 20601,
+        "LocationName": "Capital Sequoia Shop - Luxury Shop Heavy Armor 3",
+        "Rule": "lambda state: state.has_any({\"Item - Progressive Luxury Pass\"}, player)",
+        "Coordinates": "417, 171, -293",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 30601,
+        "LocationName": "Capital Sequoia Shop - Upgraded Luxury Shop Heavy Armor 1",
+        "Rule": "lambda state: state.has(\"Item - Progressive Luxury Pass\", player, 2)",
+        "Coordinates": "417, 171, -293",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 40601,
+        "LocationName": "Capital Sequoia Shop - Upgraded Luxury Shop Heavy Armor 2",
+        "Rule": "lambda state: state.has(\"Item - Progressive Luxury Pass\", player, 2)",
+        "Coordinates": "417, 171, -293",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 50601,
+        "LocationName": "Capital Sequoia Shop - Upgraded Luxury Shop Heavy Armor 3",
+        "Rule": "lambda state: state.has(\"Item - Progressive Luxury Pass\", player, 2)",
+        "Coordinates": "417, 171, -293",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 602,
+        "LocationName": "Capital Sequoia Shop - Luxury Shop Medium Armor 1",
+        "Rule": "lambda state: state.has_any({\"Item - Progressive Luxury Pass\"}, player)",
+        "Coordinates": "419, 171, -293",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 10602,
+        "LocationName": "Capital Sequoia Shop - Luxury Shop Medium Armor 2",
+        "Rule": "lambda state: state.has_any({\"Item - Progressive Luxury Pass\"}, player)",
+        "Coordinates": "419, 171, -293",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 20602,
+        "LocationName": "Capital Sequoia Shop - Upgraded Luxury Shop Medium Armor 1",
+        "Rule": "lambda state: state.has(\"Item - Progressive Luxury Pass\", player, 2)",
+        "Coordinates": "419, 171, -293",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 30602,
+        "LocationName": "Capital Sequoia Shop - Upgraded Luxury Shop Medium Armor 2",
+        "Rule": "lambda state: state.has(\"Item - Progressive Luxury Pass\", player, 2)",
+        "Coordinates": "419, 171, -293",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 603,
+        "LocationName": "Capital Sequoia Shop - Luxury Shop Magic Weapons 1",
+        "Rule": "lambda state: state.has_any({\"Item - Progressive Luxury Pass\"}, player)",
+        "Coordinates": "418, 175, -289",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 10603,
+        "LocationName": "Capital Sequoia Shop - Luxury Shop Magic Weapons 2",
+        "Rule": "lambda state: state.has_any({\"Item - Progressive Luxury Pass\"}, player)",
+        "Coordinates": "418, 175, -289",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 20603,
+        "LocationName": "Capital Sequoia Shop - Luxury Shop Magic Weapons 3",
+        "Rule": "lambda state: state.has_any({\"Item - Progressive Luxury Pass\"}, player)",
+        "Coordinates": "418, 175, -289",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 30603,
+        "LocationName": "Capital Sequoia Shop - Upgraded Luxury Shop Magic Weapons 1",
+        "Rule": "lambda state: state.has(\"Item - Progressive Luxury Pass\", player, 2)",
+        "Coordinates": "418, 175, -289",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 40603,
+        "LocationName": "Capital Sequoia Shop - Upgraded Luxury Shop Magic Weapons 2",
+        "Rule": "lambda state: state.has(\"Item - Progressive Luxury Pass\", player, 2)",
+        "Coordinates": "418, 175, -289",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 50603,
+        "LocationName": "Capital Sequoia Shop - Upgraded Luxury Shop Magic Weapons 3",
+        "Rule": "lambda state: state.has(\"Item - Progressive Luxury Pass\", player, 2)",
+        "Coordinates": "418, 175, -289",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 604,
+        "LocationName": "Capital Sequoia Shop - Luxury Shop Light Armor 1",
+        "Rule": "lambda state: state.has_any({\"Item - Progressive Luxury Pass\"}, player)",
+        "Coordinates": "415, 171, -292",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 10604,
+        "LocationName": "Capital Sequoia Shop - Luxury Shop Light Armor 2",
+        "Rule": "lambda state: state.has_any({\"Item - Progressive Luxury Pass\"}, player)",
+        "Coordinates": "415, 171, -292",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 20604,
+        "LocationName": "Capital Sequoia Shop - Upgraded Luxury Shop Light Armor 1",
+        "Rule": "lambda state: state.has(\"Item - Progressive Luxury Pass\", player, 2)",
+        "Coordinates": "415, 171, -292",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 30604,
+        "LocationName": "Capital Sequoia Shop - Upgraded Luxury Shop Light Armor 2",
+        "Rule": "lambda state: state.has(\"Item - Progressive Luxury Pass\", player, 2)",
+        "Coordinates": "415, 171, -292",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 500,
+        "LocationName": "Capital Sequoia Shop - Martial Weapons R Us 1",
+        "Rule": null,
+        "Coordinates": "388, 161, -266",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 10500,
+        "LocationName": "Capital Sequoia Shop - Martial Weapons R Us 2",
+        "Rule": null,
+        "Coordinates": "388, 161, -266",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 20500,
+        "LocationName": "Capital Sequoia Shop - Martial Weapons R Us 3",
+        "Rule": null,
+        "Coordinates": "388, 161, -266",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 30500,
+        "LocationName": "Capital Sequoia Shop - Martial Weapons R Us 4",
+        "Rule": null,
+        "Coordinates": "388, 161, -266",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 40500,
+        "LocationName": "Capital Sequoia Shop - Martial Weapons R Us 5",
+        "Rule": null,
+        "Coordinates": "388, 161, -266",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 50500,
+        "LocationName": "Capital Sequoia Shop - Martial Weapons R Us 6",
+        "Rule": null,
+        "Coordinates": "388, 161, -266",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 60500,
+        "LocationName": "Capital Sequoia Shop - Martial Weapons R Us 7",
+        "Rule": null,
+        "Coordinates": "388, 161, -266",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 70500,
+        "LocationName": "Capital Sequoia Shop - Martial Weapons R Us 8",
+        "Rule": null,
+        "Coordinates": "388, 161, -266",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 80500,
+        "LocationName": "Capital Sequoia Shop - Martial Weapons R Us 9",
+        "Rule": null,
+        "Coordinates": "388, 161, -266",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 90500,
+        "LocationName": "Capital Sequoia Shop - Martial Weapons R Us 10",
+        "Rule": null,
+        "Coordinates": "388, 161, -266",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 100500,
+        "LocationName": "Capital Sequoia Shop - Martial Weapons R Us 11",
+        "Rule": null,
+        "Coordinates": "388, 161, -266",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 110500,
+        "LocationName": "Capital Sequoia Shop - Martial Weapons R Us 12",
+        "Rule": null,
+        "Coordinates": "388, 161, -266",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 120500,
+        "LocationName": "Capital Sequoia Shop - Martial Weapons R Us 13",
+        "Rule": null,
+        "Coordinates": "388, 161, -266",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 130500,
+        "LocationName": "Capital Sequoia Shop - Martial Weapons R Us 14",
+        "Rule": null,
+        "Coordinates": "388, 161, -266",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 140500,
+        "LocationName": "Capital Sequoia Shop - Martial Weapons R Us 15",
+        "Rule": null,
+        "Coordinates": "388, 161, -266",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 150500,
+        "LocationName": "Capital Sequoia Shop - Martial Weapons R Us 16",
+        "Rule": null,
+        "Coordinates": "388, 161, -266",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 160500,
+        "LocationName": "Capital Sequoia Shop - Martial Weapons R Us 17",
+        "Rule": null,
+        "Coordinates": "388, 161, -266",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 501,
+        "LocationName": "Capital Sequoia Shop - Exotic Weapons R Us 1",
+        "Rule": null,
+        "Coordinates": "390, 161, -266",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 10501,
+        "LocationName": "Capital Sequoia Shop - Exotic Weapons R Us 2",
+        "Rule": null,
+        "Coordinates": "390, 161, -266",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 20501,
+        "LocationName": "Capital Sequoia Shop - Exotic Weapons R Us 3",
+        "Rule": null,
+        "Coordinates": "390, 161, -266",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 30501,
+        "LocationName": "Capital Sequoia Shop - Exotic Weapons R Us 4",
+        "Rule": null,
+        "Coordinates": "390, 161, -266",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 40501,
+        "LocationName": "Capital Sequoia Shop - Exotic Weapons R Us 5",
+        "Rule": null,
+        "Coordinates": "390, 161, -266",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 50501,
+        "LocationName": "Capital Sequoia Shop - Exotic Weapons R Us 6",
+        "Rule": null,
+        "Coordinates": "390, 161, -266",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 579,
+        "LocationName": "Capital Sequoia Shop - Milk Man",
+        "Rule": null,
+        "Coordinates": "422, 160, -254",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 416,
+        "LocationName": "Capital Sequoia Shop - Heavy Armor 4 All 1",
+        "Rule": null,
+        "Coordinates": "360, 161, -265",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 10416,
+        "LocationName": "Capital Sequoia Shop - Heavy Armor 4 All 2",
+        "Rule": null,
+        "Coordinates": "360, 161, -265",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 20416,
+        "LocationName": "Capital Sequoia Shop - Heavy Armor 4 All 3",
+        "Rule": null,
+        "Coordinates": "360, 161, -265",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 30416,
+        "LocationName": "Capital Sequoia Shop - Heavy Armor 4 All 4",
+        "Rule": null,
+        "Coordinates": "360, 161, -265",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 40416,
+        "LocationName": "Capital Sequoia Shop - Heavy Armor 4 All 5",
+        "Rule": null,
+        "Coordinates": "360, 161, -265",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 50416,
+        "LocationName": "Capital Sequoia Shop - Heavy Armor 4 All 6",
+        "Rule": null,
+        "Coordinates": "360, 161, -265",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 60416,
+        "LocationName": "Capital Sequoia Shop - Heavy Armor 4 All 7",
+        "Rule": null,
+        "Coordinates": "360, 161, -265",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 70416,
+        "LocationName": "Capital Sequoia Shop - Heavy Armor 4 All 8",
+        "Rule": null,
+        "Coordinates": "360, 161, -265",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 80416,
+        "LocationName": "Capital Sequoia Shop - Heavy Armor 4 All 9",
+        "Rule": null,
+        "Coordinates": "360, 161, -265",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 90416,
+        "LocationName": "Capital Sequoia Shop - Heavy Armor 4 All 10",
+        "Rule": null,
+        "Coordinates": "360, 161, -265",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 100416,
+        "LocationName": "Capital Sequoia Shop - Heavy Armor 4 All 11",
+        "Rule": null,
+        "Coordinates": "360, 161, -265",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 110416,
+        "LocationName": "Capital Sequoia Shop - Heavy Armor 4 All 12",
+        "Rule": null,
+        "Coordinates": "360, 161, -265",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 417,
+        "LocationName": "Capital Sequoia Shop - Medium Armor 4 All 1",
+        "Rule": null,
+        "Coordinates": "366, 161, -265",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 10417,
+        "LocationName": "Capital Sequoia Shop - Medium Armor 4 All 2",
+        "Rule": null,
+        "Coordinates": "366, 161, -265",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 20417,
+        "LocationName": "Capital Sequoia Shop - Medium Armor 4 All 3",
+        "Rule": null,
+        "Coordinates": "366, 161, -265",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 30417,
+        "LocationName": "Capital Sequoia Shop - Medium Armor 4 All 4",
+        "Rule": null,
+        "Coordinates": "366, 161, -265",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 40417,
+        "LocationName": "Capital Sequoia Shop - Medium Armor 4 All 5",
+        "Rule": null,
+        "Coordinates": "366, 161, -265",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 50417,
+        "LocationName": "Capital Sequoia Shop - Medium Armor 4 All 6",
+        "Rule": null,
+        "Coordinates": "366, 161, -265",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 60417,
+        "LocationName": "Capital Sequoia Shop - Medium Armor 4 All 7",
+        "Rule": null,
+        "Coordinates": "366, 161, -265",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 70417,
+        "LocationName": "Capital Sequoia Shop - Medium Armor 4 All 8",
+        "Rule": null,
+        "Coordinates": "366, 161, -265",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 80417,
+        "LocationName": "Capital Sequoia Shop - Medium Armor 4 All 9",
+        "Rule": null,
+        "Coordinates": "366, 161, -265",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 455,
+        "LocationName": "Capital Sequoia Shop - Magic and Magic Things Light Armor 1",
+        "Rule": null,
+        "Coordinates": "425, 160, -265",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 10455,
+        "LocationName": "Capital Sequoia Shop - Magic and Magic Things Light Armor 2",
+        "Rule": null,
+        "Coordinates": "425, 160, -265",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 20455,
+        "LocationName": "Capital Sequoia Shop - Magic and Magic Things Light Armor 3",
+        "Rule": null,
+        "Coordinates": "425, 160, -265",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 30455,
+        "LocationName": "Capital Sequoia Shop - Magic and Magic Things Light Armor 4",
+        "Rule": null,
+        "Coordinates": "425, 160, -265",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 40455,
+        "LocationName": "Capital Sequoia Shop - Magic and Magic Things Light Armor 5",
+        "Rule": null,
+        "Coordinates": "425, 160, -265",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 50455,
+        "LocationName": "Capital Sequoia Shop - Magic and Magic Things Light Armor 6",
+        "Rule": null,
+        "Coordinates": "425, 160, -265",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 60455,
+        "LocationName": "Capital Sequoia Shop - Magic and Magic Things Light Armor 7",
+        "Rule": null,
+        "Coordinates": "425, 160, -265",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 70455,
+        "LocationName": "Capital Sequoia Shop - Magic and Magic Things Light Armor 8",
+        "Rule": null,
+        "Coordinates": "425, 160, -265",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 499,
+        "LocationName": "Capital Sequoia Shop - Magic and Magic Things Weapons 1",
+        "Rule": null,
+        "Coordinates": "425, 160, -267",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 10499,
+        "LocationName": "Capital Sequoia Shop - Magic and Magic Things Weapons 2",
+        "Rule": null,
+        "Coordinates": "425, 160, -267",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 20499,
+        "LocationName": "Capital Sequoia Shop - Magic and Magic Things Weapons 3",
+        "Rule": null,
+        "Coordinates": "425, 160, -267",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 30499,
+        "LocationName": "Capital Sequoia Shop - Magic and Magic Things Weapons 4",
+        "Rule": null,
+        "Coordinates": "425, 160, -267",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 40499,
+        "LocationName": "Capital Sequoia Shop - Magic and Magic Things Weapons 5",
+        "Rule": null,
+        "Coordinates": "425, 160, -267",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 50499,
+        "LocationName": "Capital Sequoia Shop - Magic and Magic Things Weapons 6",
+        "Rule": null,
+        "Coordinates": "425, 160, -267",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 60499,
+        "LocationName": "Capital Sequoia Shop - Magic and Magic Things Weapons 7",
+        "Rule": null,
+        "Coordinates": "425, 160, -267",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 70499,
+        "LocationName": "Capital Sequoia Shop - Magic and Magic Things Weapons 8",
+        "Rule": null,
+        "Coordinates": "425, 160, -267",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 80499,
+        "LocationName": "Capital Sequoia Shop - Magic and Magic Things Weapons 9",
+        "Rule": null,
+        "Coordinates": "425, 160, -267",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 90499,
+        "LocationName": "Capital Sequoia Shop - Magic and Magic Things Weapons 10",
+        "Rule": null,
+        "Coordinates": "425, 160, -267",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 398,
+        "LocationName": "Capital Sequoia Shop - Accessory Merchant 1",
+        "Rule": null,
+        "Coordinates": "395, 160, -254",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 10398,
+        "LocationName": "Capital Sequoia Shop - Accessory Merchant 2",
+        "Rule": null,
+        "Coordinates": "395, 160, -254",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 20398,
+        "LocationName": "Capital Sequoia Shop - Accessory Merchant 3",
+        "Rule": null,
+        "Coordinates": "395, 160, -254",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 30398,
+        "LocationName": "Capital Sequoia Shop - Accessory Merchant 4",
+        "Rule": null,
+        "Coordinates": "395, 160, -254",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 40398,
+        "LocationName": "Capital Sequoia Shop - Accessory Merchant 5",
+        "Rule": null,
+        "Coordinates": "395, 160, -254",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 50398,
+        "LocationName": "Capital Sequoia Shop - Accessory Merchant 6",
+        "Rule": null,
+        "Coordinates": "395, 160, -254",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 60398,
+        "LocationName": "Capital Sequoia Shop - Accessory Merchant 7",
+        "Rule": null,
+        "Coordinates": "395, 160, -254",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 70398,
+        "LocationName": "Capital Sequoia Shop - Accessory Merchant 8",
+        "Rule": null,
+        "Coordinates": "395, 160, -254",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 80398,
+        "LocationName": "Capital Sequoia Shop - Accessory Merchant 9",
+        "Rule": null,
+        "Coordinates": "395, 160, -254",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 90398,
+        "LocationName": "Capital Sequoia Shop - Accessory Merchant 10",
+        "Rule": null,
+        "Coordinates": "395, 160, -254",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 100398,
+        "LocationName": "Capital Sequoia Shop - Accessory Merchant 11",
+        "Rule": null,
+        "Coordinates": "395, 160, -254",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 110398,
+        "LocationName": "Capital Sequoia Shop - Accessory Merchant 12",
+        "Rule": null,
+        "Coordinates": "395, 160, -254",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 456,
+        "LocationName": "Capital Sequoia Shop - Item Merchant 1",
+        "Rule": null,
+        "Coordinates": "369, 160, -254",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 10456,
+        "LocationName": "Capital Sequoia Shop - Item Merchant 2",
+        "Rule": null,
+        "Coordinates": "369, 160, -254",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 20456,
+        "LocationName": "Capital Sequoia Shop - Item Merchant 3",
+        "Rule": null,
+        "Coordinates": "369, 160, -254",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 30456,
+        "LocationName": "Capital Sequoia Shop - Item Merchant 4",
+        "Rule": null,
+        "Coordinates": "369, 160, -254",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 40456,
+        "LocationName": "Capital Sequoia Shop - Item Merchant 5",
+        "Rule": null,
+        "Coordinates": "369, 160, -254",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 50456,
+        "LocationName": "Capital Sequoia Shop - Item Merchant 6",
+        "Rule": null,
+        "Coordinates": "369, 160, -254",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 423,
+        "LocationName": "Capital Sequoia Shop - Old Nans Stew",
+        "Rule": null,
+        "Coordinates": "440, 160, -254",
         "MapLayer": 0
       }
     ]
@@ -1707,11 +3366,11 @@
       },
       {
         "ConnectionName": "Capital Jail",
-        "Rule": "logic.has_rental_quintar or logic.has_swimming"
+        "Rule": "lambda state: (logic.has_rental_quintar or logic.has_swimming) and logic.is_area_in_level_range(state, 2)"
       },
       {
         "ConnectionName": "Quintar Nest",
-        "Rule": "logic.has_rental_quintar or logic.has_swimming"
+        "Rule": "lambda state: (logic.has_rental_quintar or logic.has_swimming) and logic.is_area_in_level_range(state, 1)"
       }
     ],
     "Locations": [
@@ -1774,7 +3433,7 @@
       {
         "LocationId": 758,
         "LocationName": "Jojo Sewers Boss - Blood Slop",
-        "Rule": null,
+        "Rule": "lambda state: logic.is_area_in_level_range(state, 2)",
         "Coordinates": "431, 149, -304",
         "MapLayer": 0
       }
@@ -1785,11 +3444,11 @@
     "Connections": [
       {
         "ConnectionName": "Jojo Sewers",
-        "Rule": null
+        "Rule": "lambda state: logic.is_area_in_level_range(state, 1)"
       },
       {
         "ConnectionName": "Greenshire Reprise",
-        "Rule": null
+        "Rule": "lambda state: logic.is_area_in_level_range(state, 2)"
       }
     ],
     "Locations": [
@@ -1832,15 +3491,15 @@
       },
       {
         "ConnectionName": "Quintar Nest",
-        "Rule": null
+        "Rule": "lambda state: logic.is_area_in_level_range(state, 1)"
       },
       {
         "ConnectionName": "Quintar Sanctum",
-        "Rule": "logic.has_rental_quintar or logic.has_vertical_movement"
+        "Rule": "lambda state: (logic.has_rental_quintar or logic.has_vertical_movement) and logic.is_area_in_level_range(state, 2)"
       },
       {
         "ConnectionName": "Quintar Reserve",
-        "Rule": "logic.has_vertical_movement"
+        "Rule": "lambda state: logic.has_vertical_movement and logic.is_area_in_level_range(state, 4)"
       }
     ],
     "Locations": [
@@ -1922,10 +3581,24 @@
         "MapLayer": 0
       },
       {
+        "LocationId": 375,
+        "LocationName": "Rolling Quintar Fields NPC - Quintar Stable Owner by Capital Sequoias eastern gate",
+        "Rule": "lambda state: logic.has_jobs(state, 7)",
+        "Coordinates": "462, 169, -293",
+        "MapLayer": 0
+      },
+      {
         "LocationId": 2678,
         "LocationName": "Rolling Quintar Fields NPC - Silver beneath overhang in eastern Quintar cave crevasse",
         "Rule": null,
         "Coordinates": "582, 168, -346",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 464,
+        "LocationName": "Rolling Quintar Fields NPC - Quintar Enthusiast (always pet Buttermint)",
+        "Rule": null,
+        "Coordinates": "612, 185, -365",
         "MapLayer": 0
       },
       {
@@ -1949,7 +3622,7 @@
     "Connections": [
       {
         "ConnectionName": "Quintar Sanctum",
-        "Rule": "logic.has_swimming"
+        "Rule": "lambda state: logic.has_swimming and logic.is_area_in_level_range(state, 2)"
       },
       {
         "ConnectionName": "Cobblestone Crag",
@@ -1957,7 +3630,7 @@
       },
       {
         "ConnectionName": "Jojo Sewers",
-        "Rule": null
+        "Rule": "lambda state: logic.is_area_in_level_range(state, 1)"
       }
     ],
     "Locations": [
@@ -2073,15 +3746,15 @@
     "Connections": [
       {
         "ConnectionName": "Rolling Quintar Fields",
-        "Rule": null
+        "Rule": "lambda state: logic.is_area_in_level_range(state, 1)"
       },
       {
         "ConnectionName": "Quintar Nest",
-        "Rule": "logic.has_swimming"
+        "Rule": "lambda state: logic.has_swimming and logic.is_area_in_level_range(state, 1)"
       },
       {
         "ConnectionName": "Quintar Mausoleum",
-        "Rule": "logic.has_swimming"
+        "Rule": "lambda state: logic.has_swimming and logic.is_area_in_level_range(state, 5)"
       }
     ],
     "Locations": [
@@ -2184,10 +3857,10 @@
         "MapLayer": 1
       },
       {
-        "LocationId": 810,
+        "LocationId": 970,
         "LocationName": "Quintar Sanctum Crystal - Chemist (of course this is in the shroom zone)",
         "Rule": null,
-        "Coordinates": "519, 170, -477",
+        "Coordinates": "559, 191, -463",
         "MapLayer": 1
       },
       {
@@ -2204,11 +3877,11 @@
     "Connections": [
       {
         "ConnectionName": "Jojo Sewers",
-        "Rule": null
+        "Rule": "lambda state: logic.is_area_in_level_range(state, 1) and logic.is_area_in_level_range(state, 1)"
       },
       {
         "ConnectionName": "Capital Pipeline",
-        "Rule": "lambda state: logic.has_south_wing_key and logic.has_cell_key(state, 6)"
+        "Rule": "lambda state: logic.has_key(state, SOUTH_WING_KEY) and logic.has_key(state, CELL_KEY, 6) and logic.is_area_in_level_range(state, 4)"
       }
     ],
     "Locations": [
@@ -2222,189 +3895,189 @@
       {
         "LocationId": 930,
         "LocationName": "Capital Jail Chest - South Wing jail cell across from busted wall",
-        "Rule": "logic.has_south_wing_key",
+        "Rule": "lambda state: logic.has_key(state, SOUTH_WING_KEY)",
         "Coordinates": "394, 93, -238",
         "MapLayer": 4
       },
       {
         "LocationId": 931,
         "LocationName": "Capital Jail Chest - Haunted jail cell in South Wing dead end",
-        "Rule": "logic.has_south_wing_key",
+        "Rule": "lambda state: logic.has_key(state, SOUTH_WING_KEY)",
         "Coordinates": "394, 93, -234",
         "MapLayer": 4
       },
       {
         "LocationId": 990,
         "LocationName": "Capital Jail Chest - Fiercely guarded and locked behind South Wing rubble 1",
-        "Rule": "lambda state: logic.has_south_wing_key and logic.has_cell_key(state, 6)",
+        "Rule": "lambda state: logic.has_key(state, SOUTH_WING_KEY) and logic.has_key(state, CELL_KEY, 6)",
         "Coordinates": "410, 93, -254",
         "MapLayer": 4
       },
       {
         "LocationId": 2668,
         "LocationName": "Capital Jail Chest - Fiercely guarded and locked behind South Wing rubble 2",
-        "Rule": "lambda state: logic.has_south_wing_key and logic.has_cell_key(state, 6)",
+        "Rule": "lambda state: logic.has_key(state, SOUTH_WING_KEY) and logic.has_key(state, CELL_KEY, 6)",
         "Coordinates": "408, 93, -254",
         "MapLayer": 4
       },
       {
         "LocationId": 991,
         "LocationName": "Capital Jail Chest - Locked behind South Wing rubble",
-        "Rule": "lambda state: logic.has_south_wing_key and logic.has_cell_key(state, 6)",
+        "Rule": "lambda state: logic.has_key(state, SOUTH_WING_KEY) and logic.has_key(state, CELL_KEY, 6)",
         "Coordinates": "411, 93, -234",
         "MapLayer": 4
       },
       {
         "LocationId": 3675,
         "LocationName": "Underpass Chest - Drop down behind Capital Jail South Wing rubble",
-        "Rule": "lambda state: logic.has_south_wing_key and logic.has_cell_key(state, 6)",
+        "Rule": "lambda state: logic.has_key(state, SOUTH_WING_KEY) and logic.has_key(state, CELL_KEY, 6)",
         "Coordinates": "426, 75, -228",
         "MapLayer": 1
       },
       {
         "LocationId": 925,
         "LocationName": "Capital Jail Chest - West Wing jail cell among the glowy plants",
-        "Rule": "logic.has_west_wing_key",
+        "Rule": "lambda state: logic.has_key(state, WEST_WING_KEY)",
         "Coordinates": "384, 93, -308",
         "MapLayer": 4
       },
       {
         "LocationId": 923,
         "LocationName": "Capital Jail Chest - West Wing arrow plants",
-        "Rule": "logic.has_west_wing_key",
+        "Rule": "lambda state: logic.has_key(state, WEST_WING_KEY)",
         "Coordinates": "376, 93, -308",
         "MapLayer": 4
       },
       {
         "LocationId": 916,
         "LocationName": "Capital Jail Chest - Locked among the foliage in West Wing",
-        "Rule": "lambda state: logic.has_west_wing_key and logic.has_cell_key(state, 6)",
+        "Rule": "lambda state: logic.has_key(state, WEST_WING_KEY) and logic.has_key(state, CELL_KEY, 4)",
         "Coordinates": "363, 90, -306",
         "MapLayer": 4
       },
       {
         "LocationId": 2999,
         "LocationName": "Capital Jail Chest - East Wing bedroom closet twinsies the 1st",
-        "Rule": "logic.has_east_wing_key",
+        "Rule": "lambda state: logic.has_key(state, EAST_WING_KEY)",
         "Coordinates": "426, 93, -308",
         "MapLayer": 4
       },
       {
         "LocationId": 906,
         "LocationName": "Capital Jail Chest - East Wing bedroom closet twinsies the 2nd",
-        "Rule": "logic.has_east_wing_key",
+        "Rule": "lambda state: logic.has_key(state, EAST_WING_KEY)",
         "Coordinates": "427, 93, -308",
         "MapLayer": 4
       },
       {
         "LocationId": 676,
         "LocationName": "Capital Jail Chest - Waterlogged East Wing hallway twinsies the 1st",
-        "Rule": "logic.has_east_wing_key",
+        "Rule": "lambda state: logic.has_key(state, EAST_WING_KEY)",
         "Coordinates": "465, 88, -299",
         "MapLayer": 4
       },
       {
         "LocationId": 707,
         "LocationName": "Capital Jail Chest - Waterlogged East Wing hallway twinsies the 2nd",
-        "Rule": "logic.has_east_wing_key",
+        "Rule": "lambda state: logic.has_key(state, EAST_WING_KEY)",
         "Coordinates": "465, 88, -298",
         "MapLayer": 4
       },
       {
         "LocationId": 708,
         "LocationName": "Capital Jail Chest - Locked in broken East Wing jail cell",
-        "Rule": "lambda state: logic.has_east_wing_key and logic.has_cell_key(state, 6)",
+        "Rule": "lambda state: logic.has_key(state, EAST_WING_KEY) and logic.has_key(state, CELL_KEY, 6)",
         "Coordinates": "434, 90, -308",
         "MapLayer": 4
       },
       {
         "LocationId": 763,
         "LocationName": "Capital Jail Chest - Locked in East Wing bedroom",
-        "Rule": "lambda state: logic.has_east_wing_key and logic.has_cell_key(state, 6)",
+        "Rule": "lambda state: logic.has_key(state, EAST_WING_KEY) and logic.has_key(state, CELL_KEY, 6)",
         "Coordinates": "419, 93, -308",
         "MapLayer": 4
       },
       {
         "LocationId": 909,
         "LocationName": "Capital Jail Chest - Locked beyond overgrown West Wing hallway",
-        "Rule": "lambda state: logic.has_west_wing_key and logic.has_cell_key(state, 6)",
+        "Rule": "lambda state: logic.has_key(state, WEST_WING_KEY) and logic.has_key(state, CELL_KEY, 6)",
         "Coordinates": "340, 87, -300",
         "MapLayer": 4
       },
       {
         "LocationId": 2911,
         "LocationName": "Capital Jail Chest - Dark Wing entry left cell",
-        "Rule": "logic.has_dark_wing_key",
+        "Rule": "lambda state: logic.has_key(state, DARK_WING_KEY)",
         "Coordinates": "394, 93, -324",
         "MapLayer": 0
       },
       {
         "LocationId": 929,
         "LocationName": "Capital Jail Chest - Sneaky chest in Dark Wing",
-        "Rule": "logic.has_dark_wing_key",
+        "Rule": "lambda state: logic.has_key(state, DARK_WING_KEY)",
         "Coordinates": "410, 93, -334",
         "MapLayer": 0
       },
       {
         "LocationId": 920,
         "LocationName": "Capital Jail Chest - Corner lava jump in Dark Wing",
-        "Rule": "logic.has_dark_wing_key",
+        "Rule": "lambda state: logic.has_key(state, DARK_WING_KEY)",
         "Coordinates": "394, 90, -354",
         "MapLayer": 0
       },
       {
         "LocationId": 972,
         "LocationName": "Capital Jail NPC - Silver in haunted South Wing jail cell",
-        "Rule": "logic.has_south_wing_key",
+        "Rule": "lambda state: logic.has_key(state, SOUTH_WING_KEY)",
         "Coordinates": "395, 93, -269",
         "MapLayer": 4
       },
       {
         "LocationId": 989,
         "LocationName": "Capital Jail NPC - Silver in zombified South Wing jail cell",
-        "Rule": "logic.has_south_wing_key",
+        "Rule": "lambda state: logic.has_key(state, SOUTH_WING_KEY)",
         "Coordinates": "410, 93, -262",
         "MapLayer": 4
       },
       {
         "LocationId": 760,
         "LocationName": "Capital Jail NPC - Silver locked in broken East Wing jail cell accompanied by blue flower",
-        "Rule": "lambda state: logic.has_east_wing_key and logic.has_cell_key(state, 6)",
+        "Rule": "lambda state: logic.has_key(state, EAST_WING_KEY) and logic.has_key(state, CELL_KEY, 6)",
         "Coordinates": "440, 90, -306",
         "MapLayer": 4
       },
       {
         "LocationId": 782,
         "LocationName": "Capital Jail NPC - Silver locked in East Wing bedroom",
-        "Rule": "lambda state: logic.has_east_wing_key and logic.has_cell_key(state, 6)",
+        "Rule": "lambda state: logic.has_key(state, EAST_WING_KEY) and logic.has_key(state, CELL_KEY, 6)",
         "Coordinates": "420, 93, -308",
         "MapLayer": 4
       },
       {
         "LocationId": 759,
         "LocationName": "Capital Jail NPC - Silver locked in overgrown West Wing hallway",
-        "Rule": "lambda state: logic.has_west_wing_key and logic.has_cell_key(state, 6)",
+        "Rule": "lambda state: logic.has_key(state, WEST_WING_KEY) and logic.has_key(state, CELL_KEY, 6)",
         "Coordinates": "350, 87, -299",
         "MapLayer": 4
       },
       {
         "LocationId": 472,
         "LocationName": "Capital Jail NPC - Silver in Dark Wing entry right cell",
-        "Rule": "logic.has_dark_wing_key",
+        "Rule": "lambda state: logic.has_key(state, DARK_WING_KEY)",
         "Coordinates": "410, 93, -324",
         "MapLayer": 0
       },
       {
         "LocationId": 908,
         "LocationName": "Capital Jail Crystal - Reaper, above hell pool",
-        "Rule": null,
+        "Rule": "lambda state: logic.has_key(state, DARK_WING_KEY)",
         "Coordinates": "402, 86, -397",
         "MapLayer": 0
       },
       {
         "LocationId": 907,
         "LocationName": "Capital Jail Boss - Warden",
-        "Rule": "logic.has_dark_wing_key",
+        "Rule": "lambda state: logic.has_key(state, DARK_WING_KEY)",
         "Coordinates": "402, 85, -401",
         "MapLayer": 0
       }
@@ -2419,7 +4092,7 @@
       },
       {
         "ConnectionName": "Jidamba Tangle",
-        "Rule": "logic.has_vertical_movement"
+        "Rule": "lambda state: logic.has_vertical_movement and logic.is_area_in_level_range(state, 5)"
       },
       {
         "ConnectionName": "Continental Tram",
@@ -2473,7 +4146,7 @@
       },
       {
         "ConnectionName": "The Open Sea",
-        "Rule": "logic.has_swimming"
+        "Rule": "lambda state: logic.has_swimming and logic.is_area_in_level_range(state, 5)"
       },
       {
         "ConnectionName": "Shoudu Waterfront",
@@ -2481,7 +4154,7 @@
       },
       {
         "ConnectionName": "Okimoto N.S.",
-        "Rule": "logic.has_horizontal_movement"
+        "Rule": "lambda state: logic.has_horizontal_movement and logic.is_area_in_level_range(state, 2)"
       }
     ],
     "Locations": [
@@ -2544,7 +4217,7 @@
       {
         "LocationId": 1118,
         "LocationName": "Cobblestone Crag Boss - Crag Demon",
-        "Rule": null,
+        "Rule": "lambda state: logic.is_area_in_level_range(state, 4)",
         "Coordinates": "516, 149, -182",
         "MapLayer": 0
       }
@@ -2558,8 +4231,12 @@
         "Rule": null
       },
       {
+        "ConnectionName": "The Open Sea",
+        "Rule": "logic.has_swimming"
+      },
+      {
         "ConnectionName": "Flyers Crag",
-        "Rule": "logic.has_glide and logic.has_vertical_movement"
+        "Rule": "(logic.has_glide and logic.has_vertical_movement) or logic.has_swimming"
       }
     ],
     "Locations": [
@@ -2721,11 +4398,11 @@
       },
       {
         "ConnectionName": "Salmon Pass",
-        "Rule": "logic.has_rental_quintar or logic.has_vertical_movement"
+        "Rule": "lambda state: (logic.has_rental_quintar and logic.has_jobs(state, 5)) or logic.has_vertical_movement"
       },
       {
         "ConnectionName": "Tall Tall Heights",
-        "Rule": "logic.has_vertical_movement"
+        "Rule": "lambda state: logic.has_vertical_movement and logic.is_area_in_level_range(state, 4)"
       }
     ],
     "Locations": [
@@ -2799,11 +4476,11 @@
     "Connections": [
       {
         "ConnectionName": "Greenshire Reprise",
-        "Rule": null
+        "Rule": "lambda state: (logic.has_horizontal_movement or logic.has_swimming) and logic.is_area_in_level_range(state, 2)"
       },
       {
         "ConnectionName": "Salmon River",
-        "Rule": "logic.has_horizontal_movement"
+        "Rule": "lambda state: logic.has_horizontal_movement and logic.is_area_in_level_range(state, 2)"
       },
       {
         "ConnectionName": "Delende",
@@ -2843,7 +4520,7 @@
       },
       {
         "ConnectionName": "Tall Tall Heights",
-        "Rule": "logic.has_vertical_movement"
+        "Rule": "lambda state: logic.has_vertical_movement and logic.is_area_in_level_range(state, 4)"
       }
     ],
     "Locations": [
@@ -2901,6 +4578,13 @@
         "LocationName": "Overpass Chest - Ultimate Mulan challenge past mushroom mountain",
         "Rule": "logic.has_vertical_movement and logic.has_horizontal_movement",
         "Coordinates": "-35, 166, -387",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 2410,
+        "LocationName": "Salmon River NPC - Reid chilling by the Fish Hatchery",
+        "Rule": null,
+        "Coordinates": "113, 172, -372",
         "MapLayer": 0
       },
       {
@@ -2976,7 +4660,7 @@
       {
         "LocationId": 2739,
         "LocationName": "Overpass NPC - Fall off mushroom mountain onto Gold",
-        "Rule": "logic.has_vertical_movement and logic.has_horizontal_movement",
+        "Rule": "logic.has_vertical_movement and logic.has_glide",
         "Coordinates": "63, 191, -399",
         "MapLayer": 0
       },
@@ -2985,6 +4669,27 @@
         "LocationName": "River Cats Ego Crystal - Appease the QuizFish Nomad",
         "Rule": null,
         "Coordinates": "83, 210, -422",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 631,
+        "LocationName": "Poseidon Shrine Shop - Attendant 1",
+        "Rule": null,
+        "Coordinates": "111, 180, -393",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 10631,
+        "LocationName": "Poseidon Shrine Shop - Attendant 2",
+        "Rule": null,
+        "Coordinates": "111, 180, -393",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 20631,
+        "LocationName": "Poseidon Shrine Shop - Attendant 3",
+        "Rule": null,
+        "Coordinates": "111, 180, -393",
         "MapLayer": 0
       }
     ]
@@ -2998,11 +4703,11 @@
       },
       {
         "ConnectionName": "Ancient Reservoir",
-        "Rule": "logic.has_pyramid_key"
+        "Rule": "lambda state: logic.has_key(state, PYRAMID_KEY) and logic.is_area_in_level_range(state, 3)"
       },
       {
         "ConnectionName": "Lake Delende",
-        "Rule": "logic.has_vertical_movement"
+        "Rule": "lambda state: logic.has_vertical_movement and logic.is_area_in_level_range(state, 3)"
       },
       {
         "ConnectionName": "Salmon Bay",
@@ -3010,7 +4715,7 @@
       },
       {
         "ConnectionName": "Ancient Labyrinth",
-        "Rule": "logic.has_vertical_movement and logic.has_glide"
+        "Rule": "lambda state: state.has(\"Item - Ancient Tablet A\", player) and logic.has_vertical_movement and logic.has_glide and logic.is_area_in_level_range(state, 5)"
       }
     ],
     "Locations": [
@@ -3196,30 +4901,30 @@
     "Connections": [
       {
         "ConnectionName": "Poko Poko Desert",
-        "Rule": null
+        "Rule": "lambda state: logic.is_area_in_level_range(state, 2)"
       },
       {
         "ConnectionName": "Sara Sara Beach",
-        "Rule": null
+        "Rule": "lambda state: logic.has_horizontal_movement and logic.is_area_in_level_range(state, 3)"
       },
       {
         "ConnectionName": "Shoudu Province",
-        "Rule": "lambda state: state.has(\"Item - Ferry Pass\", world.player)"
+        "Rule": "lambda state: state.has(\"Item - Ferry Pass\", world.player) and logic.is_area_in_level_range(state, 3)"
       },
       {
         "ConnectionName": "The Open Sea",
-        "Rule": "logic.has_swimming"
+        "Rule": "lambda state: logic.has_swimming and logic.is_area_in_level_range(state, 5)"
       },
       {
         "ConnectionName": "Continental Tram",
-        "Rule": "logic.has_swimming or logic.has_tram_key"
+        "Rule": "lambda state: logic.has_swimming or logic.has_key(state, TRAM_KEY)"
       }
     ],
     "Locations": [
       {
         "LocationId": 408,
         "LocationName": "Sara Sara Bazaar Chest - Someone took the St James and left a...",
-        "Rule": "logic.has_room_one_key",
+        "Rule": "lambda state: logic.has_key(state, ROOM_ONE_KEY)",
         "Coordinates": "-133, 101, 45",
         "MapLayer": 0
       },
@@ -3249,6 +4954,27 @@
         "LocationName": "Sara Sara Bazaar Chest - Spilled booty",
         "Rule": "logic.has_swimming",
         "Coordinates": "-154, 87, 83",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 1852,
+        "LocationName": "Sara Sara Bazaar NPC - Quintar West Stable Owner",
+        "Rule": "lambda state: logic.has_jobs(state, 7)",
+        "Coordinates": "-179, 113, 53",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 2234,
+        "LocationName": "Sara Sara Bazaar NPC - Quintar East Stable Owner",
+        "Rule": "lambda state: logic.has_jobs(state, 7)",
+        "Coordinates": "-102, 113, 53",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 940,
+        "LocationName": "Sara Sara Bazaar NPC - Ferry Ticket Agent grants Ferry Pass in case you hate children",
+        "Rule": "lambda state: logic.has_jobs(state, 15)",
+        "Coordinates": "-166, 93, 56",
         "MapLayer": 0
       },
       {
@@ -3327,6 +5053,265 @@
         "Rule": "logic.has_swimming",
         "Coordinates": "-156, 87, 84",
         "MapLayer": 0
+      },
+      {
+        "LocationId": 957,
+        "LocationName": "Sara Sara Bazaar Shop - Old Nans Stew Subsidiary",
+        "Rule": null,
+        "Coordinates": "-150, 105, 52",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 1386,
+        "LocationName": "Sara Sara Bazaar Shop - Accessory Merchant 1",
+        "Rule": null,
+        "Coordinates": "-156, 105, 52",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 11386,
+        "LocationName": "Sara Sara Bazaar Shop - Accessory Merchant 2",
+        "Rule": null,
+        "Coordinates": "-156, 105, 52",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 21386,
+        "LocationName": "Sara Sara Bazaar Shop - Accessory Merchant 3",
+        "Rule": null,
+        "Coordinates": "-156, 105, 52",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 31386,
+        "LocationName": "Sara Sara Bazaar Shop - Accessory Merchant 4",
+        "Rule": null,
+        "Coordinates": "-156, 105, 52",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 41386,
+        "LocationName": "Sara Sara Bazaar Shop - Accessory Merchant 5",
+        "Rule": null,
+        "Coordinates": "-156, 105, 52",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 51386,
+        "LocationName": "Sara Sara Bazaar Shop - Accessory Merchant 6",
+        "Rule": null,
+        "Coordinates": "-156, 105, 52",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 1193,
+        "LocationName": "Sara Sara Bazaar Shop - Item Merchant 1",
+        "Rule": null,
+        "Coordinates": "-125, 105, 52",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 11193,
+        "LocationName": "Sara Sara Bazaar Shop - Item Merchant 2",
+        "Rule": null,
+        "Coordinates": "-125, 105, 52",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 21193,
+        "LocationName": "Sara Sara Bazaar Shop - Item Merchant 3",
+        "Rule": null,
+        "Coordinates": "-125, 105, 52",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 31193,
+        "LocationName": "Sara Sara Bazaar Shop - Item Merchant 4",
+        "Rule": null,
+        "Coordinates": "-125, 105, 52",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 41193,
+        "LocationName": "Sara Sara Bazaar Shop - Item Merchant 5",
+        "Rule": null,
+        "Coordinates": "-125, 105, 52",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 51193,
+        "LocationName": "Sara Sara Bazaar Shop - Item Merchant 6",
+        "Rule": null,
+        "Coordinates": "-125, 105, 52",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 61193,
+        "LocationName": "Sara Sara Bazaar Shop - Item Merchant 7",
+        "Rule": null,
+        "Coordinates": "-125, 105, 52",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 71193,
+        "LocationName": "Sara Sara Bazaar Shop - Item Merchant 8",
+        "Rule": null,
+        "Coordinates": "-125, 105, 52",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 942,
+        "LocationName": "Sara Sara Bazaar Shop - Fish Merchant 1",
+        "Rule": null,
+        "Coordinates": "-174, 105, 49",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 10942,
+        "LocationName": "Sara Sara Bazaar Shop - Fish Merchant 2",
+        "Rule": null,
+        "Coordinates": "-174, 105, 49",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 1603,
+        "LocationName": "Sara Sara Bazaar Shop - Armor Merchant 1",
+        "Rule": null,
+        "Coordinates": "-158, 93, 56",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 11603,
+        "LocationName": "Sara Sara Bazaar Shop - Armor Merchant 2",
+        "Rule": null,
+        "Coordinates": "-158, 93, 56",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 21603,
+        "LocationName": "Sara Sara Bazaar Shop - Armor Merchant 3",
+        "Rule": null,
+        "Coordinates": "-158, 93, 56",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 31603,
+        "LocationName": "Sara Sara Bazaar Shop - Armor Merchant 4",
+        "Rule": null,
+        "Coordinates": "-158, 93, 56",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 41603,
+        "LocationName": "Sara Sara Bazaar Shop - Armor Merchant 5",
+        "Rule": null,
+        "Coordinates": "-158, 93, 56",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 51603,
+        "LocationName": "Sara Sara Bazaar Shop - Armor Merchant 6",
+        "Rule": null,
+        "Coordinates": "-158, 93, 56",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 61603,
+        "LocationName": "Sara Sara Bazaar Shop - Armor Merchant 7",
+        "Rule": null,
+        "Coordinates": "-158, 93, 56",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 1604,
+        "LocationName": "Sara Sara Bazaar Shop - Weapon Merchant 1",
+        "Rule": null,
+        "Coordinates": "-160, 93, 56",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 11604,
+        "LocationName": "Sara Sara Bazaar Shop - Weapon Merchant 2",
+        "Rule": null,
+        "Coordinates": "-160, 93, 56",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 21604,
+        "LocationName": "Sara Sara Bazaar Shop - Weapon Merchant 3",
+        "Rule": null,
+        "Coordinates": "-160, 93, 56",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 31604,
+        "LocationName": "Sara Sara Bazaar Shop - Weapon Merchant 4",
+        "Rule": null,
+        "Coordinates": "-160, 93, 56",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 41604,
+        "LocationName": "Sara Sara Bazaar Shop - Weapon Merchant 5",
+        "Rule": null,
+        "Coordinates": "-160, 93, 56",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 51604,
+        "LocationName": "Sara Sara Bazaar Shop - Weapon Merchant 6",
+        "Rule": null,
+        "Coordinates": "-160, 93, 56",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 61604,
+        "LocationName": "Sara Sara Bazaar Shop - Weapon Merchant 7",
+        "Rule": null,
+        "Coordinates": "-160, 93, 56",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 71604,
+        "LocationName": "Sara Sara Bazaar Shop - Weapon Merchant 8",
+        "Rule": null,
+        "Coordinates": "-160, 93, 56",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 81604,
+        "LocationName": "Sara Sara Bazaar Shop - Weapon Merchant 9",
+        "Rule": null,
+        "Coordinates": "-160, 93, 56",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 91604,
+        "LocationName": "Sara Sara Bazaar Shop - Weapon Merchant 10",
+        "Rule": null,
+        "Coordinates": "-160, 93, 56",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 101604,
+        "LocationName": "Sara Sara Bazaar Shop - Weapon Merchant 11",
+        "Rule": null,
+        "Coordinates": "-160, 93, 56",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 111604,
+        "LocationName": "Sara Sara Bazaar Shop - Weapon Merchant 12",
+        "Rule": null,
+        "Coordinates": "-160, 93, 56",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 121604,
+        "LocationName": "Sara Sara Bazaar Shop - Weapon Merchant 13",
+        "Rule": null,
+        "Coordinates": "-160, 93, 56",
+        "MapLayer": 0
       }
     ]
   },
@@ -3339,11 +5324,15 @@
       },
       {
         "ConnectionName": "The Open Sea",
-        "Rule": "logic.has_swimming"
+        "Rule": "lambda state: logic.has_swimming and logic.is_area_in_level_range(state, 5)"
       },
       {
         "ConnectionName": "Beaurior Volcano",
-        "Rule": "logic.has_vertical_movement"
+        "Rule": "lambda state: logic.has_vertical_movement and logic.is_area_in_level_range(state, 3)"
+      },
+      {
+        "ConnectionName": "Ibek Cave",
+        "Rule": "lambda state: logic.has_vertical_movement and logic.is_area_in_level_range(state, 3)"
       }
     ],
     "Locations": [
@@ -3420,7 +5409,7 @@
       {
         "LocationId": 2686,
         "LocationName": "Sara Sara Beach NPC - Silver glittering in the sun at Ibek Cave exit 3",
-        "Rule": "logic.has_vertical_movement",
+        "Rule": null,
         "Coordinates": "-62, 97, 56",
         "MapLayer": 0
       },
@@ -3434,14 +5423,14 @@
       {
         "LocationId": 2689,
         "LocationName": "Sara Sara Beach NPC - Silver glittering in the sun at Ibek Cave exit 5",
-        "Rule": "logic.has_vertical_movement",
+        "Rule": null,
         "Coordinates": "-83, 97, 55",
         "MapLayer": 0
       },
       {
         "LocationId": 2690,
         "LocationName": "Sara Sara Beach NPC - Silver glittering in the sun at Ibek Cave exit 6",
-        "Rule": "logic.has_vertical_movement",
+        "Rule": null,
         "Coordinates": "-48, 97, 56",
         "MapLayer": 0
       },
@@ -3529,11 +5518,15 @@
     "Connections": [
       {
         "ConnectionName": "Poko Poko Desert",
-        "Rule": null
+        "Rule": "lambda state: logic.is_area_in_level_range(state, 2)"
+      },
+      {
+        "ConnectionName": "Ibek Cave",
+        "Rule": "lambda state: logic.has_vertical_movement and logic.is_area_in_level_range(state, 3)"
       },
       {
         "ConnectionName": "Sara Sara Beach",
-        "Rule": "logic.has_vertical_movement"
+        "Rule": null
       },
       {
         "ConnectionName": "Delende",
@@ -3619,13 +5612,6 @@
         "MapLayer": 0
       },
       {
-        "LocationId": 2517,
-        "LocationName": "Ancient Reservoir Chest - Celebrate your new hops",
-        "Rule": "logic.has_vertical_movement",
-        "Coordinates": "-54, 83, 23",
-        "MapLayer": 0
-      },
-      {
         "LocationId": 3541,
         "LocationName": "Underpass Chest - Waterway nook between Gran & Ancient Reservoir",
         "Rule": "logic.has_swimming",
@@ -3647,20 +5633,6 @@
         "MapLayer": 1
       },
       {
-        "LocationId": 1676,
-        "LocationName": "Ancient Reservoir NPC - Goat victory Ibek Bell",
-        "Rule": null,
-        "Coordinates": "-50, 80, 29",
-        "MapLayer": 0
-      },
-      {
-        "LocationId": 2696,
-        "LocationName": "Ancient Reservoir NPC - Silver in the goat digs",
-        "Rule": "logic.has_vertical_movement",
-        "Coordinates": "-35, 83, 34",
-        "MapLayer": 0
-      },
-      {
         "LocationId": 1121,
         "LocationName": "Ancient Reservoir Crystal - Dervish",
         "Rule": null,
@@ -3677,15 +5649,47 @@
     ]
   },
   {
+    "Name": "Ibek Cave",
+    "Connections": [
+      {
+        "ConnectionName": "Sara Sara Beach",
+        "Rule": "lambda state: logic.has_vertical_movement and logic.is_area_in_level_range(state, 3)"
+      }
+    ],
+    "Locations": [
+      {
+        "LocationId": 2517,
+        "LocationName": "Ancient Reservoir Chest - Celebrate your new hops",
+        "Rule": "logic.has_vertical_movement",
+        "Coordinates": "-54, 83, 23",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 1676,
+        "LocationName": "Ancient Reservoir NPC - Goat victory Ibek Bell",
+        "Rule": null,
+        "Coordinates": "-50, 80, 29",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 2696,
+        "LocationName": "Ancient Reservoir NPC - Silver in the goat digs",
+        "Rule": "logic.has_vertical_movement",
+        "Coordinates": "-35, 83, 34",
+        "MapLayer": 0
+      }
+    ]
+  },
+  {
     "Name": "Salmon Bay",
     "Connections": [
       {
         "ConnectionName": "The Open Sea",
-        "Rule": "logic.has_swimming"
+        "Rule": "lambda state: logic.has_swimming and logic.is_area_in_level_range(state, 5)"
       },
       {
         "ConnectionName": "Salmon River",
-        "Rule": "logic.has_swimming"
+        "Rule": "lambda state: logic.has_swimming and logic.is_area_in_level_range(state, 2)"
       }
     ],
     "Locations": [
@@ -3701,6 +5705,13 @@
         "LocationName": "Salmon Bay Chest - Across the bridge",
         "Rule": null,
         "Coordinates": "-122, 97, -330",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 3677,
+        "LocationName": "Overpass Chest - Lonely scrap among half-dead pines above Salmon Bay",
+        "Rule": null,
+        "Coordinates": "-32, 135, -250",
         "MapLayer": 0
       },
       {
@@ -3723,13 +5734,6 @@
         "Rule": null,
         "Coordinates": "-43, 91, -330",
         "MapLayer": 0
-      },
-      {
-        "LocationId": 3677,
-        "LocationName": "Overpass NPC - Lonely scrap among half-dead pines above Salmon Bay",
-        "Rule": null,
-        "Coordinates": "-32, 135, -250",
-        "MapLayer": 0
       }
     ]
   },
@@ -3737,15 +5741,7 @@
     "Name": "The Open Sea",
     "Connections": [
       {
-        "ConnectionName": "Jidamba Tangle",
-        "Rule": "logic.has_swimming"
-      },
-      {
-        "ConnectionName": "The Deep Sea",
-        "Rule": "logic.has_swimming"
-      },
-      {
-        "ConnectionName": "Shoudu Province",
+        "ConnectionName": "Seaside Cliffs",
         "Rule": "logic.has_swimming"
       },
       {
@@ -3753,15 +5749,11 @@
         "Rule": "logic.has_swimming"
       },
       {
-        "ConnectionName": "Seaside Cliffs",
+        "ConnectionName": "Okimoto N.S.",
         "Rule": "logic.has_swimming"
       },
       {
-        "ConnectionName": "Beaurior Volcano",
-        "Rule": "logic.has_swimming"
-      },
-      {
-        "ConnectionName": "Sara Sara Beach",
+        "ConnectionName": "Shoudu Waterfront",
         "Rule": "logic.has_swimming"
       },
       {
@@ -3769,8 +5761,32 @@
         "Rule": "logic.has_swimming"
       },
       {
+        "ConnectionName": "Sara Sara Beach",
+        "Rule": "lambda state: logic.has_swimming and logic.is_area_in_level_range(state, 3)"
+      },
+      {
         "ConnectionName": "Salmon Bay",
         "Rule": "logic.has_swimming"
+      },
+      {
+        "ConnectionName": "Shoudu Province",
+        "Rule": "lambda state: logic.has_swimming and logic.is_area_in_level_range(state, 3)"
+      },
+      {
+        "ConnectionName": "The Undercity",
+        "Rule": "logic.has_swimming"
+      },
+      {
+        "ConnectionName": "Beaurior Volcano",
+        "Rule": "lambda state: logic.has_swimming and logic.is_area_in_level_range(state, 3)"
+      },
+      {
+        "ConnectionName": "Jidamba Tangle",
+        "Rule": "lambda state: logic.has_swimming and logic.is_area_in_level_range(state, 5)"
+      },
+      {
+        "ConnectionName": "The Deep Sea",
+        "Rule": "lambda state: logic.has_swimming and logic.is_area_in_level_range(state, 5)"
       }
     ],
     "Locations": [
@@ -3794,8 +5810,12 @@
     "Name": "Shoudu Waterfront",
     "Connections": [
       {
+        "ConnectionName": "The Open Sea",
+        "Rule": "logic.has_swimming"
+      },
+      {
         "ConnectionName": "Shoudu Province",
-        "Rule": "logic.has_vertical_movement"
+        "Rule": "lambda state: logic.has_vertical_movement and logic.is_area_in_level_range(state, 3)"
       },
       {
         "ConnectionName": "Cobblestone Crag",
@@ -3843,11 +5863,11 @@
       },
       {
         "ConnectionName": "The Undercity",
-        "Rule": "logic.has_vertical_movement and logic.has_horizontal_movement"
+        "Rule": "lambda state: logic.has_vertical_movement and logic.has_horizontal_movement and logic.is_area_in_level_range(state, 3)"
       },
       {
         "ConnectionName": "Quintar Reserve",
-        "Rule": "lambda state: logic.has_vertical_movement and state.has(\"Item - Elevator Part\", world.player, 10)"
+        "Rule": "lambda state: logic.has_vertical_movement and state.has(\"Item - Elevator Part\", world.player, 10) and logic.is_area_in_level_range(state, 4)"
       }
     ],
     "Locations": [
@@ -3875,7 +5895,7 @@
       {
         "LocationId": 3504,
         "LocationName": "Shoudu Province Chest - Below fast boi spark",
-        "Rule": "logic.has_vertical_movement",
+        "Rule": "logic.has_vertical_movement or logic.has_glide",
         "Coordinates": "775, 125, -196",
         "MapLayer": 0
       },
@@ -3889,8 +5909,15 @@
       {
         "LocationId": 3506,
         "LocationName": "Shoudu Province Chest - Through rooftop window south of fast boi spark 1",
-        "Rule": "logic.has_vertical_movement",
+        "Rule": "logic.has_vertical_movement or logic.has_glide",
         "Coordinates": "778, 126, -186",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 2763,
+        "LocationName": "Shoudu Province Chest - Through rooftop window south of fast boi spark 2",
+        "Rule": "logic.has_vertical_movement or logic.has_glide",
+        "Coordinates": "778, 126, -188",
         "MapLayer": 0
       },
       {
@@ -3910,77 +5937,77 @@
       {
         "LocationId": 3509,
         "LocationName": "Shoudu Province Chest - Above accessory shop",
-        "Rule": "logic.has_vertical_movement",
+        "Rule": "logic.has_vertical_movement or logic.has_glide",
         "Coordinates": "738, 125, -223",
         "MapLayer": 0
       },
       {
         "LocationId": 3510,
         "LocationName": "Shoudu Province Chest - Building near all the grates",
-        "Rule": "logic.has_vertical_movement",
+        "Rule": "logic.has_vertical_movement or logic.has_glide",
         "Coordinates": "756, 125, -218",
         "MapLayer": 0
       },
       {
         "LocationId": 3511,
         "LocationName": "Shoudu Province Chest - Above Samurai Lounge 1",
-        "Rule": "logic.has_vertical_movement",
+        "Rule": "logic.has_vertical_movement or logic.has_glide",
         "Coordinates": "803, 120, -222",
         "MapLayer": 0
       },
       {
         "LocationId": 1541,
         "LocationName": "Shoudu Province Chest - Above Samurai Lounge 2",
-        "Rule": "logic.has_vertical_movement",
+        "Rule": "logic.has_vertical_movement or logic.has_glide",
         "Coordinates": "800, 119, -222",
         "MapLayer": 0
       },
       {
         "LocationId": 3512,
         "LocationName": "Shoudu Province Chest - Samurai Lounge",
-        "Rule": "logic.has_vertical_movement",
+        "Rule": "logic.has_vertical_movement or logic.has_glide",
         "Coordinates": "806, 115, -222",
         "MapLayer": 0
       },
       {
         "LocationId": 3513,
         "LocationName": "Shoudu Province Chest - Assassin Lounge",
-        "Rule": "logic.has_vertical_movement",
+        "Rule": "logic.has_vertical_movement or logic.has_glide",
         "Coordinates": "776, 123, -200",
         "MapLayer": 0
       },
       {
         "LocationId": 3514,
         "LocationName": "Shoudu Province Chest - Among crates across from Assassin Lounge",
-        "Rule": "logic.has_vertical_movement",
+        "Rule": "logic.has_vertical_movement or logic.has_glide",
         "Coordinates": "752, 124, -199",
         "MapLayer": 0
       },
       {
         "LocationId": 3515,
         "LocationName": "Shoudu Province Chest - Its in a room and there is a bed",
-        "Rule": "logic.has_vertical_movement",
+        "Rule": "logic.has_vertical_movement or logic.has_glide",
         "Coordinates": "751, 122, -188",
         "MapLayer": 0
       },
       {
         "LocationId": 3520,
         "LocationName": "Shoudu Province Chest - Granary",
-        "Rule": "logic.has_vertical_movement",
+        "Rule": "logic.has_vertical_movement or logic.has_glide",
         "Coordinates": "776, 120, -192",
         "MapLayer": 0
       },
       {
         "LocationId": 3521,
         "LocationName": "Shoudu Province Chest - Below the flower house",
-        "Rule": "logic.has_vertical_movement",
+        "Rule": "logic.has_vertical_movement or logic.has_glide",
         "Coordinates": "778, 117, -182",
         "MapLayer": 0
       },
       {
         "LocationId": 3522,
         "LocationName": "Shoudu Province Chest - White hut",
-        "Rule": "logic.has_vertical_movement",
+        "Rule": "logic.has_vertical_movement or logic.has_glide",
         "Coordinates": "715, 125, -214",
         "MapLayer": 0
       },
@@ -4008,21 +6035,21 @@
       {
         "LocationId": 1536,
         "LocationName": "Shoudu Province Chest - Crawl along the attic",
-        "Rule": "logic.has_vertical_movement",
+        "Rule": "logic.has_vertical_movement or logic.has_glide",
         "Coordinates": "762, 117, -202",
         "MapLayer": 0
       },
       {
         "LocationId": 1519,
         "LocationName": "Shoudu Province Chest - Sneaky back door of cramped storage room",
-        "Rule": "logic.has_vertical_movement",
+        "Rule": "logic.has_vertical_movement or logic.has_glide",
         "Coordinates": "790, 107, -198",
         "MapLayer": 0
       },
       {
         "LocationId": 2760,
         "LocationName": "Shoudu Province Chest - Sneak behind crates near Assassin Lounge",
-        "Rule": "logic.has_vertical_movement",
+        "Rule": "logic.has_vertical_movement or logic.has_glide",
         "Coordinates": "743, 123, -198",
         "MapLayer": 0
       },
@@ -4036,43 +6063,36 @@
       {
         "LocationId": 2985,
         "LocationName": "Shoudu Province Chest - Outside the inn",
-        "Rule": "logic.has_vertical_movement",
+        "Rule": "logic.has_vertical_movement or logic.has_glide",
         "Coordinates": "788, 107, -194",
         "MapLayer": 0
       },
       {
         "LocationId": 1506,
         "LocationName": "Shoudu Province Chest - Go in the back door",
-        "Rule": "logic.has_vertical_movement",
+        "Rule": "logic.has_vertical_movement or logic.has_glide",
         "Coordinates": "730, 109, -174",
         "MapLayer": 0
       },
       {
         "LocationId": 2762,
         "LocationName": "Shoudu Province Chest - Near the Assassin Lounge",
-        "Rule": "logic.has_vertical_movement",
+        "Rule": "logic.has_vertical_movement or logic.has_glide",
         "Coordinates": "763, 124, -188",
         "MapLayer": 0
       },
       {
         "LocationId": 2752,
         "LocationName": "Shoudu Province Chest - Jump along the lamppost",
-        "Rule": "logic.has_vertical_movement",
+        "Rule": "logic.has_vertical_movement or logic.has_glide",
         "Coordinates": "778, 122, -199",
         "MapLayer": 0
       },
       {
         "LocationId": 1517,
         "LocationName": "Shoudu Province Chest - Above the armor shop",
-        "Rule": "logic.has_vertical_movement",
+        "Rule": "logic.has_vertical_movement or logic.has_glide",
         "Coordinates": "782, 121, -216",
-        "MapLayer": 0
-      },
-      {
-        "LocationId": 2763,
-        "LocationName": "Shoudu Province Chest - Through rooftop window south of fast boi spark 2",
-        "Rule": "logic.has_vertical_movement",
-        "Coordinates": "778, 126, -188",
         "MapLayer": 0
       },
       {
@@ -4106,7 +6126,7 @@
       {
         "LocationId": 2789,
         "LocationName": "Shoudu Province Chest - In the flower room",
-        "Rule": "logic.has_vertical_movement",
+        "Rule": "logic.has_vertical_movement or logic.has_glide",
         "Coordinates": "726, 132, -270",
         "MapLayer": 0
       },
@@ -4176,21 +6196,21 @@
       {
         "LocationId": 2665,
         "LocationName": "Shoudu Province Chest - 8 Sky Arena Wins room 1",
-        "Rule": "logic.has_vertical_movement",
+        "Rule": "lambda state: logic.is_area_in_level_range(state, 4) and logic.has_vertical_movement",
         "Coordinates": "749, 134, -263",
         "MapLayer": 0
       },
       {
         "LocationId": 2805,
         "LocationName": "Shoudu Province Chest - 8 Sky Arena Wins room 2",
-        "Rule": "logic.has_vertical_movement",
+        "Rule": "lambda state: logic.is_area_in_level_range(state, 4) and logic.has_vertical_movement",
         "Coordinates": "748, 134, -262",
         "MapLayer": 0
       },
       {
         "LocationId": 2800,
         "LocationName": "Shoudu Province Chest - 8 Sky Arena Wins room 3",
-        "Rule": "logic.has_vertical_movement",
+        "Rule": "lambda state: logic.is_area_in_level_range(state, 4) and logic.has_vertical_movement",
         "Coordinates": "747, 134, -263",
         "MapLayer": 0
       },
@@ -4204,43 +6224,50 @@
       {
         "LocationId": 2984,
         "LocationName": "Shoudu Province Chest - Lurking above spike ball pit by goldsmith",
-        "Rule": "logic.has_vertical_movement",
+        "Rule": null,
         "Coordinates": "753, 105, -176",
         "MapLayer": 0
       },
       {
         "LocationId": 2756,
         "LocationName": "Shoudu Province Chest - 10 Sky Arena Wins room 1",
-        "Rule": "logic.has_vertical_movement",
+        "Rule": "lambda state: logic.is_area_in_level_range(state, 5) and logic.has_vertical_movement",
         "Coordinates": "753, 134, -263",
         "MapLayer": 0
       },
       {
         "LocationId": 2928,
         "LocationName": "Shoudu Province Chest - 10 Sky Arena Wins room 2",
-        "Rule": "logic.has_vertical_movement",
+        "Rule": "lambda state: logic.is_area_in_level_range(state, 5) and logic.has_vertical_movement",
         "Coordinates": "754, 134, -264",
         "MapLayer": 0
       },
       {
         "LocationId": 2929,
         "LocationName": "Shoudu Province Chest - 10 Sky Arena Wins room 3",
-        "Rule": "logic.has_vertical_movement",
+        "Rule": "lambda state: logic.is_area_in_level_range(state, 5) and logic.has_vertical_movement",
         "Coordinates": "755, 134, -263",
         "MapLayer": 0
       },
       {
         "LocationId": 3763,
         "LocationName": "Shoudu Province Chest - Fall through floorboards of 10 Sky Arena Wins room 1",
-        "Rule": "logic.has_vertical_movement",
+        "Rule": "lambda state: logic.is_area_in_level_range(state, 5) and logic.has_vertical_movement",
         "Coordinates": "754, 130, -264",
         "MapLayer": 0
       },
       {
         "LocationId": 3764,
         "LocationName": "Shoudu Province Chest - Fall through floorboards of 10 Sky Arena Wins room 2",
-        "Rule": "logic.has_vertical_movement",
+        "Rule": "lambda state: logic.is_area_in_level_range(state, 5) and logic.has_vertical_movement",
         "Coordinates": "755, 130, -263",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 3700,
+        "LocationName": "Shoudu Province NPC - Chloe and Talon sky fishing",
+        "Rule": "logic.has_vertical_movement",
+        "Coordinates": "778, 131, -278",
         "MapLayer": 0
       },
       {
@@ -4267,35 +6294,35 @@
       {
         "LocationId": 51924,
         "LocationName": "Shoudu Province NPC - Sky Arena 7 Wins Prize",
-        "Rule": "logic.has_vertical_movement",
+        "Rule": "lambda state: logic.is_area_in_level_range(state, 4) and logic.has_vertical_movement",
         "Coordinates": "765, 125, -248",
         "MapLayer": 0
       },
       {
         "LocationId": 1921,
         "LocationName": "Shoudu Province NPC - Sky Arena 9 Wins Prize",
-        "Rule": "logic.has_vertical_movement",
+        "Rule": "lambda state: logic.is_area_in_level_range(state, 5) and logic.has_vertical_movement",
         "Coordinates": "765, 125, -248",
         "MapLayer": 0
       },
       {
         "LocationId": 2833,
         "LocationName": "Shoudu Province NPC - 10 Sky Arena Wins room Diamond 1",
-        "Rule": "logic.has_vertical_movement",
+        "Rule": "lambda state: logic.is_area_in_level_range(state, 5) and logic.has_vertical_movement",
         "Coordinates": "752, 133, -262",
         "MapLayer": 0
       },
       {
         "LocationId": 2811,
         "LocationName": "Shoudu Province NPC - 10 Sky Arena Wins room Diamond 2",
-        "Rule": "logic.has_vertical_movement",
+        "Rule": "lambda state: logic.is_area_in_level_range(state, 5) and logic.has_vertical_movement",
         "Coordinates": "756, 133, -261",
         "MapLayer": 0
       },
       {
         "LocationId": 2832,
         "LocationName": "Shoudu Province NPC - Diamond through a hole in the 10 Sky Arena Wins room floor",
-        "Rule": "logic.has_vertical_movement",
+        "Rule": "lambda state: logic.is_area_in_level_range(state, 5) and logic.has_vertical_movement",
         "Coordinates": "753, 130, -264",
         "MapLayer": 0
       },
@@ -4351,14 +6378,14 @@
       {
         "LocationId": 2830,
         "LocationName": "Shoudu Province NPC - Gold in 8 Sky Arena Wins room 1",
-        "Rule": "logic.has_vertical_movement",
+        "Rule": "lambda state: logic.is_area_in_level_range(state, 4) and logic.has_vertical_movement",
         "Coordinates": "746, 133, -262",
         "MapLayer": 0
       },
       {
         "LocationId": 2831,
         "LocationName": "Shoudu Province NPC - Gold in 8 Sky Arena Wins room 2",
-        "Rule": "logic.has_vertical_movement",
+        "Rule": "lambda state: logic.is_area_in_level_range(state, 4) and logic.has_vertical_movement",
         "Coordinates": "750, 133, -263",
         "MapLayer": 0
       },
@@ -4368,6 +6395,300 @@
         "Rule": "logic.has_vertical_movement",
         "Coordinates": "741, 129, -248",
         "MapLayer": 0
+      },
+      {
+        "LocationId": 951,
+        "LocationName": "Shoudu Province Shop - Item Merchant 1",
+        "Rule": null,
+        "Coordinates": "767, 96, -170",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 10951,
+        "LocationName": "Shoudu Province Shop - Item Merchant 2",
+        "Rule": null,
+        "Coordinates": "767, 96, -170",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 20951,
+        "LocationName": "Shoudu Province Shop - Item Merchant 3",
+        "Rule": null,
+        "Coordinates": "767, 96, -170",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 30951,
+        "LocationName": "Shoudu Province Shop - Item Merchant 4",
+        "Rule": null,
+        "Coordinates": "767, 96, -170",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 40951,
+        "LocationName": "Shoudu Province Shop - Item Merchant 5",
+        "Rule": null,
+        "Coordinates": "767, 96, -170",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 50951,
+        "LocationName": "Shoudu Province Shop - Item Merchant 6",
+        "Rule": null,
+        "Coordinates": "767, 96, -170",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 60951,
+        "LocationName": "Shoudu Province Shop - Item Merchant 7",
+        "Rule": null,
+        "Coordinates": "767, 96, -170",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 70951,
+        "LocationName": "Shoudu Province Shop - Item Merchant 8",
+        "Rule": null,
+        "Coordinates": "767, 96, -170",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 80951,
+        "LocationName": "Shoudu Province Shop - Item Merchant 9",
+        "Rule": null,
+        "Coordinates": "767, 96, -170",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 1199,
+        "LocationName": "Shoudu Province Shop - No Shoudu Stew for you 1",
+        "Rule": null,
+        "Coordinates": "781, 96, -170",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 1614,
+        "LocationName": "Shoudu Province Shop - Accessory Merchant 1",
+        "Rule": "logic.has_vertical_movement or logic.has_glide",
+        "Coordinates": "739, 119, -221",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 11614,
+        "LocationName": "Shoudu Province Shop - Accessory Merchant 2",
+        "Rule": "logic.has_vertical_movement or logic.has_glide",
+        "Coordinates": "739, 119, -221",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 21614,
+        "LocationName": "Shoudu Province Shop - Accessory Merchant 3",
+        "Rule": "logic.has_vertical_movement or logic.has_glide",
+        "Coordinates": "739, 119, -221",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 31614,
+        "LocationName": "Shoudu Province Shop - Accessory Merchant 4",
+        "Rule": "logic.has_vertical_movement or logic.has_glide",
+        "Coordinates": "739, 119, -221",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 41614,
+        "LocationName": "Shoudu Province Shop - Accessory Merchant 5",
+        "Rule": "logic.has_vertical_movement or logic.has_glide",
+        "Coordinates": "739, 119, -221",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 51614,
+        "LocationName": "Shoudu Province Shop - Accessory Merchant 6",
+        "Rule": "logic.has_vertical_movement or logic.has_glide",
+        "Coordinates": "739, 119, -221",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 1535,
+        "LocationName": "Shoudu Province Shop - Armor Merchant 1",
+        "Rule": "logic.has_vertical_movement or logic.has_glide",
+        "Coordinates": "778, 116, -220",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 11535,
+        "LocationName": "Shoudu Province Shop - Armor Merchant 2",
+        "Rule": "logic.has_vertical_movement or logic.has_glide",
+        "Coordinates": "778, 116, -220",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 21535,
+        "LocationName": "Shoudu Province Shop - Armor Merchant 3",
+        "Rule": "logic.has_vertical_movement or logic.has_glide",
+        "Coordinates": "778, 116, -220",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 31535,
+        "LocationName": "Shoudu Province Shop - Armor Merchant 4",
+        "Rule": "logic.has_vertical_movement or logic.has_glide",
+        "Coordinates": "778, 116, -220",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 41535,
+        "LocationName": "Shoudu Province Shop - Armor Merchant 5",
+        "Rule": "logic.has_vertical_movement or logic.has_glide",
+        "Coordinates": "778, 116, -220",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 51535,
+        "LocationName": "Shoudu Province Shop - Armor Merchant 6",
+        "Rule": "logic.has_vertical_movement or logic.has_glide",
+        "Coordinates": "778, 116, -220",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 61535,
+        "LocationName": "Shoudu Province Shop - Armor Merchant 7",
+        "Rule": "logic.has_vertical_movement or logic.has_glide",
+        "Coordinates": "778, 116, -220",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 71535,
+        "LocationName": "Shoudu Province Shop - Armor Merchant 8",
+        "Rule": "logic.has_vertical_movement or logic.has_glide",
+        "Coordinates": "778, 116, -220",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 81535,
+        "LocationName": "Shoudu Province Shop - Armor Merchant 9",
+        "Rule": "logic.has_vertical_movement or logic.has_glide",
+        "Coordinates": "778, 116, -220",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 91535,
+        "LocationName": "Shoudu Province Shop - Armor Merchant 10",
+        "Rule": "logic.has_vertical_movement or logic.has_glide",
+        "Coordinates": "778, 116, -220",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 1544,
+        "LocationName": "Shoudu Province Shop - Weapon Merchant 1",
+        "Rule": "logic.has_vertical_movement or logic.has_glide",
+        "Coordinates": "764, 116, -220",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 11544,
+        "LocationName": "Shoudu Province Shop - Weapon Merchant 2",
+        "Rule": "logic.has_vertical_movement or logic.has_glide",
+        "Coordinates": "764, 116, -220",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 21544,
+        "LocationName": "Shoudu Province Shop - Weapon Merchant 3",
+        "Rule": "logic.has_vertical_movement or logic.has_glide",
+        "Coordinates": "764, 116, -220",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 31544,
+        "LocationName": "Shoudu Province Shop - Weapon Merchant 4",
+        "Rule": "logic.has_vertical_movement or logic.has_glide",
+        "Coordinates": "764, 116, -220",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 41544,
+        "LocationName": "Shoudu Province Shop - Weapon Merchant 5",
+        "Rule": "logic.has_vertical_movement or logic.has_glide",
+        "Coordinates": "764, 116, -220",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 51544,
+        "LocationName": "Shoudu Province Shop - Weapon Merchant 6",
+        "Rule": "logic.has_vertical_movement or logic.has_glide",
+        "Coordinates": "764, 116, -220",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 61544,
+        "LocationName": "Shoudu Province Shop - Weapon Merchant 7",
+        "Rule": "logic.has_vertical_movement or logic.has_glide",
+        "Coordinates": "764, 116, -220",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 71544,
+        "LocationName": "Shoudu Province Shop - Weapon Merchant 8",
+        "Rule": "logic.has_vertical_movement or logic.has_glide",
+        "Coordinates": "764, 116, -220",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 81544,
+        "LocationName": "Shoudu Province Shop - Weapon Merchant 9",
+        "Rule": "logic.has_vertical_movement or logic.has_glide",
+        "Coordinates": "764, 116, -220",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 91544,
+        "LocationName": "Shoudu Province Shop - Weapon Merchant 10",
+        "Rule": "logic.has_vertical_movement or logic.has_glide",
+        "Coordinates": "764, 116, -220",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 101544,
+        "LocationName": "Shoudu Province Shop - Weapon Merchant 11",
+        "Rule": "logic.has_vertical_movement or logic.has_glide",
+        "Coordinates": "764, 116, -220",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 111544,
+        "LocationName": "Shoudu Province Shop - Weapon Merchant 12",
+        "Rule": "logic.has_vertical_movement or logic.has_glide",
+        "Coordinates": "764, 116, -220",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 121544,
+        "LocationName": "Shoudu Province Shop - Weapon Merchant 13",
+        "Rule": "logic.has_vertical_movement or logic.has_glide",
+        "Coordinates": "764, 116, -220",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 131544,
+        "LocationName": "Shoudu Province Shop - Weapon Merchant 14",
+        "Rule": "logic.has_vertical_movement or logic.has_glide",
+        "Coordinates": "764, 116, -220",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 141544,
+        "LocationName": "Shoudu Province Shop - Weapon Merchant 15",
+        "Rule": "logic.has_vertical_movement or logic.has_glide",
+        "Coordinates": "764, 116, -220",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 151544,
+        "LocationName": "Shoudu Province Shop - Weapon Merchant 16",
+        "Rule": "logic.has_vertical_movement or logic.has_glide",
+        "Coordinates": "764, 116, -220",
+        "MapLayer": 0
       }
     ]
   },
@@ -4376,11 +6697,11 @@
     "Connections": [
       {
         "ConnectionName": "Shoudu Province",
-        "Rule": null
+        "Rule": "lambda state: logic.is_area_in_level_range(state, 3)"
       },
       {
         "ConnectionName": "The Open Sea",
-        "Rule": "logic.has_swimming"
+        "Rule": "lambda state: logic.has_swimming and logic.is_area_in_level_range(state, 5)"
       }
     ],
     "Locations": [
@@ -4552,7 +6873,7 @@
     "Connections": [
       {
         "ConnectionName": "Shoudu Province",
-        "Rule": null
+        "Rule": "lambda state: logic.is_area_in_level_range(state, 3)"
       }
     ],
     "Locations": [
@@ -4562,6 +6883,27 @@
         "Rule": "lambda state: state.has(\"Item - Ganymede Stone\", player)",
         "Coordinates": "687, 164, -251",
         "MapLayer": 0
+      },
+      {
+        "LocationId": 1574,
+        "LocationName": "Ganymede Shrine Shop - Attendant 1",
+        "Rule": null,
+        "Coordinates": "687, 159, -248",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 11574,
+        "LocationName": "Ganymede Shrine Shop - Attendant 2",
+        "Rule": null,
+        "Coordinates": "687, 159, -248",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 21574,
+        "LocationName": "Ganymede Shrine Shop - Attendant 3",
+        "Rule": null,
+        "Coordinates": "687, 159, -248",
+        "MapLayer": 0
       }
     ]
   },
@@ -4570,15 +6912,15 @@
     "Connections": [
       {
         "ConnectionName": "Sara Sara Beach",
-        "Rule": null
+        "Rule": "lambda state: logic.is_area_in_level_range(state, 3)"
       },
       {
         "ConnectionName": "Beaurior Rock",
-        "Rule": "logic.has_vertical_movement"
+        "Rule": "lambda state: logic.has_vertical_movement and logic.is_area_in_level_range(state, 3)"
       },
       {
         "ConnectionName": "The Open Sea",
-        "Rule": "logic.has_swimming"
+        "Rule": "lambda state: logic.has_swimming and logic.is_area_in_level_range(state, 5)"
       }
     ],
     "Locations": [
@@ -4617,28 +6959,28 @@
       {
         "LocationId": 1796,
         "LocationName": "Beaurior Rock Chest - B4 big lava room with optional boss",
-        "Rule": null,
+        "Rule": "lambda state: logic.has_key(state, SMALL_KEY, 2)",
         "Coordinates": "107, 108, 77",
         "MapLayer": 8
       },
       {
         "LocationId": 481,
         "LocationName": "Beaurior Rock Chest - Caged in far corner of B4 big lava room with optional boss",
-        "Rule": null,
+        "Rule": "lambda state: logic.has_key(state, SMALL_KEY, 2)",
         "Coordinates": "78, 108, 79",
         "MapLayer": 8
       },
       {
         "LocationId": 724,
         "LocationName": "Beaurior Rock Chest - Caged through secret tunnel in B4 big lava room with optional boss",
-        "Rule": "lambda state: logic.has_small_key(state, 2)",
+        "Rule": "lambda state: logic.has_key(state, SMALL_KEY, 2)",
         "Coordinates": "107, 108, 102",
         "MapLayer": 8
       },
       {
         "LocationId": 1682,
         "LocationName": "Beaurior Rock Chest - Island in B4 big lava room with optional boss",
-        "Rule": "lambda state: logic.has_small_key(state, 2)",
+        "Rule": "lambda state: logic.has_key(state, SMALL_KEY, 2)",
         "Coordinates": "113, 108, 93",
         "MapLayer": 8
       },
@@ -4652,126 +6994,126 @@
       {
         "LocationId": 1337,
         "LocationName": "Beaurior Rock Chest - B3 balcony above the lava",
-        "Rule": "lambda state: logic.has_small_key(state, 1)",
+        "Rule": "lambda state: logic.has_key(state, SMALL_KEY)",
         "Coordinates": "90, 116, 90",
         "MapLayer": 7
       },
       {
         "LocationId": 2973,
         "LocationName": "Beaurior Rock Chest - B2 with the Lets Make a Deal doors",
-        "Rule": "lambda state: logic.has_small_key(state, 2)",
+        "Rule": "lambda state: logic.has_key(state, SMALL_KEY, 2)",
         "Coordinates": "113, 124, 95",
         "MapLayer": 6
       },
       {
         "LocationId": 818,
         "LocationName": "Beaurior Rock Chest - B1 overlooking the catwalks room",
-        "Rule": "lambda state: logic.has_small_key(state, 2)",
+        "Rule": "lambda state: logic.has_key(state, SMALL_KEY, 2)",
         "Coordinates": "102, 132, 90",
         "MapLayer": 5
       },
       {
         "LocationId": 2916,
         "LocationName": "Beaurior Rock Chest - B1 square pokeball room",
-        "Rule": "lambda state: logic.has_small_key(state, 2)",
+        "Rule": "lambda state: logic.has_key(state, SMALL_KEY, 2)",
         "Coordinates": "116, 132, 86",
         "MapLayer": 5
       },
       {
         "LocationId": 899,
         "LocationName": "Beaurior Rock Chest - B3 behind wrought-iron fence",
-        "Rule": "lambda state: logic.has_small_key(state, 2)",
+        "Rule": "lambda state: logic.has_key(state, SMALL_KEY, 2)",
         "Coordinates": "109, 116, 94",
         "MapLayer": 7
       },
       {
         "LocationId": 1797,
         "LocationName": "Beaurior Rock Chest - B3 ominous green dumplings room",
-        "Rule": "lambda state: logic.has_small_key(state, 2)",
+        "Rule": "lambda state: logic.has_key(state, SMALL_KEY, 2)",
         "Coordinates": "113, 116, 108",
         "MapLayer": 7
       },
       {
         "LocationId": 2044,
         "LocationName": "Beaurior Rock Chest - B2 danger hops back to purple",
-        "Rule": "lambda state: logic.has_small_key(state, 4)",
+        "Rule": "lambda state: logic.has_key(state, SMALL_KEY, 4)",
         "Coordinates": "109, 124, 104",
         "MapLayer": 6
       },
       {
         "LocationId": 2041,
         "LocationName": "Beaurior Rock Chest - B1 cheeky lava platforming 1",
-        "Rule": "lambda state: logic.has_small_key(state, 4)",
+        "Rule": "lambda state: logic.has_key(state, SMALL_KEY, 4)",
         "Coordinates": "100, 132, 108",
         "MapLayer": 5
       },
       {
         "LocationId": 1799,
         "LocationName": "Beaurior Rock Chest - B1 cheeky lava platforming 2",
-        "Rule": "lambda state: logic.has_small_key(state, 4)",
+        "Rule": "lambda state: logic.has_key(state, SMALL_KEY, 4)",
         "Coordinates": "101, 132, 107",
         "MapLayer": 5
       },
       {
         "LocationId": 2040,
         "LocationName": "Beaurior Rock Chest - B1 jump to odd ice block",
-        "Rule": "lambda state: logic.has_small_key(state, 4)",
+        "Rule": "lambda state: logic.has_key(state, SMALL_KEY, 4)",
         "Coordinates": "95, 132, 72",
         "MapLayer": 5
       },
       {
         "LocationId": 1683,
         "LocationName": "Beaurior Rock Chest - Top floor ominous lamps room",
-        "Rule": "lambda state: logic.has_small_key(state, 4)",
+        "Rule": "lambda state: logic.has_key(state, SMALL_KEY, 4)",
         "Coordinates": "113, 140, 89",
         "MapLayer": 4
       },
       {
         "LocationId": 2822,
         "LocationName": "Beaurior Rock NPC - Gold in B4 big lava room with optional boss",
-        "Rule": "lambda state: logic.has_small_key(state, 1) and logic.has_horizontal_movement",
+        "Rule": "lambda state: logic.has_key(state, SMALL_KEY) and logic.has_horizontal_movement",
         "Coordinates": "102, 108, 103",
         "MapLayer": 8
       },
       {
         "LocationId": 2823,
         "LocationName": "Beaurior Rock NPC - B1 cheeky lava platforming Gold",
-        "Rule": "lambda state: logic.has_small_key(state, 4)",
+        "Rule": "lambda state: logic.has_key(state, SMALL_KEY, 4)",
         "Coordinates": "90, 132, 108",
         "MapLayer": 5
       },
       {
         "LocationId": 2824,
         "LocationName": "Beaurior Rock NPC - B1 Magic Well friendos hiding in the pillars",
-        "Rule": "lambda state: logic.has_small_key(state, 4) and logic.has_horizontal_movement",
+        "Rule": "lambda state: logic.has_key(state, SMALL_KEY, 4) and logic.has_horizontal_movement",
         "Coordinates": "75, 132, 90",
         "MapLayer": 5
       },
       {
         "LocationId": 2836,
         "LocationName": "Beaurior Volcano NPC - Summit Gold",
-        "Rule": "lambda state: logic.has_small_key(state, 4) and logic.has_horizontal_movement",
+        "Rule": "lambda state: logic.has_key(state, SMALL_KEY, 4) and logic.has_horizontal_movement",
         "Coordinates": "90, 157, 109",
         "MapLayer": 0
       },
       {
         "LocationId": 1086,
         "LocationName": "Beaurior Volcano Crystal - Valkyrie",
-        "Rule": "lambda state: logic.has_small_key(state, 4) and logic.has_boss_key",
+        "Rule": "lambda state: logic.has_key(state, SMALL_KEY, 4) and logic.has_key(state, BEAURIOR_BOSS_KEY)",
         "Coordinates": "95, 165, 90",
         "MapLayer": 0
       },
       {
         "LocationId": 821,
         "LocationName": "Beaurior Rock Boss - Ancient Sword",
-        "Rule": "lambda state: logic.has_small_key(state, 2)",
+        "Rule": "lambda state: logic.has_key(state, SMALL_KEY, 2)",
         "Coordinates": "118, 109, 102",
         "MapLayer": 8
       },
       {
         "LocationId": 862,
         "LocationName": "Beaurior Rock Boss - Iguanadon & Iguanadin",
-        "Rule": "lambda state: logic.has_small_key(state, 4) and logic.has_boss_key",
+        "Rule": "lambda state: logic.has_key(state, SMALL_KEY, 4) and logic.has_key(state, BEAURIOR_BOSS_KEY)",
         "Coordinates": "77, 124, 74",
         "MapLayer": 6
       }
@@ -4782,7 +7124,7 @@
     "Connections": [
       {
         "ConnectionName": "Poko Poko Desert",
-        "Rule": "logic.has_vertical_movement"
+        "Rule": "lambda state: logic.has_vertical_movement and logic.is_area_in_level_range(state, 2)"
       },
       {
         "ConnectionName": "Delende",
@@ -4818,7 +7160,7 @@
     "Connections": [
       {
         "ConnectionName": "Shoudu Province",
-        "Rule": null
+        "Rule": "lambda state: logic.is_area_in_level_range(state, 3)"
       },
       {
         "ConnectionName": "Dione Shrine",
@@ -4826,7 +7168,7 @@
       },
       {
         "ConnectionName": "Quintar Mausoleum",
-        "Rule": "logic.has_swimming"
+        "Rule": "lambda state: logic.has_swimming and logic.is_area_in_level_range(state, 5)"
       }
     ],
     "Locations": [
@@ -4849,6 +7191,13 @@
         "LocationName": "Quintar Reserve Chest - Hollowed-out wall of Mausoleum",
         "Rule": "logic.has_glide",
         "Coordinates": "699, 197, -326",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 427,
+        "LocationName": "Quintar Reserve NPC - Eastern Quintar overlooking the sea",
+        "Rule": "lambda state: state.has(\"Item - Babel Quintar\", player)",
+        "Coordinates": "789, 191, -338",
         "MapLayer": 0
       },
       {
@@ -4948,6 +7297,41 @@
         "Rule": "lambda state: logic.has_vertical_movement and logic.has_horizontal_movement and state.has(\"Item - Dione Stone\", player)",
         "Coordinates": "685, 208, -417",
         "MapLayer": 0
+      },
+      {
+        "LocationId": 470,
+        "LocationName": "Quintar Reserve Shop - Babel to this Quintar 1",
+        "Rule": "lambda state: state.has(\"Item - Babel Quintar\", player)",
+        "Coordinates": "724, 190, -315",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 10470,
+        "LocationName": "Quintar Reserve Shop - Babel to this Quintar 2",
+        "Rule": "lambda state: state.has(\"Item - Babel Quintar\", player)",
+        "Coordinates": "724, 190, -315",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 20470,
+        "LocationName": "Quintar Reserve Shop - Babel to this Quintar 3",
+        "Rule": "lambda state: state.has(\"Item - Babel Quintar\", player)",
+        "Coordinates": "724, 190, -315",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 30470,
+        "LocationName": "Quintar Reserve Shop - Babel to this Quintar 4",
+        "Rule": "lambda state: state.has(\"Item - Babel Quintar\", player)",
+        "Coordinates": "724, 190, -315",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 40470,
+        "LocationName": "Quintar Reserve Shop - Babel to this Quintar 5",
+        "Rule": "lambda state: state.has(\"Item - Babel Quintar\", player)",
+        "Coordinates": "724, 190, -315",
+        "MapLayer": 0
       }
     ]
   },
@@ -4964,11 +7348,11 @@
       },
       {
         "ConnectionName": "Jidamba Tangle",
-        "Rule": "logic.has_glide"
+        "Rule": "lambda state: logic.has_glide and logic.is_area_in_level_range(state, 5)"
       },
       {
         "ConnectionName": "The Chalice of Tar",
-        "Rule": "lambda state: logic.has_glide and state.has(\"Item - Dione Stone\", world.player)"
+        "Rule": "lambda state: logic.has_glide and state.has(\"Item - Dione Stone\", world.player) and logic.is_area_in_level_range(state, 5)"
       }
     ],
     "Locations": [
@@ -5027,6 +7411,83 @@
         "Rule": "lambda state: logic.has_glide and state.has(\"Item - Dione Stone\", player)",
         "Coordinates": "642, 220, -409",
         "MapLayer": 0
+      },
+      {
+        "LocationId": 2253,
+        "LocationName": "Dione Shrine Shop - Quintar Attendant 1",
+        "Rule": "lambda state: state.has(\"Item - Babel Quintar\", player)",
+        "Coordinates": "680, 216, -453",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 12253,
+        "LocationName": "Dione Shrine Shop - Quintar Attendant 2",
+        "Rule": "lambda state: state.has(\"Item - Babel Quintar\", player)",
+        "Coordinates": "680, 216, -453",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 2227,
+        "LocationName": "Dione Shrine Shop - Quintar Raising Supplies 1",
+        "Rule": "lambda state: state.has(\"Item - Babel Quintar\", player)",
+        "Coordinates": "680, 207, -459",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 12227,
+        "LocationName": "Dione Shrine Shop - Quintar Raising Supplies 2",
+        "Rule": "lambda state: state.has(\"Item - Babel Quintar\", player)",
+        "Coordinates": "680, 207, -459",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 22227,
+        "LocationName": "Dione Shrine Shop - Quintar Raising Supplies 3",
+        "Rule": "lambda state: state.has(\"Item - Babel Quintar\", player)",
+        "Coordinates": "680, 207, -459",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 32227,
+        "LocationName": "Dione Shrine Shop - Quintar Raising Supplies 4",
+        "Rule": "lambda state: state.has(\"Item - Babel Quintar\", player)",
+        "Coordinates": "680, 207, -459",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 42227,
+        "LocationName": "Dione Shrine Shop - Quintar Raising Supplies 5",
+        "Rule": "lambda state: state.has(\"Item - Babel Quintar\", player)",
+        "Coordinates": "680, 207, -459",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 52227,
+        "LocationName": "Dione Shrine Shop - Quintar Raising Supplies 6",
+        "Rule": "lambda state: state.has(\"Item - Babel Quintar\", player)",
+        "Coordinates": "680, 207, -459",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 62227,
+        "LocationName": "Dione Shrine Shop - Quintar Raising Supplies 7",
+        "Rule": "lambda state: state.has(\"Item - Babel Quintar\", player)",
+        "Coordinates": "680, 207, -459",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 72227,
+        "LocationName": "Dione Shrine Shop - Quintar Raising Supplies 8",
+        "Rule": "lambda state: state.has(\"Item - Babel Quintar\", player)",
+        "Coordinates": "680, 207, -459",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 82227,
+        "LocationName": "Dione Shrine Shop - Quintar Raising Supplies 9",
+        "Rule": "lambda state: state.has(\"Item - Babel Quintar\", player)",
+        "Coordinates": "680, 207, -459",
+        "MapLayer": 0
       }
     ]
   },
@@ -5035,11 +7496,11 @@
     "Connections": [
       {
         "ConnectionName": "Quintar Reserve",
-        "Rule": "logic.has_swimming"
+        "Rule": "lambda state: logic.has_swimming and logic.is_area_in_level_range(state, 4)"
       },
       {
         "ConnectionName": "Quintar Sanctum",
-        "Rule": "logic.has_swimming"
+        "Rule": "lambda state: logic.has_swimming and logic.is_area_in_level_range(state, 2)"
       }
     ],
     "Locations": [
@@ -5078,11 +7539,11 @@
     "Connections": [
       {
         "ConnectionName": "Quintar Reserve",
-        "Rule": "logic.has_glide"
+        "Rule": "lambda state: logic.has_glide and logic.is_area_in_level_range(state, 4)"
       },
       {
         "ConnectionName": "The Open Sea",
-        "Rule": "logic.has_swimming"
+        "Rule": "lambda state: logic.has_swimming and logic.is_area_in_level_range(state, 5)"
       }
     ],
     "Locations": [
@@ -5096,7 +7557,7 @@
       {
         "LocationId": 3476,
         "LocationName": "Eastern Chasm Boss - Undergrowth",
-        "Rule": null,
+        "Rule": "lambda state: logic.is_area_in_level_range(state, 5)",
         "Coordinates": "753, 159, -389",
         "MapLayer": 1
       }
@@ -5115,7 +7576,7 @@
       },
       {
         "ConnectionName": "Lands End",
-        "Rule": "logic.has_vertical_movement"
+        "Rule": "lambda state: logic.has_vertical_movement and logic.is_area_in_level_range(state, 4)"
       },
       {
         "ConnectionName": "Sequoia Athenaeum",
@@ -5127,11 +7588,11 @@
       },
       {
         "ConnectionName": "Castle Ramparts",
-        "Rule": "logic.has_vertical_movement"
+        "Rule": "lambda state: logic.has_vertical_movement and logic.is_area_in_level_range(state, 4)"
       },
       {
         "ConnectionName": "The Chalice of Tar",
-        "Rule": "logic.has_glide and logic.has_vertical_movement"
+        "Rule": "lambda state: logic.has_glide and logic.has_vertical_movement and logic.is_area_in_level_range(state, 5)"
       },
       {
         "ConnectionName": "Pale Grotto",
@@ -5349,8 +7810,190 @@
       {
         "LocationId": 3637,
         "LocationName": "Tall Tall Heights Boss - Hermetic",
-        "Rule": "logic.has_vertical_movement",
+        "Rule": "lambda state: logic.has_vertical_movement and logic.has_glide and logic.is_area_in_level_range(state, 5)",
         "Coordinates": "448, 190, -504",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 1165,
+        "LocationName": "Triton Shrine Shop - Attendant 1",
+        "Rule": null,
+        "Coordinates": "239, 203, -490",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 11165,
+        "LocationName": "Triton Shrine Shop - Attendant 2",
+        "Rule": null,
+        "Coordinates": "239, 203, -490",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 2746,
+        "LocationName": "Tall Tall Heights Shop - Armor Merchant 1",
+        "Rule": "logic.has_vertical_movement and logic.has_glide",
+        "Coordinates": "339, 202, -538",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 12746,
+        "LocationName": "Tall Tall Heights Shop - Armor Merchant 2",
+        "Rule": "logic.has_vertical_movement and logic.has_glide",
+        "Coordinates": "339, 202, -538",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 22746,
+        "LocationName": "Tall Tall Heights Shop - Armor Merchant 3",
+        "Rule": "logic.has_vertical_movement and logic.has_glide",
+        "Coordinates": "339, 202, -538",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 32746,
+        "LocationName": "Tall Tall Heights Shop - Armor Merchant 4",
+        "Rule": "logic.has_vertical_movement and logic.has_glide",
+        "Coordinates": "339, 202, -538",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 42746,
+        "LocationName": "Tall Tall Heights Shop - Armor Merchant 5",
+        "Rule": "logic.has_vertical_movement and logic.has_glide",
+        "Coordinates": "339, 202, -538",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 52746,
+        "LocationName": "Tall Tall Heights Shop - Armor Merchant 6",
+        "Rule": "logic.has_vertical_movement and logic.has_glide",
+        "Coordinates": "339, 202, -538",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 62746,
+        "LocationName": "Tall Tall Heights Shop - Armor Merchant 7",
+        "Rule": "logic.has_vertical_movement and logic.has_glide",
+        "Coordinates": "339, 202, -538",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 72746,
+        "LocationName": "Tall Tall Heights Shop - Armor Merchant 8",
+        "Rule": "logic.has_vertical_movement and logic.has_glide",
+        "Coordinates": "339, 202, -538",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 82746,
+        "LocationName": "Tall Tall Heights Shop - Armor Merchant 9",
+        "Rule": "logic.has_vertical_movement and logic.has_glide",
+        "Coordinates": "339, 202, -538",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 92746,
+        "LocationName": "Tall Tall Heights Shop - Armor Merchant 10",
+        "Rule": "logic.has_vertical_movement and logic.has_glide",
+        "Coordinates": "339, 202, -538",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 540,
+        "LocationName": "Tall Tall Heights Shop - Weapon Merchant 1",
+        "Rule": "logic.has_vertical_movement and logic.has_glide",
+        "Coordinates": "337, 202, -538",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 10540,
+        "LocationName": "Tall Tall Heights Shop - Weapon Merchant 2",
+        "Rule": "logic.has_vertical_movement and logic.has_glide",
+        "Coordinates": "337, 202, -538",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 20540,
+        "LocationName": "Tall Tall Heights Shop - Weapon Merchant 3",
+        "Rule": "logic.has_vertical_movement and logic.has_glide",
+        "Coordinates": "337, 202, -538",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 30540,
+        "LocationName": "Tall Tall Heights Shop - Weapon Merchant 4",
+        "Rule": "logic.has_vertical_movement and logic.has_glide",
+        "Coordinates": "337, 202, -538",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 40540,
+        "LocationName": "Tall Tall Heights Shop - Weapon Merchant 5",
+        "Rule": "logic.has_vertical_movement and logic.has_glide",
+        "Coordinates": "337, 202, -538",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 50540,
+        "LocationName": "Tall Tall Heights Shop - Weapon Merchant 6",
+        "Rule": "logic.has_vertical_movement and logic.has_glide",
+        "Coordinates": "337, 202, -538",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 60540,
+        "LocationName": "Tall Tall Heights Shop - Weapon Merchant 7",
+        "Rule": "logic.has_vertical_movement and logic.has_glide",
+        "Coordinates": "337, 202, -538",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 70540,
+        "LocationName": "Tall Tall Heights Shop - Weapon Merchant 8",
+        "Rule": "logic.has_vertical_movement and logic.has_glide",
+        "Coordinates": "337, 202, -538",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 80540,
+        "LocationName": "Tall Tall Heights Shop - Weapon Merchant 9",
+        "Rule": "logic.has_vertical_movement and logic.has_glide",
+        "Coordinates": "337, 202, -538",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 90540,
+        "LocationName": "Tall Tall Heights Shop - Weapon Merchant 10",
+        "Rule": "logic.has_vertical_movement and logic.has_glide",
+        "Coordinates": "337, 202, -538",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 2918,
+        "LocationName": "Tall Tall Heights Shop - Souvenir Merchant 1",
+        "Rule": "logic.has_vertical_movement and logic.has_glide",
+        "Coordinates": "334, 202, -535",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 12918,
+        "LocationName": "Tall Tall Heights Shop - Souvenir Merchant 2",
+        "Rule": "logic.has_vertical_movement and logic.has_glide",
+        "Coordinates": "334, 202, -535",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 22918,
+        "LocationName": "Tall Tall Heights Shop - Souvenir Merchant 3",
+        "Rule": "logic.has_vertical_movement and logic.has_glide",
+        "Coordinates": "334, 202, -535",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 32918,
+        "LocationName": "Tall Tall Heights Shop - Souvenir Merchant 4",
+        "Rule": "logic.has_vertical_movement and logic.has_glide",
+        "Coordinates": "334, 202, -535",
         "MapLayer": 0
       }
     ]
@@ -5360,7 +8003,7 @@
     "Connections": [
       {
         "ConnectionName": "Tall Tall Heights",
-        "Rule": "logic.has_vertical_movement"
+        "Rule": "lambda state: logic.has_vertical_movement and logic.is_area_in_level_range(state, 4)"
       },
       {
         "ConnectionName": "Slip Glide Ride",
@@ -5410,11 +8053,11 @@
     "Connections": [
       {
         "ConnectionName": "Tall Tall Heights",
-        "Rule": "logic.has_vertical_movement"
+        "Rule": "lambda state: logic.has_vertical_movement and logic.is_area_in_level_range(state, 4)"
       },
       {
         "ConnectionName": "Jidamba Tangle",
-        "Rule": "logic.has_glide"
+        "Rule": "lambda state: logic.has_glide and logic.is_area_in_level_range(state, 5)"
       }
     ],
     "Locations": [
@@ -5537,18 +8180,18 @@
     "Connections": [
       {
         "ConnectionName": "Tall Tall Heights",
-        "Rule": "logic.has_vertical_movement and logic.has_glide"
+        "Rule": "lambda state: logic.has_vertical_movement and logic.has_glide and logic.is_area_in_level_range(state, 4)"
       },
       {
         "ConnectionName": "Northern Cave",
-        "Rule": "logic.has_glide"
+        "Rule": "lambda state: logic.has_glide and logic.is_area_in_level_range(state, 4)"
       }
     ],
     "Locations": [
       {
         "LocationId": 2554,
         "LocationName": "Slip Glide Ride Chest - Back out to 1st room",
-        "Rule": "lambda state: logic.has_red_door_key(state, 1)",
+        "Rule": "lambda state: logic.has_key(state, RED_DOOR_KEY)",
         "Coordinates": "246, 179, -520",
         "MapLayer": 4
       },
@@ -5569,21 +8212,21 @@
       {
         "LocationId": 1698,
         "LocationName": "Slip Glide Ride Chest - To the left through 2nd red lock",
-        "Rule": "lambda state: logic.has_red_door_key(state, 2)",
+        "Rule": "lambda state: logic.has_key(state, RED_DOOR_KEY, 2)",
         "Coordinates": "195, 156, -557",
         "MapLayer": 4
       },
       {
         "LocationId": 1716,
         "LocationName": "Slip Glide Ride Chest - Through 1st red lock",
-        "Rule": "lambda state: logic.has_red_door_key(state, 1)",
+        "Rule": "lambda state: logic.has_key(state, RED_DOOR_KEY)",
         "Coordinates": "200, 156, -539",
         "MapLayer": 4
       },
       {
         "LocationId": 1282,
         "LocationName": "Slip Glide Ride Chest - Past the mean Ibek jump",
-        "Rule": "lambda state: logic.has_red_door_key(state, 1)",
+        "Rule": "lambda state: logic.has_key(state, RED_DOOR_KEY)",
         "Coordinates": "254, 173, -538",
         "MapLayer": 4
       },
@@ -5597,7 +8240,7 @@
       {
         "LocationId": 1714,
         "LocationName": "Slip Glide Ride Crystal - Summoner",
-        "Rule": "lambda state: logic.has_red_door_key(state, 3)",
+        "Rule": "lambda state: logic.has_key(state, RED_DOOR_KEY, 3)",
         "Coordinates": "267, 155, -556",
         "MapLayer": 4
       },
@@ -5615,7 +8258,7 @@
     "Connections": [
       {
         "ConnectionName": "Tall Tall Heights",
-        "Rule": null
+        "Rule": "lambda state: logic.has_vertical_movement and logic.is_area_in_level_range(state, 4)"
       }
     ],
     "Locations": [
@@ -5643,42 +8286,42 @@
       {
         "LocationId": 2375,
         "LocationName": "Sequoia Athenaeum Chest - 3rd library Chips Challenge",
-        "Rule": "lambda state: logic.has_ice_puzzle_key(state, 1) and logic.has_vertical_movement",
+        "Rule": "lambda state: logic.has_key(state, ICE_PUZZLE_KEY) and logic.has_vertical_movement",
         "Coordinates": "396, 180, -570",
         "MapLayer": 4
       },
       {
         "LocationId": 2341,
         "LocationName": "Sequoia Athenaeum Chest - Chips Challenge ice squared",
-        "Rule": "lambda state: logic.has_ice_puzzle_key(state, 2) and logic.has_vertical_movement",
+        "Rule": "lambda state: logic.has_key(state, ICE_PUZZLE_KEY, 2) and logic.has_vertical_movement",
         "Coordinates": "396, 164, -570",
         "MapLayer": 5
       },
       {
         "LocationId": 2371,
         "LocationName": "Sequoia Athenaeum Chest - Chips Challenge we cheated on this one",
-        "Rule": "lambda state: logic.has_ice_puzzle_key(state, 3) and logic.has_vertical_movement",
+        "Rule": "lambda state: logic.has_key(state, ICE_PUZZLE_KEY, 3) and logic.has_vertical_movement",
         "Coordinates": "415, 164, -572",
         "MapLayer": 5
       },
       {
         "LocationId": 2372,
         "LocationName": "Sequoia Athenaeum Chest - Triple Chip Challenge",
-        "Rule": "lambda state: logic.has_ice_puzzle_key(state, 4) and logic.has_vertical_movement",
+        "Rule": "lambda state: logic.has_key(state, ICE_PUZZLE_KEY, 4) and logic.has_vertical_movement",
         "Coordinates": "434, 164, -570",
         "MapLayer": 5
       },
       {
         "LocationId": 2373,
         "LocationName": "Sequoia Athenaeum Chest - Shattered labyrinth Chips Challenge",
-        "Rule": "lambda state: logic.has_ice_puzzle_key(state, 5) and logic.has_vertical_movement",
+        "Rule": "lambda state: logic.has_key(state, ICE_PUZZLE_KEY, 5) and logic.has_vertical_movement",
         "Coordinates": "424, 148, -570",
         "MapLayer": 6
       },
       {
         "LocationId": 2335,
         "LocationName": "Sequoia Athenaeum Chest - You expected another Chips Challenge, but it was me, Dio!",
-        "Rule": "lambda state: logic.has_ice_puzzle_key(state, 6) and logic.has_vertical_movement",
+        "Rule": "lambda state: logic.has_key(state, ICE_PUZZLE_KEY, 6) and logic.has_vertical_movement",
         "Coordinates": "415, 131, -565",
         "MapLayer": 7
       }
@@ -5689,11 +8332,11 @@
     "Connections": [
       {
         "ConnectionName": "Tall Tall Heights",
-        "Rule": "logic.has_vertical_movement"
+        "Rule": "lambda state: logic.has_vertical_movement and logic.is_area_in_level_range(state, 4)"
       },
       {
         "ConnectionName": "The Open Sea",
-        "Rule": "logic.has_swimming"
+        "Rule": "lambda state: logic.has_swimming and logic.is_area_in_level_range(state, 5)"
       }
     ],
     "Locations": [
@@ -5711,7 +8354,7 @@
     "Connections": [
       {
         "ConnectionName": "Tall Tall Heights",
-        "Rule": "logic.has_vertical_movement"
+        "Rule": "lambda state: logic.has_vertical_movement and logic.is_area_in_level_range(state, 4)"
       }
     ],
     "Locations": [
@@ -5746,14 +8389,14 @@
       {
         "LocationId": 2758,
         "LocationName": "Castle Sequoia Chest - Locked Ramparts storage room 1",
-        "Rule": "logic.has_rampart_key and logic.has_glide",
+        "Rule": "lambda state: logic.has_key(state, RAMPART_KEY) and logic.has_glide",
         "Coordinates": "375, 232, -452",
         "MapLayer": 4
       },
       {
         "LocationId": 3657,
         "LocationName": "Castle Sequoia Chest - Locked Ramparts storage room 2",
-        "Rule": "logic.has_rampart_key and logic.has_glide",
+        "Rule": "lambda state: logic.has_key(state, RAMPART_KEY) and logic.has_glide",
         "Coordinates": "371, 231, -457",
         "MapLayer": 4
       },
@@ -5781,7 +8424,7 @@
       {
         "LocationId": 1373,
         "LocationName": "Castle Ramparts Boss - Rampart Demon",
-        "Rule": null,
+        "Rule": "logic.has_glide",
         "Coordinates": "404, 245, -377",
         "MapLayer": 0
       }
@@ -5792,11 +8435,11 @@
     "Connections": [
       {
         "ConnectionName": "Tall Tall Heights",
-        "Rule": "logic.has_glide"
+        "Rule": "lambda state: logic.has_glide and logic.is_area_in_level_range(state, 4)"
       },
       {
         "ConnectionName": "Quintar Reserve",
-        "Rule": "logic.has_glide"
+        "Rule": "lambda state: logic.has_glide and logic.is_area_in_level_range(state, 4)"
       }
     ],
     "Locations": [
@@ -5842,11 +8485,11 @@
     "Connections": [
       {
         "ConnectionName": "Okimoto N.S.",
-        "Rule": null
+        "Rule": "lambda state: logic.is_area_in_level_range(state, 2)"
       },
       {
         "ConnectionName": "Jidamba Tangle",
-        "Rule": "logic.has_glide"
+        "Rule": "lambda state: logic.has_glide and logic.is_area_in_level_range(state, 5)"
       }
     ],
     "Locations": [
@@ -5878,11 +8521,11 @@
     "Connections": [
       {
         "ConnectionName": "The Open Sea",
-        "Rule": "logic.has_swimming"
+        "Rule": "lambda state: logic.has_swimming and logic.is_area_in_level_range(state, 5)"
       },
       {
         "ConnectionName": "Jidamba Eaclaneya",
-        "Rule": "logic.has_jidamba_keys"
+        "Rule": "lambda state: logic.has_jidamba_keys and logic.is_area_in_level_range(state, 5)"
       }
     ],
     "Locations": [
@@ -6020,6 +8663,13 @@
         "MapLayer": 0
       },
       {
+        "LocationId": 2775,
+        "LocationName": "Jidamba Tangle NPC - Chloe Queen of the Canopy",
+        "Rule": null,
+        "Coordinates": "828, 119, 99",
+        "MapLayer": 0
+      },
+      {
         "LocationId": 2871,
         "LocationName": "Jidamba Tangle NPC - Splish splash Diamond",
         "Rule": "logic.has_vertical_movement and logic.has_glide",
@@ -6095,6 +8745,20 @@
         "Rule": "logic.has_vertical_movement and logic.has_glide",
         "Coordinates": "789, 127, 58",
         "MapLayer": 0
+      },
+      {
+        "LocationId": 1163,
+        "LocationName": "Europa Shrine Shop - Attendant 1",
+        "Rule": null,
+        "Coordinates": "760, 101, 31",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 11163,
+        "LocationName": "Europa Shrine Shop - Attendant 2",
+        "Rule": null,
+        "Coordinates": "760, 101, 31",
+        "MapLayer": 0
       }
     ]
   },
@@ -6107,7 +8771,7 @@
       },
       {
         "ConnectionName": "The Open Sea",
-        "Rule": "logic.has_swimming"
+        "Rule": "lambda state: logic.has_swimming and logic.is_area_in_level_range(state, 5)"
       }
     ],
     "Locations": [
@@ -6188,15 +8852,15 @@
     "Connections": [
       {
         "ConnectionName": "The Open Sea",
-        "Rule": "logic.has_swimming"
+        "Rule": "lambda state: logic.has_swimming and logic.is_area_in_level_range(state, 5)"
       },
       {
         "ConnectionName": "The Depths",
-        "Rule": "logic.has_swimming"
+        "Rule": "lambda state: logic.has_swimming and logic.is_area_in_level_range(state, 5)"
       },
       {
         "ConnectionName": "The Sequoia",
-        "Rule": "logic.has_golden_quintar"
+        "Rule": "lambda state: logic.has_golden_quintar and logic.is_area_in_level_range(state, 5)"
       }
     ],
     "Locations": [
@@ -6224,7 +8888,7 @@
       {
         "LocationId": 3660,
         "LocationName": "The Deep Sea Chest - Locked sunken house off Jidamba with mighty arch 1",
-        "Rule": "logic.has_forgotten_key",
+        "Rule": "lambda state: logic.has_key(state, FORGOTTEN_KEY)",
         "Coordinates": "657, 53, 165",
         "MapLayer": 0
       },
@@ -6315,7 +8979,7 @@
       {
         "LocationId": 2766,
         "LocationName": "The Deep Sea Chest - Locked sunken house off Jidamba with mighty arch 2",
-        "Rule": "logic.has_forgotten_key",
+        "Rule": "lambda state: logic.has_key(state, FORGOTTEN_KEY)",
         "Coordinates": "663, 54, 165",
         "MapLayer": 0
       },
@@ -6493,6 +9157,27 @@
         "Rule": null,
         "Coordinates": "-370, 53, -173",
         "MapLayer": 0
+      },
+      {
+        "LocationId": 3164,
+        "LocationName": "Neptune Shrine Shop - Attendant 1",
+        "Rule": null,
+        "Coordinates": "-272, 58, 219",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 13164,
+        "LocationName": "Neptune Shrine Shop - Attendant 2",
+        "Rule": null,
+        "Coordinates": "-272, 58, 219",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 23164,
+        "LocationName": "Neptune Shrine Shop - Attendant 3",
+        "Rule": null,
+        "Coordinates": "-272, 58, 219",
+        "MapLayer": 0
       }
     ]
   },
@@ -6569,7 +9254,7 @@
       {
         "LocationId": 1621,
         "LocationName": "Continental Tram Boss - Conscript",
-        "Rule": null,
+        "Rule": "lambda state: logic.is_area_in_level_range(state, 5)",
         "Coordinates": "230, 54, 41",
         "MapLayer": 0
       }
@@ -6608,28 +9293,28 @@
       {
         "LocationId": 2924,
         "LocationName": "Ancient Labyrinth Chest - B2 North weird rebar hallway",
-        "Rule": null,
+        "Rule": "lambda state: state.has(\"Item - Ancient Tablet B\", player)",
         "Coordinates": "-185, 63, -363",
         "MapLayer": 6
       },
       {
         "LocationId": 2926,
         "LocationName": "Ancient Labyrinth Chest - B2 East weird rebar hallway",
-        "Rule": null,
+        "Rule": "lambda state: state.has(\"Item - Ancient Tablet B\", player)",
         "Coordinates": "-162, 63, -336",
         "MapLayer": 6
       },
       {
         "LocationId": 3649,
         "LocationName": "Ancient Labyrinth Chest - B4 Tar pit platform",
-        "Rule": null,
+        "Rule": "lambda state: state.has(\"Item - Ancient Tablet B\", player) and state.has(\"Item - Ancient Tablet C\", player)",
         "Coordinates": "-185, 38, -301",
         "MapLayer": 8
       },
       {
         "LocationId": 2591,
         "LocationName": "Ancient Labyrinth Chest - Dog-headed dogshit boss",
-        "Rule": null,
+        "Rule": "lambda state: state.has(\"Item - Ancient Tablet B\", player) and state.has(\"Item - Ancient Tablet C\", player)",
         "Coordinates": "-219, 27, -350",
         "MapLayer": 9
       },
@@ -7082,6 +9767,20 @@
         "Rule": null,
         "Coordinates": "-85, 8, 142",
         "MapLayer": 1
+      },
+      {
+        "LocationId": 1877,
+        "LocationName": "New World Shrine Shop - Attendant 1",
+        "Rule": null,
+        "Coordinates": "-71, 5, -524",
+        "MapLayer": 1
+      },
+      {
+        "LocationId": 11877,
+        "LocationName": "New World Shrine Shop - Attendant 2",
+        "Rule": null,
+        "Coordinates": "-71, 5, -524",
+        "MapLayer": 1
       }
     ]
   },
@@ -7097,7 +9796,7 @@
       {
         "LocationId": 3650,
         "LocationName": "The Old World Boss - Periculum",
-        "Rule": null,
+        "Rule": "lambda state: logic.is_area_in_level_range(state, 5)",
         "Coordinates": "-232, 4, 158",
         "MapLayer": 1
       }
@@ -7124,7 +9823,7 @@
       },
       {
         "ConnectionName": "Poko Poko Desert",
-        "Rule": "lambda state: state.has_any({\"Item - Mars Stone\"}, world.player)"
+        "Rule": "lambda state: state.has_any({\"Item - Mars Stone\"}, world.player) and logic.is_area_in_level_range(state, 2)"
       },
       {
         "ConnectionName": "Ganymede Shrine",
@@ -7136,23 +9835,23 @@
       },
       {
         "ConnectionName": "Tall Tall Heights",
-        "Rule": "lambda state: state.has_any({\"Item - Triton Stone\"}, world.player)"
+        "Rule": "lambda state: state.has_any({\"Item - Triton Stone\"}, world.player) and logic.is_area_in_level_range(state, 4)"
       },
       {
         "ConnectionName": "Lands End",
-        "Rule": "lambda state: state.has_any({\"Item - Callisto Stone\"}, world.player)"
+        "Rule": "lambda state: state.has_any({\"Item - Callisto Stone\"}, world.player) and logic.is_area_in_level_range(state, 4)"
       },
       {
         "ConnectionName": "Jidamba Tangle",
-        "Rule": "lambda state: state.has_any({\"Item - Europa Stone\"}, world.player)"
+        "Rule": "lambda state: state.has_any({\"Item - Europa Stone\"}, world.player) and logic.is_area_in_level_range(state, 5)"
       },
       {
         "ConnectionName": "The Deep Sea",
-        "Rule": "lambda state: state.has_any({\"Item - Neptune Stone\"}, world.player)"
+        "Rule": "lambda state: state.has_any({\"Item - Neptune Stone\"}, world.player) and logic.has_swimming and logic.is_area_in_level_range(state, 5)"
       },
       {
         "ConnectionName": "The Old World",
-        "Rule": "lambda state: state.has_any({\"Item - Old World Stone\"}, world.player)"
+        "Rule": "lambda state: state.has_any({\"Item - Old World Stone\"}, world.player) and logic.is_area_in_level_range(state, 5)"
       },
       {
         "ConnectionName": "The New World",
