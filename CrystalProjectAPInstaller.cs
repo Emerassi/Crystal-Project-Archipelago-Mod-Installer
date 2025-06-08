@@ -107,7 +107,7 @@ class CrystalProjectAPInstaller
 			try
 			{
 				string archipelagoBranchHashString = "9a1e47b7fb5198f86b13279beb9f6f50"; //1.6.5 Archipelago Branch hash
-				string archipelagoModdedVersionStrong = "747badd182ffa957eb04cf330860f4a4"; //v0.4 Archipelago Modded hash
+				string archipelagoModdedVersionString = "4b749b847cb525afe7b2a545e6ddcf02"; //v0.5.0 Archipelago Modded hash
 
 				//Open crystal project exe path and compute the hash to make sure that it's the right version
 				FileStream crystalProjectBeforeStream = new(crystalProjectExePath, FileMode.Open, FileAccess.Read, FileShare.Read);
@@ -115,7 +115,7 @@ class CrystalProjectAPInstaller
 				string exeBeforeHashString = BitConverter.ToString(md5.ComputeHash(crystalProjectBeforeStream)).Replace("-", "").ToLower();
 				crystalProjectBeforeStream.Dispose();
 
-				if (exeBeforeHashString == archipelagoModdedVersionStrong)
+				if (exeBeforeHashString == archipelagoModdedVersionString)
 				{
 					Console.WriteLine("\nYour Crystal Project.exe is already the archipelago modded version. Proceeding to copy other files.");
 				}
@@ -139,7 +139,7 @@ class CrystalProjectAPInstaller
 					string exeAfterHashString = BitConverter.ToString(md5.ComputeHash(crystalProjectAfterStream)).Replace("-", "").ToLower();
 					crystalProjectAfterStream.Dispose();
 
-					if (exeAfterHashString != archipelagoModdedVersionStrong)
+					if (exeAfterHashString != archipelagoModdedVersionString)
 					{
 						Console.Error.WriteLine("\nSomething went wrong and the final version does not have the correct file hash.  Verify File Integrity in Steam and try again, or contact the developers.\n");
 						Exit();

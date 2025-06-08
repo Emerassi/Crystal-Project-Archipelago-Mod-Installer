@@ -6,10 +6,10 @@
   "Version": "1.0",
   "EditorVersion": 30,
   "SteamWorkshopFileID": 0,
-  "Timestamp": "2025-05-18T22:29:37.4088399Z",
+  "Timestamp": "2025-06-05T21:16:13.9233362Z",
   "IsLocalization": false,
   "Language": null,
-  "HasCustomContent": false,
+  "HasCustomContent": true,
   "Fonts": null,
   "System": null,
   "Tree": [
@@ -3853,7 +3853,7 @@
               "ModelID": 72,
               "SortOrder": 11,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 7,
@@ -3874,7 +3874,7 @@
               "ModelID": 6,
               "SortOrder": 14,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 7,
@@ -4244,7 +4244,7 @@
                   "IsExpanded": false
                 }
               ],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 7,
@@ -8530,7 +8530,7 @@
                   "ModelID": 134,
                   "SortOrder": 2,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 }
               ],
               "IsExpanded": false
@@ -8909,7 +8909,7 @@
               "ModelID": 263,
               "SortOrder": 0,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             }
           ],
           "IsExpanded": false
@@ -9632,7 +9632,7 @@
               "ModelID": 40,
               "SortOrder": 3,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 4,
@@ -9688,7 +9688,7 @@
               "ModelID": 29,
               "SortOrder": 11,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 4,
@@ -9709,14 +9709,14 @@
               "ModelID": 169,
               "SortOrder": 14,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 4,
               "ModelID": 160,
               "SortOrder": 15,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 4,
@@ -9809,7 +9809,7 @@
               "ModelID": 21,
               "SortOrder": 0,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 4,
@@ -10068,14 +10068,14 @@
               "ModelID": 177,
               "SortOrder": 37,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 4,
               "ModelID": 176,
               "SortOrder": 38,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 4,
@@ -10083,6 +10083,34 @@
               "SortOrder": 39,
               "Children": [],
               "IsExpanded": false
+            },
+            {
+              "ModelTypeID": 4,
+              "ModelID": 229,
+              "SortOrder": 40,
+              "Children": [],
+              "IsExpanded": true
+            },
+            {
+              "ModelTypeID": 4,
+              "ModelID": 230,
+              "SortOrder": 41,
+              "Children": [],
+              "IsExpanded": true
+            },
+            {
+              "ModelTypeID": 4,
+              "ModelID": 231,
+              "SortOrder": 42,
+              "Children": [],
+              "IsExpanded": true
+            },
+            {
+              "ModelTypeID": 4,
+              "ModelID": 232,
+              "SortOrder": 43,
+              "Children": [],
+              "IsExpanded": true
             }
           ],
           "IsExpanded": false
@@ -10436,8 +10464,156 @@
     },
     {
       "ModelTypeID": 3,
-      "ModelID": 3,
+      "ModelID": 194,
       "SortOrder": 5,
+      "Children": [
+        {
+          "ModelTypeID": 2,
+          "ModelID": 591,
+          "SortOrder": 0,
+          "Children": [],
+          "IsExpanded": true
+        },
+        {
+          "ModelTypeID": 2,
+          "ModelID": 592,
+          "SortOrder": 1,
+          "Children": [],
+          "IsExpanded": true
+        },
+        {
+          "ModelTypeID": 2,
+          "ModelID": 593,
+          "SortOrder": 2,
+          "Children": [],
+          "IsExpanded": true
+        },
+        {
+          "ModelTypeID": 2,
+          "ModelID": 594,
+          "SortOrder": 3,
+          "Children": [],
+          "IsExpanded": true
+        },
+        {
+          "ModelTypeID": 2,
+          "ModelID": 595,
+          "SortOrder": 4,
+          "Children": [],
+          "IsExpanded": true
+        },
+        {
+          "ModelTypeID": 2,
+          "ModelID": 596,
+          "SortOrder": 5,
+          "Children": [],
+          "IsExpanded": true
+        },
+        {
+          "ModelTypeID": 2,
+          "ModelID": 597,
+          "SortOrder": 6,
+          "Children": [],
+          "IsExpanded": true
+        },
+        {
+          "ModelTypeID": 2,
+          "ModelID": 598,
+          "SortOrder": 7,
+          "Children": [],
+          "IsExpanded": true
+        },
+        {
+          "ModelTypeID": 2,
+          "ModelID": 599,
+          "SortOrder": 8,
+          "Children": [],
+          "IsExpanded": true
+        },
+        {
+          "ModelTypeID": 2,
+          "ModelID": 600,
+          "SortOrder": 9,
+          "Children": [],
+          "IsExpanded": true
+        },
+        {
+          "ModelTypeID": 2,
+          "ModelID": 601,
+          "SortOrder": 10,
+          "Children": [],
+          "IsExpanded": true
+        },
+        {
+          "ModelTypeID": 2,
+          "ModelID": 602,
+          "SortOrder": 11,
+          "Children": [],
+          "IsExpanded": true
+        },
+        {
+          "ModelTypeID": 2,
+          "ModelID": 603,
+          "SortOrder": 12,
+          "Children": [],
+          "IsExpanded": true
+        },
+        {
+          "ModelTypeID": 2,
+          "ModelID": 604,
+          "SortOrder": 13,
+          "Children": [],
+          "IsExpanded": true
+        },
+        {
+          "ModelTypeID": 2,
+          "ModelID": 605,
+          "SortOrder": 14,
+          "Children": [],
+          "IsExpanded": true
+        },
+        {
+          "ModelTypeID": 2,
+          "ModelID": 606,
+          "SortOrder": 15,
+          "Children": [],
+          "IsExpanded": true
+        },
+        {
+          "ModelTypeID": 2,
+          "ModelID": 607,
+          "SortOrder": 16,
+          "Children": [],
+          "IsExpanded": true
+        },
+        {
+          "ModelTypeID": 2,
+          "ModelID": 608,
+          "SortOrder": 17,
+          "Children": [],
+          "IsExpanded": true
+        },
+        {
+          "ModelTypeID": 2,
+          "ModelID": 609,
+          "SortOrder": 18,
+          "Children": [],
+          "IsExpanded": true
+        },
+        {
+          "ModelTypeID": 2,
+          "ModelID": 610,
+          "SortOrder": 19,
+          "Children": [],
+          "IsExpanded": true
+        }
+      ],
+      "IsExpanded": true
+    },
+    {
+      "ModelTypeID": 3,
+      "ModelID": 3,
+      "SortOrder": 6,
       "Children": [
         {
           "ModelTypeID": 3,
@@ -10454,7 +10630,7 @@
                   "ModelID": 0,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 },
                 {
                   "ModelTypeID": 2,
@@ -10482,7 +10658,7 @@
                   "ModelID": 93,
                   "SortOrder": 4,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 }
               ],
               "IsExpanded": false
@@ -10497,7 +10673,7 @@
                   "ModelID": 12,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 }
               ],
               "IsExpanded": false
@@ -10731,7 +10907,7 @@
                   "ModelID": 248,
                   "SortOrder": 4,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 }
               ],
               "IsExpanded": false
@@ -10760,7 +10936,7 @@
                   "ModelID": 249,
                   "SortOrder": 2,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 }
               ],
               "IsExpanded": false
@@ -10871,7 +11047,7 @@
                   "ModelID": 55,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 },
                 {
                   "ModelTypeID": 2,
@@ -10893,14 +11069,14 @@
                   "ModelID": 2,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 },
                 {
                   "ModelTypeID": 2,
                   "ModelID": 66,
                   "SortOrder": 1,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 }
               ],
               "IsExpanded": false
@@ -11137,7 +11313,7 @@
                   "ModelID": 3,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 },
                 {
                   "ModelTypeID": 2,
@@ -11494,7 +11670,7 @@
                   "ModelID": 73,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 },
                 {
                   "ModelTypeID": 2,
@@ -11721,7 +11897,7 @@
                   "ModelID": 97,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 }
               ],
               "IsExpanded": false
@@ -11898,14 +12074,14 @@
                   "ModelID": 4,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 },
                 {
                   "ModelTypeID": 2,
                   "ModelID": 98,
                   "SortOrder": 1,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 }
               ],
               "IsExpanded": false
@@ -12110,7 +12286,7 @@
                   "ModelID": 99,
                   "SortOrder": 1,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 }
               ],
               "IsExpanded": false
@@ -12308,7 +12484,7 @@
                   "ModelID": 105,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 }
               ],
               "IsExpanded": false
@@ -12432,7 +12608,7 @@
                   "ModelID": 180,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 },
                 {
                   "ModelTypeID": 2,
@@ -12527,7 +12703,7 @@
                   "ModelID": 5,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 },
                 {
                   "ModelTypeID": 2,
@@ -12828,7 +13004,7 @@
                   "ModelID": 8,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 },
                 {
                   "ModelTypeID": 2,
@@ -13075,14 +13251,14 @@
                   "ModelID": 51,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 },
                 {
                   "ModelTypeID": 2,
                   "ModelID": 65,
                   "SortOrder": 1,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 },
                 {
                   "ModelTypeID": 2,
@@ -13278,7 +13454,7 @@
     {
       "ModelTypeID": 3,
       "ModelID": 156,
-      "SortOrder": 6,
+      "SortOrder": 7,
       "Children": [
         {
           "ModelTypeID": 3,
@@ -13295,7 +13471,7 @@
                   "ModelID": 44,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 },
                 {
                   "ModelTypeID": 2,
@@ -13323,7 +13499,7 @@
                   "ModelID": 506,
                   "SortOrder": 4,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 }
               ],
               "IsExpanded": false
@@ -13579,7 +13755,7 @@
                   "ModelID": 25,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 },
                 {
                   "ModelTypeID": 2,
@@ -13812,7 +13988,7 @@
                   "ModelID": 18,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 },
                 {
                   "ModelTypeID": 2,
@@ -13862,7 +14038,7 @@
                   "ModelID": 127,
                   "SortOrder": 1,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 },
                 {
                   "ModelTypeID": 2,
@@ -14014,7 +14190,7 @@
                   "ModelID": 272,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 },
                 {
                   "ModelTypeID": 2,
@@ -14370,7 +14546,7 @@
                   "ModelID": 17,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 },
                 {
                   "ModelTypeID": 2,
@@ -14719,7 +14895,7 @@
                   "ModelID": 31,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 },
                 {
                   "ModelTypeID": 2,
@@ -14994,7 +15170,7 @@
                   "ModelID": 19,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 },
                 {
                   "ModelTypeID": 2,
@@ -15309,7 +15485,7 @@
               "IsExpanded": false
             }
           ],
-          "IsExpanded": true
+          "IsExpanded": false
         }
       ],
       "IsExpanded": false
@@ -15317,7 +15493,7 @@
     {
       "ModelTypeID": 3,
       "ModelID": 24,
-      "SortOrder": 7,
+      "SortOrder": 8,
       "Children": [
         {
           "ModelTypeID": 3,
@@ -16004,7 +16180,7 @@
     {
       "ModelTypeID": 3,
       "ModelID": 5,
-      "SortOrder": 8,
+      "SortOrder": 9,
       "Children": [
         {
           "ModelTypeID": 8,
@@ -16237,7 +16413,7 @@
     {
       "ModelTypeID": 3,
       "ModelID": 357,
-      "SortOrder": 9,
+      "SortOrder": 10,
       "Children": [
         {
           "ModelTypeID": 8,
@@ -16493,7 +16669,7 @@
     {
       "ModelTypeID": 3,
       "ModelID": 287,
-      "SortOrder": 10,
+      "SortOrder": 11,
       "Children": [
         {
           "ModelTypeID": 14,
@@ -17864,12 +18040,12 @@
           "IsExpanded": false
         }
       ],
-      "IsExpanded": true
+      "IsExpanded": false
     },
     {
       "ModelTypeID": 3,
       "ModelID": 288,
-      "SortOrder": 11,
+      "SortOrder": 12,
       "Children": [
         {
           "ModelTypeID": 14,
@@ -18561,7 +18737,7 @@
               "IsExpanded": false
             }
           ],
-          "IsExpanded": true
+          "IsExpanded": false
         },
         {
           "ModelTypeID": 14,
@@ -20231,7 +20407,7 @@
               "IsExpanded": false
             }
           ],
-          "IsExpanded": true
+          "IsExpanded": false
         },
         {
           "ModelTypeID": 14,
@@ -20951,12 +21127,12 @@
           "IsExpanded": false
         }
       ],
-      "IsExpanded": true
+      "IsExpanded": false
     },
     {
       "ModelTypeID": 3,
       "ModelID": 25,
-      "SortOrder": 12,
+      "SortOrder": 13,
       "Children": [
         {
           "ModelTypeID": 14,
@@ -21944,14 +22120,14 @@
               "ModelID": 70,
               "SortOrder": 0,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 14,
               "ModelID": 142,
               "SortOrder": 1,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 14,
@@ -22619,7 +22795,7 @@
               "ModelID": 179,
               "SortOrder": 1,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 14,
@@ -24869,10 +25045,10 @@
               "ModelID": 206,
               "SortOrder": 0,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             }
           ],
-          "IsExpanded": true
+          "IsExpanded": false
         },
         {
           "ModelTypeID": 14,
@@ -24972,12 +25148,12 @@
           "IsExpanded": false
         }
       ],
-      "IsExpanded": true
+      "IsExpanded": false
     },
     {
       "ModelTypeID": 3,
       "ModelID": 376,
-      "SortOrder": 13,
+      "SortOrder": 14,
       "Children": [
         {
           "ModelTypeID": 14,
@@ -25587,7 +25763,7 @@
                   "ModelID": 169,
                   "SortOrder": 0,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 },
                 {
                   "ModelTypeID": 6,
@@ -25667,7 +25843,7 @@
                   "ModelID": 172,
                   "SortOrder": 8,
                   "Children": [],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 }
               ],
               "IsExpanded": false
@@ -25749,7 +25925,7 @@
               "ModelID": 195,
               "SortOrder": 4,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             }
           ],
           "IsExpanded": false
@@ -26367,7 +26543,7 @@
               "IsExpanded": false
             }
           ],
-          "IsExpanded": true
+          "IsExpanded": false
         },
         {
           "ModelTypeID": 10,
@@ -26387,7 +26563,7 @@
                   "IsExpanded": false
                 }
               ],
-              "IsExpanded": false
+              "IsExpanded": true
             }
           ],
           "IsExpanded": false
@@ -26485,12 +26661,12 @@
           "IsExpanded": false
         }
       ],
-      "IsExpanded": true
+      "IsExpanded": false
     },
     {
       "ModelTypeID": 3,
       "ModelID": 368,
-      "SortOrder": 14,
+      "SortOrder": 15,
       "Children": [
         {
           "ModelTypeID": 11,
@@ -26540,7 +26716,7 @@
     {
       "ModelTypeID": 3,
       "ModelID": 72,
-      "SortOrder": 15,
+      "SortOrder": 16,
       "Children": [
         {
           "ModelTypeID": 3,
@@ -26779,7 +26955,7 @@
     {
       "ModelTypeID": 3,
       "ModelID": 42,
-      "SortOrder": 16,
+      "SortOrder": 17,
       "Children": [
         {
           "ModelTypeID": 4,
@@ -27066,18 +27242,3010 @@
   "Animations": [],
   "Biomes": [],
   "Difficulties": [],
-  "Equipment": [],
-  "Folders": [],
+  "Equipment": [
+    {
+      "ID": 591,
+      "Name": "Cake Server",
+      "Comments": "Starting equipment for Archipelago.",
+      "Flavor": "",
+      "Description": "Cuts cakes and perhaps your enemies.",
+      "HideStatModsFromDescription": false,
+      "SortOrder": 24,
+      "ScaledOrder": 0,
+      "TexturePath": "Equipment/APStarterGear",
+      "TextureIndex": 0,
+      "Level": 1,
+      "NoAutoCost": false,
+      "NoAutoStats": false,
+      "Cost": 8,
+      "MaxCapacity": 0,
+      "EquipmentType": 1,
+      "IsTwoHanded": false,
+      "IsOneOnly": false,
+      "PreventAutoEquip": false,
+      "StatMods": [
+        {
+          "Tag": 40,
+          "Value1": 38,
+          "Value2": 0,
+          "Value3": 0
+        },
+        {
+          "Tag": 80,
+          "Value1": 50,
+          "Value2": 0,
+          "Value3": 0
+        }
+      ]
+    },
+    {
+      "ID": 592,
+      "Name": "Inflatable Novelty Hammer",
+      "Comments": "Starting equipment for Archipelago.",
+      "Flavor": "",
+      "Description": "*Squeaks*",
+      "HideStatModsFromDescription": false,
+      "SortOrder": 25,
+      "ScaledOrder": 0,
+      "TexturePath": "Equipment/APStarterGear",
+      "TextureIndex": 1,
+      "Level": 1,
+      "NoAutoCost": false,
+      "NoAutoStats": false,
+      "Cost": 8,
+      "MaxCapacity": 0,
+      "EquipmentType": 1,
+      "IsTwoHanded": true,
+      "IsOneOnly": false,
+      "PreventAutoEquip": false,
+      "StatMods": [
+        {
+          "Tag": 40,
+          "Value1": 42,
+          "Value2": 0,
+          "Value3": 0
+        },
+        {
+          "Tag": 80,
+          "Value1": 50,
+          "Value2": 0,
+          "Value3": 0
+        }
+      ]
+    },
+    {
+      "ID": 593,
+      "Name": "Busted Umbrella",
+      "Comments": "Starting equipment for Archipelago.",
+      "Flavor": "",
+      "Description": "Weather forecast: pain.",
+      "HideStatModsFromDescription": false,
+      "SortOrder": 26,
+      "ScaledOrder": 0,
+      "TexturePath": "Equipment/APStarterGear",
+      "TextureIndex": 2,
+      "Level": 1,
+      "NoAutoCost": false,
+      "NoAutoStats": false,
+      "Cost": 8,
+      "MaxCapacity": 0,
+      "EquipmentType": 7,
+      "IsTwoHanded": true,
+      "IsOneOnly": false,
+      "PreventAutoEquip": false,
+      "StatMods": [
+        {
+          "Tag": 40,
+          "Value1": 42,
+          "Value2": 0,
+          "Value3": 0
+        },
+        {
+          "Tag": 45,
+          "Value1": -8,
+          "Value2": 0,
+          "Value3": 0
+        },
+        {
+          "Tag": 400,
+          "Value1": 5,
+          "Value2": -1,
+          "Value3": 0
+        }
+      ]
+    },
+    {
+      "ID": 594,
+      "Name": "Bone Apple Tea",
+      "Comments": "Starting equipment for Archipelago.",
+      "Flavor": "",
+      "Description": "A cooking magazine Nan enjoys.",
+      "HideStatModsFromDescription": false,
+      "SortOrder": 27,
+      "ScaledOrder": 0,
+      "TexturePath": "Equipment/APStarterGear",
+      "TextureIndex": 3,
+      "Level": 1,
+      "NoAutoCost": false,
+      "NoAutoStats": false,
+      "Cost": 8,
+      "MaxCapacity": 0,
+      "EquipmentType": 10,
+      "IsTwoHanded": true,
+      "IsOneOnly": false,
+      "PreventAutoEquip": false,
+      "StatMods": [
+        {
+          "Tag": 40,
+          "Value1": 8,
+          "Value2": 0,
+          "Value3": 0
+        },
+        {
+          "Tag": 1,
+          "Value1": 8,
+          "Value2": 0,
+          "Value3": 0
+        }
+      ]
+    },
+    {
+      "ID": 595,
+      "Name": "Seam Ripper",
+      "Comments": "Starting equipment for Archipelago.",
+      "Flavor": "",
+      "Description": "Borrowed from Nan's sewing box. Great for removing shoulderpads (and enemy heads) from shoulders.",
+      "HideStatModsFromDescription": false,
+      "SortOrder": 28,
+      "ScaledOrder": 0,
+      "TexturePath": "Equipment/APStarterGear",
+      "TextureIndex": 4,
+      "Level": 1,
+      "NoAutoCost": false,
+      "NoAutoStats": false,
+      "Cost": 8,
+      "MaxCapacity": 0,
+      "EquipmentType": 2,
+      "IsTwoHanded": false,
+      "IsOneOnly": false,
+      "PreventAutoEquip": false,
+      "StatMods": [
+        {
+          "Tag": 40,
+          "Value1": 23,
+          "Value2": 0,
+          "Value3": 0
+        },
+        {
+          "Tag": 44,
+          "Value1": 10,
+          "Value2": 0,
+          "Value3": 0
+        }
+      ]
+    },
+    {
+      "ID": 596,
+      "Name": "Vegetable Peeler",
+      "Comments": "Starting equipment for Archipelago.",
+      "Flavor": "",
+      "Description": "Prepares ingredients for stew and enemies for death.",
+      "HideStatModsFromDescription": false,
+      "SortOrder": 29,
+      "ScaledOrder": 0,
+      "TexturePath": "Equipment/APStarterGear",
+      "TextureIndex": 5,
+      "Level": 1,
+      "NoAutoCost": false,
+      "NoAutoStats": false,
+      "Cost": 8,
+      "MaxCapacity": 0,
+      "EquipmentType": 4,
+      "IsTwoHanded": false,
+      "IsOneOnly": false,
+      "PreventAutoEquip": false,
+      "StatMods": [
+        {
+          "Tag": 40,
+          "Value1": 30,
+          "Value2": 0,
+          "Value3": 0
+        },
+        {
+          "Tag": 81,
+          "Value1": 3,
+          "Value2": 0,
+          "Value3": 0
+        },
+        {
+          "Tag": 252,
+          "Value1": 1,
+          "Value2": 0,
+          "Value3": 0
+        }
+      ]
+    },
+    {
+      "ID": 597,
+      "Name": "Secret Kebab",
+      "Comments": "Starting equipment for Archipelago.",
+      "Flavor": "",
+      "Description": "Is that a bone in there?",
+      "HideStatModsFromDescription": false,
+      "SortOrder": 30,
+      "ScaledOrder": 0,
+      "TexturePath": "Equipment/APStarterGear",
+      "TextureIndex": 6,
+      "Level": 1,
+      "NoAutoCost": false,
+      "NoAutoStats": false,
+      "Cost": 8,
+      "MaxCapacity": 0,
+      "EquipmentType": 3,
+      "IsTwoHanded": false,
+      "IsOneOnly": false,
+      "PreventAutoEquip": false,
+      "StatMods": [
+        {
+          "Tag": 40,
+          "Value1": 23,
+          "Value2": 0,
+          "Value3": 0
+        },
+        {
+          "Tag": 43,
+          "Value1": 10,
+          "Value2": 0,
+          "Value3": 0
+        }
+      ]
+    },
+    {
+      "ID": 598,
+      "Name": "Herb Sickle",
+      "Comments": "Starting equipment for Archipelago.",
+      "Flavor": "",
+      "Description": "Now to find those Secret Herbs...",
+      "HideStatModsFromDescription": false,
+      "SortOrder": 31,
+      "ScaledOrder": 0,
+      "TexturePath": "Equipment/APStarterGear",
+      "TextureIndex": 7,
+      "Level": 1,
+      "NoAutoCost": false,
+      "NoAutoStats": false,
+      "Cost": 8,
+      "MaxCapacity": 0,
+      "EquipmentType": 6,
+      "IsTwoHanded": true,
+      "IsOneOnly": false,
+      "PreventAutoEquip": false,
+      "StatMods": [
+        {
+          "Tag": 40,
+          "Value1": 30,
+          "Value2": 0,
+          "Value3": 0
+        },
+        {
+          "Tag": 41,
+          "Value1": 8,
+          "Value2": 0,
+          "Value3": 0
+        },
+        {
+          "Tag": 47,
+          "Value1": 19,
+          "Value2": 0,
+          "Value3": 0
+        }
+      ]
+    },
+    {
+      "ID": 599,
+      "Name": "Cookie Pan",
+      "Comments": "Starting equipment for Archipelago.",
+      "Flavor": "",
+      "Description": "You didn't bother to clean it before borrowing.",
+      "HideStatModsFromDescription": false,
+      "SortOrder": 32,
+      "ScaledOrder": 0,
+      "TexturePath": "Equipment/APStarterGear",
+      "TextureIndex": 8,
+      "Level": 1,
+      "NoAutoCost": false,
+      "NoAutoStats": false,
+      "Cost": 8,
+      "MaxCapacity": 0,
+      "EquipmentType": 11,
+      "IsTwoHanded": false,
+      "IsOneOnly": false,
+      "PreventAutoEquip": false,
+      "StatMods": [
+        {
+          "Tag": 42,
+          "Value1": 11,
+          "Value2": 0,
+          "Value3": 0
+        },
+        {
+          "Tag": 46,
+          "Value1": -10,
+          "Value2": 0,
+          "Value3": 0
+        }
+      ]
+    },
+    {
+      "ID": 600,
+      "Name": "Fireplace Poker",
+      "Comments": "Starting equipment for Archipelago.",
+      "Flavor": "",
+      "Description": "Borrowed from Nan's kitchen. (Don't worry, she has another one.)",
+      "HideStatModsFromDescription": false,
+      "SortOrder": 33,
+      "ScaledOrder": 0,
+      "TexturePath": "Equipment/APStarterGear",
+      "TextureIndex": 9,
+      "Level": 1,
+      "NoAutoCost": false,
+      "NoAutoStats": false,
+      "Cost": 8,
+      "MaxCapacity": 0,
+      "EquipmentType": 5,
+      "IsTwoHanded": true,
+      "IsOneOnly": false,
+      "PreventAutoEquip": false,
+      "StatMods": [
+        {
+          "Tag": 40,
+          "Value1": 38,
+          "Value2": 0,
+          "Value3": 0
+        },
+        {
+          "Tag": 42,
+          "Value1": 8,
+          "Value2": 0,
+          "Value3": 0
+        }
+      ]
+    },
+    {
+      "ID": 601,
+      "Name": "String Mop",
+      "Comments": "Starting equipment for Archipelago.",
+      "Flavor": "",
+      "Description": "Might make your enemies soggy.",
+      "HideStatModsFromDescription": false,
+      "SortOrder": 34,
+      "ScaledOrder": 0,
+      "TexturePath": "Equipment/APStarterGear",
+      "TextureIndex": 10,
+      "Level": 1,
+      "NoAutoCost": false,
+      "NoAutoStats": false,
+      "Cost": 8,
+      "MaxCapacity": 0,
+      "EquipmentType": 8,
+      "IsTwoHanded": true,
+      "IsOneOnly": false,
+      "PreventAutoEquip": false,
+      "StatMods": [
+        {
+          "Tag": 40,
+          "Value1": 25,
+          "Value2": 0,
+          "Value3": 0
+        },
+        {
+          "Tag": 11,
+          "Value1": 6,
+          "Value2": 0,
+          "Value3": 0
+        },
+        {
+          "Tag": 82,
+          "Value1": 29,
+          "Value2": 15,
+          "Value3": 2
+        }
+      ]
+    },
+    {
+      "ID": 602,
+      "Name": "Knitting Needle",
+      "Comments": "Starting equipment for Archipelago.",
+      "Flavor": "",
+      "Description": "Nan lost the other one and didn't mind you taking this one. (Some strings attached.)",
+      "HideStatModsFromDescription": false,
+      "SortOrder": 35,
+      "ScaledOrder": 0,
+      "TexturePath": "Equipment/APStarterGear",
+      "TextureIndex": 11,
+      "Level": 1,
+      "NoAutoCost": false,
+      "NoAutoStats": false,
+      "Cost": 8,
+      "MaxCapacity": 0,
+      "EquipmentType": 0,
+      "IsTwoHanded": false,
+      "IsOneOnly": false,
+      "PreventAutoEquip": false,
+      "StatMods": [
+        {
+          "Tag": 40,
+          "Value1": 30,
+          "Value2": 0,
+          "Value3": 0
+        }
+      ]
+    },
+    {
+      "ID": 603,
+      "Name": "Rolling Pin",
+      "Comments": "Starting equipment for Archipelago.",
+      "Flavor": "",
+      "Description": "Not sharp but plenty hefty.",
+      "HideStatModsFromDescription": false,
+      "SortOrder": 36,
+      "ScaledOrder": 0,
+      "TexturePath": "Equipment/APStarterGear",
+      "TextureIndex": 12,
+      "Level": 1,
+      "NoAutoCost": false,
+      "NoAutoStats": false,
+      "Cost": 8,
+      "MaxCapacity": 0,
+      "EquipmentType": 0,
+      "IsTwoHanded": true,
+      "IsOneOnly": false,
+      "PreventAutoEquip": false,
+      "StatMods": [
+        {
+          "Tag": 40,
+          "Value1": 38,
+          "Value2": 0,
+          "Value3": 0
+        },
+        {
+          "Tag": 41,
+          "Value1": 10,
+          "Value2": 0,
+          "Value3": 0
+        }
+      ]
+    },
+    {
+      "ID": 604,
+      "Name": "Icing Bag",
+      "Comments": "Starting equipment for Archipelago.",
+      "Flavor": "",
+      "Description": "Magically delici- tasty.",
+      "HideStatModsFromDescription": false,
+      "SortOrder": 37,
+      "ScaledOrder": 0,
+      "TexturePath": "Equipment/APStarterGear",
+      "TextureIndex": 13,
+      "Level": 1,
+      "NoAutoCost": false,
+      "NoAutoStats": false,
+      "Cost": 8,
+      "MaxCapacity": 0,
+      "EquipmentType": 9,
+      "IsTwoHanded": false,
+      "IsOneOnly": false,
+      "PreventAutoEquip": false,
+      "StatMods": [
+        {
+          "Tag": 40,
+          "Value1": 18,
+          "Value2": 0,
+          "Value3": 0
+        },
+        {
+          "Tag": 10,
+          "Value1": 6,
+          "Value2": 0,
+          "Value3": 0
+        }
+      ]
+    },
+    {
+      "ID": 605,
+      "Name": "Hand-Knitted Scarf",
+      "Comments": "Starting equipment for Archipelago.",
+      "Flavor": "",
+      "Description": "Filled with Nan's affection. ",
+      "HideStatModsFromDescription": false,
+      "SortOrder": 38,
+      "ScaledOrder": 0,
+      "TexturePath": "Equipment/APStarterGear",
+      "TextureIndex": 14,
+      "Level": 1,
+      "NoAutoCost": false,
+      "NoAutoStats": false,
+      "Cost": 8,
+      "MaxCapacity": 0,
+      "EquipmentType": 12,
+      "IsTwoHanded": false,
+      "IsOneOnly": false,
+      "PreventAutoEquip": false,
+      "StatMods": [
+        {
+          "Tag": 42,
+          "Value1": 18,
+          "Value2": 0,
+          "Value3": 0
+        },
+        {
+          "Tag": 48,
+          "Value1": 12,
+          "Value2": 0,
+          "Value3": 0
+        },
+        {
+          "Tag": 400,
+          "Value1": 1,
+          "Value2": -1,
+          "Value3": 0
+        }
+      ]
+    },
+    {
+      "ID": 606,
+      "Name": "Hand-Knitted Sweater",
+      "Comments": "Starting equipment for Archipelago.",
+      "Flavor": "",
+      "Description": "Filled with Nan's love.",
+      "HideStatModsFromDescription": false,
+      "SortOrder": 39,
+      "ScaledOrder": 0,
+      "TexturePath": "Equipment/APStarterGear",
+      "TextureIndex": 15,
+      "Level": 1,
+      "NoAutoCost": false,
+      "NoAutoStats": false,
+      "Cost": 8,
+      "MaxCapacity": 0,
+      "EquipmentType": 15,
+      "IsTwoHanded": false,
+      "IsOneOnly": false,
+      "PreventAutoEquip": false,
+      "StatMods": [
+        {
+          "Tag": 42,
+          "Value1": 30,
+          "Value2": 0,
+          "Value3": 0
+        },
+        {
+          "Tag": 48,
+          "Value1": 10,
+          "Value2": 0,
+          "Value3": 0
+        },
+        {
+          "Tag": 400,
+          "Value1": 1,
+          "Value2": -1,
+          "Value3": 0
+        }
+      ]
+    },
+    {
+      "ID": 607,
+      "Name": "Sun Hat",
+      "Comments": "Starting equipment for Archipelago.",
+      "Flavor": "",
+      "Description": "Cute and practical.",
+      "HideStatModsFromDescription": false,
+      "SortOrder": 40,
+      "ScaledOrder": 0,
+      "TexturePath": "Equipment/APStarterGear",
+      "TextureIndex": 17,
+      "Level": 1,
+      "NoAutoCost": false,
+      "NoAutoStats": false,
+      "Cost": 8,
+      "MaxCapacity": 0,
+      "EquipmentType": 13,
+      "IsTwoHanded": false,
+      "IsOneOnly": false,
+      "PreventAutoEquip": false,
+      "StatMods": [
+        {
+          "Tag": 42,
+          "Value1": 12,
+          "Value2": 0,
+          "Value3": 0
+        },
+        {
+          "Tag": 48,
+          "Value1": 18,
+          "Value2": 0,
+          "Value3": 0
+        },
+        {
+          "Tag": 400,
+          "Value1": 0,
+          "Value2": -1,
+          "Value3": 0
+        }
+      ]
+    },
+    {
+      "ID": 608,
+      "Name": "Gardening Shirt",
+      "Comments": "Starting equipment for Archipelago.",
+      "Flavor": "",
+      "Description": "Helps protect against all but the thorniest brambles.",
+      "HideStatModsFromDescription": false,
+      "SortOrder": 41,
+      "ScaledOrder": 0,
+      "TexturePath": "Equipment/APStarterGear",
+      "TextureIndex": 16,
+      "Level": 1,
+      "NoAutoCost": false,
+      "NoAutoStats": false,
+      "Cost": 8,
+      "MaxCapacity": 0,
+      "EquipmentType": 16,
+      "IsTwoHanded": false,
+      "IsOneOnly": false,
+      "PreventAutoEquip": false,
+      "StatMods": [
+        {
+          "Tag": 42,
+          "Value1": 20,
+          "Value2": 0,
+          "Value3": 0
+        },
+        {
+          "Tag": 48,
+          "Value1": 14,
+          "Value2": 0,
+          "Value3": 0
+        },
+        {
+          "Tag": 400,
+          "Value1": 3,
+          "Value2": -1,
+          "Value3": 0
+        }
+      ]
+    },
+    {
+      "ID": 609,
+      "Name": "Chef Hat",
+      "Comments": "Starting equipment for Archipelago.",
+      "Flavor": "",
+      "Description": "Borrowed from Nan's kitchen. Hopefully she doesn't notice.",
+      "HideStatModsFromDescription": false,
+      "SortOrder": 42,
+      "ScaledOrder": 0,
+      "TexturePath": "Equipment/APStarterGear",
+      "TextureIndex": 18,
+      "Level": 1,
+      "NoAutoCost": false,
+      "NoAutoStats": false,
+      "Cost": 8,
+      "MaxCapacity": 0,
+      "EquipmentType": 14,
+      "IsTwoHanded": false,
+      "IsOneOnly": false,
+      "PreventAutoEquip": false,
+      "StatMods": [
+        {
+          "Tag": 42,
+          "Value1": 12,
+          "Value2": 0,
+          "Value3": 0
+        },
+        {
+          "Tag": 48,
+          "Value1": 18,
+          "Value2": 0,
+          "Value3": 0
+        }
+      ]
+    },
+    {
+      "ID": 610,
+      "Name": "Kitchen Apron",
+      "Comments": "Starting equipment for Archipelago.",
+      "Flavor": "",
+      "Description": "Borrowed from Nan's kitchen. If she sees you, you might get stuck on kitchen minion duty.",
+      "HideStatModsFromDescription": false,
+      "SortOrder": 43,
+      "ScaledOrder": 0,
+      "TexturePath": "Equipment/APStarterGear",
+      "TextureIndex": 19,
+      "Level": 1,
+      "NoAutoCost": false,
+      "NoAutoStats": false,
+      "Cost": 8,
+      "MaxCapacity": 0,
+      "EquipmentType": 17,
+      "IsTwoHanded": false,
+      "IsOneOnly": false,
+      "PreventAutoEquip": false,
+      "StatMods": [
+        {
+          "Tag": 42,
+          "Value1": 10,
+          "Value2": 0,
+          "Value3": 0
+        },
+        {
+          "Tag": 48,
+          "Value1": 30,
+          "Value2": 0,
+          "Value3": 0
+        }
+      ]
+    }
+  ],
+  "Folders": [
+    {
+      "ID": 194,
+      "Name": "Equip: Starter Gear"
+    }
+  ],
   "Genders": [],
-  "Items": [],
+  "Items": [
+    {
+      "ID": 229,
+      "Name": "Special Shoudu Stew",
+      "Comments": null,
+      "Flavor": "Not your Mother's Stew",
+      "Description": null,
+      "SortOrder": 155,
+      "ScaledOrder": 0,
+      "LocationBiomeID": null,
+      "TexturePath": "Icon/ItemC",
+      "TextureIndex": 29,
+      "Cost": 99,
+      "MaxCapacity": 0,
+      "IsConsumable": false,
+      "IsCombat": false,
+      "IsSellable": false,
+      "AutoLostAndFound": false,
+      "AbilityID": null,
+      "MapForBiomeID": null,
+      "IncreaseMaxCapacityForItemID": null,
+      "IncreaseMaxCapacityBy": null,
+      "SpecialBonus": 0
+    },
+    {
+      "ID": 230,
+      "Name": "Special Milk",
+      "Comments": null,
+      "Flavor": "Not your Mother's Milk",
+      "Description": null,
+      "SortOrder": 156,
+      "ScaledOrder": 0,
+      "LocationBiomeID": null,
+      "TexturePath": "Icon/ItemC",
+      "TextureIndex": 9,
+      "Cost": 80,
+      "MaxCapacity": 0,
+      "IsConsumable": false,
+      "IsCombat": false,
+      "IsSellable": false,
+      "AutoLostAndFound": false,
+      "AbilityID": null,
+      "MapForBiomeID": null,
+      "IncreaseMaxCapacityForItemID": null,
+      "IncreaseMaxCapacityBy": null,
+      "SpecialBonus": 0
+    },
+    {
+      "ID": 231,
+      "Name": "Special Fresh Salmon",
+      "Comments": null,
+      "Flavor": "Not your Mother's Salmon",
+      "Description": null,
+      "SortOrder": 157,
+      "ScaledOrder": 0,
+      "LocationBiomeID": null,
+      "TexturePath": "Icon/ItemC",
+      "TextureIndex": 23,
+      "Cost": 60,
+      "MaxCapacity": 0,
+      "IsConsumable": false,
+      "IsCombat": false,
+      "IsSellable": false,
+      "AutoLostAndFound": false,
+      "AbilityID": null,
+      "MapForBiomeID": null,
+      "IncreaseMaxCapacityForItemID": null,
+      "IncreaseMaxCapacityBy": null,
+      "SpecialBonus": 0
+    },
+    {
+      "ID": 232,
+      "Name": "Special Rotten Salmon",
+      "Comments": null,
+      "Flavor": "Not your Mother's Rotten Salmon",
+      "Description": null,
+      "SortOrder": 158,
+      "ScaledOrder": 0,
+      "LocationBiomeID": null,
+      "TexturePath": "Icon/ItemC",
+      "TextureIndex": 23,
+      "Cost": 1,
+      "MaxCapacity": 0,
+      "IsConsumable": false,
+      "IsCombat": false,
+      "IsSellable": false,
+      "AutoLostAndFound": false,
+      "AbilityID": null,
+      "MapForBiomeID": null,
+      "IncreaseMaxCapacityForItemID": null,
+      "IncreaseMaxCapacityBy": null,
+      "SpecialBonus": 0
+    }
+  ],
   "Jobs": [],
-  "Monsters": [],
+  "Monsters": [
+    {
+      "ID": 169,
+      "Name": "The Peacekeeper",
+      "Comments": "",
+      "Flavor": null,
+      "Description": null,
+      "SortOrder": 271,
+      "LocationBiomeID": 42,
+      "TexturePath": "Monster/Z42_Devourer",
+      "TexturePathAlt": null,
+      "TextureFocusX": 65,
+      "TextureFocusY": 40,
+      "TextureBubbleX": 22,
+      "TextureBubbleY": 5,
+      "HasShadow": false,
+      "HasBreathing": true,
+      "AttackAnimationID": null,
+      "IsPvp": false,
+      "PvpJobID": 0,
+      "PvpGenderID": 0,
+      "PvpWeaponID": null,
+      "PvpTextureType": 0,
+      "Level": 63,
+      "IsBoss": true,
+      "AvgPop": 2,
+      "Category": 0,
+      "NoAuto": false,
+      "Exp": 720,
+      "JP": 100,
+      "Money": 60000,
+      "ItemDrops": [
+        {
+          "LootType": 2,
+          "ItemID": 0,
+          "EquipmentID": 291,
+          "LootChance": 100,
+          "StealChance": 100,
+          "MaxLootCount": 0
+        }
+      ],
+      "ItemSteals": [
+        {
+          "LootType": 1,
+          "ItemID": 195,
+          "EquipmentID": 0,
+          "LootChance": 100,
+          "StealChance": 25,
+          "MaxLootCount": 0
+        }
+      ],
+      "HP": 21000,
+      "MP": 630,
+      "Str": 220,
+      "Vit": 290,
+      "Dex": 220,
+      "Agi": 220,
+      "Mnd": 290,
+      "Spi": 290,
+      "Spd": 270,
+      "Lck": 210,
+      "PAtk": 280,
+      "PPen": 0,
+      "PDef": 580,
+      "PCritChance": 0,
+      "PCritDmg": 0,
+      "PAccRating": 0,
+      "PEvaRating": 0,
+      "MPen": 0,
+      "MDef": 310,
+      "PVariance": 0,
+      "StatMods": [
+        {
+          "Tag": 226,
+          "Value1": 5,
+          "Value2": 0,
+          "Value3": 0
+        },
+        {
+          "Tag": 401,
+          "Value1": 24,
+          "Value2": 0,
+          "Value3": 0
+        }
+      ],
+      "Actions": [
+        {
+          "AbilityID": 0,
+          "Priority": 0,
+          "Weight": 100,
+          "Conds": [],
+          "HasDialogue": false,
+          "Dialogue": null,
+          "TargetTypeOverride": null,
+          "AllyMonsterIDFilter": null,
+          "ApplyMonsterIDFilterToConds": true,
+          "ApplyMonsterIDFilterToTargets": true
+        },
+        {
+          "AbilityID": 278,
+          "Priority": 1,
+          "Weight": 100,
+          "Conds": [
+            {
+              "CondGroup": 0,
+              "SubConds": null,
+              "CondVar": 61,
+              "CondEval": 3,
+              "Not": false,
+              "Value": 2,
+              "Data1": 0
+            }
+          ],
+          "HasDialogue": false,
+          "Dialogue": null,
+          "TargetTypeOverride": null,
+          "AllyMonsterIDFilter": null,
+          "ApplyMonsterIDFilterToConds": true,
+          "ApplyMonsterIDFilterToTargets": true
+        },
+        {
+          "AbilityID": 269,
+          "Priority": 1,
+          "Weight": 100,
+          "Conds": [
+            {
+              "CondGroup": 0,
+              "SubConds": null,
+              "CondVar": 61,
+              "CondEval": 3,
+              "Not": false,
+              "Value": 2,
+              "Data1": 0
+            },
+            {
+              "CondGroup": 0,
+              "SubConds": null,
+              "CondVar": 6,
+              "CondEval": 2,
+              "Not": false,
+              "Value": 0,
+              "Data1": 0
+            }
+          ],
+          "HasDialogue": false,
+          "Dialogue": null,
+          "TargetTypeOverride": null,
+          "AllyMonsterIDFilter": null,
+          "ApplyMonsterIDFilterToConds": true,
+          "ApplyMonsterIDFilterToTargets": true
+        },
+        {
+          "AbilityID": 274,
+          "Priority": 1,
+          "Weight": 100,
+          "Conds": [
+            {
+              "CondGroup": 0,
+              "SubConds": null,
+              "CondVar": 61,
+              "CondEval": 3,
+              "Not": false,
+              "Value": 2,
+              "Data1": 0
+            }
+          ],
+          "HasDialogue": false,
+          "Dialogue": null,
+          "TargetTypeOverride": null,
+          "AllyMonsterIDFilter": null,
+          "ApplyMonsterIDFilterToConds": true,
+          "ApplyMonsterIDFilterToTargets": true
+        },
+        {
+          "AbilityID": 271,
+          "Priority": 2,
+          "Weight": 100,
+          "Conds": [
+            {
+              "CondGroup": 0,
+              "SubConds": null,
+              "CondVar": 6,
+              "CondEval": 2,
+              "Not": false,
+              "Value": 0,
+              "Data1": 0
+            },
+            {
+              "CondGroup": 0,
+              "SubConds": null,
+              "CondVar": 61,
+              "CondEval": 3,
+              "Not": false,
+              "Value": 4,
+              "Data1": 0
+            }
+          ],
+          "HasDialogue": false,
+          "Dialogue": null,
+          "TargetTypeOverride": null,
+          "AllyMonsterIDFilter": null,
+          "ApplyMonsterIDFilterToConds": true,
+          "ApplyMonsterIDFilterToTargets": true
+        },
+        {
+          "AbilityID": 289,
+          "Priority": 3,
+          "Weight": 100,
+          "Conds": [
+            {
+              "CondGroup": 0,
+              "SubConds": null,
+              "CondVar": 0,
+              "CondEval": 1,
+              "Not": false,
+              "Value": 50,
+              "Data1": 0
+            },
+            {
+              "CondGroup": 0,
+              "SubConds": null,
+              "CondVar": 61,
+              "CondEval": 3,
+              "Not": false,
+              "Value": 3,
+              "Data1": 0
+            },
+            {
+              "CondGroup": 0,
+              "SubConds": null,
+              "CondVar": 44,
+              "CondEval": 3,
+              "Not": false,
+              "Value": 0,
+              "Data1": 0
+            }
+          ],
+          "HasDialogue": false,
+          "Dialogue": null,
+          "TargetTypeOverride": null,
+          "AllyMonsterIDFilter": null,
+          "ApplyMonsterIDFilterToConds": true,
+          "ApplyMonsterIDFilterToTargets": true
+        }
+      ]
+    },
+    {
+      "ID": 170,
+      "Name": "The Old One",
+      "Comments": "",
+      "Flavor": null,
+      "Description": null,
+      "SortOrder": 276,
+      "LocationBiomeID": 42,
+      "TexturePath": "Monster/Z42_OldOne",
+      "TexturePathAlt": null,
+      "TextureFocusX": 153,
+      "TextureFocusY": 61,
+      "TextureBubbleX": 57,
+      "TextureBubbleY": 51,
+      "HasShadow": true,
+      "HasBreathing": true,
+      "AttackAnimationID": null,
+      "IsPvp": false,
+      "PvpJobID": 0,
+      "PvpGenderID": 0,
+      "PvpWeaponID": null,
+      "PvpTextureType": 0,
+      "Level": 65,
+      "IsBoss": true,
+      "AvgPop": 1,
+      "Category": 4,
+      "NoAuto": false,
+      "Exp": 1250,
+      "JP": 100,
+      "Money": 100000,
+      "ItemDrops": [
+        {
+          "LootType": 2,
+          "ItemID": 0,
+          "EquipmentID": 284,
+          "LootChance": 100,
+          "StealChance": 100,
+          "MaxLootCount": 0
+        }
+      ],
+      "ItemSteals": [
+        {
+          "LootType": 1,
+          "ItemID": 195,
+          "EquipmentID": 0,
+          "LootChance": 100,
+          "StealChance": 25,
+          "MaxLootCount": 0
+        }
+      ],
+      "HP": 40000,
+      "MP": 660,
+      "Str": 180,
+      "Vit": 420,
+      "Dex": 230,
+      "Agi": 180,
+      "Mnd": 400,
+      "Spi": 230,
+      "Spd": 260,
+      "Lck": 220,
+      "PAtk": 370,
+      "PPen": 0,
+      "PDef": 480,
+      "PCritChance": 0,
+      "PCritDmg": 0,
+      "PAccRating": 0,
+      "PEvaRating": 0,
+      "MPen": 0,
+      "MDef": 440,
+      "PVariance": 0,
+      "StatMods": [
+        {
+          "Tag": 226,
+          "Value1": 5,
+          "Value2": 0,
+          "Value3": 0
+        },
+        {
+          "Tag": 401,
+          "Value1": 24,
+          "Value2": 0,
+          "Value3": 0
+        }
+      ],
+      "Actions": [
+        {
+          "AbilityID": 0,
+          "Priority": 0,
+          "Weight": 100,
+          "Conds": [],
+          "HasDialogue": false,
+          "Dialogue": null,
+          "TargetTypeOverride": null,
+          "AllyMonsterIDFilter": null,
+          "ApplyMonsterIDFilterToConds": true,
+          "ApplyMonsterIDFilterToTargets": true
+        },
+        {
+          "AbilityID": 210,
+          "Priority": 1,
+          "Weight": 100,
+          "Conds": [
+            {
+              "CondGroup": 0,
+              "SubConds": null,
+              "CondVar": 6,
+              "CondEval": 2,
+              "Not": false,
+              "Value": 0,
+              "Data1": 0
+            },
+            {
+              "CondGroup": 0,
+              "SubConds": null,
+              "CondVar": 61,
+              "CondEval": 3,
+              "Not": false,
+              "Value": 2,
+              "Data1": 0
+            }
+          ],
+          "HasDialogue": false,
+          "Dialogue": null,
+          "TargetTypeOverride": null,
+          "AllyMonsterIDFilter": null,
+          "ApplyMonsterIDFilterToConds": true,
+          "ApplyMonsterIDFilterToTargets": true
+        },
+        {
+          "AbilityID": 423,
+          "Priority": 2,
+          "Weight": 100,
+          "Conds": [
+            {
+              "CondGroup": 0,
+              "SubConds": null,
+              "CondVar": 61,
+              "CondEval": 3,
+              "Not": false,
+              "Value": 4,
+              "Data1": 0
+            },
+            {
+              "CondGroup": 0,
+              "SubConds": null,
+              "CondVar": 10,
+              "CondEval": 1,
+              "Not": false,
+              "Value": 50,
+              "Data1": 0
+            },
+            {
+              "CondGroup": 0,
+              "SubConds": null,
+              "CondVar": 44,
+              "CondEval": 3,
+              "Not": false,
+              "Value": 0,
+              "Data1": 0
+            }
+          ],
+          "HasDialogue": false,
+          "Dialogue": null,
+          "TargetTypeOverride": null,
+          "AllyMonsterIDFilter": null,
+          "ApplyMonsterIDFilterToConds": true,
+          "ApplyMonsterIDFilterToTargets": true
+        },
+        {
+          "AbilityID": 424,
+          "Priority": 3,
+          "Weight": 100,
+          "Conds": [
+            {
+              "CondGroup": 0,
+              "SubConds": null,
+              "CondVar": 28,
+              "CondEval": 3,
+              "Not": false,
+              "Value": 1,
+              "Data1": 0
+            },
+            {
+              "CondGroup": 0,
+              "SubConds": null,
+              "CondVar": 61,
+              "CondEval": 3,
+              "Not": false,
+              "Value": 2,
+              "Data1": 0
+            }
+          ],
+          "HasDialogue": false,
+          "Dialogue": null,
+          "TargetTypeOverride": null,
+          "AllyMonsterIDFilter": null,
+          "ApplyMonsterIDFilterToConds": true,
+          "ApplyMonsterIDFilterToTargets": true
+        }
+      ]
+    },
+    {
+      "ID": 171,
+      "Name": "The Devourer",
+      "Comments": "",
+      "Flavor": null,
+      "Description": null,
+      "SortOrder": 278,
+      "LocationBiomeID": 42,
+      "TexturePath": "Monster/Z42_Shark",
+      "TexturePathAlt": null,
+      "TextureFocusX": 196,
+      "TextureFocusY": 223,
+      "TextureBubbleX": 73,
+      "TextureBubbleY": 77,
+      "HasShadow": true,
+      "HasBreathing": true,
+      "AttackAnimationID": null,
+      "IsPvp": false,
+      "PvpJobID": 0,
+      "PvpGenderID": 0,
+      "PvpWeaponID": null,
+      "PvpTextureType": 0,
+      "Level": 65,
+      "IsBoss": true,
+      "AvgPop": 1,
+      "Category": 8,
+      "NoAuto": false,
+      "Exp": 1250,
+      "JP": 100,
+      "Money": 100000,
+      "ItemDrops": [
+        {
+          "LootType": 2,
+          "ItemID": 0,
+          "EquipmentID": 273,
+          "LootChance": 100,
+          "StealChance": 100,
+          "MaxLootCount": 0
+        }
+      ],
+      "ItemSteals": [
+        {
+          "LootType": 1,
+          "ItemID": 195,
+          "EquipmentID": 0,
+          "LootChance": 100,
+          "StealChance": 25,
+          "MaxLootCount": 0
+        }
+      ],
+      "HP": 29000,
+      "MP": 490,
+      "Str": 180,
+      "Vit": 300,
+      "Dex": 230,
+      "Agi": 230,
+      "Mnd": 270,
+      "Spi": 290,
+      "Spd": 420,
+      "Lck": 160,
+      "PAtk": 370,
+      "PPen": 0,
+      "PDef": 600,
+      "PCritChance": 0,
+      "PCritDmg": 0,
+      "PAccRating": 0,
+      "PEvaRating": 0,
+      "MPen": 0,
+      "MDef": 320,
+      "PVariance": 0,
+      "StatMods": [
+        {
+          "Tag": 226,
+          "Value1": 5,
+          "Value2": 0,
+          "Value3": 0
+        },
+        {
+          "Tag": 400,
+          "Value1": 4,
+          "Value2": 20,
+          "Value3": 0
+        },
+        {
+          "Tag": 400,
+          "Value1": 5,
+          "Value2": -20,
+          "Value3": 0
+        },
+        {
+          "Tag": 401,
+          "Value1": 24,
+          "Value2": 0,
+          "Value3": 0
+        }
+      ],
+      "Actions": [
+        {
+          "AbilityID": 0,
+          "Priority": 0,
+          "Weight": 100,
+          "Conds": [],
+          "HasDialogue": false,
+          "Dialogue": null,
+          "TargetTypeOverride": null,
+          "AllyMonsterIDFilter": null,
+          "ApplyMonsterIDFilterToConds": true,
+          "ApplyMonsterIDFilterToTargets": true
+        },
+        {
+          "AbilityID": 24,
+          "Priority": 1,
+          "Weight": 100,
+          "Conds": [],
+          "HasDialogue": false,
+          "Dialogue": null,
+          "TargetTypeOverride": null,
+          "AllyMonsterIDFilter": null,
+          "ApplyMonsterIDFilterToConds": true,
+          "ApplyMonsterIDFilterToTargets": true
+        },
+        {
+          "AbilityID": 173,
+          "Priority": 2,
+          "Weight": 100,
+          "Conds": [
+            {
+              "CondGroup": 0,
+              "SubConds": null,
+              "CondVar": 6,
+              "CondEval": 2,
+              "Not": false,
+              "Value": 0,
+              "Data1": 0
+            },
+            {
+              "CondGroup": 0,
+              "SubConds": null,
+              "CondVar": 61,
+              "CondEval": 3,
+              "Not": false,
+              "Value": 3,
+              "Data1": 0
+            },
+            {
+              "CondGroup": 0,
+              "SubConds": null,
+              "CondVar": 62,
+              "CondEval": 0,
+              "Not": true,
+              "Value": 0,
+              "Data1": 174
+            }
+          ],
+          "HasDialogue": false,
+          "Dialogue": null,
+          "TargetTypeOverride": null,
+          "AllyMonsterIDFilter": null,
+          "ApplyMonsterIDFilterToConds": true,
+          "ApplyMonsterIDFilterToTargets": true
+        },
+        {
+          "AbilityID": 174,
+          "Priority": 1,
+          "Weight": 100,
+          "Conds": [
+            {
+              "CondGroup": 0,
+              "SubConds": null,
+              "CondVar": 16,
+              "CondEval": 2,
+              "Not": false,
+              "Value": 0,
+              "Data1": 0
+            },
+            {
+              "CondGroup": 0,
+              "SubConds": null,
+              "CondVar": 61,
+              "CondEval": 3,
+              "Not": false,
+              "Value": 6,
+              "Data1": 0
+            },
+            {
+              "CondGroup": 0,
+              "SubConds": null,
+              "CondVar": 62,
+              "CondEval": 0,
+              "Not": true,
+              "Value": 0,
+              "Data1": 173
+            }
+          ],
+          "HasDialogue": false,
+          "Dialogue": null,
+          "TargetTypeOverride": null,
+          "AllyMonsterIDFilter": null,
+          "ApplyMonsterIDFilterToConds": true,
+          "ApplyMonsterIDFilterToTargets": true
+        },
+        {
+          "AbilityID": 389,
+          "Priority": 3,
+          "Weight": 100,
+          "Conds": [
+            {
+              "CondGroup": 0,
+              "SubConds": null,
+              "CondVar": 51,
+              "CondEval": 3,
+              "Not": false,
+              "Value": 1,
+              "Data1": 0
+            },
+            {
+              "CondGroup": 0,
+              "SubConds": null,
+              "CondVar": 44,
+              "CondEval": 3,
+              "Not": false,
+              "Value": 0,
+              "Data1": 0
+            }
+          ],
+          "HasDialogue": false,
+          "Dialogue": null,
+          "TargetTypeOverride": null,
+          "AllyMonsterIDFilter": null,
+          "ApplyMonsterIDFilterToConds": true,
+          "ApplyMonsterIDFilterToTargets": true
+        },
+        {
+          "AbilityID": 492,
+          "Priority": 3,
+          "Weight": 100,
+          "Conds": [
+            {
+              "CondGroup": 0,
+              "SubConds": null,
+              "CondVar": 50,
+              "CondEval": 3,
+              "Not": false,
+              "Value": 4,
+              "Data1": 0
+            },
+            {
+              "CondGroup": 0,
+              "SubConds": null,
+              "CondVar": 61,
+              "CondEval": 3,
+              "Not": false,
+              "Value": 4,
+              "Data1": 0
+            }
+          ],
+          "HasDialogue": false,
+          "Dialogue": null,
+          "TargetTypeOverride": null,
+          "AllyMonsterIDFilter": null,
+          "ApplyMonsterIDFilterToConds": true,
+          "ApplyMonsterIDFilterToTargets": true
+        }
+      ]
+    },
+    {
+      "ID": 172,
+      "Name": "The Enforcer",
+      "Comments": "No-auto:\r\n- This guy does his damage via DoT. So his PAtk is really low.\r\n- He has a lot of defensive stuff. So his HP is a bit lower.",
+      "Flavor": null,
+      "Description": null,
+      "SortOrder": 279,
+      "LocationBiomeID": 42,
+      "TexturePath": "Monster/Z42_Squid",
+      "TexturePathAlt": null,
+      "TextureFocusX": 108,
+      "TextureFocusY": 114,
+      "TextureBubbleX": 31,
+      "TextureBubbleY": 24,
+      "HasShadow": true,
+      "HasBreathing": true,
+      "AttackAnimationID": null,
+      "IsPvp": false,
+      "PvpJobID": 0,
+      "PvpGenderID": 0,
+      "PvpWeaponID": null,
+      "PvpTextureType": 0,
+      "Level": 65,
+      "IsBoss": true,
+      "AvgPop": 1,
+      "Category": 0,
+      "NoAuto": true,
+      "Exp": 1250,
+      "JP": 100,
+      "Money": 100000,
+      "ItemDrops": [
+        {
+          "LootType": 2,
+          "ItemID": 0,
+          "EquipmentID": 242,
+          "LootChance": 100,
+          "StealChance": 100,
+          "MaxLootCount": 0
+        }
+      ],
+      "ItemSteals": [
+        {
+          "LootType": 1,
+          "ItemID": 195,
+          "EquipmentID": 0,
+          "LootChance": 100,
+          "StealChance": 25,
+          "MaxLootCount": 0
+        }
+      ],
+      "HP": 31500,
+      "MP": 660,
+      "Str": 230,
+      "Vit": 300,
+      "Dex": 230,
+      "Agi": 230,
+      "Mnd": 330,
+      "Spi": 290,
+      "Spd": 310,
+      "Lck": 220,
+      "PAtk": 180,
+      "PPen": 0,
+      "PDef": 600,
+      "PCritChance": 0,
+      "PCritDmg": 0,
+      "PAccRating": 0,
+      "PEvaRating": 0,
+      "MPen": 0,
+      "MDef": 320,
+      "PVariance": 0,
+      "StatMods": [
+        {
+          "Tag": 226,
+          "Value1": 5,
+          "Value2": 0,
+          "Value3": 0
+        },
+        {
+          "Tag": 401,
+          "Value1": 24,
+          "Value2": 0,
+          "Value3": 0
+        },
+        {
+          "Tag": 246,
+          "Value1": 0,
+          "Value2": 0,
+          "Value3": 0
+        },
+        {
+          "Tag": 415,
+          "Value1": 0,
+          "Value2": 0,
+          "Value3": 0
+        },
+        {
+          "Tag": 416,
+          "Value1": 0,
+          "Value2": 0,
+          "Value3": 0
+        },
+        {
+          "Tag": 531,
+          "Value1": 0,
+          "Value2": 0,
+          "Value3": 0
+        },
+        {
+          "Tag": 82,
+          "Value1": 90,
+          "Value2": 100,
+          "Value3": 255
+        }
+      ],
+      "Actions": [
+        {
+          "AbilityID": 0,
+          "Priority": 0,
+          "Weight": 100,
+          "Conds": [],
+          "HasDialogue": false,
+          "Dialogue": null,
+          "TargetTypeOverride": null,
+          "AllyMonsterIDFilter": null,
+          "ApplyMonsterIDFilterToConds": true,
+          "ApplyMonsterIDFilterToTargets": true
+        },
+        {
+          "AbilityID": 499,
+          "Priority": 1,
+          "Weight": 100,
+          "Conds": [],
+          "HasDialogue": false,
+          "Dialogue": null,
+          "TargetTypeOverride": null,
+          "AllyMonsterIDFilter": null,
+          "ApplyMonsterIDFilterToConds": true,
+          "ApplyMonsterIDFilterToTargets": true
+        },
+        {
+          "AbilityID": 308,
+          "Priority": 4,
+          "Weight": 100,
+          "Conds": [
+            {
+              "CondGroup": 0,
+              "SubConds": null,
+              "CondVar": 32,
+              "CondEval": 3,
+              "Not": false,
+              "Value": 25,
+              "Data1": 0
+            },
+            {
+              "CondGroup": 2,
+              "SubConds": [
+                {
+                  "CondGroup": 0,
+                  "SubConds": null,
+                  "CondVar": 62,
+                  "CondEval": 0,
+                  "Not": false,
+                  "Value": 0,
+                  "Data1": 186
+                },
+                {
+                  "CondGroup": 1,
+                  "SubConds": [
+                    {
+                      "CondGroup": 0,
+                      "SubConds": null,
+                      "CondVar": 50,
+                      "CondEval": 3,
+                      "Not": false,
+                      "Value": 4,
+                      "Data1": 0
+                    },
+                    {
+                      "CondGroup": 0,
+                      "SubConds": null,
+                      "CondVar": 61,
+                      "CondEval": 3,
+                      "Not": false,
+                      "Value": 5,
+                      "Data1": 0
+                    }
+                  ],
+                  "CondVar": 0,
+                  "CondEval": 0,
+                  "Not": false,
+                  "Value": 0,
+                  "Data1": 0
+                }
+              ],
+              "CondVar": 0,
+              "CondEval": 0,
+              "Not": false,
+              "Value": 0,
+              "Data1": 0
+            }
+          ],
+          "HasDialogue": false,
+          "Dialogue": null,
+          "TargetTypeOverride": null,
+          "AllyMonsterIDFilter": null,
+          "ApplyMonsterIDFilterToConds": true,
+          "ApplyMonsterIDFilterToTargets": true
+        },
+        {
+          "AbilityID": 199,
+          "Priority": 2,
+          "Weight": 100,
+          "Conds": [
+            {
+              "CondGroup": 0,
+              "SubConds": null,
+              "CondVar": 16,
+              "CondEval": 2,
+              "Not": false,
+              "Value": 0,
+              "Data1": 0
+            },
+            {
+              "CondGroup": 0,
+              "SubConds": null,
+              "CondVar": 61,
+              "CondEval": 3,
+              "Not": false,
+              "Value": 5,
+              "Data1": 0
+            }
+          ],
+          "HasDialogue": false,
+          "Dialogue": null,
+          "TargetTypeOverride": null,
+          "AllyMonsterIDFilter": null,
+          "ApplyMonsterIDFilterToConds": true,
+          "ApplyMonsterIDFilterToTargets": true
+        },
+        {
+          "AbilityID": 186,
+          "Priority": 2,
+          "Weight": 100,
+          "Conds": [
+            {
+              "CondGroup": 0,
+              "SubConds": null,
+              "CondVar": 6,
+              "CondEval": 2,
+              "Not": false,
+              "Value": 0,
+              "Data1": 0
+            },
+            {
+              "CondGroup": 0,
+              "SubConds": null,
+              "CondVar": 102,
+              "CondEval": 3,
+              "Not": false,
+              "Value": 1,
+              "Data1": 0
+            },
+            {
+              "CondGroup": 0,
+              "SubConds": null,
+              "CondVar": 61,
+              "CondEval": 3,
+              "Not": false,
+              "Value": 4,
+              "Data1": 0
+            }
+          ],
+          "HasDialogue": false,
+          "Dialogue": null,
+          "TargetTypeOverride": null,
+          "AllyMonsterIDFilter": null,
+          "ApplyMonsterIDFilterToConds": true,
+          "ApplyMonsterIDFilterToTargets": true
+        },
+        {
+          "AbilityID": 305,
+          "Priority": 3,
+          "Weight": 100,
+          "Conds": [
+            {
+              "CondGroup": 0,
+              "SubConds": null,
+              "CondVar": 16,
+              "CondEval": 2,
+              "Not": false,
+              "Value": 0,
+              "Data1": 0
+            },
+            {
+              "CondGroup": 0,
+              "SubConds": null,
+              "CondVar": 61,
+              "CondEval": 3,
+              "Not": false,
+              "Value": 4,
+              "Data1": 0
+            },
+            {
+              "CondGroup": 0,
+              "SubConds": null,
+              "CondVar": 10,
+              "CondEval": 1,
+              "Not": false,
+              "Value": 50,
+              "Data1": 0
+            }
+          ],
+          "HasDialogue": false,
+          "Dialogue": null,
+          "TargetTypeOverride": null,
+          "AllyMonsterIDFilter": null,
+          "ApplyMonsterIDFilterToConds": true,
+          "ApplyMonsterIDFilterToTargets": true
+        }
+      ]
+    },
+    {
+      "ID": 241,
+      "Name": "Gabriel",
+      "Comments": "Has pseudo-perma confusion so that you can't really taunt it.\r\nHas none (or very few/rare) multi-target attacks, but has perma-confusion status to make up for it.",
+      "Flavor": null,
+      "Description": null,
+      "SortOrder": 303,
+      "LocationBiomeID": 42,
+      "TexturePath": "Monster/Z42_AngeloEX",
+      "TexturePathAlt": null,
+      "TextureFocusX": 405,
+      "TextureFocusY": 293,
+      "TextureBubbleX": 367,
+      "TextureBubbleY": 226,
+      "HasShadow": false,
+      "HasBreathing": true,
+      "AttackAnimationID": null,
+      "IsPvp": false,
+      "PvpJobID": 0,
+      "PvpGenderID": 0,
+      "PvpWeaponID": null,
+      "PvpTextureType": 0,
+      "Level": 65,
+      "IsBoss": true,
+      "AvgPop": 1,
+      "Category": 0,
+      "NoAuto": false,
+      "Exp": 1250,
+      "JP": 100,
+      "Money": 100000,
+      "ItemDrops": [
+        {
+          "LootType": 1,
+          "ItemID": 253,
+          "EquipmentID": 0,
+          "LootChance": 100,
+          "StealChance": 100,
+          "MaxLootCount": 0
+        }
+      ],
+      "ItemSteals": [],
+      "HP": 34000,
+      "MP": 660,
+      "Str": 230,
+      "Vit": 300,
+      "Dex": 230,
+      "Agi": 230,
+      "Mnd": 330,
+      "Spi": 290,
+      "Spd": 310,
+      "Lck": 220,
+      "PAtk": 410,
+      "PPen": 0,
+      "PDef": 600,
+      "PCritChance": 0,
+      "PCritDmg": 0,
+      "PAccRating": 0,
+      "PEvaRating": 0,
+      "MPen": 0,
+      "MDef": 320,
+      "PVariance": 0,
+      "StatMods": [
+        {
+          "Tag": 226,
+          "Value1": 5,
+          "Value2": 0,
+          "Value3": 0
+        },
+        {
+          "Tag": 401,
+          "Value1": 24,
+          "Value2": 0,
+          "Value3": 0
+        }
+      ],
+      "Actions": [
+        {
+          "AbilityID": 0,
+          "Priority": 0,
+          "Weight": 100,
+          "Conds": [],
+          "HasDialogue": false,
+          "Dialogue": null,
+          "TargetTypeOverride": null,
+          "AllyMonsterIDFilter": null,
+          "ApplyMonsterIDFilterToConds": true,
+          "ApplyMonsterIDFilterToTargets": true
+        },
+        {
+          "AbilityID": 410,
+          "Priority": 1,
+          "Weight": 100,
+          "Conds": [],
+          "HasDialogue": false,
+          "Dialogue": null,
+          "TargetTypeOverride": null,
+          "AllyMonsterIDFilter": null,
+          "ApplyMonsterIDFilterToConds": true,
+          "ApplyMonsterIDFilterToTargets": true
+        },
+        {
+          "AbilityID": 403,
+          "Priority": 2,
+          "Weight": 100,
+          "Conds": [
+            {
+              "CondGroup": 0,
+              "SubConds": null,
+              "CondVar": 16,
+              "CondEval": 2,
+              "Not": false,
+              "Value": 0,
+              "Data1": 0
+            },
+            {
+              "CondGroup": 0,
+              "SubConds": null,
+              "CondVar": 61,
+              "CondEval": 3,
+              "Not": false,
+              "Value": 4,
+              "Data1": 0
+            }
+          ],
+          "HasDialogue": false,
+          "Dialogue": null,
+          "TargetTypeOverride": null,
+          "AllyMonsterIDFilter": null,
+          "ApplyMonsterIDFilterToConds": true,
+          "ApplyMonsterIDFilterToTargets": true
+        },
+        {
+          "AbilityID": 500,
+          "Priority": 1,
+          "Weight": 100,
+          "Conds": [
+            {
+              "CondGroup": 0,
+              "SubConds": null,
+              "CondVar": 61,
+              "CondEval": 3,
+              "Not": false,
+              "Value": 2,
+              "Data1": 0
+            }
+          ],
+          "HasDialogue": false,
+          "Dialogue": null,
+          "TargetTypeOverride": null,
+          "AllyMonsterIDFilter": null,
+          "ApplyMonsterIDFilterToConds": true,
+          "ApplyMonsterIDFilterToTargets": true
+        },
+        {
+          "AbilityID": 447,
+          "Priority": 1,
+          "Weight": 100,
+          "Conds": [
+            {
+              "CondGroup": 0,
+              "SubConds": null,
+              "CondVar": 61,
+              "CondEval": 3,
+              "Not": false,
+              "Value": 6,
+              "Data1": 0
+            }
+          ],
+          "HasDialogue": false,
+          "Dialogue": null,
+          "TargetTypeOverride": null,
+          "AllyMonsterIDFilter": null,
+          "ApplyMonsterIDFilterToConds": true,
+          "ApplyMonsterIDFilterToTargets": true
+        }
+      ]
+    },
+    {
+      "ID": 242,
+      "Name": "Conscript",
+      "Comments": null,
+      "Flavor": null,
+      "Description": null,
+      "SortOrder": 302,
+      "LocationBiomeID": 79,
+      "TexturePath": "Monster/Z79_Angelo",
+      "TexturePathAlt": null,
+      "TextureFocusX": 346,
+      "TextureFocusY": 162,
+      "TextureBubbleX": 314,
+      "TextureBubbleY": 107,
+      "HasShadow": false,
+      "HasBreathing": true,
+      "AttackAnimationID": null,
+      "IsPvp": false,
+      "PvpJobID": 0,
+      "PvpGenderID": 0,
+      "PvpWeaponID": null,
+      "PvpTextureType": 0,
+      "Level": 60,
+      "IsBoss": true,
+      "AvgPop": 1,
+      "Category": 0,
+      "NoAuto": false,
+      "Exp": 1150,
+      "JP": 100,
+      "Money": 100000,
+      "ItemDrops": [],
+      "ItemSteals": [],
+      "HP": 29000,
+      "MP": 600,
+      "Str": 210,
+      "Vit": 270,
+      "Dex": 210,
+      "Agi": 210,
+      "Mnd": 310,
+      "Spi": 270,
+      "Spd": 280,
+      "Lck": 200,
+      "PAtk": 380,
+      "PPen": 0,
+      "PDef": 540,
+      "PCritChance": 0,
+      "PCritDmg": 0,
+      "PAccRating": 0,
+      "PEvaRating": 0,
+      "MPen": 0,
+      "MDef": 300,
+      "PVariance": 0,
+      "StatMods": [
+        {
+          "Tag": 226,
+          "Value1": 6,
+          "Value2": 0,
+          "Value3": 0
+        },
+        {
+          "Tag": 401,
+          "Value1": 24,
+          "Value2": 0,
+          "Value3": 0
+        }
+      ],
+      "Actions": [
+        {
+          "AbilityID": 0,
+          "Priority": 0,
+          "Weight": 100,
+          "Conds": [],
+          "HasDialogue": false,
+          "Dialogue": null,
+          "TargetTypeOverride": null,
+          "AllyMonsterIDFilter": null,
+          "ApplyMonsterIDFilterToConds": true,
+          "ApplyMonsterIDFilterToTargets": true
+        },
+        {
+          "AbilityID": 261,
+          "Priority": 2,
+          "Weight": 100,
+          "Conds": [
+            {
+              "CondGroup": 0,
+              "SubConds": null,
+              "CondVar": 61,
+              "CondEval": 3,
+              "Not": false,
+              "Value": 2,
+              "Data1": 0
+            }
+          ],
+          "HasDialogue": false,
+          "Dialogue": null,
+          "TargetTypeOverride": null,
+          "AllyMonsterIDFilter": null,
+          "ApplyMonsterIDFilterToConds": true,
+          "ApplyMonsterIDFilterToTargets": true
+        },
+        {
+          "AbilityID": 438,
+          "Priority": 4,
+          "Weight": 100,
+          "Conds": [
+            {
+              "CondGroup": 0,
+              "SubConds": null,
+              "CondVar": 61,
+              "CondEval": 3,
+              "Not": false,
+              "Value": 5,
+              "Data1": 0
+            }
+          ],
+          "HasDialogue": false,
+          "Dialogue": null,
+          "TargetTypeOverride": null,
+          "AllyMonsterIDFilter": null,
+          "ApplyMonsterIDFilterToConds": true,
+          "ApplyMonsterIDFilterToTargets": true
+        },
+        {
+          "AbilityID": 443,
+          "Priority": 1,
+          "Weight": 100,
+          "Conds": [
+            {
+              "CondGroup": 0,
+              "SubConds": null,
+              "CondVar": 96,
+              "CondEval": 2,
+              "Not": false,
+              "Value": 0,
+              "Data1": 0
+            },
+            {
+              "CondGroup": 0,
+              "SubConds": null,
+              "CondVar": 61,
+              "CondEval": 3,
+              "Not": false,
+              "Value": 3,
+              "Data1": 0
+            }
+          ],
+          "HasDialogue": false,
+          "Dialogue": null,
+          "TargetTypeOverride": null,
+          "AllyMonsterIDFilter": null,
+          "ApplyMonsterIDFilterToConds": true,
+          "ApplyMonsterIDFilterToTargets": true
+        },
+        {
+          "AbilityID": 323,
+          "Priority": 3,
+          "Weight": 100,
+          "Conds": [
+            {
+              "CondGroup": 0,
+              "SubConds": null,
+              "CondVar": 61,
+              "CondEval": 3,
+              "Not": false,
+              "Value": 4,
+              "Data1": 0
+            }
+          ],
+          "HasDialogue": false,
+          "Dialogue": null,
+          "TargetTypeOverride": null,
+          "AllyMonsterIDFilter": null,
+          "ApplyMonsterIDFilterToConds": true,
+          "ApplyMonsterIDFilterToTargets": true
+        }
+      ]
+    }
+  ],
   "Passives": [],
   "Recipes": [],
   "Sparks": [],
   "Statuses": [],
   "Troops": [],
   "Entities": [
+    {
+      "ID": 1200,
+      "Coord": {
+        "X": -170,
+        "Y": 93,
+        "Z": 62
+      },
+      "BiomeID": 122,
+      "EntityType": 0,
+      "Comments": null,
+      "NpcData": {
+        "Key": "Z27_ForeignFoodie",
+        "LinkedKey": null,
+        "TieToSpawn": false,
+        "UniquePerKey": false,
+        "Outfits": [
+          {
+            "Condition": {
+              "ConditionType": 0,
+              "Data": null,
+              "IsNegation": false
+            },
+            "TextureKey": "Actor/Npc_WandererMaleA",
+            "Name": "Food Enthusiast",
+            "PlayerCharacterLevel": null,
+            "JobID": null,
+            "Facing": 5,
+            "ShadowType": 2,
+            "AutoStep": false,
+            "VoxelID": null,
+            "VoxelVariantIndex": 0,
+            "PlayerCollision": 3,
+            "NpcCollision": 0,
+            "MountType": 15,
+            "JumpType": 0,
+            "KeepSpawned": false,
+            "WanderType": 0,
+            "WanderSpeed": 0.0,
+            "WanderFrequency": 0,
+            "WanderRadius": 0.0,
+            "WanderRoute": [],
+            "WanderRouteIsLine": false
+          }
+        ],
+        "Pages": [
+          {
+            "Condition": {
+              "ConditionType": 0,
+              "Data": null,
+              "IsNegation": false
+            },
+            "TriggerType": 0,
+            "TriggerProximityRadius": 1.0,
+            "TriggerProximityBox": {
+              "XNeg": 0.0,
+              "YNeg": 0.0,
+              "ZNeg": 0.0,
+              "XPos": 0.0,
+              "YPos": 0.0,
+              "ZPos": 0.0
+            },
+            "TriggerOnExitProximity": false,
+            "TriggerTouchType": 0,
+            "Actions": [
+              {
+                "ActionType": 3,
+                "Data": {
+                  "Condition": {
+                    "ConditionType": 3,
+                    "Data": {
+                      "Scope": 0,
+                      "EntityKey": null,
+                      "VariableKey": "Given",
+                      "Eval": 2,
+                      "VariableType": 0,
+                      "Flag": false,
+                      "Number": 0,
+                      "SourceVariableScope": 0,
+                      "SourceVariableKey": null,
+                      "LootType": 0,
+                      "LootValue": 0
+                    },
+                    "IsNegation": false
+                  },
+                  "ConditionActionsTrue": [
+                    {
+                      "ActionType": 0,
+                      "Data": null
+                    },
+                    {
+                      "ActionType": 1,
+                      "Data": {
+                        "Message": "Thanks for the @I132.Name!",
+                        "NpcKey": null,
+                        "Choices": [],
+                        "AnswerVariableKey": null,
+                        "ShowPartyStatus": false
+                      }
+                    },
+                    {
+                      "ActionType": 24,
+                      "Data": {
+                        "Facing": 5
+                      }
+                    },
+                    {
+                      "ActionType": 10,
+                      "Data": {
+                        "RefreshCurrentOutfit": false,
+                        "RefreshCurrentPage": false,
+                        "RefreshCurrentPosition": false,
+                        "CancelAllActiveActions": false,
+                        "TriggerPlayerAction": false,
+                        "TriggerPlayerProximity": false,
+                        "TriggerAuto": false,
+                        "TriggerPlayerTouch": false,
+                        "TriggerTriggerNpc": false,
+                        "GlobalRefreshOutfits": false,
+                        "GlobalRefreshPages": false,
+                        "GlobalRefreshPositions": false,
+                        "GlobalTrySpawn": false,
+                        "GlobalTryDespawn": false,
+                        "NpcKey": null
+                      }
+                    }
+                  ],
+                  "ConditionActionsFalse": []
+                }
+              },
+              {
+                "ActionType": 0,
+                "Data": null
+              },
+              {
+                "ActionType": 3,
+                "Data": {
+                  "Condition": {
+                    "ConditionType": 5,
+                    "Data": {
+                      "LootType": 1,
+                      "LootValue": 229,
+                      "Count": 1,
+                      "Redirect": false
+                    },
+                    "IsNegation": false
+                  },
+                  "ConditionActionsTrue": [
+                    {
+                      "ActionType": 1,
+                      "Data": {
+                        "Message": "You've traveled across the ocean! You brought back foreign delicacies!",
+                        "NpcKey": null,
+                        "Choices": [],
+                        "AnswerVariableKey": null,
+                        "ShowPartyStatus": false
+                      }
+                    },
+                    {
+                      "ActionType": 0,
+                      "Data": null
+                    },
+                    {
+                      "ActionType": 1,
+                      "Data": {
+                        "Message": "I could REALLY use some @I132.Name right now!",
+                        "NpcKey": null,
+                        "Choices": [],
+                        "AnswerVariableKey": null,
+                        "ShowPartyStatus": false
+                      }
+                    },
+                    {
+                      "ActionType": 0,
+                      "Data": null
+                    },
+                    {
+                      "ActionType": 14,
+                      "Data": {
+                        "Message": "Will you give me the @I132.Name?",
+                        "NpcKey": null,
+                        "Choices": [
+                          {
+                            "Text": "Yes",
+                            "AnswerVariableValue": null,
+                            "Cost": 0,
+                            "IsCostOfItem": false,
+                            "IsDefaultSelected": true,
+                            "IsDefaultBack": false,
+                            "Condition": {
+                              "ConditionType": 0,
+                              "Data": null,
+                              "IsNegation": false
+                            }
+                          },
+                          {
+                            "Text": "No",
+                            "AnswerVariableValue": null,
+                            "Cost": 0,
+                            "IsCostOfItem": false,
+                            "IsDefaultSelected": false,
+                            "IsDefaultBack": true,
+                            "Condition": {
+                              "ConditionType": 0,
+                              "Data": null,
+                              "IsNegation": false
+                            }
+                          }
+                        ],
+                        "AnswerVariableKey": "a",
+                        "ShowPartyStatus": false
+                      }
+                    },
+                    {
+                      "ActionType": 3,
+                      "Data": {
+                        "Condition": {
+                          "ConditionType": 4,
+                          "Data": {
+                            "Scope": 0,
+                            "EntityKey": null,
+                            "VariableKey": "a",
+                            "Eval": 2,
+                            "VariableType": 0,
+                            "Flag": false,
+                            "Number": 0,
+                            "SourceVariableScope": 0,
+                            "SourceVariableKey": null,
+                            "LootType": 0,
+                            "LootValue": 0
+                          },
+                          "IsNegation": false
+                        },
+                        "ConditionActionsTrue": [
+                          {
+                            "ActionType": 0,
+                            "Data": null
+                          },
+                          {
+                            "ActionType": 9,
+                            "Data": {
+                              "LootType": 1,
+                              "LootValue": 229,
+                              "Count": 1,
+                              "Redirect": false
+                            }
+                          },
+                          {
+                            "ActionType": 1,
+                            "Data": {
+                              "Message": "Wow, you're a life saver! I've been craving some @I132.Name for years, ever since I first tried it years ago!",
+                              "NpcKey": null,
+                              "Choices": [],
+                              "AnswerVariableKey": null,
+                              "ShowPartyStatus": false
+                            }
+                          },
+                          {
+                            "ActionType": 1,
+                            "Data": {
+                              "Message": "As a token of my appreciation, please have a map of the local wilderness.",
+                              "NpcKey": null,
+                              "Choices": [],
+                              "AnswerVariableKey": null,
+                              "ShowPartyStatus": false
+                            }
+                          },
+                          {
+                            "ActionType": 8,
+                            "Data": {
+                              "LootType": 1,
+                              "LootValue": 103,
+                              "Count": 1,
+                              "Redirect": false
+                            }
+                          },
+                          {
+                            "ActionType": 6,
+                            "Data": {
+                              "Scope": 0,
+                              "EntityKey": null,
+                              "VariableKey": "Given",
+                              "VariableType": 0,
+                              "Flag": true,
+                              "Number": 0,
+                              "SourceVariableScope": 0,
+                              "SourceVariableKey": null,
+                              "LootType": 0,
+                              "LootValue": 0
+                            }
+                          }
+                        ],
+                        "ConditionActionsFalse": [
+                          {
+                            "ActionType": 0,
+                            "Data": null
+                          },
+                          {
+                            "ActionType": 1,
+                            "Data": {
+                              "Message": "Aww, man... please? I'll give you something valuable in return if you change your mind.",
+                              "NpcKey": null,
+                              "Choices": [],
+                              "AnswerVariableKey": null,
+                              "ShowPartyStatus": false
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "ConditionActionsFalse": [
+                    {
+                      "ActionType": 1,
+                      "Data": {
+                        "Message": "I could really use some foreign delicacies from across the ocean right now.",
+                        "NpcKey": null,
+                        "Choices": [],
+                        "AnswerVariableKey": null,
+                        "ShowPartyStatus": false
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "ActionType": 24,
+                "Data": {
+                  "Facing": 5
+                }
+              }
+            ],
+            "Context": 0
+          },
+          {
+            "Condition": {
+              "ConditionType": 0,
+              "Data": null,
+              "IsNegation": false
+            },
+            "TriggerType": 1,
+            "TriggerProximityRadius": 1.0,
+            "TriggerProximityBox": {
+              "XNeg": 0.0,
+              "YNeg": 0.0,
+              "ZNeg": 0.0,
+              "XPos": 0.0,
+              "YPos": 3.0,
+              "ZPos": 3.0
+            },
+            "TriggerOnExitProximity": false,
+            "TriggerTouchType": 0,
+            "Actions": [
+              {
+                "ActionType": 3,
+                "Data": {
+                  "Condition": {
+                    "ConditionType": 3,
+                    "Data": {
+                      "Scope": 0,
+                      "EntityKey": null,
+                      "VariableKey": "Given",
+                      "Eval": 2,
+                      "VariableType": 0,
+                      "Flag": false,
+                      "Number": 0,
+                      "SourceVariableScope": 0,
+                      "SourceVariableKey": null,
+                      "LootType": 0,
+                      "LootValue": 0
+                    },
+                    "IsNegation": false
+                  },
+                  "ConditionActionsTrue": [
+                    {
+                      "ActionType": 10,
+                      "Data": {
+                        "RefreshCurrentOutfit": false,
+                        "RefreshCurrentPage": false,
+                        "RefreshCurrentPosition": false,
+                        "CancelAllActiveActions": false,
+                        "TriggerPlayerAction": false,
+                        "TriggerPlayerProximity": false,
+                        "TriggerAuto": false,
+                        "TriggerPlayerTouch": false,
+                        "TriggerTriggerNpc": false,
+                        "GlobalRefreshOutfits": false,
+                        "GlobalRefreshPages": false,
+                        "GlobalRefreshPositions": false,
+                        "GlobalTrySpawn": false,
+                        "GlobalTryDespawn": false,
+                        "NpcKey": null
+                      }
+                    }
+                  ],
+                  "ConditionActionsFalse": []
+                }
+              },
+              {
+                "ActionType": 3,
+                "Data": {
+                  "Condition": {
+                    "ConditionType": 5,
+                    "Data": {
+                      "LootType": 1,
+                      "LootValue": 132,
+                      "Count": 1,
+                      "Redirect": false
+                    },
+                    "IsNegation": false
+                  },
+                  "ConditionActionsTrue": [
+                    {
+                      "ActionType": 3,
+                      "Data": {
+                        "Condition": {
+                          "ConditionType": 3,
+                          "Data": {
+                            "Scope": 0,
+                            "EntityKey": null,
+                            "VariableKey": "HasSpokenB",
+                            "Eval": 2,
+                            "VariableType": 0,
+                            "Flag": false,
+                            "Number": 0,
+                            "SourceVariableScope": 0,
+                            "SourceVariableKey": null,
+                            "LootType": 0,
+                            "LootValue": 0
+                          },
+                          "IsNegation": true
+                        },
+                        "ConditionActionsTrue": [
+                          {
+                            "ActionType": 6,
+                            "Data": {
+                              "Scope": 0,
+                              "EntityKey": null,
+                              "VariableKey": "HasSpokenB",
+                              "VariableType": 0,
+                              "Flag": true,
+                              "Number": 0,
+                              "SourceVariableScope": 0,
+                              "SourceVariableKey": null,
+                              "LootType": 0,
+                              "LootValue": 0
+                            }
+                          },
+                          {
+                            "ActionType": 1,
+                            "Data": {
+                              "Message": "Hey you!",
+                              "NpcKey": null,
+                              "Choices": [],
+                              "AnswerVariableKey": null,
+                              "ShowPartyStatus": false
+                            }
+                          },
+                          {
+                            "ActionType": 12,
+                            "Data": {
+                              "Offset": {
+                                "X": 0,
+                                "Y": 0,
+                                "Z": 2
+                              },
+                              "PostMoveFacing": 3,
+                              "IsRelative": false,
+                              "TargetMarkerKey": null,
+                              "Speed": 0.1,
+                              "WaitType": 0,
+                              "CollisionFree": true,
+                              "JumpType": null,
+                              "TeleportPoint": 0
+                            }
+                          },
+                          {
+                            "ActionType": 31,
+                            "Data": {
+                              "Offset": {
+                                "X": 1,
+                                "Y": 0,
+                                "Z": 2
+                              },
+                              "PostMoveFacing": 0,
+                              "IsRelative": false,
+                              "TargetMarkerKey": null,
+                              "Speed": 0.05,
+                              "WaitType": 0,
+                              "CollisionFree": true,
+                              "JumpType": null,
+                              "TeleportPoint": 0
+                            }
+                          },
+                          {
+                            "ActionType": 12,
+                            "Data": {
+                              "Offset": {
+                                "X": 0,
+                                "Y": 0,
+                                "Z": 2
+                              },
+                              "PostMoveFacing": 3,
+                              "IsRelative": false,
+                              "TargetMarkerKey": null,
+                              "Speed": 0.1,
+                              "WaitType": 1,
+                              "CollisionFree": true,
+                              "JumpType": null,
+                              "TeleportPoint": 0
+                            }
+                          },
+                          {
+                            "ActionType": 31,
+                            "Data": {
+                              "Offset": {
+                                "X": 1,
+                                "Y": 0,
+                                "Z": 2
+                              },
+                              "PostMoveFacing": 0,
+                              "IsRelative": false,
+                              "TargetMarkerKey": null,
+                              "Speed": 0.05,
+                              "WaitType": 1,
+                              "CollisionFree": true,
+                              "JumpType": null,
+                              "TeleportPoint": 0
+                            }
+                          },
+                          {
+                            "ActionType": 19,
+                            "Data": {
+                              "EntityKey": "Z27_ForeignFoodie",
+                              "TriggerType": 0
+                            }
+                          },
+                          {
+                            "ActionType": 12,
+                            "Data": {
+                              "Offset": {
+                                "X": 0,
+                                "Y": 0,
+                                "Z": 0
+                              },
+                              "PostMoveFacing": 5,
+                              "IsRelative": false,
+                              "TargetMarkerKey": null,
+                              "Speed": 0.05,
+                              "WaitType": 0,
+                              "CollisionFree": true,
+                              "JumpType": null,
+                              "TeleportPoint": 0
+                            }
+                          }
+                        ],
+                        "ConditionActionsFalse": []
+                      }
+                    }
+                  ],
+                  "ConditionActionsFalse": [
+                    {
+                      "ActionType": 3,
+                      "Data": {
+                        "Condition": {
+                          "ConditionType": 2,
+                          "Data": {
+                            "LHS": {
+                              "ConditionType": 5,
+                              "Data": {
+                                "LootType": 1,
+                                "LootValue": 37,
+                                "Count": 1,
+                                "Redirect": false
+                              },
+                              "IsNegation": false
+                            },
+                            "Op": 0,
+                            "RHS": {
+                              "ConditionType": 3,
+                              "Data": {
+                                "Scope": 0,
+                                "EntityKey": null,
+                                "VariableKey": "HasSpokenA",
+                                "Eval": 2,
+                                "VariableType": 0,
+                                "Flag": false,
+                                "Number": 0,
+                                "SourceVariableScope": 0,
+                                "SourceVariableKey": null,
+                                "LootType": 0,
+                                "LootValue": 0
+                              },
+                              "IsNegation": true
+                            }
+                          },
+                          "IsNegation": false
+                        },
+                        "ConditionActionsTrue": [
+                          {
+                            "ActionType": 6,
+                            "Data": {
+                              "Scope": 0,
+                              "EntityKey": null,
+                              "VariableKey": "HasSpokenA",
+                              "VariableType": 0,
+                              "Flag": true,
+                              "Number": 0,
+                              "SourceVariableScope": 0,
+                              "SourceVariableKey": null,
+                              "LootType": 0,
+                              "LootValue": 0
+                            }
+                          },
+                          {
+                            "ActionType": 1,
+                            "Data": {
+                              "Message": "Hey you!",
+                              "NpcKey": null,
+                              "Choices": [],
+                              "AnswerVariableKey": null,
+                              "ShowPartyStatus": false
+                            }
+                          },
+                          {
+                            "ActionType": 12,
+                            "Data": {
+                              "Offset": {
+                                "X": 0,
+                                "Y": 0,
+                                "Z": 2
+                              },
+                              "PostMoveFacing": 3,
+                              "IsRelative": false,
+                              "TargetMarkerKey": null,
+                              "Speed": 0.1,
+                              "WaitType": 0,
+                              "CollisionFree": true,
+                              "JumpType": null,
+                              "TeleportPoint": 0
+                            }
+                          },
+                          {
+                            "ActionType": 31,
+                            "Data": {
+                              "Offset": {
+                                "X": 1,
+                                "Y": 0,
+                                "Z": 2
+                              },
+                              "PostMoveFacing": 0,
+                              "IsRelative": false,
+                              "TargetMarkerKey": null,
+                              "Speed": 0.05,
+                              "WaitType": 0,
+                              "CollisionFree": true,
+                              "JumpType": null,
+                              "TeleportPoint": 0
+                            }
+                          },
+                          {
+                            "ActionType": 12,
+                            "Data": {
+                              "Offset": {
+                                "X": 0,
+                                "Y": 0,
+                                "Z": 2
+                              },
+                              "PostMoveFacing": 3,
+                              "IsRelative": false,
+                              "TargetMarkerKey": null,
+                              "Speed": 0.1,
+                              "WaitType": 1,
+                              "CollisionFree": true,
+                              "JumpType": null,
+                              "TeleportPoint": 0
+                            }
+                          },
+                          {
+                            "ActionType": 31,
+                            "Data": {
+                              "Offset": {
+                                "X": 1,
+                                "Y": 0,
+                                "Z": 2
+                              },
+                              "PostMoveFacing": 0,
+                              "IsRelative": false,
+                              "TargetMarkerKey": null,
+                              "Speed": 0.05,
+                              "WaitType": 1,
+                              "CollisionFree": true,
+                              "JumpType": null,
+                              "TeleportPoint": 0
+                            }
+                          },
+                          {
+                            "ActionType": 1,
+                            "Data": {
+                              "Message": "You have a Ferry Pass!",
+                              "NpcKey": null,
+                              "Choices": [],
+                              "AnswerVariableKey": null,
+                              "ShowPartyStatus": false
+                            }
+                          },
+                          {
+                            "ActionType": 1,
+                            "Data": {
+                              "Message": "I am CRAVING some foreign treats from across the ocean! Please go buy some local delicacies and bring them back here!",
+                              "NpcKey": null,
+                              "Choices": [],
+                              "AnswerVariableKey": null,
+                              "ShowPartyStatus": false
+                            }
+                          },
+                          {
+                            "ActionType": 1,
+                            "Data": {
+                              "Message": "If you do, I'll give you something REALLY valuable.",
+                              "NpcKey": null,
+                              "Choices": [],
+                              "AnswerVariableKey": null,
+                              "ShowPartyStatus": false
+                            }
+                          },
+                          {
+                            "ActionType": 12,
+                            "Data": {
+                              "Offset": {
+                                "X": 0,
+                                "Y": 0,
+                                "Z": 0
+                              },
+                              "PostMoveFacing": 5,
+                              "IsRelative": false,
+                              "TargetMarkerKey": null,
+                              "Speed": 0.05,
+                              "WaitType": 0,
+                              "CollisionFree": true,
+                              "JumpType": null,
+                              "TeleportPoint": 0
+                            }
+                          }
+                        ],
+                        "ConditionActionsFalse": []
+                      }
+                    }
+                  ]
+                }
+              }
+            ],
+            "Context": 0
+          }
+        ]
+      },
+      "SignData": null,
+      "SparkData": null,
+      "DoorData": null,
+      "HomePointData": null,
+      "TreasureData": null,
+      "CrystalData": null,
+      "MarkerData": null
+    },
     {
       "ID": 940,
       "Coord": {
@@ -27251,6 +30419,589 @@
               }
             ],
             "Context": 2
+          }
+        ]
+      },
+      "SignData": null,
+      "SparkData": null,
+      "DoorData": null,
+      "HomePointData": null,
+      "TreasureData": null,
+      "CrystalData": null,
+      "MarkerData": null
+    },
+    {
+      "ID": 942,
+      "Coord": {
+        "X": -174,
+        "Y": 105,
+        "Z": 49
+      },
+      "BiomeID": 27,
+      "EntityType": 0,
+      "Comments": null,
+      "NpcData": {
+        "Key": "Z27_FishMerchant",
+        "LinkedKey": null,
+        "TieToSpawn": false,
+        "UniquePerKey": false,
+        "Outfits": [
+          {
+            "Condition": {
+              "ConditionType": 0,
+              "Data": null,
+              "IsNegation": false
+            },
+            "TextureKey": "Actor/Npc_MerchantA",
+            "Name": "Fish Merchant",
+            "PlayerCharacterLevel": null,
+            "JobID": null,
+            "Facing": 5,
+            "ShadowType": 2,
+            "AutoStep": false,
+            "VoxelID": null,
+            "VoxelVariantIndex": 0,
+            "PlayerCollision": 3,
+            "NpcCollision": 0,
+            "MountType": 0,
+            "JumpType": 0,
+            "KeepSpawned": false,
+            "WanderType": 0,
+            "WanderSpeed": 0.0,
+            "WanderFrequency": 0,
+            "WanderRadius": 0.0,
+            "WanderRoute": [],
+            "WanderRouteIsLine": false
+          }
+        ],
+        "Pages": [
+          {
+            "Condition": {
+              "ConditionType": 0,
+              "Data": null,
+              "IsNegation": false
+            },
+            "TriggerType": 0,
+            "TriggerProximityRadius": 1.0,
+            "TriggerProximityBox": {
+              "XNeg": 0.0,
+              "YNeg": 0.0,
+              "ZNeg": 0.0,
+              "XPos": 0.0,
+              "YPos": 0.0,
+              "ZPos": 0.0
+            },
+            "TriggerOnExitProximity": false,
+            "TriggerTouchType": 0,
+            "Actions": [
+              {
+                "ActionType": 0,
+                "Data": null
+              },
+              {
+                "ActionType": 1,
+                "Data": {
+                  "Message": "Welcome!\r\nI sell the freshest, best, tastiest fish in the entire world!",
+                  "NpcKey": null,
+                  "Choices": [],
+                  "AnswerVariableKey": null,
+                  "ShowPartyStatus": false
+                }
+              },
+              {
+                "ActionType": 3,
+                "Data": {
+                  "Condition": {
+                    "ConditionType": 3,
+                    "Data": {
+                      "Scope": 0,
+                      "EntityKey": null,
+                      "VariableKey": "SeenFreshFish",
+                      "Eval": 2,
+                      "VariableType": 0,
+                      "Flag": false,
+                      "Number": 0,
+                      "SourceVariableScope": 0,
+                      "SourceVariableKey": null,
+                      "LootType": 0,
+                      "LootValue": 0
+                    },
+                    "IsNegation": true
+                  },
+                  "ConditionActionsTrue": [
+                    {
+                      "ActionType": 1,
+                      "Data": {
+                        "Message": "If you can find fresher fish, which you can't, I dare you to show me!",
+                        "NpcKey": null,
+                        "Choices": [],
+                        "AnswerVariableKey": null,
+                        "ShowPartyStatus": false
+                      }
+                    },
+                    {
+                      "ActionType": 3,
+                      "Data": {
+                        "Condition": {
+                          "ConditionType": 5,
+                          "Data": {
+                            "LootType": 1,
+                            "LootValue": 231,
+                            "Count": 1,
+                            "Redirect": false
+                          },
+                          "IsNegation": false
+                        },
+                        "ConditionActionsTrue": [
+                          {
+                            "ActionType": 1,
+                            "Data": {
+                              "Message": "...",
+                              "NpcKey": null,
+                              "Choices": [],
+                              "AnswerVariableKey": null,
+                              "ShowPartyStatus": false
+                            }
+                          },
+                          {
+                            "ActionType": 14,
+                            "Data": {
+                              "Message": "Hey, let me see that @I10.Name you have there!!!",
+                              "NpcKey": null,
+                              "Choices": [
+                                {
+                                  "Text": "OK",
+                                  "AnswerVariableValue": null,
+                                  "Cost": 0,
+                                  "IsCostOfItem": false,
+                                  "IsDefaultSelected": true,
+                                  "IsDefaultBack": false,
+                                  "Condition": {
+                                    "ConditionType": 0,
+                                    "Data": null,
+                                    "IsNegation": false
+                                  }
+                                },
+                                {
+                                  "Text": "No",
+                                  "AnswerVariableValue": null,
+                                  "Cost": 0,
+                                  "IsCostOfItem": false,
+                                  "IsDefaultSelected": false,
+                                  "IsDefaultBack": true,
+                                  "Condition": {
+                                    "ConditionType": 0,
+                                    "Data": null,
+                                    "IsNegation": false
+                                  }
+                                }
+                              ],
+                              "AnswerVariableKey": "answer",
+                              "ShowPartyStatus": false
+                            }
+                          },
+                          {
+                            "ActionType": 3,
+                            "Data": {
+                              "Condition": {
+                                "ConditionType": 4,
+                                "Data": {
+                                  "Scope": 0,
+                                  "EntityKey": null,
+                                  "VariableKey": "answer",
+                                  "Eval": 2,
+                                  "VariableType": 0,
+                                  "Flag": false,
+                                  "Number": 0,
+                                  "SourceVariableScope": 0,
+                                  "SourceVariableKey": null,
+                                  "LootType": 0,
+                                  "LootValue": 0
+                                },
+                                "IsNegation": false
+                              },
+                              "ConditionActionsTrue": [
+                                {
+                                  "ActionType": 9,
+                                  "Data": {
+                                    "LootType": 1,
+                                    "LootValue": 231,
+                                    "Count": 1,
+                                    "Redirect": false
+                                  }
+                                },
+                                {
+                                  "ActionType": 1,
+                                  "Data": {
+                                    "Message": "Wow, where did you get this @I10.Name?? This is so fresh! If I don't do something to stifle the competition, I'm finished!",
+                                    "NpcKey": null,
+                                    "Choices": [],
+                                    "AnswerVariableKey": null,
+                                    "ShowPartyStatus": false
+                                  }
+                                },
+                                {
+                                  "ActionType": 1,
+                                  "Data": {
+                                    "Message": "Please, can you help me? Can you find something incriminating about the store that sold you this @I10.Name?",
+                                    "NpcKey": null,
+                                    "Choices": [],
+                                    "AnswerVariableKey": null,
+                                    "ShowPartyStatus": false
+                                  }
+                                },
+                                {
+                                  "ActionType": 6,
+                                  "Data": {
+                                    "Scope": 0,
+                                    "EntityKey": null,
+                                    "VariableKey": "SeenFreshFish",
+                                    "VariableType": 0,
+                                    "Flag": true,
+                                    "Number": 0,
+                                    "SourceVariableScope": 0,
+                                    "SourceVariableKey": null,
+                                    "LootType": 0,
+                                    "LootValue": 0
+                                  }
+                                },
+                                {
+                                  "ActionType": 10,
+                                  "Data": {
+                                    "RefreshCurrentOutfit": false,
+                                    "RefreshCurrentPage": false,
+                                    "RefreshCurrentPosition": false,
+                                    "CancelAllActiveActions": false,
+                                    "TriggerPlayerAction": false,
+                                    "TriggerPlayerProximity": false,
+                                    "TriggerAuto": false,
+                                    "TriggerPlayerTouch": false,
+                                    "TriggerTriggerNpc": false,
+                                    "GlobalRefreshOutfits": false,
+                                    "GlobalRefreshPages": false,
+                                    "GlobalRefreshPositions": false,
+                                    "GlobalTrySpawn": false,
+                                    "GlobalTryDespawn": false,
+                                    "NpcKey": null
+                                  }
+                                }
+                              ],
+                              "ConditionActionsFalse": [
+                                {
+                                  "ActionType": 1,
+                                  "Data": {
+                                    "Message": "Ugh, fine.",
+                                    "NpcKey": null,
+                                    "Choices": [],
+                                    "AnswerVariableKey": null,
+                                    "ShowPartyStatus": false
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ],
+                        "ConditionActionsFalse": []
+                      }
+                    }
+                  ],
+                  "ConditionActionsFalse": [
+                    {
+                      "ActionType": 3,
+                      "Data": {
+                        "Condition": {
+                          "ConditionType": 3,
+                          "Data": {
+                            "Scope": 0,
+                            "EntityKey": null,
+                            "VariableKey": "SeenRottenFish",
+                            "Eval": 2,
+                            "VariableType": 0,
+                            "Flag": false,
+                            "Number": 0,
+                            "SourceVariableScope": 0,
+                            "SourceVariableKey": null,
+                            "LootType": 0,
+                            "LootValue": 0
+                          },
+                          "IsNegation": true
+                        },
+                        "ConditionActionsTrue": [
+                          {
+                            "ActionType": 1,
+                            "Data": {
+                              "Message": "...",
+                              "NpcKey": null,
+                              "Choices": [],
+                              "AnswerVariableKey": null,
+                              "ShowPartyStatus": false
+                            }
+                          },
+                          {
+                            "ActionType": 1,
+                            "Data": {
+                              "Message": "Oh, it's you.\r\nSo have you done it?",
+                              "NpcKey": null,
+                              "Choices": [],
+                              "AnswerVariableKey": null,
+                              "ShowPartyStatus": false
+                            }
+                          },
+                          {
+                            "ActionType": 3,
+                            "Data": {
+                              "Condition": {
+                                "ConditionType": 5,
+                                "Data": {
+                                  "LootType": 1,
+                                  "LootValue": 232,
+                                  "Count": 1,
+                                  "Redirect": false
+                                },
+                                "IsNegation": false
+                              },
+                              "ConditionActionsTrue": [
+                                {
+                                  "ActionType": 1,
+                                  "Data": {
+                                    "Message": "Were you able to find something incriminating about the store that sold you that @I10.Name?",
+                                    "NpcKey": null,
+                                    "Choices": [],
+                                    "AnswerVariableKey": null,
+                                    "ShowPartyStatus": false
+                                  }
+                                },
+                                {
+                                  "ActionType": 1,
+                                  "Data": {
+                                    "Message": "Hey...\r\n\r\nWhat's that smell?",
+                                    "NpcKey": null,
+                                    "Choices": [],
+                                    "AnswerVariableKey": null,
+                                    "ShowPartyStatus": false
+                                  }
+                                },
+                                {
+                                  "ActionType": 14,
+                                  "Data": {
+                                    "Message": "Can you show me what that smell is?",
+                                    "NpcKey": null,
+                                    "Choices": [
+                                      {
+                                        "Text": "Yes",
+                                        "AnswerVariableValue": null,
+                                        "Cost": 0,
+                                        "IsCostOfItem": false,
+                                        "IsDefaultSelected": true,
+                                        "IsDefaultBack": false,
+                                        "Condition": {
+                                          "ConditionType": 0,
+                                          "Data": null,
+                                          "IsNegation": false
+                                        }
+                                      },
+                                      {
+                                        "Text": "No",
+                                        "AnswerVariableValue": null,
+                                        "Cost": 0,
+                                        "IsCostOfItem": false,
+                                        "IsDefaultSelected": false,
+                                        "IsDefaultBack": true,
+                                        "Condition": {
+                                          "ConditionType": 0,
+                                          "Data": null,
+                                          "IsNegation": false
+                                        }
+                                      }
+                                    ],
+                                    "AnswerVariableKey": "answer",
+                                    "ShowPartyStatus": false
+                                  }
+                                },
+                                {
+                                  "ActionType": 3,
+                                  "Data": {
+                                    "Condition": {
+                                      "ConditionType": 4,
+                                      "Data": {
+                                        "Scope": 0,
+                                        "EntityKey": null,
+                                        "VariableKey": "answer",
+                                        "Eval": 2,
+                                        "VariableType": 0,
+                                        "Flag": false,
+                                        "Number": 0,
+                                        "SourceVariableScope": 0,
+                                        "SourceVariableKey": null,
+                                        "LootType": 0,
+                                        "LootValue": 0
+                                      },
+                                      "IsNegation": false
+                                    },
+                                    "ConditionActionsTrue": [
+                                      {
+                                        "ActionType": 9,
+                                        "Data": {
+                                          "LootType": 1,
+                                          "LootValue": 232,
+                                          "Count": 1,
+                                          "Redirect": false
+                                        }
+                                      },
+                                      {
+                                        "ActionType": 6,
+                                        "Data": {
+                                          "Scope": 0,
+                                          "EntityKey": null,
+                                          "VariableKey": "SeenRottenFish",
+                                          "VariableType": 0,
+                                          "Flag": true,
+                                          "Number": 0,
+                                          "SourceVariableScope": 0,
+                                          "SourceVariableKey": null,
+                                          "LootType": 0,
+                                          "LootValue": 0
+                                        }
+                                      },
+                                      {
+                                        "ActionType": 1,
+                                        "Data": {
+                                          "Message": "Wow this fish smells! Why did you buy it?",
+                                          "NpcKey": null,
+                                          "Choices": [],
+                                          "AnswerVariableKey": null,
+                                          "ShowPartyStatus": false
+                                        }
+                                      },
+                                      {
+                                        "ActionType": 1,
+                                        "Data": {
+                                          "Message": "Wait, did you buy it from the same store that sold you that @I10.Name you showed me before??",
+                                          "NpcKey": null,
+                                          "Choices": [],
+                                          "AnswerVariableKey": null,
+                                          "ShowPartyStatus": false
+                                        }
+                                      },
+                                      {
+                                        "ActionType": 1,
+                                        "Data": {
+                                          "Message": "Oh holy cow! I guess I don't have to worry about that store after all! What a relief.",
+                                          "NpcKey": null,
+                                          "Choices": [],
+                                          "AnswerVariableKey": null,
+                                          "ShowPartyStatus": false
+                                        }
+                                      },
+                                      {
+                                        "ActionType": 1,
+                                        "Data": {
+                                          "Message": "That puts me in a good mood! How about I give you this ol' thing for your trouble?",
+                                          "NpcKey": null,
+                                          "Choices": [],
+                                          "AnswerVariableKey": null,
+                                          "ShowPartyStatus": false
+                                        }
+                                      },
+                                      {
+                                        "ActionType": 8,
+                                        "Data": {
+                                          "LootType": 2,
+                                          "LootValue": 175,
+                                          "Count": 1,
+                                          "Redirect": false
+                                        }
+                                      },
+                                      {
+                                        "ActionType": 10,
+                                        "Data": {
+                                          "RefreshCurrentOutfit": false,
+                                          "RefreshCurrentPage": false,
+                                          "RefreshCurrentPosition": false,
+                                          "CancelAllActiveActions": false,
+                                          "TriggerPlayerAction": false,
+                                          "TriggerPlayerProximity": false,
+                                          "TriggerAuto": false,
+                                          "TriggerPlayerTouch": false,
+                                          "TriggerTriggerNpc": false,
+                                          "GlobalRefreshOutfits": false,
+                                          "GlobalRefreshPages": false,
+                                          "GlobalRefreshPositions": false,
+                                          "GlobalTrySpawn": false,
+                                          "GlobalTryDespawn": false,
+                                          "NpcKey": null
+                                        }
+                                      }
+                                    ],
+                                    "ConditionActionsFalse": [
+                                      {
+                                        "ActionType": 1,
+                                        "Data": {
+                                          "Message": "Must have just been me then.\r\nSorry.",
+                                          "NpcKey": null,
+                                          "Choices": [],
+                                          "AnswerVariableKey": null,
+                                          "ShowPartyStatus": false
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              "ConditionActionsFalse": [
+                                {
+                                  "ActionType": 1,
+                                  "Data": {
+                                    "Message": "I'm still waitin' for you to bring me some incriminating evidence to show how rotten that other shop is.",
+                                    "NpcKey": null,
+                                    "Choices": [],
+                                    "AnswerVariableKey": null,
+                                    "ShowPartyStatus": false
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ],
+                        "ConditionActionsFalse": []
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "ActionType": 5,
+                "Data": {
+                  "Stock": [
+                    {
+                      "LootType": 1,
+                      "LootValue": 38,
+                      "CostRate": 100,
+                      "Condition": {
+                        "ConditionType": 0,
+                        "Data": null,
+                        "IsNegation": false
+                      }
+                    },
+                    {
+                      "LootType": 1,
+                      "LootValue": 150,
+                      "CostRate": 100,
+                      "Condition": {
+                        "ConditionType": 0,
+                        "Data": null,
+                        "IsNegation": false
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "ActionType": 2,
+                "Data": null
+              }
+            ],
+            "Context": 0
           }
         ]
       },
@@ -27767,8 +31518,8 @@
                       }
                     },
                     {
-                      "LootType": 0,
-                      "LootValue": 0,
+                      "LootType": 1,
+                      "LootValue": 1,
                       "CostRate": 100,
                       "Condition": {
                         "ConditionType": 0,
@@ -27777,8 +31528,8 @@
                       }
                     },
                     {
-                      "LootType": 0,
-                      "LootValue": 0,
+                      "LootType": 1,
+                      "LootValue": 145,
                       "CostRate": 100,
                       "Condition": {
                         "ConditionType": 0,
@@ -28539,6 +32290,461 @@
       "MarkerData": null
     },
     {
+      "ID": 1201,
+      "Coord": {
+        "X": -118,
+        "Y": 116,
+        "Z": -205
+      },
+      "BiomeID": 26,
+      "EntityType": 0,
+      "Comments": null,
+      "NpcData": {
+        "Key": "Z26_ThirstyDude",
+        "LinkedKey": null,
+        "TieToSpawn": false,
+        "UniquePerKey": false,
+        "Outfits": [
+          {
+            "Condition": {
+              "ConditionType": 0,
+              "Data": null,
+              "IsNegation": false
+            },
+            "TextureKey": "Actor/Npc_WandererMaleA",
+            "Name": "Thirsty Lad",
+            "PlayerCharacterLevel": null,
+            "JobID": null,
+            "Facing": 5,
+            "ShadowType": 2,
+            "AutoStep": false,
+            "VoxelID": null,
+            "VoxelVariantIndex": 0,
+            "PlayerCollision": 3,
+            "NpcCollision": 0,
+            "MountType": 15,
+            "JumpType": 0,
+            "KeepSpawned": false,
+            "WanderType": 0,
+            "WanderSpeed": 0.0,
+            "WanderFrequency": 0,
+            "WanderRadius": 0.0,
+            "WanderRoute": [],
+            "WanderRouteIsLine": false
+          }
+        ],
+        "Pages": [
+          {
+            "Condition": {
+              "ConditionType": 4,
+              "Data": {
+                "Scope": 0,
+                "EntityKey": null,
+                "VariableKey": "State",
+                "Eval": 2,
+                "VariableType": 0,
+                "Flag": false,
+                "Number": 0,
+                "SourceVariableScope": 0,
+                "SourceVariableKey": null,
+                "LootType": 0,
+                "LootValue": 0
+              },
+              "IsNegation": false
+            },
+            "TriggerType": 0,
+            "TriggerProximityRadius": 1.0,
+            "TriggerProximityBox": {
+              "XNeg": 0.0,
+              "YNeg": 0.0,
+              "ZNeg": 0.0,
+              "XPos": 0.0,
+              "YPos": 0.0,
+              "ZPos": 0.0
+            },
+            "TriggerOnExitProximity": false,
+            "TriggerTouchType": 0,
+            "Actions": [
+              {
+                "ActionType": 0,
+                "Data": null
+              },
+              {
+                "ActionType": 1,
+                "Data": {
+                  "Message": "So... thirsty...\r\n\r\nDying...",
+                  "NpcKey": null,
+                  "Choices": [],
+                  "AnswerVariableKey": null,
+                  "ShowPartyStatus": false
+                }
+              },
+              {
+                "ActionType": 1,
+                "Data": {
+                  "Message": "Need... @I20.Name....",
+                  "NpcKey": null,
+                  "Choices": [],
+                  "AnswerVariableKey": null,
+                  "ShowPartyStatus": false
+                }
+              },
+              {
+                "ActionType": 3,
+                "Data": {
+                  "Condition": {
+                    "ConditionType": 2,
+                    "Data": {
+                      "LHS": {
+                        "ConditionType": 29,
+                        "Data": {
+                          "RandomCrystals": false,
+                          "RandomMonsters": false,
+                          "RandomBosses": false,
+                          "RandomItems": true,
+                          "IncludeRecovery": false,
+                          "IncludeProgression": true,
+                          "ProgressionGate": false,
+                          "InvalidItemID": 230
+                        },
+                        "IsNegation": false
+                      },
+                      "Op": 0,
+                      "RHS": {
+                        "ConditionType": 5,
+                        "Data": {
+                          "LootType": 1,
+                          "LootValue": 230,
+                          "Count": 1,
+                          "Redirect": false
+                        },
+                        "IsNegation": true
+                      }
+                    },
+                    "IsNegation": false
+                  },
+                  "ConditionActionsTrue": [
+                    {
+                      "ActionType": 2,
+                      "Data": null
+                    },
+                    {
+                      "ActionType": 4,
+                      "Data": {
+                        "FrameCount": 60
+                      }
+                    },
+                    {
+                      "ActionType": 0,
+                      "Data": null
+                    },
+                    {
+                      "ActionType": 1,
+                      "Data": {
+                        "Message": "What, you want something?",
+                        "NpcKey": null,
+                        "Choices": [],
+                        "AnswerVariableKey": null,
+                        "ShowPartyStatus": false
+                      }
+                    },
+                    {
+                      "ActionType": 4,
+                      "Data": {
+                        "FrameCount": 20
+                      }
+                    },
+                    {
+                      "ActionType": 1,
+                      "Data": {
+                        "Message": "Fine. Here ya go.",
+                        "NpcKey": null,
+                        "Choices": [],
+                        "AnswerVariableKey": null,
+                        "ShowPartyStatus": false
+                      }
+                    },
+                    {
+                      "ActionType": 8,
+                      "Data": {
+                        "LootType": 1,
+                        "LootValue": 138,
+                        "Count": 1,
+                        "Redirect": false
+                      }
+                    },
+                    {
+                      "ActionType": 7,
+                      "Data": {
+                        "Scope": 0,
+                        "EntityKey": null,
+                        "VariableKey": "State",
+                        "VariableType": 0,
+                        "Flag": false,
+                        "Number": 1,
+                        "SourceVariableScope": 0,
+                        "SourceVariableKey": null,
+                        "LootType": 0,
+                        "LootValue": 0
+                      }
+                    }
+                  ],
+                  "ConditionActionsFalse": []
+                }
+              },
+              {
+                "ActionType": 3,
+                "Data": {
+                  "Condition": {
+                    "ConditionType": 5,
+                    "Data": {
+                      "LootType": 1,
+                      "LootValue": 230,
+                      "Count": 1,
+                      "Redirect": false
+                    },
+                    "IsNegation": false
+                  },
+                  "ConditionActionsTrue": [
+                    {
+                      "ActionType": 68,
+                      "Data": {
+                        "Message": "Hand over your @I20.Name?",
+                        "NpcKey": null,
+                        "Choices": [
+                          {
+                            "Text": "Yes",
+                            "AnswerVariableValue": null,
+                            "Cost": 0,
+                            "IsCostOfItem": false,
+                            "IsDefaultSelected": true,
+                            "IsDefaultBack": false,
+                            "Condition": {
+                              "ConditionType": 0,
+                              "Data": null,
+                              "IsNegation": false
+                            }
+                          },
+                          {
+                            "Text": "No",
+                            "AnswerVariableValue": null,
+                            "Cost": 0,
+                            "IsCostOfItem": false,
+                            "IsDefaultSelected": false,
+                            "IsDefaultBack": true,
+                            "Condition": {
+                              "ConditionType": 0,
+                              "Data": null,
+                              "IsNegation": false
+                            }
+                          }
+                        ],
+                        "AnswerVariableKey": "a",
+                        "ShowPartyStatus": false
+                      }
+                    },
+                    {
+                      "ActionType": 3,
+                      "Data": {
+                        "Condition": {
+                          "ConditionType": 4,
+                          "Data": {
+                            "Scope": 0,
+                            "EntityKey": null,
+                            "VariableKey": "a",
+                            "Eval": 2,
+                            "VariableType": 0,
+                            "Flag": false,
+                            "Number": 0,
+                            "SourceVariableScope": 0,
+                            "SourceVariableKey": null,
+                            "LootType": 0,
+                            "LootValue": 0
+                          },
+                          "IsNegation": false
+                        },
+                        "ConditionActionsTrue": [
+                          {
+                            "ActionType": 9,
+                            "Data": {
+                              "LootType": 1,
+                              "LootValue": 230,
+                              "Count": 1,
+                              "Redirect": false
+                            }
+                          },
+                          {
+                            "ActionType": 1,
+                            "Data": {
+                              "Message": "Awwww yiss! @I20.Name!",
+                              "NpcKey": null,
+                              "Choices": [],
+                              "AnswerVariableKey": null,
+                              "ShowPartyStatus": false
+                            }
+                          },
+                          {
+                            "ActionType": 2,
+                            "Data": null
+                          },
+                          {
+                            "ActionType": 4,
+                            "Data": {
+                              "FrameCount": 60
+                            }
+                          },
+                          {
+                            "ActionType": 0,
+                            "Data": null
+                          },
+                          {
+                            "ActionType": 1,
+                            "Data": {
+                              "Message": "What, you thought I was gonna give you a reward?",
+                              "NpcKey": null,
+                              "Choices": [],
+                              "AnswerVariableKey": null,
+                              "ShowPartyStatus": false
+                            }
+                          },
+                          {
+                            "ActionType": 4,
+                            "Data": {
+                              "FrameCount": 20
+                            }
+                          },
+                          {
+                            "ActionType": 1,
+                            "Data": {
+                              "Message": "Fine. Here ya go.",
+                              "NpcKey": null,
+                              "Choices": [],
+                              "AnswerVariableKey": null,
+                              "ShowPartyStatus": false
+                            }
+                          },
+                          {
+                            "ActionType": 8,
+                            "Data": {
+                              "LootType": 1,
+                              "LootValue": 138,
+                              "Count": 1,
+                              "Redirect": false
+                            }
+                          },
+                          {
+                            "ActionType": 7,
+                            "Data": {
+                              "Scope": 0,
+                              "EntityKey": null,
+                              "VariableKey": "State",
+                              "VariableType": 0,
+                              "Flag": false,
+                              "Number": 1,
+                              "SourceVariableScope": 0,
+                              "SourceVariableKey": null,
+                              "LootType": 0,
+                              "LootValue": 0
+                            }
+                          }
+                        ],
+                        "ConditionActionsFalse": []
+                      }
+                    }
+                  ],
+                  "ConditionActionsFalse": []
+                }
+              },
+              {
+                "ActionType": 2,
+                "Data": null
+              },
+              {
+                "ActionType": 10,
+                "Data": {
+                  "RefreshCurrentOutfit": false,
+                  "RefreshCurrentPage": true,
+                  "RefreshCurrentPosition": false,
+                  "CancelAllActiveActions": false,
+                  "TriggerPlayerAction": false,
+                  "TriggerPlayerProximity": false,
+                  "TriggerAuto": false,
+                  "TriggerPlayerTouch": false,
+                  "TriggerTriggerNpc": false,
+                  "GlobalRefreshOutfits": false,
+                  "GlobalRefreshPages": false,
+                  "GlobalRefreshPositions": false,
+                  "GlobalTrySpawn": false,
+                  "GlobalTryDespawn": false,
+                  "NpcKey": null
+                }
+              }
+            ],
+            "Context": 0
+          },
+          {
+            "Condition": {
+              "ConditionType": 4,
+              "Data": {
+                "Scope": 0,
+                "EntityKey": null,
+                "VariableKey": "State",
+                "Eval": 2,
+                "VariableType": 0,
+                "Flag": false,
+                "Number": 1,
+                "SourceVariableScope": 0,
+                "SourceVariableKey": null,
+                "LootType": 0,
+                "LootValue": 0
+              },
+              "IsNegation": false
+            },
+            "TriggerType": 0,
+            "TriggerProximityRadius": 1.0,
+            "TriggerProximityBox": {
+              "XNeg": 0.0,
+              "YNeg": 0.0,
+              "ZNeg": 0.0,
+              "XPos": 0.0,
+              "YPos": 0.0,
+              "ZPos": 0.0
+            },
+            "TriggerOnExitProximity": false,
+            "TriggerTouchType": 0,
+            "Actions": [
+              {
+                "ActionType": 0,
+                "Data": null
+              },
+              {
+                "ActionType": 1,
+                "Data": {
+                  "Message": "Only one thing you need in the desert.\r\n@I20.Name!",
+                  "NpcKey": null,
+                  "Choices": [],
+                  "AnswerVariableKey": null,
+                  "ShowPartyStatus": false
+                }
+              },
+              {
+                "ActionType": 2,
+                "Data": null
+              }
+            ],
+            "Context": 0
+          }
+        ]
+      },
+      "SignData": null,
+      "SparkData": null,
+      "DoorData": null,
+      "HomePointData": null,
+      "TreasureData": null,
+      "CrystalData": null,
+      "MarkerData": null
+    },
+    {
       "ID": 949,
       "Coord": {
         "X": -137,
@@ -28651,7 +32857,7 @@
                 "LootType": 0,
                 "LootValue": 0
               },
-              "IsNegation": true
+              "IsNegation": false
             },
             "TriggerType": 1,
             "TriggerProximityRadius": 1.0,
@@ -28846,6 +33052,40 @@
                     }
                   ],
                   "ConditionActionsFalse": []
+                }
+              },
+              {
+                "ActionType": 21,
+                "Data": {
+                  "Offset": {
+                    "X": 0,
+                    "Y": 0,
+                    "Z": 0
+                  },
+                  "IsRelative": false,
+                  "TargetMarkerKey": null,
+                  "Speed": 30.0,
+                  "Wait": true
+                }
+              },
+              {
+                "ActionType": 10,
+                "Data": {
+                  "RefreshCurrentOutfit": true,
+                  "RefreshCurrentPage": true,
+                  "RefreshCurrentPosition": false,
+                  "CancelAllActiveActions": false,
+                  "TriggerPlayerAction": false,
+                  "TriggerPlayerProximity": false,
+                  "TriggerAuto": false,
+                  "TriggerPlayerTouch": false,
+                  "TriggerTriggerNpc": false,
+                  "GlobalRefreshOutfits": false,
+                  "GlobalRefreshPages": false,
+                  "GlobalRefreshPositions": false,
+                  "GlobalTrySpawn": false,
+                  "GlobalTryDespawn": false,
+                  "NpcKey": null
                 }
               }
             ],
@@ -29633,8 +33873,8 @@
                       }
                     },
                     {
-                      "LootType": 0,
-                      "LootValue": 0,
+                      "LootType": 1,
+                      "LootValue": 10,
                       "CostRate": 100,
                       "Condition": {
                         "ConditionType": 0,
@@ -29643,8 +33883,8 @@
                       }
                     },
                     {
-                      "LootType": 0,
-                      "LootValue": 0,
+                      "LootType": 1,
+                      "LootValue": 18,
                       "CostRate": 100,
                       "Condition": {
                         "ConditionType": 0,
@@ -29929,8 +34169,8 @@
                       }
                     },
                     {
-                      "LootType": 0,
-                      "LootValue": 0,
+                      "LootType": 1,
+                      "LootValue": 9,
                       "CostRate": 100,
                       "Condition": {
                         "ConditionType": 0,
@@ -30480,6 +34720,16 @@
                   "Stock": [
                     {
                       "LootType": 1,
+                      "LootValue": 171,
+                      "CostRate": 100,
+                      "Condition": {
+                        "ConditionType": 0,
+                        "Data": null,
+                        "IsNegation": false
+                      }
+                    },
+                    {
+                      "LootType": 1,
                       "LootValue": 0,
                       "CostRate": 100,
                       "Condition": {
@@ -30490,17 +34740,7 @@
                     },
                     {
                       "LootType": 1,
-                      "LootValue": 35,
-                      "CostRate": 100,
-                      "Condition": {
-                        "ConditionType": 0,
-                        "Data": null,
-                        "IsNegation": false
-                      }
-                    },
-                    {
-                      "LootType": 1,
-                      "LootValue": 171,
+                      "LootValue": 47,
                       "CostRate": 100,
                       "Condition": {
                         "ConditionType": 0,
@@ -32528,8 +36768,8 @@
                       }
                     },
                     {
-                      "LootType": 0,
-                      "LootValue": 0,
+                      "LootType": 1,
+                      "LootValue": 132,
                       "CostRate": 100,
                       "Condition": {
                         "ConditionType": 0,
@@ -32538,8 +36778,8 @@
                       }
                     },
                     {
-                      "LootType": 0,
-                      "LootValue": 0,
+                      "LootType": 1,
+                      "LootValue": 263,
                       "CostRate": 100,
                       "Condition": {
                         "ConditionType": 0,
@@ -32829,8 +37069,8 @@
                       }
                     },
                     {
-                      "LootType": 0,
-                      "LootValue": 0,
+                      "LootType": 1,
+                      "LootValue": 20,
                       "CostRate": 100,
                       "Condition": {
                         "ConditionType": 0,
@@ -34231,8 +38471,8 @@
                       }
                     },
                     {
-                      "LootType": 0,
-                      "LootValue": 0,
+                      "LootType": 1,
+                      "LootValue": 102,
                       "CostRate": 100,
                       "Condition": {
                         "ConditionType": 0,
@@ -34550,6 +38790,653 @@
       "SparkData": null,
       "DoorData": null,
       "HomePointData": null,
+      "TreasureData": null,
+      "CrystalData": null,
+      "MarkerData": null
+    },
+    {
+      "ID": 5000,
+      "Coord": {
+        "X": 113,
+        "Y": 110,
+        "Z": -22
+      },
+      "BiomeID": 1,
+      "EntityType": 0,
+      "Comments": null,
+      "NpcData": {
+        "Key": "APStarterWeaponShop",
+        "LinkedKey": null,
+        "TieToSpawn": false,
+        "UniquePerKey": false,
+        "Outfits": [
+          {
+            "Condition": {
+              "ConditionType": 0,
+              "Data": null,
+              "IsNegation": false
+            },
+            "TextureKey": "Actor/Animal_RatB",
+            "Name": "Attic Rat",
+            "PlayerCharacterLevel": null,
+            "JobID": null,
+            "Facing": 5,
+            "ShadowType": 2,
+            "AutoStep": false,
+            "VoxelID": null,
+            "VoxelVariantIndex": 0,
+            "PlayerCollision": 3,
+            "NpcCollision": 0,
+            "MountType": 15,
+            "JumpType": 0,
+            "KeepSpawned": false,
+            "WanderType": 0,
+            "WanderSpeed": 0.0,
+            "WanderFrequency": 0,
+            "WanderRadius": 0.0,
+            "WanderRoute": [],
+            "WanderRouteIsLine": false
+          }
+        ],
+        "Pages": [
+          {
+            "Condition": {
+              "ConditionType": 0,
+              "Data": null,
+              "IsNegation": false
+            },
+            "TriggerType": 0,
+            "TriggerProximityRadius": 1.0,
+            "TriggerProximityBox": {
+              "XNeg": 0.0,
+              "YNeg": 0.0,
+              "ZNeg": 0.0,
+              "XPos": 0.0,
+              "YPos": 0.0,
+              "ZPos": 0.0
+            },
+            "TriggerOnExitProximity": false,
+            "TriggerTouchType": 0,
+            "Actions": [
+              {
+                "ActionType": 0,
+                "Data": null
+              },
+              {
+                "ActionType": 1,
+                "Data": {
+                  "Message": "The Nans aren't using anything of this, I promise.",
+                  "NpcKey": null,
+                  "Choices": [],
+                  "AnswerVariableKey": null,
+                  "ShowPartyStatus": false
+                }
+              },
+              {
+                "ActionType": 5,
+                "Data": {
+                  "Stock": [
+                    {
+                      "LootType": 2,
+                      "LootValue": 591,
+                      "CostRate": 100,
+                      "Condition": {
+                        "ConditionType": 0,
+                        "Data": null,
+                        "IsNegation": false
+                      }
+                    },
+                    {
+                      "LootType": 2,
+                      "LootValue": 592,
+                      "CostRate": 100,
+                      "Condition": {
+                        "ConditionType": 0,
+                        "Data": null,
+                        "IsNegation": false
+                      }
+                    },
+                    {
+                      "LootType": 2,
+                      "LootValue": 593,
+                      "CostRate": 100,
+                      "Condition": {
+                        "ConditionType": 0,
+                        "Data": null,
+                        "IsNegation": false
+                      }
+                    },
+                    {
+                      "LootType": 2,
+                      "LootValue": 594,
+                      "CostRate": 100,
+                      "Condition": {
+                        "ConditionType": 0,
+                        "Data": null,
+                        "IsNegation": false
+                      }
+                    },
+                    {
+                      "LootType": 2,
+                      "LootValue": 595,
+                      "CostRate": 100,
+                      "Condition": {
+                        "ConditionType": 0,
+                        "Data": null,
+                        "IsNegation": false
+                      }
+                    },
+                    {
+                      "LootType": 2,
+                      "LootValue": 596,
+                      "CostRate": 100,
+                      "Condition": {
+                        "ConditionType": 0,
+                        "Data": null,
+                        "IsNegation": false
+                      }
+                    },
+                    {
+                      "LootType": 2,
+                      "LootValue": 597,
+                      "CostRate": 100,
+                      "Condition": {
+                        "ConditionType": 0,
+                        "Data": null,
+                        "IsNegation": false
+                      }
+                    },
+                    {
+                      "LootType": 2,
+                      "LootValue": 598,
+                      "CostRate": 100,
+                      "Condition": {
+                        "ConditionType": 0,
+                        "Data": null,
+                        "IsNegation": false
+                      }
+                    },
+                    {
+                      "LootType": 2,
+                      "LootValue": 599,
+                      "CostRate": 100,
+                      "Condition": {
+                        "ConditionType": 0,
+                        "Data": null,
+                        "IsNegation": false
+                      }
+                    },
+                    {
+                      "LootType": 2,
+                      "LootValue": 600,
+                      "CostRate": 100,
+                      "Condition": {
+                        "ConditionType": 0,
+                        "Data": null,
+                        "IsNegation": false
+                      }
+                    },
+                    {
+                      "LootType": 2,
+                      "LootValue": 601,
+                      "CostRate": 100,
+                      "Condition": {
+                        "ConditionType": 0,
+                        "Data": null,
+                        "IsNegation": false
+                      }
+                    },
+                    {
+                      "LootType": 2,
+                      "LootValue": 602,
+                      "CostRate": 100,
+                      "Condition": {
+                        "ConditionType": 0,
+                        "Data": null,
+                        "IsNegation": false
+                      }
+                    },
+                    {
+                      "LootType": 2,
+                      "LootValue": 603,
+                      "CostRate": 100,
+                      "Condition": {
+                        "ConditionType": 0,
+                        "Data": null,
+                        "IsNegation": false
+                      }
+                    },
+                    {
+                      "LootType": 2,
+                      "LootValue": 604,
+                      "CostRate": 100,
+                      "Condition": {
+                        "ConditionType": 0,
+                        "Data": null,
+                        "IsNegation": false
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "ActionType": 1,
+                "Data": {
+                  "Message": "Baaa!",
+                  "NpcKey": null,
+                  "Choices": [],
+                  "AnswerVariableKey": null,
+                  "ShowPartyStatus": false
+                }
+              },
+              {
+                "ActionType": 2,
+                "Data": null
+              }
+            ],
+            "Context": 0
+          }
+        ]
+      },
+      "SignData": null,
+      "SparkData": null,
+      "DoorData": null,
+      "HomePointData": null,
+      "TreasureData": null,
+      "CrystalData": null,
+      "MarkerData": null
+    },
+    {
+      "ID": 5001,
+      "Coord": {
+        "X": 114,
+        "Y": 110,
+        "Z": -22
+      },
+      "BiomeID": 1,
+      "EntityType": 0,
+      "Comments": null,
+      "NpcData": {
+        "Key": "APStarterArmorShop",
+        "LinkedKey": null,
+        "TieToSpawn": false,
+        "UniquePerKey": false,
+        "Outfits": [
+          {
+            "Condition": {
+              "ConditionType": 0,
+              "Data": null,
+              "IsNegation": false
+            },
+            "TextureKey": "Actor/Animal_SheepB",
+            "Name": "Innocuous Sheep",
+            "PlayerCharacterLevel": null,
+            "JobID": null,
+            "Facing": 5,
+            "ShadowType": 2,
+            "AutoStep": false,
+            "VoxelID": null,
+            "VoxelVariantIndex": 0,
+            "PlayerCollision": 3,
+            "NpcCollision": 0,
+            "MountType": 15,
+            "JumpType": 0,
+            "KeepSpawned": false,
+            "WanderType": 0,
+            "WanderSpeed": 0.0,
+            "WanderFrequency": 0,
+            "WanderRadius": 0.0,
+            "WanderRoute": [],
+            "WanderRouteIsLine": false
+          }
+        ],
+        "Pages": [
+          {
+            "Condition": {
+              "ConditionType": 0,
+              "Data": null,
+              "IsNegation": false
+            },
+            "TriggerType": 0,
+            "TriggerProximityRadius": 1.0,
+            "TriggerProximityBox": {
+              "XNeg": 0.0,
+              "YNeg": 0.0,
+              "ZNeg": 0.0,
+              "XPos": 0.0,
+              "YPos": 0.0,
+              "ZPos": 0.0
+            },
+            "TriggerOnExitProximity": false,
+            "TriggerTouchType": 0,
+            "Actions": [
+              {
+                "ActionType": 0,
+                "Data": null
+              },
+              {
+                "ActionType": 1,
+                "Data": {
+                  "Message": "Care to baaaa-y anything?",
+                  "NpcKey": null,
+                  "Choices": [],
+                  "AnswerVariableKey": null,
+                  "ShowPartyStatus": false
+                }
+              },
+              {
+                "ActionType": 5,
+                "Data": {
+                  "Stock": [
+                    {
+                      "LootType": 2,
+                      "LootValue": 605,
+                      "CostRate": 100,
+                      "Condition": {
+                        "ConditionType": 0,
+                        "Data": null,
+                        "IsNegation": false
+                      }
+                    },
+                    {
+                      "LootType": 2,
+                      "LootValue": 606,
+                      "CostRate": 100,
+                      "Condition": {
+                        "ConditionType": 0,
+                        "Data": null,
+                        "IsNegation": false
+                      }
+                    },
+                    {
+                      "LootType": 2,
+                      "LootValue": 607,
+                      "CostRate": 100,
+                      "Condition": {
+                        "ConditionType": 0,
+                        "Data": null,
+                        "IsNegation": false
+                      }
+                    },
+                    {
+                      "LootType": 2,
+                      "LootValue": 608,
+                      "CostRate": 100,
+                      "Condition": {
+                        "ConditionType": 0,
+                        "Data": null,
+                        "IsNegation": false
+                      }
+                    },
+                    {
+                      "LootType": 2,
+                      "LootValue": 609,
+                      "CostRate": 100,
+                      "Condition": {
+                        "ConditionType": 0,
+                        "Data": null,
+                        "IsNegation": false
+                      }
+                    },
+                    {
+                      "LootType": 2,
+                      "LootValue": 610,
+                      "CostRate": 100,
+                      "Condition": {
+                        "ConditionType": 0,
+                        "Data": null,
+                        "IsNegation": false
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "ActionType": 1,
+                "Data": {
+                  "Message": "Squeak!",
+                  "NpcKey": null,
+                  "Choices": [],
+                  "AnswerVariableKey": null,
+                  "ShowPartyStatus": false
+                }
+              },
+              {
+                "ActionType": 2,
+                "Data": null
+              }
+            ],
+            "Context": 0
+          }
+        ]
+      },
+      "SignData": null,
+      "SparkData": null,
+      "DoorData": null,
+      "HomePointData": null,
+      "TreasureData": null,
+      "CrystalData": null,
+      "MarkerData": null
+    },
+    {
+      "ID": 5002,
+      "Coord": {
+        "X": 115,
+        "Y": 110,
+        "Z": -22
+      },
+      "BiomeID": 1,
+      "EntityType": 0,
+      "Comments": null,
+      "NpcData": {
+        "Key": "APConsumableShop",
+        "LinkedKey": null,
+        "TieToSpawn": false,
+        "UniquePerKey": false,
+        "Outfits": [
+          {
+            "Condition": {
+              "ConditionType": 0,
+              "Data": null,
+              "IsNegation": false
+            },
+            "TextureKey": "Actor/Animal_BearA",
+            "Name": "Bear Necessities",
+            "PlayerCharacterLevel": null,
+            "JobID": null,
+            "Facing": 5,
+            "ShadowType": 2,
+            "AutoStep": false,
+            "VoxelID": null,
+            "VoxelVariantIndex": 0,
+            "PlayerCollision": 3,
+            "NpcCollision": 0,
+            "MountType": 15,
+            "JumpType": 0,
+            "KeepSpawned": false,
+            "WanderType": 0,
+            "WanderSpeed": 0.0,
+            "WanderFrequency": 0,
+            "WanderRadius": 0.0,
+            "WanderRoute": [],
+            "WanderRouteIsLine": false
+          }
+        ],
+        "Pages": [
+          {
+            "Condition": {
+              "ConditionType": 0,
+              "Data": null,
+              "IsNegation": false
+            },
+            "TriggerType": 0,
+            "TriggerProximityRadius": 1.0,
+            "TriggerProximityBox": {
+              "XNeg": 0.0,
+              "YNeg": 0.0,
+              "ZNeg": 0.0,
+              "XPos": 0.0,
+              "YPos": 0.0,
+              "ZPos": 0.0
+            },
+            "TriggerOnExitProximity": false,
+            "TriggerTouchType": 0,
+            "Actions": [
+              {
+                "ActionType": 0,
+                "Data": null
+              },
+              {
+                "ActionType": 1,
+                "Data": {
+                  "Message": "Looking for a refill?",
+                  "NpcKey": null,
+                  "Choices": [],
+                  "AnswerVariableKey": null,
+                  "ShowPartyStatus": false
+                }
+              },
+              {
+                "ActionType": 5,
+                "Data": {
+                  "Stock": [
+                    {
+                      "LootType": 1,
+                      "LootValue": 18,
+                      "CostRate": 100,
+                      "Condition": {
+                        "ConditionType": 0,
+                        "Data": null,
+                        "IsNegation": false
+                      }
+                    },
+                    {
+                      "LootType": 1,
+                      "LootValue": 0,
+                      "CostRate": 100,
+                      "Condition": {
+                        "ConditionType": 0,
+                        "Data": null,
+                        "IsNegation": false
+                      }
+                    },
+                    {
+                      "LootType": 1,
+                      "LootValue": 102,
+                      "CostRate": 100,
+                      "Condition": {
+                        "ConditionType": 0,
+                        "Data": null,
+                        "IsNegation": false
+                      }
+                    },
+                    {
+                      "LootType": 1,
+                      "LootValue": 47,
+                      "CostRate": 100,
+                      "Condition": {
+                        "ConditionType": 0,
+                        "Data": null,
+                        "IsNegation": false
+                      }
+                    },
+                    {
+                      "LootType": 1,
+                      "LootValue": 1,
+                      "CostRate": 100,
+                      "Condition": {
+                        "ConditionType": 0,
+                        "Data": null,
+                        "IsNegation": false
+                      }
+                    },
+                    {
+                      "LootType": 1,
+                      "LootValue": 142,
+                      "CostRate": 100,
+                      "Condition": {
+                        "ConditionType": 0,
+                        "Data": null,
+                        "IsNegation": false
+                      }
+                    },
+                    {
+                      "LootType": 1,
+                      "LootValue": 2,
+                      "CostRate": 100,
+                      "Condition": {
+                        "ConditionType": 0,
+                        "Data": null,
+                        "IsNegation": false
+                      }
+                    },
+                    {
+                      "LootType": 1,
+                      "LootValue": 145,
+                      "CostRate": 100,
+                      "Condition": {
+                        "ConditionType": 0,
+                        "Data": null,
+                        "IsNegation": false
+                      }
+                    },
+                    {
+                      "LootType": 1,
+                      "LootValue": 263,
+                      "CostRate": 100,
+                      "Condition": {
+                        "ConditionType": 0,
+                        "Data": null,
+                        "IsNegation": false
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "ActionType": 1,
+                "Data": {
+                  "Message": "Enjoy!",
+                  "NpcKey": null,
+                  "Choices": [],
+                  "AnswerVariableKey": null,
+                  "ShowPartyStatus": false
+                }
+              },
+              {
+                "ActionType": 2,
+                "Data": null
+              }
+            ],
+            "Context": 0
+          }
+        ]
+      },
+      "SignData": null,
+      "SparkData": null,
+      "DoorData": null,
+      "HomePointData": null,
+      "TreasureData": null,
+      "CrystalData": null,
+      "MarkerData": null
+    },
+    {
+      "ID": 5003,
+      "Coord": {
+        "X": 0,
+        "Y": 99,
+        "Z": -1
+      },
+      "BiomeID": 1,
+      "EntityType": 4,
+      "Comments": "Added for Archipelago to prevent players from getting stuck",
+      "NpcData": null,
+      "SignData": null,
+      "SparkData": null,
+      "DoorData": null,
+      "HomePointData": {
+        "Name": "AP Spawn Point"
+      },
       "TreasureData": null,
       "CrystalData": null,
       "MarkerData": null

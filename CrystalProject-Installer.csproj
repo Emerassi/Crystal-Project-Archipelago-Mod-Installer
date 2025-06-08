@@ -40,6 +40,9 @@
     <None Update="CrystalProjectAP.bsdiff">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="homePoints.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="items.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

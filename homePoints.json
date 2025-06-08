@@ -1,0 +1,658 @@
+[
+  {
+    "Name": "AP Spawn Point",
+    "LocationId": 5003,
+    "Type": "",
+    "Region": "Spawning Meadows",
+    "Coordinates": "0, 99, -1",
+    "MapLayer": 0
+  },
+  {
+    "Name": "Old Nan's Watering Hole",
+    "LocationId": 59,
+    "Type": "",
+    "Region": "Spawning Meadows",
+    "Coordinates": "115, 109, -18",
+    "MapLayer": 0
+  },
+  {
+    "Name": "The Pale Grotto Entrance",
+    "LocationId": 44,
+    "Type": "",
+    "Region": "Delende",
+    "Coordinates": "276, 116, -210",
+    "MapLayer": 0
+  },
+  {
+    "Name": "Soiled Den",
+    "LocationId": 66,
+    "Type": "",
+    "Region": "Delende",
+    "Coordinates": "278, 120, -119",
+    "MapLayer": 0
+  },
+  {
+    "Name": "Cabin On The Cliff",
+    "LocationId": 94,
+    "Type": "",
+    "Region": "Delende",
+    "Coordinates": "126, 132, -52",
+    "MapLayer": 0
+  },
+  {
+    "Name": "Fish Hatchery",
+    "LocationId": 127,
+    "Type": "",
+    "Region": "Delende",
+    "Coordinates": "173, 132, -195",
+    "MapLayer": 0
+  },
+  {
+    "Name": "Delende Peak",
+    "LocationId": 160,
+    "Type": "",
+    "Region": "Delende",
+    "Coordinates": "296, 137, -97",
+    "MapLayer": 0
+  },
+  {
+    "Name": "Delende Falls",
+    "LocationId": 186,
+    "Type": "",
+    "Region": "Delende",
+    "Coordinates": "331, 124, -221",
+    "MapLayer": 0
+  },
+  {
+    "Name": "Mercury Shrine",
+    "LocationId": 152,
+    "Type": "",
+    "Region": "Mercury Shrine",
+    "Coordinates": "204, 128, 6",
+    "MapLayer": 0
+  },
+  {
+    "Name": "The Pale Grotto Ruins",
+    "LocationId": 148,
+    "Type": "",
+    "Region": "The Pale Grotto",
+    "Coordinates": "279, 122, -328",
+    "MapLayer": 1
+  },
+  {
+    "Name": "Seaside Cliffs Camp",
+    "LocationId": 72,
+    "Type": "",
+    "Region": "Seaside Cliffs",
+    "Coordinates": "308, 119, -64",
+    "MapLayer": 0
+  },
+  {
+    "Name": "Yamagawa M.A. Summit",
+    "LocationId": 165,
+    "Type": "",
+    "Region": "Yamagawa M.A.",
+    "Coordinates": "66, 183, -96",
+    "MapLayer": 0
+  },
+  {
+    "Name": "Proving Meadows Camp",
+    "LocationId": 119,
+    "Type": "",
+    "Region": "Proving Meadows",
+    "Coordinates": "394, 109, -188",
+    "MapLayer": 0
+  },
+  {
+    "Name": "Skumparadise Entrance",
+    "LocationId": 637,
+    "Type": "",
+    "Region": "Skumparadise",
+    "Coordinates": "442, 102, -246",
+    "MapLayer": 4
+  },
+  {
+    "Name": "Skumparadise Depths",
+    "LocationId": 331,
+    "Type": "",
+    "Region": "Skumparadise",
+    "Coordinates": "443, 122, -238",
+    "MapLayer": 1
+  },
+  {
+    "Name": "Skumparadise Exit",
+    "LocationId": 231,
+    "Type": "",
+    "Region": "Capital Sequoia",
+    "Coordinates": "409, 136, -196",
+    "MapLayer": 0
+  },
+  {
+    "Name": "Gaea Shrine",
+    "LocationId": 112,
+    "Type": "",
+    "Region": "Capital Sequoia",
+    "Coordinates": "375, 178, -320",
+    "MapLayer": 0
+  },
+  {
+    "Name": "East Market District",
+    "LocationId": 374,
+    "Type": "",
+    "Region": "Capital Sequoia",
+    "Coordinates": "436, 160, -257",
+    "MapLayer": 0
+  },
+  {
+    "Name": "Bulletin Square",
+    "LocationId": 890,
+    "Type": "",
+    "Region": "Capital Sequoia",
+    "Coordinates": "409, 169, -287",
+    "MapLayer": 0
+  },
+  {
+    "Name": "Know-It-All Ducks' House",
+    "LocationId": 559,
+    "Type": "",
+    "Region": "Capital Sequoia",
+    "Coordinates": "403, 161, -266",
+    "MapLayer": 0
+  },
+  {
+    "Name": "West Market District",
+    "LocationId": 2026,
+    "Type": "",
+    "Region": "Capital Sequoia",
+    "Coordinates": "373, 160, -257",
+    "MapLayer": 0
+  },
+  {
+    "Name": "Training Grounds",
+    "LocationId": 3057,
+    "Type": "",
+    "Region": "Capital Sequoia",
+    "Coordinates": "368, 169, -288",
+    "MapLayer": 0
+  },
+  {
+    "Name": "Capital Jail Entrance",
+    "LocationId": 643,
+    "Type": "",
+    "Region": "Capital Jail",
+    "Coordinates": "405, 95, -302",
+    "MapLayer": 4
+  },
+  {
+    "Name": "Capital Jail Dark Wing",
+    "LocationId": 915,
+    "Type": "",
+    "Region": "Capital Jail",
+    "Coordinates": "403, 87, -380",
+    "MapLayer": 4
+  },
+  {
+    "Name": "Quintar Enthusiast's House",
+    "LocationId": 440,
+    "Type": "",
+    "Region": "Rolling Quintar Fields",
+    "Coordinates": "601, 176, -357",
+    "MapLayer": 0
+  },
+  {
+    "Name": "Rent-A-Quintar",
+    "LocationId": 462,
+    "Type": "",
+    "Region": "Rolling Quintar Fields",
+    "Coordinates": "467, 169, -288",
+    "MapLayer": 0
+  },
+  {
+    "Name": "Quintar Sanctum",
+    "LocationId": 917,
+    "Type": "",
+    "Region": "Rolling Quintar Fields",
+    "Coordinates": "565, 183, -409",
+    "MapLayer": 0
+  },
+  {
+    "Name": "Quintar Nameko",
+    "LocationId": 968,
+    "Type": "",
+    "Region": "Quintar Sanctum",
+    "Coordinates": "560, 188, -479",
+    "MapLayer": 1
+  },
+  {
+    "Name": "Boomer Society",
+    "LocationId": 170,
+    "Type": "",
+    "Region": "Boomer Society",
+    "Coordinates": "335, 195, -325",
+    "MapLayer": 0
+  },
+  {
+    "Name": "Okimoto N.S. Base",
+    "LocationId": 335,
+    "Type": "",
+    "Region": "Okimoto N.S.",
+    "Coordinates": "628, 160, -179",
+    "MapLayer": 0
+  },
+  {
+    "Name": "Ninja Yashiki",
+    "LocationId": 366,
+    "Type": "",
+    "Region": "Okimoto N.S.",
+    "Coordinates": "613, 207, -191",
+    "MapLayer": 0
+  },
+  {
+    "Name": "Salmon Pass Entrance",
+    "LocationId": 367,
+    "Type": "",
+    "Region": "Salmon Pass",
+    "Coordinates": "222, 161, -258",
+    "MapLayer": 1
+  },
+  {
+    "Name": "Salmon Shack",
+    "LocationId": 1076,
+    "Type": "",
+    "Region": "Salmon River",
+    "Coordinates": "121, 174, -364",
+    "MapLayer": 0
+  },
+  {
+    "Name": "Castle Sequoia Foyer",
+    "LocationId": 514,
+    "Type": "",
+    "Region": "Castle Sequoia",
+    "Coordinates": "406, 180, -371",
+    "MapLayer": 1
+  },
+  {
+    "Name": "Labyrinth Encampment",
+    "LocationId": 2712,
+    "Type": "",
+    "Region": "Poko Poko Desert",
+    "Coordinates": "-150, 125, -238",
+    "MapLayer": 0
+  },
+  {
+    "Name": "Sara Sara Bazaar Port",
+    "LocationId": 941,
+    "Type": "",
+    "Region": "Sara Sara Bazaar",
+    "Coordinates": "-165, 93, 63",
+    "MapLayer": 0
+  },
+  {
+    "Name": "Poko Poko West Gate",
+    "LocationId": 3783,
+    "Type": "",
+    "Region": "Sara Sara Bazaar",
+    "Coordinates": "-176, 113, 48",
+    "MapLayer": 0
+  },
+  {
+    "Name": "Poko Poko East Gate",
+    "LocationId": 3784,
+    "Type": "",
+    "Region": "Sara Sara Bazaar",
+    "Coordinates": "-109, 113, 48",
+    "MapLayer": 0
+  },
+  {
+    "Name": "Ibek's Cave",
+    "LocationId": 2005,
+    "Type": "",
+    "Region": "Sara Sara Beach",
+    "Coordinates": "-58, 109, 52",
+    "MapLayer": 0
+  },
+  {
+    "Name": "Beach Bird's Nest",
+    "LocationId": 2709,
+    "Type": "",
+    "Region": "Sara Sara Beach",
+    "Coordinates": "-260, 113, -90",
+    "MapLayer": 0
+  },
+  {
+    "Name": "Beaurior Rock",
+    "LocationId": 1792,
+    "Type": "",
+    "Region": "Beaurior Volcano",
+    "Coordinates": "96, 100, 118",
+    "MapLayer": 0
+  },
+  {
+    "Name": "Beaurior Volcano Peak",
+    "LocationId": 3037,
+    "Type": "",
+    "Region": "Beaurior Volcano",
+    "Coordinates": "73, 148, 88",
+    "MapLayer": 0
+  },
+  {
+    "Name": "Boss Room",
+    "LocationId": 822,
+    "Type": "",
+    "Region": "Beaurior Rock",
+    "Coordinates": "78, 124, 85",
+    "MapLayer": 6
+  },
+  {
+    "Name": "Ancient Reservoir Entrance",
+    "LocationId": 1124,
+    "Type": "",
+    "Region": "Ancient Reservoir",
+    "Coordinates": "-42, 102, -137",
+    "MapLayer": 1
+  },
+  {
+    "Name": "Main Reservoir Chamber",
+    "LocationId": 1660,
+    "Type": "",
+    "Region": "Ancient Reservoir",
+    "Coordinates": "-45, 80, -10",
+    "MapLayer": 1
+  },
+  {
+    "Name": "Shoudu Fields",
+    "LocationId": 576,
+    "Type": "",
+    "Region": "Shoudu Province",
+    "Coordinates": "705, 146, -243",
+    "MapLayer": 0
+  },
+  {
+    "Name": "Shoudu Market",
+    "LocationId": 577,
+    "Type": "",
+    "Region": "Shoudu Province",
+    "Coordinates": "765, 116, -214",
+    "MapLayer": 0
+  },
+  {
+    "Name": "Shoudu Port",
+    "LocationId": 672,
+    "Type": "",
+    "Region": "Shoudu Province",
+    "Coordinates": "755, 101, -161",
+    "MapLayer": 0
+  },
+  {
+    "Name": "Shanty Inn",
+    "LocationId": 1523,
+    "Type": "",
+    "Region": "Shoudu Province",
+    "Coordinates": "802, 107, -194",
+    "MapLayer": 0
+  },
+  {
+    "Name": "Sky Arena",
+    "LocationId": 1524,
+    "Type": "",
+    "Region": "Shoudu Province",
+    "Coordinates": "756, 163, -263",
+    "MapLayer": 0
+  },
+  {
+    "Name": "Prize Counter",
+    "LocationId": 2731,
+    "Type": "",
+    "Region": "Shoudu Province",
+    "Coordinates": "766, 125, -246",
+    "MapLayer": 0
+  },
+  {
+    "Name": "Shoudu Elevator",
+    "LocationId": 3523,
+    "Type": "",
+    "Region": "Shoudu Province",
+    "Coordinates": "747, 132, -278",
+    "MapLayer": 0
+  },
+  {
+    "Name": "Ganymede Shrine",
+    "LocationId": 1573,
+    "Type": "",
+    "Region": "Ganymede Shrine",
+    "Coordinates": "689, 158, -241",
+    "MapLayer": 0
+  },
+  {
+    "Name": "The Undercity",
+    "LocationId": 1266,
+    "Type": "",
+    "Region": "The Undercity",
+    "Coordinates": "732, 97, -198",
+    "MapLayer": 1
+  },
+  {
+    "Name": "Capital Pipeline",
+    "LocationId": 1127,
+    "Type": "",
+    "Region": "Capital Pipeline",
+    "Coordinates": "452, 66, -218",
+    "MapLayer": 1
+  },
+  {
+    "Name": "East Capital Pipeline",
+    "LocationId": 1420,
+    "Type": "",
+    "Region": "Capital Pipeline",
+    "Coordinates": "653, 66, 65",
+    "MapLayer": 1
+  },
+  {
+    "Name": "Sequoia Athenaeum",
+    "LocationId": 2361,
+    "Type": "",
+    "Region": "Tall, Tall Heights",
+    "Coordinates": "413, 196, -530",
+    "MapLayer": 0
+  },
+  {
+    "Name": "Ice Pass",
+    "LocationId": 2413,
+    "Type": "",
+    "Region": "Tall, Tall Heights",
+    "Coordinates": "200, 190, -402",
+    "MapLayer": 1
+  },
+  {
+    "Name": "Tall, Tall Souvenir Shop",
+    "LocationId": 1260,
+    "Type": "",
+    "Region": "Tall, Tall Heights",
+    "Coordinates": "340, 202, -531",
+    "MapLayer": 0
+  },
+  {
+    "Name": "Land's End Cottage",
+    "LocationId": 2564,
+    "Type": "",
+    "Region": "Tall, Tall Heights",
+    "Coordinates": "97, 193, -454",
+    "MapLayer": 0
+  },
+  {
+    "Name": "Slip Glide Ride Exit",
+    "LocationId": 2743,
+    "Type": "",
+    "Region": "Tall, Tall Heights",
+    "Coordinates": "291, 210, -551",
+    "MapLayer": 0
+  },
+  {
+    "Name": "Ice Fisher's Hut",
+    "LocationId": 3014,
+    "Type": "",
+    "Region": "Tall, Tall Heights",
+    "Coordinates": "195, 192, -436",
+    "MapLayer": 0
+  },
+  {
+    "Name": "Triton Shrine",
+    "LocationId": 3018,
+    "Type": "",
+    "Region": "Tall, Tall Heights",
+    "Coordinates": "241, 202, -483",
+    "MapLayer": 0
+  },
+  {
+    "Name": "Tall, Tall Heights",
+    "LocationId": 3047,
+    "Type": "",
+    "Region": "Tall, Tall Heights",
+    "Coordinates": "265, 200, -379",
+    "MapLayer": 0
+  },
+  {
+    "Name": "East Ramparts",
+    "LocationId": 1375,
+    "Type": "",
+    "Region": "Castle Ramparts",
+    "Coordinates": "449, 234, -393",
+    "MapLayer": 0
+  },
+  {
+    "Name": "West Ramparts",
+    "LocationId": 1376,
+    "Type": "",
+    "Region": "Castle Ramparts",
+    "Coordinates": "360, 234, -393",
+    "MapLayer": 0
+  },
+  {
+    "Name": "Slip Glide Ride Entrance",
+    "LocationId": 1550,
+    "Type": "",
+    "Region": "Slip Glide Ride",
+    "Coordinates": "199, 182, -521",
+    "MapLayer": 4
+  },
+  {
+    "Name": "Summit Shrine",
+    "LocationId": 1559,
+    "Type": "",
+    "Region": "Land's End",
+    "Coordinates": "189, 224, -248",
+    "MapLayer": 0
+  },
+  {
+    "Name": "Dione Shrine",
+    "LocationId": 1595,
+    "Type": "",
+    "Region": "Quintar Reserve",
+    "Coordinates": "683, 204, -438",
+    "MapLayer": 0
+  },
+  {
+    "Name": "Europa Shrine",
+    "LocationId": 1626,
+    "Type": "",
+    "Region": "Jidamba Tangle",
+    "Coordinates": "762, 100, 42",
+    "MapLayer": 0
+  },
+  {
+    "Name": "Eaclaneya Entrance",
+    "LocationId": 1402,
+    "Type": "",
+    "Region": "Jidamba Eaclaneya",
+    "Coordinates": "739, 103, 123",
+    "MapLayer": 1
+  },
+  {
+    "Name": "Salmon Room",
+    "LocationId": 2474,
+    "Type": "",
+    "Region": "Jidamba Eaclaneya",
+    "Coordinates": "711, 21, 13",
+    "MapLayer": 1
+  },
+  {
+    "Name": "Ancient Labyrinth Core",
+    "LocationId": 1739,
+    "Type": "",
+    "Region": "Ancient Labyrinth",
+    "Coordinates": "-219, 38, -320",
+    "MapLayer": 8
+  },
+  {
+    "Name": "Flyer's Lookout",
+    "LocationId": 2141,
+    "Type": "",
+    "Region": "Dione Shrine",
+    "Coordinates": "684, 216, -491",
+    "MapLayer": 0
+  },
+  {
+    "Name": "Top Of The Sequoia",
+    "LocationId": 2452,
+    "Type": "",
+    "Region": "The Sequoia",
+    "Coordinates": "-268, 221, -506",
+    "MapLayer": 1
+  },
+  {
+    "Name": "The Chalice of Tar",
+    "LocationId": 3055,
+    "Type": "",
+    "Region": "The Chalice of Tar",
+    "Coordinates": "572, 221, -427",
+    "MapLayer": 0
+  },
+  {
+    "Name": "Sailor's Raft",
+    "LocationId": 3775,
+    "Type": "",
+    "Region": "The Open Sea",
+    "Coordinates": "929, 91, 252",
+    "MapLayer": 0
+  },
+  {
+    "Name": "Astley's Shrine",
+    "LocationId": 3776,
+    "Type": "",
+    "Region": "The New World",
+    "Coordinates": "-69, 4, -514",
+    "MapLayer": 1
+  },
+  {
+    "Name": "Astley's Keep",
+    "LocationId": 3777,
+    "Type": "",
+    "Region": "The New World",
+    "Coordinates": "-69, 16, 141",
+    "MapLayer": 1
+  },
+  {
+    "Name": "Discipline Hollow",
+    "LocationId": 3797,
+    "Type": "",
+    "Region": "The New World",
+    "Coordinates": "-103, 4, -557",
+    "MapLayer": 1
+  },
+  {
+    "Name": "Platform A",
+    "LocationId": 3780,
+    "Type": "",
+    "Region": "Continental Tram",
+    "Coordinates": "-129, 68, 63",
+    "MapLayer": 1
+  },
+  {
+    "Name": "Neptune Shrine",
+    "LocationId": 3781,
+    "Type": "",
+    "Region": "Neptune Shrine",
+    "Coordinates": "-270, 58, 220",
+    "MapLayer": 0
+  }
+]
