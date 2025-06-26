@@ -37,6 +37,9 @@
     <None Update="Content\Mods\archipelago.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="Content\Mods\archipelago\Equipment\APStarterGear.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="CrystalProjectAP.bsdiff">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
