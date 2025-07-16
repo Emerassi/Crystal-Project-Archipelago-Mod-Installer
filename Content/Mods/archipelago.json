@@ -6,7 +6,7 @@
   "Version": "1.0",
   "EditorVersion": 30,
   "SteamWorkshopFileID": 0,
-  "Timestamp": "2025-06-05T21:16:13.9233362Z",
+  "Timestamp": "2025-07-15T04:13:37.5664209Z",
   "IsLocalization": false,
   "Language": null,
   "HasCustomContent": true,
@@ -10608,7 +10608,7 @@
           "IsExpanded": true
         }
       ],
-      "IsExpanded": true
+      "IsExpanded": false
     },
     {
       "ModelTypeID": 3,
@@ -27254,7 +27254,7 @@
       "ScaledOrder": 0,
       "TexturePath": "Equipment/APStarterGear",
       "TextureIndex": 0,
-      "Level": 1,
+      "Level": 3,
       "NoAutoCost": false,
       "NoAutoStats": false,
       "Cost": 8,
@@ -27289,7 +27289,7 @@
       "ScaledOrder": 0,
       "TexturePath": "Equipment/APStarterGear",
       "TextureIndex": 1,
-      "Level": 1,
+      "Level": 3,
       "NoAutoCost": false,
       "NoAutoStats": false,
       "Cost": 8,
@@ -27324,7 +27324,7 @@
       "ScaledOrder": 0,
       "TexturePath": "Equipment/APStarterGear",
       "TextureIndex": 2,
-      "Level": 1,
+      "Level": 3,
       "NoAutoCost": false,
       "NoAutoStats": false,
       "Cost": 8,
@@ -27365,7 +27365,7 @@
       "ScaledOrder": 0,
       "TexturePath": "Equipment/APStarterGear",
       "TextureIndex": 3,
-      "Level": 1,
+      "Level": 3,
       "NoAutoCost": false,
       "NoAutoStats": false,
       "Cost": 8,
@@ -27400,7 +27400,7 @@
       "ScaledOrder": 0,
       "TexturePath": "Equipment/APStarterGear",
       "TextureIndex": 4,
-      "Level": 1,
+      "Level": 3,
       "NoAutoCost": false,
       "NoAutoStats": false,
       "Cost": 8,
@@ -27435,7 +27435,7 @@
       "ScaledOrder": 0,
       "TexturePath": "Equipment/APStarterGear",
       "TextureIndex": 5,
-      "Level": 1,
+      "Level": 3,
       "NoAutoCost": false,
       "NoAutoStats": false,
       "Cost": 8,
@@ -27476,7 +27476,7 @@
       "ScaledOrder": 0,
       "TexturePath": "Equipment/APStarterGear",
       "TextureIndex": 6,
-      "Level": 1,
+      "Level": 3,
       "NoAutoCost": false,
       "NoAutoStats": false,
       "Cost": 8,
@@ -27511,7 +27511,7 @@
       "ScaledOrder": 0,
       "TexturePath": "Equipment/APStarterGear",
       "TextureIndex": 7,
-      "Level": 1,
+      "Level": 3,
       "NoAutoCost": false,
       "NoAutoStats": false,
       "Cost": 8,
@@ -27552,7 +27552,7 @@
       "ScaledOrder": 0,
       "TexturePath": "Equipment/APStarterGear",
       "TextureIndex": 8,
-      "Level": 1,
+      "Level": 3,
       "NoAutoCost": false,
       "NoAutoStats": false,
       "Cost": 8,
@@ -27587,7 +27587,7 @@
       "ScaledOrder": 0,
       "TexturePath": "Equipment/APStarterGear",
       "TextureIndex": 9,
-      "Level": 1,
+      "Level": 3,
       "NoAutoCost": false,
       "NoAutoStats": false,
       "Cost": 8,
@@ -27622,7 +27622,7 @@
       "ScaledOrder": 0,
       "TexturePath": "Equipment/APStarterGear",
       "TextureIndex": 10,
-      "Level": 1,
+      "Level": 3,
       "NoAutoCost": false,
       "NoAutoStats": false,
       "Cost": 8,
@@ -27663,7 +27663,7 @@
       "ScaledOrder": 0,
       "TexturePath": "Equipment/APStarterGear",
       "TextureIndex": 11,
-      "Level": 1,
+      "Level": 3,
       "NoAutoCost": false,
       "NoAutoStats": false,
       "Cost": 8,
@@ -27692,7 +27692,7 @@
       "ScaledOrder": 0,
       "TexturePath": "Equipment/APStarterGear",
       "TextureIndex": 12,
-      "Level": 1,
+      "Level": 3,
       "NoAutoCost": false,
       "NoAutoStats": false,
       "Cost": 8,
@@ -27727,7 +27727,7 @@
       "ScaledOrder": 0,
       "TexturePath": "Equipment/APStarterGear",
       "TextureIndex": 13,
-      "Level": 1,
+      "Level": 3,
       "NoAutoCost": false,
       "NoAutoStats": false,
       "Cost": 8,
@@ -27762,7 +27762,7 @@
       "ScaledOrder": 0,
       "TexturePath": "Equipment/APStarterGear",
       "TextureIndex": 14,
-      "Level": 1,
+      "Level": 3,
       "NoAutoCost": false,
       "NoAutoStats": false,
       "Cost": 8,
@@ -27803,7 +27803,7 @@
       "ScaledOrder": 0,
       "TexturePath": "Equipment/APStarterGear",
       "TextureIndex": 15,
-      "Level": 1,
+      "Level": 3,
       "NoAutoCost": false,
       "NoAutoStats": false,
       "Cost": 8,
@@ -27844,7 +27844,7 @@
       "ScaledOrder": 0,
       "TexturePath": "Equipment/APStarterGear",
       "TextureIndex": 17,
-      "Level": 1,
+      "Level": 3,
       "NoAutoCost": false,
       "NoAutoStats": false,
       "Cost": 8,
@@ -27885,7 +27885,7 @@
       "ScaledOrder": 0,
       "TexturePath": "Equipment/APStarterGear",
       "TextureIndex": 16,
-      "Level": 1,
+      "Level": 3,
       "NoAutoCost": false,
       "NoAutoStats": false,
       "Cost": 8,
@@ -27926,7 +27926,7 @@
       "ScaledOrder": 0,
       "TexturePath": "Equipment/APStarterGear",
       "TextureIndex": 18,
-      "Level": 1,
+      "Level": 3,
       "NoAutoCost": false,
       "NoAutoStats": false,
       "Cost": 8,
@@ -27961,7 +27961,7 @@
       "ScaledOrder": 0,
       "TexturePath": "Equipment/APStarterGear",
       "TextureIndex": 19,
-      "Level": 1,
+      "Level": 3,
       "NoAutoCost": false,
       "NoAutoStats": false,
       "Cost": 8,
@@ -30343,7 +30343,7 @@
                           "Data": {
                             "LootType": 0,
                             "LootValue": 0,
-                            "Count": 15,
+                            "Count": 11,
                             "Redirect": false
                           },
                           "IsNegation": false
@@ -30388,7 +30388,7 @@
                           {
                             "ActionType": 1,
                             "Data": {
-                              "Message": "If nautical nonsense be something you wish, bring me 15 crystals and flop like a fish!",
+                              "Message": "If nautical nonsense be something you wish, get 11 jobs and flop like a fish!",
                               "NpcKey": null,
                               "Choices": [],
                               "AnswerVariableKey": null,
@@ -35266,8 +35266,350 @@
         "Pages": [
           {
             "Condition": {
-              "ConditionType": 0,
-              "Data": null,
+              "ConditionType": 2,
+              "Data": {
+                "LHS": {
+                  "ConditionType": 4,
+                  "Data": {
+                    "Scope": 2,
+                    "EntityKey": null,
+                    "VariableKey": "Bouncer2",
+                    "Eval": 2,
+                    "VariableType": 0,
+                    "Flag": false,
+                    "Number": 0,
+                    "SourceVariableScope": 0,
+                    "SourceVariableKey": null,
+                    "LootType": 0,
+                    "LootValue": 0
+                  },
+                  "IsNegation": false
+                },
+                "Op": 0,
+                "RHS": {
+                  "ConditionType": 7,
+                  "Data": {
+                    "LootType": 0,
+                    "LootValue": 0,
+                    "Count": 11,
+                    "Redirect": false
+                  },
+                  "IsNegation": false
+                }
+              },
+              "IsNegation": false
+            },
+            "TriggerType": 1,
+            "TriggerProximityRadius": 0.0,
+            "TriggerProximityBox": {
+              "XNeg": -1.0,
+              "YNeg": 0.0,
+              "ZNeg": 0.0,
+              "XPos": 2.0,
+              "YPos": 3.0,
+              "ZPos": 1.0
+            },
+            "TriggerOnExitProximity": false,
+            "TriggerTouchType": 0,
+            "Actions": [
+              {
+                "ActionType": 31,
+                "Data": {
+                  "Offset": {
+                    "X": 1,
+                    "Y": 0,
+                    "Z": 0
+                  },
+                  "PostMoveFacing": 0,
+                  "IsRelative": false,
+                  "TargetMarkerKey": null,
+                  "Speed": 0.1,
+                  "WaitType": 1,
+                  "CollisionFree": true,
+                  "JumpType": null,
+                  "TeleportPoint": 0
+                }
+              },
+              {
+                "ActionType": 0,
+                "Data": null
+              },
+              {
+                "ActionType": 19,
+                "Data": {
+                  "EntityKey": "Z14_ArtisanGuard",
+                  "TriggerType": 4
+                }
+              },
+              {
+                "ActionType": 2,
+                "Data": null
+              },
+              {
+                "ActionType": 10,
+                "Data": {
+                  "RefreshCurrentOutfit": false,
+                  "RefreshCurrentPage": true,
+                  "RefreshCurrentPosition": false,
+                  "CancelAllActiveActions": false,
+                  "TriggerPlayerAction": false,
+                  "TriggerPlayerProximity": false,
+                  "TriggerAuto": false,
+                  "TriggerPlayerTouch": false,
+                  "TriggerTriggerNpc": false,
+                  "GlobalRefreshOutfits": false,
+                  "GlobalRefreshPages": false,
+                  "GlobalRefreshPositions": false,
+                  "GlobalTrySpawn": false,
+                  "GlobalTryDespawn": false,
+                  "NpcKey": null
+                }
+              }
+            ],
+            "Context": 0
+          },
+          {
+            "Condition": {
+              "ConditionType": 2,
+              "Data": {
+                "LHS": {
+                  "ConditionType": 5,
+                  "Data": {
+                    "LootType": 1,
+                    "LootValue": 93,
+                    "Count": 1,
+                    "Redirect": false
+                  },
+                  "IsNegation": false
+                },
+                "Op": 1,
+                "RHS": {
+                  "ConditionType": 5,
+                  "Data": {
+                    "LootType": 1,
+                    "LootValue": 148,
+                    "Count": 1,
+                    "Redirect": false
+                  },
+                  "IsNegation": false
+                }
+              },
+              "IsNegation": true
+            },
+            "TriggerType": 1,
+            "TriggerProximityRadius": 0.0,
+            "TriggerProximityBox": {
+              "XNeg": 0.0,
+              "YNeg": 0.0,
+              "ZNeg": 0.0,
+              "XPos": 1.0,
+              "YPos": 1.0,
+              "ZPos": 1.5
+            },
+            "TriggerOnExitProximity": false,
+            "TriggerTouchType": 0,
+            "Actions": [
+              {
+                "ActionType": 3,
+                "Data": {
+                  "Condition": {
+                    "ConditionType": 2,
+                    "Data": {
+                      "LHS": {
+                        "ConditionType": 5,
+                        "Data": {
+                          "LootType": 1,
+                          "LootValue": 93,
+                          "Count": 1,
+                          "Redirect": false
+                        },
+                        "IsNegation": false
+                      },
+                      "Op": 1,
+                      "RHS": {
+                        "ConditionType": 5,
+                        "Data": {
+                          "LootType": 1,
+                          "LootValue": 148,
+                          "Count": 1,
+                          "Redirect": false
+                        },
+                        "IsNegation": false
+                      }
+                    },
+                    "IsNegation": false
+                  },
+                  "ConditionActionsTrue": [
+                    {
+                      "ActionType": 10,
+                      "Data": {
+                        "RefreshCurrentOutfit": false,
+                        "RefreshCurrentPage": true,
+                        "RefreshCurrentPosition": false,
+                        "CancelAllActiveActions": false,
+                        "TriggerPlayerAction": false,
+                        "TriggerPlayerProximity": false,
+                        "TriggerAuto": false,
+                        "TriggerPlayerTouch": false,
+                        "TriggerTriggerNpc": false,
+                        "GlobalRefreshOutfits": false,
+                        "GlobalRefreshPages": false,
+                        "GlobalRefreshPositions": false,
+                        "GlobalTrySpawn": false,
+                        "GlobalTryDespawn": false,
+                        "NpcKey": null
+                      }
+                    }
+                  ],
+                  "ConditionActionsFalse": []
+                }
+              },
+              {
+                "ActionType": 0,
+                "Data": null
+              },
+              {
+                "ActionType": 19,
+                "Data": {
+                  "EntityKey": "Z14_ArtisanGuard",
+                  "TriggerType": 4
+                }
+              },
+              {
+                "ActionType": 3,
+                "Data": {
+                  "Condition": {
+                    "ConditionType": 2,
+                    "Data": {
+                      "LHS": {
+                        "ConditionType": 5,
+                        "Data": {
+                          "LootType": 1,
+                          "LootValue": 93,
+                          "Count": 1,
+                          "Redirect": false
+                        },
+                        "IsNegation": false
+                      },
+                      "Op": 1,
+                      "RHS": {
+                        "ConditionType": 5,
+                        "Data": {
+                          "LootType": 1,
+                          "LootValue": 148,
+                          "Count": 1,
+                          "Redirect": false
+                        },
+                        "IsNegation": false
+                      }
+                    },
+                    "IsNegation": false
+                  },
+                  "ConditionActionsTrue": [
+                    {
+                      "ActionType": 12,
+                      "Data": {
+                        "Offset": {
+                          "X": -1,
+                          "Y": 0,
+                          "Z": 0
+                        },
+                        "PostMoveFacing": 3,
+                        "IsRelative": false,
+                        "TargetMarkerKey": null,
+                        "Speed": 0.05,
+                        "WaitType": 1,
+                        "CollisionFree": true,
+                        "JumpType": null,
+                        "TeleportPoint": 0
+                      }
+                    },
+                    {
+                      "ActionType": 10,
+                      "Data": {
+                        "RefreshCurrentOutfit": false,
+                        "RefreshCurrentPage": true,
+                        "RefreshCurrentPosition": false,
+                        "CancelAllActiveActions": false,
+                        "TriggerPlayerAction": false,
+                        "TriggerPlayerProximity": false,
+                        "TriggerAuto": false,
+                        "TriggerPlayerTouch": false,
+                        "TriggerTriggerNpc": false,
+                        "GlobalRefreshOutfits": false,
+                        "GlobalRefreshPages": false,
+                        "GlobalRefreshPositions": false,
+                        "GlobalTrySpawn": false,
+                        "GlobalTryDespawn": false,
+                        "NpcKey": null
+                      }
+                    }
+                  ],
+                  "ConditionActionsFalse": [
+                    {
+                      "ActionType": 1,
+                      "Data": {
+                        "Message": "No Luxury Pass? No can do, my friend. Come back when you've got it.",
+                        "NpcKey": null,
+                        "Choices": [],
+                        "AnswerVariableKey": null,
+                        "ShowPartyStatus": false
+                      }
+                    },
+                    {
+                      "ActionType": 31,
+                      "Data": {
+                        "Offset": {
+                          "X": 0,
+                          "Y": 0,
+                          "Z": 2
+                        },
+                        "PostMoveFacing": 5,
+                        "IsRelative": true,
+                        "TargetMarkerKey": null,
+                        "Speed": 0.1,
+                        "WaitType": 1,
+                        "CollisionFree": true,
+                        "JumpType": null,
+                        "TeleportPoint": 0
+                      }
+                    },
+                    {
+                      "ActionType": 2,
+                      "Data": null
+                    }
+                  ]
+                }
+              }
+            ],
+            "Context": 0
+          },
+          {
+            "Condition": {
+              "ConditionType": 2,
+              "Data": {
+                "LHS": {
+                  "ConditionType": 5,
+                  "Data": {
+                    "LootType": 1,
+                    "LootValue": 93,
+                    "Count": 1,
+                    "Redirect": false
+                  },
+                  "IsNegation": false
+                },
+                "Op": 1,
+                "RHS": {
+                  "ConditionType": 5,
+                  "Data": {
+                    "LootType": 1,
+                    "LootValue": 148,
+                    "Count": 1,
+                    "Redirect": false
+                  },
+                  "IsNegation": false
+                }
+              },
               "IsNegation": false
             },
             "TriggerType": 0,
@@ -35297,6 +35639,123 @@
                   "ShowPartyStatus": false
                 }
               },
+              {
+                "ActionType": 19,
+                "Data": {
+                  "EntityKey": "Z14_ArtisanGuard",
+                  "TriggerType": 4
+                }
+              },
+              {
+                "ActionType": 3,
+                "Data": {
+                  "Condition": {
+                    "ConditionType": 5,
+                    "Data": {
+                      "LootType": 1,
+                      "LootValue": 93,
+                      "Count": 1,
+                      "Redirect": false
+                    },
+                    "IsNegation": false
+                  },
+                  "ConditionActionsTrue": [
+                    {
+                      "ActionType": 3,
+                      "Data": {
+                        "Condition": {
+                          "ConditionType": 5,
+                          "Data": {
+                            "LootType": 1,
+                            "LootValue": 148,
+                            "Count": 1,
+                            "Redirect": false
+                          },
+                          "IsNegation": false
+                        },
+                        "ConditionActionsTrue": [
+                          {
+                            "ActionType": 1,
+                            "Data": {
+                              "Message": "Ah, the Luxury Pass V2! Welcome, V2alued customer. (That's one's not in my contract. A little extra, just from me.)",
+                              "NpcKey": null,
+                              "Choices": [],
+                              "AnswerVariableKey": null,
+                              "ShowPartyStatus": false
+                            }
+                          },
+                          {
+                            "ActionType": 1,
+                            "Data": {
+                              "Message": "You've got full access to the merchandise now!",
+                              "NpcKey": null,
+                              "Choices": [],
+                              "AnswerVariableKey": null,
+                              "ShowPartyStatus": false
+                            }
+                          }
+                        ],
+                        "ConditionActionsFalse": [
+                          {
+                            "ActionType": 1,
+                            "Data": {
+                              "Message": "Ah, the Luxury Pass - welcome, valued customer. (Gotta call you that, it's in my contract.)",
+                              "NpcKey": null,
+                              "Choices": [],
+                              "AnswerVariableKey": null,
+                              "ShowPartyStatus": false
+                            }
+                          },
+                          {
+                            "ActionType": 1,
+                            "Data": {
+                              "Message": "You know, with the Luxury Pass V2, they'll have even better stuff in stock.",
+                              "NpcKey": null,
+                              "Choices": [],
+                              "AnswerVariableKey": null,
+                              "ShowPartyStatus": false
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "ConditionActionsFalse": [
+                    {
+                      "ActionType": 1,
+                      "Data": {
+                        "Message": "No Luxury Pass? No can do, my friend. Come back when you've got it.",
+                        "NpcKey": null,
+                        "Choices": [],
+                        "AnswerVariableKey": null,
+                        "ShowPartyStatus": false
+                      }
+                    }
+                  ]
+                }
+              }
+            ],
+            "Context": 0
+          },
+          {
+            "Condition": {
+              "ConditionType": 0,
+              "Data": null,
+              "IsNegation": false
+            },
+            "TriggerType": 4,
+            "TriggerProximityRadius": 1.0,
+            "TriggerProximityBox": {
+              "XNeg": 0.0,
+              "YNeg": 0.0,
+              "ZNeg": 0.0,
+              "XPos": 0.0,
+              "YPos": 0.0,
+              "ZPos": 0.0
+            },
+            "TriggerOnExitProximity": false,
+            "TriggerTouchType": 0,
+            "Actions": [
               {
                 "ActionType": 3,
                 "Data": {
@@ -35335,7 +35794,27 @@
                           {
                             "ActionType": 1,
                             "Data": {
-                              "Message": "I used to be an adventurer but than I took an arrow to the knee.",
+                              "Message": "You know, it takes a lot to impress me, adventurer, but-",
+                              "NpcKey": null,
+                              "Choices": [],
+                              "AnswerVariableKey": null,
+                              "ShowPartyStatus": false
+                            }
+                          },
+                          {
+                            "ActionType": 1,
+                            "Data": {
+                              "Message": "6 jobs? Nice.",
+                              "NpcKey": null,
+                              "Choices": [],
+                              "AnswerVariableKey": null,
+                              "ShowPartyStatus": false
+                            }
+                          },
+                          {
+                            "ActionType": 1,
+                            "Data": {
+                              "Message": "I used to be an adventurer, but then I took an arrow to the knee.",
                               "NpcKey": null,
                               "Choices": [],
                               "AnswerVariableKey": null,
@@ -35346,7 +35825,7 @@
                             "ActionType": 8,
                             "Data": {
                               "LootType": 1,
-                              "LootValue": 0,
+                              "LootValue": 93,
                               "Count": 1,
                               "Redirect": false
                             }
@@ -35365,9 +35844,48 @@
                               "LootType": 0,
                               "LootValue": 0
                             }
+                          },
+                          {
+                            "ActionType": 3,
+                            "Data": {
+                              "Condition": {
+                                "ConditionType": 5,
+                                "Data": {
+                                  "LootType": 1,
+                                  "LootValue": 93,
+                                  "Count": 1,
+                                  "Redirect": false
+                                },
+                                "IsNegation": true
+                              },
+                              "ConditionActionsTrue": [
+                                {
+                                  "ActionType": 1,
+                                  "Data": {
+                                    "Message": "Impressing me isn't enough to get in the store, though.",
+                                    "NpcKey": null,
+                                    "Choices": [],
+                                    "AnswerVariableKey": null,
+                                    "ShowPartyStatus": false
+                                  }
+                                }
+                              ],
+                              "ConditionActionsFalse": []
+                            }
                           }
                         ],
-                        "ConditionActionsFalse": []
+                        "ConditionActionsFalse": [
+                          {
+                            "ActionType": 1,
+                            "Data": {
+                              "Message": "You know, it takes a lot to impress me, adventurer, but I think you've got potential. Talk to me when you've collected 6 jobs.",
+                              "NpcKey": null,
+                              "Choices": [],
+                              "AnswerVariableKey": null,
+                              "ShowPartyStatus": false
+                            }
+                          }
+                        ]
                       }
                     }
                   ],
@@ -35403,7 +35921,7 @@
                           "Data": {
                             "LootType": 0,
                             "LootValue": 0,
-                            "Count": 15,
+                            "Count": 11,
                             "Redirect": false
                           },
                           "IsNegation": false
@@ -35412,7 +35930,17 @@
                           {
                             "ActionType": 1,
                             "Data": {
-                              "Message": "Actually I lied about the knee thing don't tell my boss.",
+                              "Message": "(Actually I lied about the knee thing don't tell my boss.)",
+                              "NpcKey": null,
+                              "Choices": [],
+                              "AnswerVariableKey": null,
+                              "ShowPartyStatus": false
+                            }
+                          },
+                          {
+                            "ActionType": 1,
+                            "Data": {
+                              "Message": "Congratulations. I see that you have collected at least eleven jobs.",
                               "NpcKey": null,
                               "Choices": [],
                               "AnswerVariableKey": null,
@@ -35423,7 +35951,7 @@
                             "ActionType": 8,
                             "Data": {
                               "LootType": 1,
-                              "LootValue": 0,
+                              "LootValue": 148,
                               "Count": 1,
                               "Redirect": false
                             }
@@ -35444,108 +35972,11 @@
                             }
                           }
                         ],
-                        "ConditionActionsFalse": []
-                      }
-                    }
-                  ],
-                  "ConditionActionsFalse": []
-                }
-              }
-            ],
-            "Context": 0
-          },
-          {
-            "Condition": {
-              "ConditionType": 0,
-              "Data": null,
-              "IsNegation": false
-            },
-            "TriggerType": 4,
-            "TriggerProximityRadius": 1.0,
-            "TriggerProximityBox": {
-              "XNeg": 0.0,
-              "YNeg": 0.0,
-              "ZNeg": 0.0,
-              "XPos": 0.0,
-              "YPos": 0.0,
-              "ZPos": 0.0
-            },
-            "TriggerOnExitProximity": false,
-            "TriggerTouchType": 0,
-            "Actions": [
-              {
-                "ActionType": 3,
-                "Data": {
-                  "Condition": {
-                    "ConditionType": 5,
-                    "Data": {
-                      "LootType": 1,
-                      "LootValue": 93,
-                      "Count": 1,
-                      "Redirect": true
-                    },
-                    "IsNegation": true
-                  },
-                  "ConditionActionsTrue": [
-                    {
-                      "ActionType": 3,
-                      "Data": {
-                        "Condition": {
-                          "ConditionType": 7,
-                          "Data": {
-                            "LootType": 0,
-                            "LootValue": 0,
-                            "Count": 6,
-                            "Redirect": false
-                          },
-                          "IsNegation": false
-                        },
-                        "ConditionActionsTrue": [
-                          {
-                            "ActionType": 1,
-                            "Data": {
-                              "Message": "You must discover at least six crystals before you are permitted to enter the Luxury Equipment Shop.",
-                              "NpcKey": null,
-                              "Choices": [],
-                              "AnswerVariableKey": null,
-                              "ShowPartyStatus": false
-                            }
-                          },
-                          {
-                            "ActionType": 1,
-                            "Data": {
-                              "Message": "Ah, my sincerest apologies. I see that you have already found at least six crystals.",
-                              "NpcKey": null,
-                              "Choices": [],
-                              "AnswerVariableKey": null,
-                              "ShowPartyStatus": false
-                            }
-                          },
-                          {
-                            "ActionType": 1,
-                            "Data": {
-                              "Message": "You may henceforth freely enter the Luxury Equipment Shop.",
-                              "NpcKey": null,
-                              "Choices": [],
-                              "AnswerVariableKey": null,
-                              "ShowPartyStatus": false
-                            }
-                          },
-                          {
-                            "ActionType": 8,
-                            "Data": {
-                              "LootType": 1,
-                              "LootValue": 93,
-                              "Count": 1,
-                              "Redirect": false
-                            }
-                          }
-                        ],
                         "ConditionActionsFalse": [
                           {
                             "ActionType": 1,
                             "Data": {
-                              "Message": "You must discover at least six crystals before you are permitted to enter the Luxury Equipment Shop.",
+                              "Message": "If you collect 11 jobs, I'll be really impressed.",
                               "NpcKey": null,
                               "Choices": [],
                               "AnswerVariableKey": null,
@@ -35553,100 +35984,6 @@
                             }
                           }
                         ]
-                      }
-                    }
-                  ],
-                  "ConditionActionsFalse": []
-                }
-              },
-              {
-                "ActionType": 3,
-                "Data": {
-                  "Condition": {
-                    "ConditionType": 5,
-                    "Data": {
-                      "LootType": 1,
-                      "LootValue": 93,
-                      "Count": 1,
-                      "Redirect": true
-                    },
-                    "IsNegation": false
-                  },
-                  "ConditionActionsTrue": [
-                    {
-                      "ActionType": 3,
-                      "Data": {
-                        "Condition": {
-                          "ConditionType": 5,
-                          "Data": {
-                            "LootType": 1,
-                            "LootValue": 148,
-                            "Count": 1,
-                            "Redirect": true
-                          },
-                          "IsNegation": true
-                        },
-                        "ConditionActionsTrue": [
-                          {
-                            "ActionType": 3,
-                            "Data": {
-                              "Condition": {
-                                "ConditionType": 7,
-                                "Data": {
-                                  "LootType": 0,
-                                  "LootValue": 0,
-                                  "Count": 15,
-                                  "Redirect": false
-                                },
-                                "IsNegation": false
-                              },
-                              "ConditionActionsTrue": [
-                                {
-                                  "ActionType": 1,
-                                  "Data": {
-                                    "Message": "Congratulations. I see that you have found at least fifteen crystals.",
-                                    "NpcKey": null,
-                                    "Choices": [],
-                                    "AnswerVariableKey": null,
-                                    "ShowPartyStatus": false
-                                  }
-                                },
-                                {
-                                  "ActionType": 1,
-                                  "Data": {
-                                    "Message": "With this achievement, your are now permitted to purchase our most exclusive equipment.",
-                                    "NpcKey": null,
-                                    "Choices": [],
-                                    "AnswerVariableKey": null,
-                                    "ShowPartyStatus": false
-                                  }
-                                },
-                                {
-                                  "ActionType": 8,
-                                  "Data": {
-                                    "LootType": 1,
-                                    "LootValue": 148,
-                                    "Count": 1,
-                                    "Redirect": false
-                                  }
-                                }
-                              ],
-                              "ConditionActionsFalse": [
-                                {
-                                  "ActionType": 1,
-                                  "Data": {
-                                    "Message": "You may upgrade your membership once you have found at least fifteen crystals.",
-                                    "NpcKey": null,
-                                    "Choices": [],
-                                    "AnswerVariableKey": null,
-                                    "ShowPartyStatus": false
-                                  }
-                                }
-                              ]
-                            }
-                          }
-                        ],
-                        "ConditionActionsFalse": []
                       }
                     }
                   ],
@@ -35811,7 +36148,7 @@
               {
                 "ActionType": 1,
                 "Data": {
-                  "Message": "I took too long to work up the nerve to steal the luxary shop's stuff.",
+                  "Message": "I took too long to work up the nerve to steal the luxury shop's stuff.",
                   "NpcKey": null,
                   "Choices": [],
                   "AnswerVariableKey": null,

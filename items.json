@@ -3,570 +3,954 @@
     "ItemId": 0,
     "Name": "Job - Warrior",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Job"
+    "Classification": "JOB"
   },
   {
     "ItemId": 5,
     "Name": "Job - Monk",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Job"
+    "Classification": "JOB"
   },
   {
     "ItemId": 2,
     "Name": "Job - Rogue",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Job"
+    "Classification": "JOB"
   },
   {
     "ItemId": 4,
     "Name": "Job - Cleric",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Job"
+    "Classification": "JOB"
   },
   {
     "ItemId": 3,
     "Name": "Job - Wizard",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Job"
+    "Classification": "JOB"
   },
   {
     "ItemId": 14,
     "Name": "Job - Warlock",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Job"
+    "Classification": "JOB"
   },
   {
     "ItemId": 1,
     "Name": "Job - Fencer",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Job"
+    "Classification": "JOB"
   },
   {
     "ItemId": 8,
     "Name": "Job - Shaman",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Job"
+    "Classification": "JOB"
   },
   {
     "ItemId": 13,
     "Name": "Job - Scholar",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Job"
+    "Classification": "JOB"
   },
   {
     "ItemId": 10,
     "Name": "Job - Aegis",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Job"
+    "Classification": "JOB"
   },
   {
     "ItemId": 7,
     "Name": "Job - Hunter",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Job"
+    "Classification": "JOB"
   },
   {
     "ItemId": 17,
     "Name": "Job - Chemist",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Job"
+    "Classification": "JOB"
   },
   {
     "ItemId": 6,
     "Name": "Job - Reaper",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Job"
+    "Classification": "JOB"
   },
   {
     "ItemId": 18,
     "Name": "Job - Ninja",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Job"
+    "Classification": "JOB"
   },
   {
     "ItemId": 12,
     "Name": "Job - Nomad",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Job"
+    "Classification": "JOB"
   },
   {
     "ItemId": 11,
     "Name": "Job - Dervish",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Job"
+    "Classification": "JOB"
   },
   {
     "ItemId": 9,
     "Name": "Job - Beatsmith",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Job"
+    "Classification": "JOB"
   },
   {
     "ItemId": 20,
     "Name": "Job - Samurai",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Job"
+    "Classification": "JOB"
   },
   {
     "ItemId": 19,
     "Name": "Job - Assassin",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Job"
+    "Classification": "JOB"
   },
   {
     "ItemId": 15,
     "Name": "Job - Valkyrie",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Job"
+    "Classification": "JOB"
   },
   {
     "ItemId": 21,
     "Name": "Job - Summoner",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Job"
+    "Classification": "JOB"
   },
   {
     "ItemId": 23,
     "Name": "Job - Beastmaster",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Job"
+    "Classification": "JOB"
   },
   {
     "ItemId": 16,
     "Name": "Job - Weaver",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Job"
+    "Classification": "JOB"
   },
   {
     "ItemId": 22,
     "Name": "Job - Mimic",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Job"
+    "Classification": "JOB"
   },
   {
     "ItemId": 31,
     "Name": "Item - Gardeners Key",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "KEY"
   },
   {
     "ItemId": 33,
     "Name": "Item - Courtyard Key",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "KEY"
   },
   {
     "ItemId": 36,
     "Name": "Item - Luxury Key",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "KEY"
   },
   {
     "ItemId": 40,
     "Name": "Item - Cell Key",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "KEY"
   },
   {
     "ItemId": 41,
     "Name": "Item - South Wing Key",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "KEY"
   },
   {
     "ItemId": 42,
     "Name": "Item - East Wing Key",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "KEY"
   },
   {
     "ItemId": 43,
     "Name": "Item - West Wing Key",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "KEY"
   },
   {
     "ItemId": 44,
     "Name": "Item - Dark Wing Key",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "KEY"
   },
   {
     "ItemId": 32,
     "Name": "Item - Room 1 Key",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "KEY"
   },
   {
     "ItemId": 60,
     "Name": "Item - Pyramid Key",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "KEY"
   },
   {
     "ItemId": 95,
     "Name": "Item - Tram Key",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "KEY"
   },
   {
     "ItemId": 29,
     "Name": "Item - Small Key",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "KEY"
   },
   {
     "ItemId": 30,
     "Name": "Item - Boss Key",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "KEY"
   },
   {
     "ItemId": 156,
     "Name": "Item - Ice Cell Key",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "KEY"
   },
   {
     "ItemId": 169,
     "Name": "Item - Red Door Key",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "KEY"
   },
   {
     "ItemId": 160,
     "Name": "Item - Ice Puzzle Key",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "KEY"
   },
   {
     "ItemId": 141,
     "Name": "Item - Foliage Key",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "KEY"
   },
   {
     "ItemId": 118,
     "Name": "Item - Cave Key",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "KEY"
   },
   {
     "ItemId": 116,
     "Name": "Item - Canopy Key",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "KEY"
   },
   {
     "ItemId": 175,
     "Name": "Item - Rampart Key",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "KEY"
   },
   {
     "ItemId": 192,
     "Name": "Item - Forgotten Key",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "KEY"
   },
   {
     "ItemId": 147,
     "Name": "Item - Skeleton Key",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "KEY"
   },
   {
     "ItemId": 501,
     "Name": "Item - Prison Key Ring",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "KEY"
   },
   {
     "ItemId": 502,
     "Name": "Item - Beaurior Key Ring",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "KEY"
   },
   {
     "ItemId": 503,
     "Name": "Item - Ice Puzzle Key Ring",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "KEY"
   },
   {
     "ItemId": 504,
     "Name": "Item - Slip Glide Ride Key Ring",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "KEY"
   },
   {
     "ItemId": 505,
     "Name": "Item - Jidamba Key Ring",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "KEY"
   },
   {
     "ItemId": 93,
     "Name": "Item - Progressive Luxury Pass",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "ITEM"
   },
   {
     "ItemId": 37,
     "Name": "Item - Ferry Pass",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "ITEM"
   },
   {
     "ItemId": 21,
     "Name": "Item - Black Squirrel",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "ITEM"
   },
   {
     "ItemId": 6,
     "Name": "Item - Dog Bone",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "ITEM"
   },
   {
     "ItemId": 16,
     "Name": "Item - Clamshell",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "ITEM"
   },
   {
     "ItemId": 17,
     "Name": "Item - Digested Head",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "ITEM"
   },
   {
     "ItemId": 24,
     "Name": "Item - Lost Penguin",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "ITEM"
   },
   {
     "ItemId": 224,
     "Name": "Item - Elevator Part",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "ITEM"
   },
   {
     "ItemId": 212,
     "Name": "Item - Undersea Crab",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "ITEM"
   },
   {
     "ItemId": 81,
     "Name": "Item - West Lookout Token",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "ITEM"
   },
   {
     "ItemId": 88,
     "Name": "Item - Central Lookout Token",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "ITEM"
   },
   {
     "ItemId": 131,
     "Name": "Item - North Lookout Token",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "ITEM"
   },
   {
     "ItemId": 167,
     "Name": "Item - Babel Quintar",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "ITEM"
   },
   {
     "ItemId": 197,
     "Name": "Item - Crag Demon Horn",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "ITEM"
   },
   {
     "ItemId": 172,
     "Name": "Item - Vermillion Book",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "ITEM"
   },
   {
     "ItemId": 173,
     "Name": "Item - Viridian Book",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "ITEM"
   },
   {
     "ItemId": 174,
     "Name": "Item - Cerulean Book",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "ITEM"
   },
   {
     "ItemId": 161,
     "Name": "Item - Ancient Tablet A",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "ITEM"
   },
   {
     "ItemId": 162,
     "Name": "Item - Ancient Tablet B",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "ITEM"
   },
   {
     "ItemId": 163,
     "Name": "Item - Ancient Tablet C",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "ITEM"
   },
   {
     "ItemId": 500,
-    "Name": "Item - Progressive Level Cap",
+    "Name": "Item - Progressive Level",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "ITEM"
   },
   {
     "ItemId": 229,
     "Name": "Item - Special Shoudu Stew",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "ITEM"
   },
   {
     "ItemId": 230,
     "Name": "Item - Special Milk",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "ITEM"
   },
   {
     "ItemId": 231,
     "Name": "Item - Special Fresh Salmon",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "ITEM"
   },
   {
     "ItemId": 232,
     "Name": "Item - Special Rotten Salmon",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "ITEM"
   },
   {
     "ItemId": 176,
     "Name": "Item - Deity Eye",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "ITEM"
   },
   {
     "ItemId": 177,
     "Name": "Item - STEM WARD",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "ITEM"
+  },
+  {
+    "ItemId": 801,
+    "Name": "Item - Spawning Meadows Pass",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "PASS"
+  },
+  {
+    "ItemId": 802,
+    "Name": "Item - Delende Pass",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "PASS"
+  },
+  {
+    "ItemId": 803,
+    "Name": "Item - Soiled Den Pass",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "PASS"
+  },
+  {
+    "ItemId": 804,
+    "Name": "Item - The Pale Grotto Pass",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "PASS"
+  },
+  {
+    "ItemId": 805,
+    "Name": "Item - Seaside Cliffs Pass",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "PASS"
+  },
+  {
+    "ItemId": 806,
+    "Name": "Item - Draft Shaft Conduit Pass",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "PASS"
+  },
+  {
+    "ItemId": 807,
+    "Name": "Item - Mercury Shrine Pass",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "PASS"
+  },
+  {
+    "ItemId": 808,
+    "Name": "Item - Yamagawa M.A. Pass",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "PASS"
+  },
+  {
+    "ItemId": 809,
+    "Name": "Item - Proving Meadows Pass",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "PASS"
+  },
+  {
+    "ItemId": 810,
+    "Name": "Item - Skumparadise Pass",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "PASS"
+  },
+  {
+    "ItemId": 811,
+    "Name": "Item - Capital Sequoia Pass",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "PASS"
+  },
+  {
+    "ItemId": 812,
+    "Name": "Item - Jojo Sewers Pass",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "PASS"
+  },
+  {
+    "ItemId": 813,
+    "Name": "Item - Boomer Society Pass",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "PASS"
+  },
+  {
+    "ItemId": 814,
+    "Name": "Item - Rolling Quintar Fields Pass",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "PASS"
+  },
+  {
+    "ItemId": 815,
+    "Name": "Item - Quintar Nest Pass",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "PASS"
+  },
+  {
+    "ItemId": 816,
+    "Name": "Item - Quintar Sanctum Pass",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "PASS"
+  },
+  {
+    "ItemId": 817,
+    "Name": "Item - Capital Jail Pass",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "PASS"
+  },
+  {
+    "ItemId": 818,
+    "Name": "Item - Capital Pipeline Pass",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "PASS"
+  },
+  {
+    "ItemId": 819,
+    "Name": "Item - Cobblestone Crag Pass",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "PASS"
+  },
+  {
+    "ItemId": 820,
+    "Name": "Item - Okimoto N.S. Pass",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "PASS"
+  },
+  {
+    "ItemId": 821,
+    "Name": "Item - Greenshire Reprise Pass",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "PASS"
+  },
+  {
+    "ItemId": 822,
+    "Name": "Item - Salmon Pass Pass",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "PASS"
+  },
+  {
+    "ItemId": 823,
+    "Name": "Item - Salmon River Pass",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "PASS"
+  },
+  {
+    "ItemId": 824,
+    "Name": "Item - Shoudu Waterfront Pass",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "PASS"
+  },
+  {
+    "ItemId": 825,
+    "Name": "Item - Poko Poko Desert Pass",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "PASS"
+  },
+  {
+    "ItemId": 826,
+    "Name": "Item - Sara Sara Bazaar Pass",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "PASS"
+  },
+  {
+    "ItemId": 827,
+    "Name": "Item - Sara Sara Beach East Pass",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "PASS"
+  },
+  {
+    "ItemId": 828,
+    "Name": "Item - Sara Sara Beach West Pass",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "PASS"
+  },
+  {
+    "ItemId": 829,
+    "Name": "Item - Ancient Reservoir Pass",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "PASS"
+  },
+  {
+    "ItemId": 830,
+    "Name": "Item - Ibek Cave Pass",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "PASS"
+  },
+  {
+    "ItemId": 831,
+    "Name": "Item - Salmon Bay Pass",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "PASS"
+  },
+  {
+    "ItemId": 832,
+    "Name": "Item - The Open Sea Pass",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "PASS"
+  },
+  {
+    "ItemId": 833,
+    "Name": "Item - Shoudu Province Pass",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "PASS"
+  },
+  {
+    "ItemId": 834,
+    "Name": "Item - The Undercity Pass",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "PASS"
+  },
+  {
+    "ItemId": 835,
+    "Name": "Item - Ganymede Shrine Pass",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "PASS"
+  },
+  {
+    "ItemId": 836,
+    "Name": "Item - Beaurior Volcano Pass",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "PASS"
+  },
+  {
+    "ItemId": 837,
+    "Name": "Item - Beaurior Rock Pass",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "PASS"
+  },
+  {
+    "ItemId": 838,
+    "Name": "Item - Lake Delende Pass",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "PASS"
+  },
+  {
+    "ItemId": 839,
+    "Name": "Item - Quintar Reserve Pass",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "PASS"
+  },
+  {
+    "ItemId": 840,
+    "Name": "Item - Dione Shrine Pass",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "PASS"
+  },
+  {
+    "ItemId": 841,
+    "Name": "Item - Quintar Mausoleum Pass",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "PASS"
+  },
+  {
+    "ItemId": 842,
+    "Name": "Item - Eastern Chasm Pass",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "PASS"
+  },
+  {
+    "ItemId": 843,
+    "Name": "Item - Tall, Tall Heights Pass",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "PASS"
+  },
+  {
+    "ItemId": 844,
+    "Name": "Item - Northern Cave Pass",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "PASS"
+  },
+  {
+    "ItemId": 845,
+    "Name": "Item - Land's End Pass",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "PASS"
+  },
+  {
+    "ItemId": 846,
+    "Name": "Item - Slip Glide Ride Pass",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "PASS"
+  },
+  {
+    "ItemId": 847,
+    "Name": "Item - Sequoia Athenaeum Pass",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "PASS"
+  },
+  {
+    "ItemId": 848,
+    "Name": "Item - Northern Stretch Pass",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "PASS"
+  },
+  {
+    "ItemId": 849,
+    "Name": "Item - Castle Ramparts Pass",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "PASS"
+  },
+  {
+    "ItemId": 850,
+    "Name": "Item - The Chalice of Tar Pass",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "PASS"
+  },
+  {
+    "ItemId": 851,
+    "Name": "Item - Flyer's Crag Pass",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "PASS"
+  },
+  {
+    "ItemId": 852,
+    "Name": "Item - Jidamba Tangle Pass",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "PASS"
+  },
+  {
+    "ItemId": 853,
+    "Name": "Item - Jidamba Eaclaneya Pass",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "PASS"
+  },
+  {
+    "ItemId": 854,
+    "Name": "Item - The Deep Sea Pass",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "PASS"
+  },
+  {
+    "ItemId": 855,
+    "Name": "Item - Neptune Shrine Pass",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "PASS"
+  },
+  {
+    "ItemId": 856,
+    "Name": "Item - Jade Cavern Pass",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "PASS"
+  },
+  {
+    "ItemId": 857,
+    "Name": "Item - Continental Tram Pass",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "PASS"
+  },
+  {
+    "ItemId": 858,
+    "Name": "Item - Ancient Labyrinth Pass",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "PASS"
+  },
+  {
+    "ItemId": 859,
+    "Name": "Item - The Sequoia Pass",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "PASS"
+  },
+  {
+    "ItemId": 860,
+    "Name": "Item - The Depths Pass",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "PASS"
+  },
+  {
+    "ItemId": 861,
+    "Name": "Item - Castle Sequoia Pass",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "PASS"
+  },
+  {
+    "ItemId": 862,
+    "Name": "Item - The Old World Pass",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "PASS"
+  },
+  {
+    "ItemId": 863,
+    "Name": "Item - The New World Pass",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "PASS"
   },
   {
     "ItemId": 39,
     "Name": "Item - Progressive Quintar Flute",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "MOUNT"
   },
   {
     "ItemId": 50,
     "Name": "Item - Ibek Bell",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "MOUNT"
   },
   {
     "ItemId": 49,
     "Name": "Item - Owl Drum",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "MOUNT"
   },
   {
     "ItemId": 48,
     "Name": "Item - Progressive Salmon Violin",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "MOUNT"
+  },
+  {
+    "ItemId": 700,
+    "Name": "Item - Progressive Mount Instrument",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "MOUNT"
   },
   {
     "ItemId": 23,
     "Name": "Item - Gaea Stone",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "TELEPORT_STONE"
   },
   {
     "ItemId": 13,
     "Name": "Item - Mercury Stone",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "TELEPORT_STONE"
   },
   {
     "ItemId": 57,
     "Name": "Item - Poseidon Stone",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "TELEPORT_STONE"
   },
   {
     "ItemId": 59,
     "Name": "Item - Mars Stone",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "TELEPORT_STONE"
   },
   {
     "ItemId": 65,
     "Name": "Item - Ganymede Stone",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "TELEPORT_STONE"
   },
   {
     "ItemId": 66,
     "Name": "Item - Triton Stone",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "TELEPORT_STONE"
   },
   {
     "ItemId": 155,
     "Name": "Item - Callisto Stone",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "TELEPORT_STONE"
   },
   {
     "ItemId": 64,
     "Name": "Item - Europa Stone",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "TELEPORT_STONE"
   },
   {
     "ItemId": 166,
     "Name": "Item - Dione Stone",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "TELEPORT_STONE"
   },
   {
     "ItemId": 208,
     "Name": "Item - Neptune Stone",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "TELEPORT_STONE"
   },
   {
     "ItemId": 140,
     "Name": "Item - New World Stone",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "TELEPORT_STONE"
   },
   {
     "ItemId": 253,
     "Name": "Item - Old World Stone",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Item"
+    "Classification": "TELEPORT_STONE"
   },
   {
     "ItemId": 198,
     "Name": "Scholar - Reverse Polarity",
     "CategoryCode": "ItemClassification.progression",
-    "Classification": "Scholar"
+    "Classification": "SCHOLAR_ABILITY"
   }
 ]
