@@ -5,7 +5,7 @@ the [Archipelago GitHub](https://github.com/ArchipelagoMW/Archipelago/releases) 
 
 ## Crystal Project Mod Installation Procedures
 
-.Net 8.0 Desktop Runtime x64 or .Net 8.0 Runtime x64 (not the SDK!) is required to run the Crystal Project Archipelago Mod Installer: 
+.Net 8.0 Desktop Runtime x64 (not .Net Core or the SDK!) is required to run the Crystal Project Archipelago Mod Installer: 
 https://dotnet.microsoft.com/en-us/download/dotnet/8.0
 
 In your Steam library, right-click Crystal Project in the list and select "Properties...". Go to the Betas section, 
