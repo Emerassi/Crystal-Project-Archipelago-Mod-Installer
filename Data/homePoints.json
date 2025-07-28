@@ -389,7 +389,7 @@
     "Region": "Shoudu Province",
     "Coordinates": "802, 107, -194",
     "MapLayer": 0,
-    "Rule": "lambda state: logic.has_vertical_movement(state) or logic.has_glide(state) or state.can_reach(\"Ganymede Shrine\", player=player) or state.can_reach(\"Quintar Reserve\", player=player)"
+    "Rule": null
   },
   {
     "Name": "Sky Arena",
@@ -429,7 +429,7 @@
     "Region": "The Undercity",
     "Coordinates": "732, 97, -198",
     "MapLayer": 1,
-    "Rule": null
+    "Rule": "lambda state: logic.has_swimming(state) or logic.has_horizontal_movement(state) or logic.has_vertical_movement(state) or state.can_reach(\"Ganymede Shrine\", player=player) or state.can_reach(\"Quintar Reserve\", player=player)"
   },
   {
     "Name": "Capital Pipeline",

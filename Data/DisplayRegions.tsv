@@ -1,0 +1,64 @@
+Order	Name	Grouping	APRegions	Biomes	Focus Point	Focus Layer
+1	Spawning Meadows	Beginner	SPAWNING_MEADOWS	1	71, -10	Overworld
+2	Delende	Beginner	DELENDE	2, 10, 21, 155, 184	243, -120	Overworld
+3	Mercury Shrine	Beginner	MERCURY_SHRINE	9, 159	184, 24	Overworld
+4	Soiled Den	Beginner	SOILED_DEN	49	277, -124	Caves
+5	The Pale Grotto	Beginner	THE_PALE_GROTTO	107, 123	263, -303	Caves
+6	Seaside Cliffs	Beginner	SEASIDE_CLIFFS	3, 106, 128, 160, 164	303, -32	Overworld
+7	Draft Shaft Conduit	Beginner	DRAFT_SHAFT_CONDUIT	6, 125, 126	311, -61	Caves
+8	Yamagawa M.A.	Beginner	YAMAGAWA_MA	5, 127, 168	72, -79	Overworld
+9	Proving Meadows	Beginner	PROVING_MEADOWS	7, 161	411, -172	Overworld
+10	Skumparadise	Beginner	SKUMPARADISE	11, 12, 182, 183	491, -226	DungeonL1
+11	Capital Sequoia	Advanced	CAPITAL_SEQUOIA	14, 37, 41, 48, 68, 102	406, -305	Overworld
+12	Jojo Sewers	Advanced	JOJO_SEWERS	16, 47	401, -306	Caves
+13	Boomer Society	Advanced	BOOMER_SOCIETY	23	341, -325	Overworld
+14	Rolling Quintar Fields	Advanced	ROLLING_QUINTAR_FIELDS	15, 25, 81, 108	536, -316	Overworld
+15	Quintar Nest	Advanced	QUINTAR_NEST	18	496, -268	Caves
+16	Quintar Sanctum	Advanced	QUINTAR_SANCTUM	39, 40	560, -448	Caves
+17	Capital Jail	Advanced	CAPITAL_JAIL	17, 193	402, -318	DungeonL1
+18	Capital Pipeline	Advanced	CAPITAL_PIPELINE	24, 99	452, -41	Caves
+19	Cobblestone Crag	Advanced	COBBLESTONE_CRAG	32	508, -194	Overworld
+20	Okimoto N.S.	Advanced	OKIMOTO_NS	20, 148, 192	618, -208	Overworld
+21	Greenshire Reprise	Advanced	GREENSHIRE_REPRISE	13, 158	288, -260	Overworld
+22	Salmon Pass	Advanced	SALMON_PASS	46	176, -268	Caves
+23	Salmon River	Advanced	SALMON_RIVER	28, 31, 78, 110	92, -311	Overworld
+24	Shoudu Waterfront	Advanced	SHOUDU_WATERFRONT	115	732, -168	Overworld
+25	Poko Poko Desert	Advanced	POKO_POKO_DESERT	26, 51, 124, 167, 170, 187, 195	-110, -108	Overworld
+26	Sara Sara Bazaar	Advanced	SARA_SARA_BAZAAR	27, 122	-148, 70	Overworld
+27	Sara Sara Beach East	Advanced	SARA_SARA_BEACH_EAST	33	-53, 67	Overworld
+28	Sara Sara Beach West	Advanced	SARA_SARA_BEACH_WEST	33	-274, -90	Overworld
+29	Ancient Reservoir	Advanced	ANCIENT_RESERVOIR, IBEK_CAVE	30, 66, 85, 86, 87	-40, -45	Caves
+30	Salmon Bay	Advanced	SALMON_BAY	60, 67	-57, -322	Overworld
+31	The Open Sea	Expert	THE_OPEN_SEA	34, 129, 185	-272, 224	Overworld
+32	Shoudu Province	Expert	SHOUDU_PROVINCE	38, 71, 83, 109	742, -220	Overworld
+33	The Undercity	Expert	THE_UNDERCITY	43, 181	716, -232	Caves
+34	Ganymede Shrine	Expert	GANYMEDE_SHRINE	50	684, -248	Overworld
+35	Beaurior Volcano	Expert	BEAURIOR_VOLCANO	44, 151	108, 108	Overworld
+36	Beaurior Rock	Expert	BEAURIOR_ROCK	19, 70, 142, 144, 145, 146, 147	97, 90	DungeonL5
+37	Lake Delende	Expert	LAKE_DELENDE	53	92, -192	Overworld
+38	Quintar Reserve	Expert	QUINTAR_RESERVE	52	712, -360	Overworld
+39	Dione Shrine	Expert	DIONE_SHRINE	76, 105, 112, 130, 171, 173	690, -453	Overworld
+40	Quintar Mausoleum	Expert	QUINTAR_MAUSOLEUM	143, 172	676, -391	Caves
+41	Eastern Chasm	Expert	EASTERN_CHASM	132, 134, 149, 152, 166	755, -421	Overworld
+42	Tall, Tall Heights	Expert	TALL_TALL_HEIGHTS	8, 95, 117, 118, 153, 169, 179	197, -440	Overworld
+43	Northern Cave	Expert	NORTHERN_CAVE	77	236, -528	Caves
+44	Land's End	Expert	LANDS_END	62, 63, 64, 65, 88, 116, 157	104, -494	Overworld
+45	Slip Glide Ride	Expert	SLIP_GLIDE_RIDE	36	235, -538	DungeonL1
+46	Sequoia Athenaeum	Expert	SEQUOIA_ATHENAEUM	90, 91, 174, 175, 176	411, -549	Caves
+47	Northern Stretch	Expert	NORTHERN_STRETCH	131, 156, 163	339, -570	Overworld
+48	Castle Ramparts	Expert	CASTLE_RAMPARTS	57	406, -425	Overworld
+49	The Chalice of Tar	Expert	THE_CHALICE_OF_TAR	121	557, -496	Overworld
+50	Flyer's Crag	Expert	FLYERS_CRAG	61	673, -179	Overworld
+51	Jidamba Tangle	Expert	JIDAMBA_TANGLE	29, 54, 72, 84, 165	764, 88	Overworld
+52	Jidamba Eaclaneya	Expert	JIDAMBA_EACLANEYA	55, 89, 113, 114, 162	738, 113	DungeonL1
+53	The Deep Sea	Expert	THE_DEEP_SEA	35, 82, 96, 98, 100, 103, 104, 120, 133, 186	-272, 224	Overworld
+54	Neptune Shrine	Expert	NEPTUNE_SHRINE	135	-272, 224	Overworld
+55	Jade Cavern	Expert	JADE_CAVERN	154	240, -115	Caves
+56	Continental Tram	Expert	CONTINENTAL_TRAM	79, 80	-131, 67	Caves
+57	Ancient Labyrinth	End-Game	ANCIENT_LABYRINTH	56, 136, 137, 138, 139, 140, 141, 150	-179, -295	Caves
+58	The Sequoia	End-Game	THE_SEQUOIA	22, 45, 92, 101, 188	-268, -530	DungeonL1
+59	The Depths	End-Game	THE_DEPTHS	42, 97	-329, 171	Caves
+60	Castle Sequoia	End-Game	CASTLE_SEQUOIA	58, 69, 73, 74, 75, 93, 94, 177	405, -409	Caves
+61	The Old World	End-Game	THE_OLD_WORLD	178	-232, 168	Caves
+62	The New World	End-Game	THE_NEW_WORLD	59, 111, 180	-71, -524	Caves
+63	Modded Zone	Beginner	MODDED_ZONE	0	0, 0	Overworld

@@ -924,7 +924,7 @@
       {
         "LocationId": 155,
         "LocationName": "Mercury Shrine Chest - Pinnacle",
-        "Rule": "lambda state: state.has(\"Item - Mercury Stone\", player)",
+        "Rule": "lambda state: state.has(\"Item - Mercury Stone\", player) or logic.has_vertical_movement(state)",
         "Coordinates": "204, 135, -6",
         "MapLayer": 0
       },
@@ -2084,7 +2084,7 @@
       },
       {
         "ConnectionName": "Castle Sequoia",
-        "Rule": "lambda state: (logic.has_vertical_movement(state) and logic.has_glide(state)) and logic.is_area_in_level_range(state, 56)"
+        "Rule": "lambda state: (logic.has_vertical_movement(state) or logic.has_glide(state)) and logic.is_area_in_level_range(state, 56)"
       },
       {
         "ConnectionName": "Skumparadise",
@@ -4767,7 +4767,7 @@
       {
         "LocationId": 3654,
         "LocationName": "Overpass Chest - Frigid dip high behind River Cat",
-        "Rule": "lambda state: logic.has_vertical_movement(state) and logic.has_glide(state)",
+        "Rule": "lambda state: (logic.has_vertical_movement(state) and logic.has_glide(state)) or logic.has_swimming(state)",
         "Coordinates": "60, 225, -435",
         "MapLayer": 0
       },
@@ -4858,7 +4858,7 @@
       {
         "LocationId": 2739,
         "LocationName": "Overpass NPC - Fall off mushroom mountain onto Gold",
-        "Rule": "lambda state: logic.has_vertical_movement(state) and logic.has_glide(state)",
+        "Rule": "lambda state: (logic.has_vertical_movement(state) and logic.has_glide(state)) or logic.has_swimming(state)",
         "Coordinates": "63, 191, -399",
         "MapLayer": 0
       },
@@ -5824,7 +5824,7 @@
       {
         "LocationId": 2702,
         "LocationName": "Ancient Reservoir Chest - Hiding behind western aqueduct grate",
-        "Rule": "lambda state: logic.has_horizontal_movement(state)",
+        "Rule": null,
         "Coordinates": "-67, 94, -74",
         "MapLayer": 1
       },
@@ -5885,13 +5885,6 @@
         "MapLayer": 1
       },
       {
-        "LocationId": 1674,
-        "LocationName": "Ancient Reservoir Boss - Possessor",
-        "Rule": "lambda state: logic.is_area_in_level_range(state, 35)",
-        "Coordinates": "-49, 80, 29",
-        "MapLayer": 1
-      },
-      {
         "LocationId": 6028,
         "LocationName": "Region Completion",
         "Rule": "regionsanity=True",
@@ -5911,23 +5904,30 @@
     "Locations": [
       {
         "LocationId": 2517,
-        "LocationName": "Ancient Reservoir Chest - Celebrate your new hops",
+        "LocationName": "Ibek Cave Chest - Celebrate your new hops",
         "Rule": "lambda state: logic.has_vertical_movement(state)",
         "Coordinates": "-54, 83, 23",
         "MapLayer": 1
       },
       {
         "LocationId": 1676,
-        "LocationName": "Ancient Reservoir NPC - Goat victory Ibek Bell",
+        "LocationName": "Ibek Cave NPC - Goat victory Ibek Bell",
         "Rule": null,
         "Coordinates": "-50, 80, 29",
         "MapLayer": 1
       },
       {
         "LocationId": 2696,
-        "LocationName": "Ancient Reservoir NPC - Silver in the goat digs",
+        "LocationName": "Ibek Cave NPC - Silver in the goat digs",
         "Rule": "lambda state: logic.has_vertical_movement(state)",
         "Coordinates": "-35, 83, 34",
+        "MapLayer": 1
+      },
+      {
+        "LocationId": 1674,
+        "LocationName": "Ibek Cave Boss - Possessor",
+        "Rule": "lambda state: logic.is_area_in_level_range(state, 35)",
+        "Coordinates": "-49, 80, 29",
         "MapLayer": 1
       },
       {
@@ -6150,7 +6150,7 @@
       },
       {
         "ConnectionName": "The Undercity",
-        "Rule": "lambda state: (logic.has_vertical_movement(state) and logic.has_horizontal_movement(state)) and logic.is_area_in_level_range(state, 37)"
+        "Rule": "lambda state: logic.is_area_in_level_range(state, 37)"
       },
       {
         "ConnectionName": "Quintar Reserve",
@@ -6159,10 +6159,38 @@
     ],
     "Locations": [
       {
+        "LocationId": 1507,
+        "LocationName": "Shoudu Province Chest - Jump through a window",
+        "Rule": "lambda state: logic.has_vertical_movement(state) or logic.has_glide(state)",
+        "Coordinates": "726, 105, -175",
+        "MapLayer": 0
+      },
+      {
         "LocationId": 2984,
         "LocationName": "Shoudu Province Chest - Lurking above spike ball pit by goldsmith",
         "Rule": null,
         "Coordinates": "753, 105, -176",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 1505,
+        "LocationName": "Shoudu Province Chest - Weaponsmith",
+        "Rule": null,
+        "Coordinates": "760, 106, -181",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 2985,
+        "LocationName": "Shoudu Province Chest - Outside the inn",
+        "Rule": null,
+        "Coordinates": "788, 107, -194",
+        "MapLayer": 0
+      },
+      {
+        "LocationId": 1519,
+        "LocationName": "Shoudu Province Chest - Sneaky back door of cramped storage room",
+        "Rule": null,
+        "Coordinates": "790, 107, -198",
         "MapLayer": 0
       },
       {
@@ -6271,13 +6299,6 @@
         "MapLayer": 0
       },
       {
-        "LocationId": 1507,
-        "LocationName": "Shoudu Province Chest - Jump through a window",
-        "Rule": "lambda state: logic.has_vertical_movement(state) or logic.has_glide(state)",
-        "Coordinates": "726, 105, -175",
-        "MapLayer": 0
-      },
-      {
         "LocationId": 2978,
         "LocationName": "Shoudu Province Chest - Across the reservoir",
         "Rule": "lambda state: (logic.has_vertical_movement(state) and logic.has_swimming(state)) or logic.has_glide(state)",
@@ -6292,31 +6313,10 @@
         "MapLayer": 0
       },
       {
-        "LocationId": 1519,
-        "LocationName": "Shoudu Province Chest - Sneaky back door of cramped storage room",
-        "Rule": "lambda state: logic.has_vertical_movement(state) or logic.has_glide(state)",
-        "Coordinates": "790, 107, -198",
-        "MapLayer": 0
-      },
-      {
         "LocationId": 2760,
         "LocationName": "Shoudu Province Chest - Sneak behind crates near Assassin Lounge",
         "Rule": "lambda state: logic.has_vertical_movement(state) or logic.has_glide(state)",
         "Coordinates": "743, 123, -198",
-        "MapLayer": 0
-      },
-      {
-        "LocationId": 1505,
-        "LocationName": "Shoudu Province Chest - Weaponsmith",
-        "Rule": null,
-        "Coordinates": "760, 106, -181",
-        "MapLayer": 0
-      },
-      {
-        "LocationId": 2985,
-        "LocationName": "Shoudu Province Chest - Outside the inn",
-        "Rule": "lambda state: logic.has_vertical_movement(state) or logic.has_glide(state)",
-        "Coordinates": "788, 107, -194",
         "MapLayer": 0
       },
       {
@@ -7014,27 +7014,6 @@
     ],
     "Locations": [
       {
-        "LocationId": 2989,
-        "LocationName": "The Undercity Chest - Hiding in the rafters",
-        "Rule": null,
-        "Coordinates": "731, 97, -219",
-        "MapLayer": 1
-      },
-      {
-        "LocationId": 2990,
-        "LocationName": "The Undercity Chest - Up the rafters against a pillar",
-        "Rule": null,
-        "Coordinates": "764, 104, -200",
-        "MapLayer": 1
-      },
-      {
-        "LocationId": 2991,
-        "LocationName": "The Undercity Chest - Even further up the rafters",
-        "Rule": null,
-        "Coordinates": "772, 109, -212",
-        "MapLayer": 1
-      },
-      {
         "LocationId": 2988,
         "LocationName": "The Undercity Chest - Gated-off room 1",
         "Rule": null,
@@ -7065,56 +7044,77 @@
       {
         "LocationId": 1925,
         "LocationName": "The Undercity Chest - Climb up lampposts and run across the fence",
-        "Rule": null,
+        "Rule": "lambda state: logic.has_vertical_movement(state) or logic.has_glide(state)",
         "Coordinates": "778, 99, -255",
         "MapLayer": 1
       },
       {
         "LocationId": 3516,
-        "LocationName": "The Undercity Chest - North wall climb",
-        "Rule": null,
+        "LocationName": "The Undercity Chest - North wall climb (or fall through broken grate by Sky Arena Prize Counter)",
+        "Rule": "lambda state: logic.has_vertical_movement(state) or logic.has_glide(state) or state.can_reach(\"Ganymede Shrine\", player=player) or state.can_reach(\"Quintar Reserve\", player=player)",
         "Coordinates": "766, 106, -255",
+        "MapLayer": 1
+      },
+      {
+        "LocationId": 2989,
+        "LocationName": "The Undercity Chest - Hiding in the rafters",
+        "Rule": "lambda state: logic.has_swimming(state) or logic.has_horizontal_movement(state) or logic.has_vertical_movement(state) or state.can_reach(\"Ganymede Shrine\", player=player) or state.can_reach(\"Quintar Reserve\", player=player)",
+        "Coordinates": "731, 97, -219",
         "MapLayer": 1
       },
       {
         "LocationId": 3518,
         "LocationName": "The Undercity Chest - Atop awning east of the waterfall",
-        "Rule": null,
+        "Rule": "lambda state: logic.has_swimming(state) or logic.has_horizontal_movement(state) or logic.has_vertical_movement(state) or state.can_reach(\"Ganymede Shrine\", player=player) or state.can_reach(\"Quintar Reserve\", player=player)",
         "Coordinates": "732, 98, -231",
+        "MapLayer": 1
+      },
+      {
+        "LocationId": 2793,
+        "LocationName": "The Undercity Chest - Hidden in a nook in the wall",
+        "Rule": "lambda state: logic.has_vertical_movement(state) or logic.has_glide(state)",
+        "Coordinates": "741, 103, -274",
+        "MapLayer": 1
+      },
+      {
+        "LocationId": 2990,
+        "LocationName": "The Undercity Chest - Up the rafters against a pillar",
+        "Rule": "lambda state: logic.has_vertical_movement(state)",
+        "Coordinates": "764, 104, -200",
+        "MapLayer": 1
+      },
+      {
+        "LocationId": 2991,
+        "LocationName": "The Undercity Chest - Even further up the rafters",
+        "Rule": "lambda state: logic.has_vertical_movement(state)",
+        "Coordinates": "772, 109, -212",
         "MapLayer": 1
       },
       {
         "LocationId": 2826,
         "LocationName": "The Undercity Chest - Hiding in a building in the north area",
-        "Rule": null,
+        "Rule": "lambda state: logic.has_swimming(state) or logic.has_horizontal_movement(state) or logic.has_vertical_movement(state) or state.can_reach(\"Ganymede Shrine\", player=player) or state.can_reach(\"Quintar Reserve\", player=player)",
         "Coordinates": "711, 100, -254",
         "MapLayer": 1
       },
       {
         "LocationId": 3519,
         "LocationName": "The Undercity Chest - Undercity Inn",
-        "Rule": null,
+        "Rule": "lambda state: logic.has_swimming(state) or logic.has_horizontal_movement(state) or logic.has_vertical_movement(state) or state.can_reach(\"Ganymede Shrine\", player=player) or state.can_reach(\"Quintar Reserve\", player=player)",
         "Coordinates": "663, 100, -262",
         "MapLayer": 1
       },
       {
         "LocationId": 1695,
         "LocationName": "The Undercity Chest - South of the Undercity Inn",
-        "Rule": null,
+        "Rule": "lambda state: logic.has_swimming(state) or logic.has_horizontal_movement(state) or logic.has_vertical_movement(state) or state.can_reach(\"Ganymede Shrine\", player=player) or state.can_reach(\"Quintar Reserve\", player=player)",
         "Coordinates": "680, 99, -229",
-        "MapLayer": 1
-      },
-      {
-        "LocationId": 2793,
-        "LocationName": "The Undercity Chest - Hidden in a nook in the wall",
-        "Rule": "lambda state: logic.has_vertical_movement(state)",
-        "Coordinates": "741, 103, -274",
         "MapLayer": 1
       },
       {
         "LocationId": 3673,
         "LocationName": "Underpass Chest - Lovely bounce tree W of The Undercity",
-        "Rule": "lambda state: logic.has_swimming(state)",
+        "Rule": "lambda state: logic.has_swimming(state) or logic.has_glide(state)",
         "Coordinates": "608, 91, -215",
         "MapLayer": 1
       },
@@ -7135,21 +7135,21 @@
       {
         "LocationId": 1696,
         "LocationName": "The Undercity NPC - Gold in the sewer offshoot",
-        "Rule": "lambda state: logic.has_swimming(state)",
+        "Rule": "lambda state: logic.has_swimming(state) or logic.has_horizontal_movement(state) or logic.has_vertical_movement(state) or state.can_reach(\"Ganymede Shrine\", player=player) or state.can_reach(\"Quintar Reserve\", player=player)",
         "Coordinates": "700, 100, -226",
         "MapLayer": 1
       },
       {
         "LocationId": 1694,
         "LocationName": "The Undercity NPC - Storage room Gold of the Undercity Inns",
-        "Rule": null,
+        "Rule": "lambda state: logic.has_swimming(state) or logic.has_horizontal_movement(state) or logic.has_vertical_movement(state) or state.can_reach(\"Ganymede Shrine\", player=player) or state.can_reach(\"Quintar Reserve\", player=player)",
         "Coordinates": "666, 100, -246",
         "MapLayer": 1
       },
       {
         "LocationId": 1204,
         "LocationName": "The Undercity Crystal - Assassin",
-        "Rule": null,
+        "Rule": "lambda state: (logic.has_horizontal_movement(state) and logic.has_vertical_movement(state)) or logic.has_glide(state) or logic.has_swimming(state)",
         "Coordinates": "739, 92, -193",
         "MapLayer": 1
       },
@@ -7163,21 +7163,21 @@
       {
         "LocationId": 1939,
         "LocationName": "The Undercity Boss - Blade Master",
-        "Rule": "lambda state: logic.has_vertical_movement(state) and logic.is_area_in_level_range(state, 40)",
+        "Rule": "lambda state: (logic.has_vertical_movement(state) or logic.has_glide(state)) and logic.is_area_in_level_range(state, 40)",
         "Coordinates": "685, 108, -264",
         "MapLayer": 1
       },
       {
         "LocationId": 1940,
         "LocationName": "The Undercity Boss - Shadow Master",
-        "Rule": "lambda state: logic.is_area_in_level_range(state, 40)",
+        "Rule": "lambda state: (logic.has_swimming(state) or logic.has_horizontal_movement(state)) and logic.is_area_in_level_range(state, 40)",
         "Coordinates": "663, 99, -234",
         "MapLayer": 1
       },
       {
         "LocationId": 1941,
         "LocationName": "The Undercity Boss - Duel Master",
-        "Rule": "lambda state: logic.is_area_in_level_range(state, 40)",
+        "Rule": "lambda state: (logic.has_vertical_movement(state) or logic.has_glide(state)) and logic.is_area_in_level_range(state, 40)",
         "Coordinates": "720, 101, -267",
         "MapLayer": 1
       },
@@ -8491,14 +8491,14 @@
       {
         "LocationId": 3002,
         "LocationName": "Land's End Chest - Brave the spikes to climb the northern peak",
-        "Rule": null,
+        "Rule": "lambda state: logic.has_vertical_movement(state) or logic.has_glide(state)",
         "Coordinates": "114, 208, -545",
         "MapLayer": 0
       },
       {
         "LocationId": 2740,
         "LocationName": "Land's End Chest - To defeat the Huns",
-        "Rule": null,
+        "Rule": "lambda state: logic.has_glide(state) or logic.has_vertical_movement(state)",
         "Coordinates": "143, 211, -477",
         "MapLayer": 0
       },
@@ -8547,7 +8547,7 @@
       {
         "LocationId": 2848,
         "LocationName": "Land's End NPC - Lets get down to business in the mountains for Gold",
-        "Rule": null,
+        "Rule": "lambda state: logic.has_vertical_movement(state) or logic.has_glide(state)",
         "Coordinates": "131, 207, -504",
         "MapLayer": 0
       },
