@@ -107,7 +107,7 @@ class CrystalProjectAPInstaller
 			try
 			{
 				string archipelagoBranchHashString = "9a1e47b7fb5198f86b13279beb9f6f50"; //1.6.5 Archipelago Branch hash
-				string archipelagoModdedVersionString = "a30c005a257dec2360dc3d0c87cd5da9"; //v0.8.0 Archipelago Modded hash
+				string archipelagoModdedVersionString = "c3c7091d3f1736d6ec9b8197e98ee0bf"; //v0.8.0 Archipelago Modded hash
 
 				//Open crystal project exe path and compute the hash to make sure that it's the right version
 				FileStream crystalProjectBeforeStream = new(crystalProjectExePath, FileMode.Open, FileAccess.Read, FileShare.Read);
@@ -181,7 +181,7 @@ class CrystalProjectAPInstaller
 	private static void Exit()
 	{
 		Console.WriteLine("Press any key to close this window...");
-		Console.Read();
+		Console.ReadKey(true);
 	}
 
 	private static void DeepCopy(string fromFolder, string toFolder, List<string> exceptionFiles = null)
