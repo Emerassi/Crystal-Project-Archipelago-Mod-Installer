@@ -929,13 +929,6 @@
         "MapLayer": 0
       },
       {
-        "LocationId": 6007,
-        "LocationName": "Region Completion",
-        "Rule": "regionsanity=True",
-        "Coordinates": "",
-        "MapLayer": -1
-      },
-      {
         "LocationId": 10132,
         "LocationName": "Mercury Shrine Shop - Attendant 1",
         "Rule": null,
@@ -955,6 +948,13 @@
         "Rule": null,
         "Coordinates": "202, 129, -4",
         "MapLayer": 0
+      },
+      {
+        "LocationId": 6007,
+        "LocationName": "Region Completion",
+        "Rule": "regionsanity=True",
+        "Coordinates": "",
+        "MapLayer": -1
       }
     ]
   },
@@ -2069,6 +2069,10 @@
       {
         "ConnectionName": "Jojo Sewers",
         "Rule": "lambda state: logic.is_area_in_level_range(state, 20)"
+      },
+      {
+        "ConnectionName": "Boomer Society",
+        "Rule": "lambda state: (logic.has_vertical_movement(state) or logic.has_glide(state)) and logic.is_area_in_level_range(state, 0)"
       },
       {
         "ConnectionName": "Rolling Quintar Fields",
@@ -3567,6 +3571,10 @@
     "Name": "Boomer Society",
     "Connections": [
       {
+        "ConnectionName": "Capital Sequoia",
+        "Rule": "lambda state: logic.is_area_in_level_range(state, 0)"
+      },
+      {
         "ConnectionName": "Jojo Sewers",
         "Rule": "lambda state: logic.is_area_in_level_range(state, 20)"
       },
@@ -4493,7 +4501,7 @@
       {
         "LocationId": 3534,
         "LocationName": "Overpass Chest - Mountain lake north of the yashiki",
-        "Rule": "lambda state: logic.has_vertical_movement(state) or logic.has_swimming(state)",
+        "Rule": "lambda state: logic.has_horizontal_movement(state) or logic.has_vertical_movement(state) or logic.has_swimming(state)",
         "Coordinates": "605, 228, -270",
         "MapLayer": 0
       },
@@ -4927,28 +4935,28 @@
       {
         "LocationId": 1080,
         "LocationName": "Poko Poko Desert Chest - Quintar leapfrog",
-        "Rule": "lambda state: logic.has_horizontal_movement(state)",
+        "Rule": "lambda state: logic.has_horizontal_movement(state) or logic.has_vertical_movement(state)",
         "Coordinates": "-131, 117, -143",
         "MapLayer": 0
       },
       {
         "LocationId": 1082,
         "LocationName": "Poko Poko Desert Chest - South of tricky Quintar Gold",
-        "Rule": "lambda state: logic.has_horizontal_movement(state)",
+        "Rule": "lambda state: logic.has_horizontal_movement(state) or logic.has_vertical_movement(state)",
         "Coordinates": "-121, 117, -115",
         "MapLayer": 0
       },
       {
         "LocationId": 1190,
         "LocationName": "Poko Poko Desert Chest - North Lookout Tower",
-        "Rule": "lambda state: logic.has_horizontal_movement(state)",
+        "Rule": "lambda state: logic.has_rental_quintar(state, \"Sara Sara Bazaar\") or logic.has_vertical_movement(state)",
         "Coordinates": "-104, 122, -182",
         "MapLayer": 0
       },
       {
         "LocationId": 1169,
         "LocationName": "Poko Poko Desert Chest - This chests (on) a butte",
-        "Rule": "lambda state: logic.has_horizontal_movement(state)",
+        "Rule": "lambda state: logic.has_rental_quintar(state, \"Sara Sara Bazaar\")",
         "Coordinates": "-114, 118, -105",
         "MapLayer": 0
       },
@@ -5686,7 +5694,7 @@
       {
         "LocationId": 2718,
         "LocationName": "Sara Sara Beach West Chest - Beach cave",
-        "Rule": "lambda state: logic.has_vertical_movement(state) and logic.has_horizontal_movement(state)",
+        "Rule": "lambda state: (logic.has_vertical_movement(state) and logic.has_horizontal_movement(state)) or logic.has_swimming(state)",
         "Coordinates": "-262, 96, -305",
         "MapLayer": 0
       },
@@ -5707,7 +5715,7 @@
       {
         "LocationId": 2697,
         "LocationName": "Sara Sara Beach West NPC - Silver past angry birds",
-        "Rule": "lambda state: logic.has_vertical_movement(state) and logic.has_horizontal_movement(state)",
+        "Rule": "lambda state: (logic.has_vertical_movement(state) and logic.has_horizontal_movement(state)) or logic.has_glide(state)",
         "Coordinates": "-286, 100, -121",
         "MapLayer": 0
       },
@@ -5721,14 +5729,14 @@
       {
         "LocationId": 2699,
         "LocationName": "Sara Sara Beach West NPC - Silver at the foot of the Tower of Zot",
-        "Rule": "lambda state: logic.has_vertical_movement(state) and logic.has_horizontal_movement(state)",
+        "Rule": "lambda state: (logic.has_vertical_movement(state) and logic.has_horizontal_movement(state)) or logic.has_swimming(state)",
         "Coordinates": "-232, 94, -256",
         "MapLayer": 0
       },
       {
         "LocationId": 2878,
         "LocationName": "Sara Sara Beach West NPC - Lonely Islet Silver",
-        "Rule": "lambda state: logic.has_vertical_movement(state) and logic.has_horizontal_movement(state)",
+        "Rule": "lambda state: (logic.has_vertical_movement(state) and logic.has_horizontal_movement(state)) or logic.has_swimming(state)",
         "Coordinates": "-278, 94, -241",
         "MapLayer": 0
       },
@@ -5742,7 +5750,7 @@
       {
         "LocationId": 2698,
         "LocationName": "Sara Sara Beach West NPC - Silver chilling in beach cave",
-        "Rule": "lambda state: logic.has_vertical_movement(state) and logic.has_horizontal_movement(state)",
+        "Rule": "lambda state: (logic.has_vertical_movement(state) and logic.has_horizontal_movement(state)) or logic.has_swimming(state)",
         "Coordinates": "-266, 96, -303",
         "MapLayer": 0
       },
@@ -8998,14 +9006,14 @@
       {
         "LocationId": 1629,
         "LocationName": "Jidamba Tangle Chest - Inside overgrown building E of Eaclaneya",
-        "Rule": "lambda state: logic.has_vertical_movement(state) and logic.has_glide(state)",
+        "Rule": "lambda state: (logic.has_vertical_movement(state) and logic.has_glide(state)) or state.has(\"Item - Europa Stone\", player)",
         "Coordinates": "790, 92, 106",
         "MapLayer": 0
       },
       {
         "LocationId": 3024,
         "LocationName": "Jidamba Tangle Chest - Up a tree in north foliage",
-        "Rule": "lambda state: logic.has_vertical_movement(state) and logic.has_glide(state)",
+        "Rule": "lambda state: (logic.has_vertical_movement(state) and logic.has_glide(state)) or state.has(\"Item - Europa Stone\", player)",
         "Coordinates": "847, 96, 94",
         "MapLayer": 0
       },
@@ -9019,7 +9027,7 @@
       {
         "LocationId": 3028,
         "LocationName": "Jidamba Tangle Chest - Atop overgrown building E of Eaclaneya",
-        "Rule": "lambda state: logic.has_vertical_movement(state) and logic.has_glide(state)",
+        "Rule": "lambda state: (logic.has_vertical_movement(state) and logic.has_glide(state)) or state.has(\"Item - Europa Stone\", player)",
         "Coordinates": "786, 96, 103",
         "MapLayer": 0
       },
@@ -9040,21 +9048,21 @@
       {
         "LocationId": 1632,
         "LocationName": "Jidamba Tangle Chest - Smack in the center of the foliage",
-        "Rule": "lambda state: logic.has_vertical_movement(state) and logic.has_glide(state)",
+        "Rule": "lambda state: (logic.has_vertical_movement(state) and logic.has_glide(state)) or state.has(\"Item - Europa Stone\", player)",
         "Coordinates": "844, 91, 103",
         "MapLayer": 0
       },
       {
         "LocationId": 2807,
         "LocationName": "Jidamba Tangle Chest - NW foliage",
-        "Rule": "lambda state: logic.has_vertical_movement(state) and logic.has_glide(state)",
+        "Rule": "lambda state: (logic.has_vertical_movement(state) and logic.has_glide(state)) or state.has(\"Item - Europa Stone\", player)",
         "Coordinates": "817, 95, 90",
         "MapLayer": 0
       },
       {
         "LocationId": 3025,
         "LocationName": "Jidamba Tangle Chest - Tucked below NW foliage",
-        "Rule": "lambda state: logic.has_vertical_movement(state) and logic.has_glide(state)",
+        "Rule": "lambda state: (logic.has_vertical_movement(state) and logic.has_glide(state)) or state.has(\"Item - Europa Stone\", player)",
         "Coordinates": "819, 90, 90",
         "MapLayer": 0
       },
@@ -9075,14 +9083,14 @@
       {
         "LocationId": 3011,
         "LocationName": "Jidamba Tangle Chest - Island in the river through the foliage",
-        "Rule": "lambda state: logic.has_vertical_movement(state) and logic.has_glide(state)",
+        "Rule": "lambda state: (logic.has_vertical_movement(state) and logic.has_glide(state)) or state.has(\"Item - Europa Stone\", player)",
         "Coordinates": "850, 92, 124",
         "MapLayer": 0
       },
       {
         "LocationId": 3027,
         "LocationName": "Jidamba Tangle Chest - North of foliage river",
-        "Rule": "lambda state: logic.has_vertical_movement(state) and logic.has_glide(state)",
+        "Rule": "lambda state: (logic.has_vertical_movement(state) and logic.has_glide(state)) or state.has(\"Item - Europa Stone\", player)",
         "Coordinates": "820, 91, 110",
         "MapLayer": 0
       },
@@ -9131,7 +9139,7 @@
       {
         "LocationId": 2775,
         "LocationName": "Jidamba Tangle NPC - Chloe Queen of the Canopy",
-        "Rule": null,
+        "Rule": "lambda state: logic.has_vertical_movement(state)",
         "Coordinates": "828, 119, 99",
         "MapLayer": 0
       },
@@ -9145,7 +9153,7 @@
       {
         "LocationId": 2873,
         "LocationName": "Jidamba Tangle NPC - Diamond hot girl summer on the beach",
-        "Rule": null,
+        "Rule": "lambda state: logic.has_vertical_movement(state) or logic.has_swimming(state) or logic.has_glide(state)",
         "Coordinates": "661, 91, 163",
         "MapLayer": 0
       },
@@ -9215,7 +9223,7 @@
       {
         "LocationId": 1134,
         "LocationName": "Jidamba Tangle Boss - Juses Summon",
-        "Rule": "lambda state: state.has(\"Job - Summoner\", player) and (logic.has_swimming(state) or logic.has_glide(state)) and logic.is_area_in_level_range(state, 58)",
+        "Rule": "lambda state: state.has(\"Job - Summoner\", player) and logic.has_vertical_movement(state) and  logic.has_glide(state) and logic.is_area_in_level_range(state, 58)",
         "Coordinates": "672, 124, 106",
         "MapLayer": 0
       },
@@ -10418,7 +10426,13 @@
       {
         "ConnectionName": "Spawning Meadows",
         "Rule": "lambda state: logic.is_area_in_level_range(state, 3)"
-      },
+      }
+    ],
+    "Locations": []
+  },
+  {
+    "Name": "Menu",
+    "Connections": [
       {
         "ConnectionName": "Capital Sequoia",
         "Rule": "lambda state: (state.has(\"Item - Gaea Stone\", world.player)) and logic.is_area_in_level_range(state, 0)"
