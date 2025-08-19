@@ -25,6 +25,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="Archipelago.MultiClient.Net.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="Content\archipelago.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
