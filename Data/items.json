@@ -144,6 +144,42 @@
     "Classification": "JOB"
   },
   {
+    "ItemId": 55,
+    "Name": "Item - Flimsy Rod",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "TACKLE"
+  },
+  {
+    "ItemId": 150,
+    "Name": "Item - Tough Rod",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "TACKLE"
+  },
+  {
+    "ItemId": 151,
+    "Name": "Item - Super Rod",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "TACKLE"
+  },
+  {
+    "ItemId": 91,
+    "Name": "Item - Plug Lure",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "TACKLE"
+  },
+  {
+    "ItemId": 149,
+    "Name": "Item - Fly Lure",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "TACKLE"
+  },
+  {
+    "ItemId": 97,
+    "Name": "Item - Jigging Lure",
+    "CategoryCode": "ItemClassification.progression",
+    "Classification": "TACKLE"
+  },
+  {
     "ItemId": 31,
     "Name": "Item - Gardeners Key",
     "CategoryCode": "ItemClassification.progression",
@@ -638,12 +674,6 @@
   {
     "ItemId": 829,
     "Name": "Item - Ancient Reservoir Pass",
-    "CategoryCode": "ItemClassification.progression",
-    "Classification": "PASS"
-  },
-  {
-    "ItemId": 830,
-    "Name": "Item - Ibek Cave Pass",
     "CategoryCode": "ItemClassification.progression",
     "Classification": "PASS"
   },

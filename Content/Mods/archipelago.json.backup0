@@ -6,7 +6,7 @@
   "Version": "1.0",
   "EditorVersion": 30,
   "SteamWorkshopFileID": 0,
-  "Timestamp": "2025-10-30T22:20:17.3790818Z",
+  "Timestamp": "2025-06-05T21:16:13.9233362Z",
   "IsLocalization": false,
   "Language": null,
   "HasCustomContent": true,
@@ -10608,7 +10608,7 @@
           "IsExpanded": true
         }
       ],
-      "IsExpanded": false
+      "IsExpanded": true
     },
     {
       "ModelTypeID": 3,
@@ -18040,7 +18040,7 @@
           "IsExpanded": false
         }
       ],
-      "IsExpanded": true
+      "IsExpanded": false
     },
     {
       "ModelTypeID": 3,
@@ -21267,16 +21267,9 @@
               "SortOrder": 5,
               "Children": [],
               "IsExpanded": false
-            },
-            {
-              "ModelTypeID": 14,
-              "ModelID": 189,
-              "SortOrder": 6,
-              "Children": [],
-              "IsExpanded": false
             }
           ],
-          "IsExpanded": true
+          "IsExpanded": false
         },
         {
           "ModelTypeID": 14,
@@ -25033,7 +25026,7 @@
               "IsExpanded": false
             }
           ],
-          "IsExpanded": true
+          "IsExpanded": false
         },
         {
           "ModelTypeID": 14,
@@ -25155,7 +25148,7 @@
           "IsExpanded": false
         }
       ],
-      "IsExpanded": true
+      "IsExpanded": false
     },
     {
       "ModelTypeID": 3,
@@ -27247,62 +27240,7 @@
   ],
   "Abilities": [],
   "Animations": [],
-  "Biomes": [
-    {
-      "ID": 189,
-      "Name": "The Open Sea",
-      "SortOrder": 90,
-      "BaseID": 0,
-      "IsMapOnly": false,
-      "IsMapAlt": false,
-      "IndColor": {
-        "R": 0.6784314,
-        "G": 0.847058833,
-        "B": 0.9019608
-      },
-      "IsInDemo": true,
-      "WeatherType": 12,
-      "WorldR": 15,
-      "WorldG": 15,
-      "WorldB": 15,
-      "FogR": 15,
-      "FogG": 15,
-      "FogB": 15,
-      "FogNear": 25.0,
-      "FogFar": 50.0,
-      "WorldHdrMultiplier": 1.0,
-      "WorldBloomThreshold": 0.9,
-      "WorldBloomIntensity": 0.65,
-      "CameraZoomOffset": -1.0,
-      "CameraAngleOffset": 0.0,
-      "CameraIndoorZoomOffset": 1.5,
-      "CameraIndoorFarClipOverride": 90.0,
-      "CameraIndoorFarClipIsBlack": true,
-      "EnableCameraPeeking": true,
-      "UnderwaterCamera": false,
-      "DisableSunlight": null,
-      "ForceIsIndoor": false,
-      "IndoorHeight": 2,
-      "MapLayer": 0,
-      "MapCenterXOverride": -272,
-      "MapCenterYOverride": 224,
-      "MusicCue": 56,
-      "BattleMusicCue": 19,
-      "BossMusicCue": 20,
-      "InherentStatusID": null,
-      "InherentStatusMessage": null,
-      "Arena": {
-        "GlobalIndexOrigin": {
-          "X": -3,
-          "Y": 7,
-          "Z": 14
-        },
-        "IsIndoor": false,
-        "IsUnderwater": false
-      },
-      "ArenaIndoor": null
-    }
-  ],
+  "Biomes": [],
   "Difficulties": [],
   "Equipment": [
     {
@@ -27316,7 +27254,7 @@
       "ScaledOrder": 0,
       "TexturePath": "Equipment/APStarterGear",
       "TextureIndex": 0,
-      "Level": 3,
+      "Level": 1,
       "NoAutoCost": false,
       "NoAutoStats": false,
       "Cost": 8,
@@ -27351,7 +27289,7 @@
       "ScaledOrder": 0,
       "TexturePath": "Equipment/APStarterGear",
       "TextureIndex": 1,
-      "Level": 3,
+      "Level": 1,
       "NoAutoCost": false,
       "NoAutoStats": false,
       "Cost": 8,
@@ -27386,7 +27324,7 @@
       "ScaledOrder": 0,
       "TexturePath": "Equipment/APStarterGear",
       "TextureIndex": 2,
-      "Level": 3,
+      "Level": 1,
       "NoAutoCost": false,
       "NoAutoStats": false,
       "Cost": 8,
@@ -27427,7 +27365,7 @@
       "ScaledOrder": 0,
       "TexturePath": "Equipment/APStarterGear",
       "TextureIndex": 3,
-      "Level": 3,
+      "Level": 1,
       "NoAutoCost": false,
       "NoAutoStats": false,
       "Cost": 8,
@@ -27462,7 +27400,7 @@
       "ScaledOrder": 0,
       "TexturePath": "Equipment/APStarterGear",
       "TextureIndex": 4,
-      "Level": 3,
+      "Level": 1,
       "NoAutoCost": false,
       "NoAutoStats": false,
       "Cost": 8,
@@ -27497,7 +27435,7 @@
       "ScaledOrder": 0,
       "TexturePath": "Equipment/APStarterGear",
       "TextureIndex": 5,
-      "Level": 3,
+      "Level": 1,
       "NoAutoCost": false,
       "NoAutoStats": false,
       "Cost": 8,
@@ -27538,7 +27476,7 @@
       "ScaledOrder": 0,
       "TexturePath": "Equipment/APStarterGear",
       "TextureIndex": 6,
-      "Level": 3,
+      "Level": 1,
       "NoAutoCost": false,
       "NoAutoStats": false,
       "Cost": 8,
@@ -27573,7 +27511,7 @@
       "ScaledOrder": 0,
       "TexturePath": "Equipment/APStarterGear",
       "TextureIndex": 7,
-      "Level": 3,
+      "Level": 1,
       "NoAutoCost": false,
       "NoAutoStats": false,
       "Cost": 8,
@@ -27614,7 +27552,7 @@
       "ScaledOrder": 0,
       "TexturePath": "Equipment/APStarterGear",
       "TextureIndex": 8,
-      "Level": 3,
+      "Level": 1,
       "NoAutoCost": false,
       "NoAutoStats": false,
       "Cost": 8,
@@ -27649,7 +27587,7 @@
       "ScaledOrder": 0,
       "TexturePath": "Equipment/APStarterGear",
       "TextureIndex": 9,
-      "Level": 3,
+      "Level": 1,
       "NoAutoCost": false,
       "NoAutoStats": false,
       "Cost": 8,
@@ -27684,7 +27622,7 @@
       "ScaledOrder": 0,
       "TexturePath": "Equipment/APStarterGear",
       "TextureIndex": 10,
-      "Level": 3,
+      "Level": 1,
       "NoAutoCost": false,
       "NoAutoStats": false,
       "Cost": 8,
@@ -27725,7 +27663,7 @@
       "ScaledOrder": 0,
       "TexturePath": "Equipment/APStarterGear",
       "TextureIndex": 11,
-      "Level": 3,
+      "Level": 1,
       "NoAutoCost": false,
       "NoAutoStats": false,
       "Cost": 8,
@@ -27754,7 +27692,7 @@
       "ScaledOrder": 0,
       "TexturePath": "Equipment/APStarterGear",
       "TextureIndex": 12,
-      "Level": 3,
+      "Level": 1,
       "NoAutoCost": false,
       "NoAutoStats": false,
       "Cost": 8,
@@ -27789,7 +27727,7 @@
       "ScaledOrder": 0,
       "TexturePath": "Equipment/APStarterGear",
       "TextureIndex": 13,
-      "Level": 3,
+      "Level": 1,
       "NoAutoCost": false,
       "NoAutoStats": false,
       "Cost": 8,
@@ -27824,7 +27762,7 @@
       "ScaledOrder": 0,
       "TexturePath": "Equipment/APStarterGear",
       "TextureIndex": 14,
-      "Level": 3,
+      "Level": 1,
       "NoAutoCost": false,
       "NoAutoStats": false,
       "Cost": 8,
@@ -27865,7 +27803,7 @@
       "ScaledOrder": 0,
       "TexturePath": "Equipment/APStarterGear",
       "TextureIndex": 15,
-      "Level": 3,
+      "Level": 1,
       "NoAutoCost": false,
       "NoAutoStats": false,
       "Cost": 8,
@@ -27906,7 +27844,7 @@
       "ScaledOrder": 0,
       "TexturePath": "Equipment/APStarterGear",
       "TextureIndex": 17,
-      "Level": 3,
+      "Level": 1,
       "NoAutoCost": false,
       "NoAutoStats": false,
       "Cost": 8,
@@ -27947,7 +27885,7 @@
       "ScaledOrder": 0,
       "TexturePath": "Equipment/APStarterGear",
       "TextureIndex": 16,
-      "Level": 3,
+      "Level": 1,
       "NoAutoCost": false,
       "NoAutoStats": false,
       "Cost": 8,
@@ -27988,7 +27926,7 @@
       "ScaledOrder": 0,
       "TexturePath": "Equipment/APStarterGear",
       "TextureIndex": 18,
-      "Level": 3,
+      "Level": 1,
       "NoAutoCost": false,
       "NoAutoStats": false,
       "Cost": 8,
@@ -28023,7 +27961,7 @@
       "ScaledOrder": 0,
       "TexturePath": "Equipment/APStarterGear",
       "TextureIndex": 19,
-      "Level": 3,
+      "Level": 1,
       "NoAutoCost": false,
       "NoAutoStats": false,
       "Cost": 8,
@@ -30405,7 +30343,7 @@
                           "Data": {
                             "LootType": 0,
                             "LootValue": 0,
-                            "Count": 11,
+                            "Count": 15,
                             "Redirect": false
                           },
                           "IsNegation": false
@@ -30450,7 +30388,7 @@
                           {
                             "ActionType": 1,
                             "Data": {
-                              "Message": "If nautical nonsense be something you wish, get 11 jobs and flop like a fish!",
+                              "Message": "If nautical nonsense be something you wish, bring me 15 crystals and flop like a fish!",
                               "NpcKey": null,
                               "Choices": [],
                               "AnswerVariableKey": null,
@@ -31605,454 +31543,6 @@
               {
                 "ActionType": 2,
                 "Data": null
-              }
-            ],
-            "Context": 0
-          }
-        ]
-      },
-      "SignData": null,
-      "SparkData": null,
-      "DoorData": null,
-      "HomePointData": null,
-      "TreasureData": null,
-      "CrystalData": null,
-      "MarkerData": null
-    },
-    {
-      "ID": 3450,
-      "Coord": {
-        "X": -314,
-        "Y": 64,
-        "Z": -624
-      },
-      "BiomeID": 35,
-      "EntityType": 0,
-      "Comments": "SLIGHTLY slower than golden quintar!\r\nBut faster than royal salmon!",
-      "NpcData": {
-        "Key": "Z35_SpeedOcto",
-        "LinkedKey": null,
-        "TieToSpawn": false,
-        "UniquePerKey": false,
-        "Outfits": [
-          {
-            "Condition": {
-              "ConditionType": 3,
-              "Data": {
-                "Scope": 0,
-                "EntityKey": null,
-                "VariableKey": "Captured",
-                "Eval": 2,
-                "VariableType": 0,
-                "Flag": false,
-                "Number": 0,
-                "SourceVariableScope": 0,
-                "SourceVariableKey": null,
-                "LootType": 0,
-                "LootValue": 0
-              },
-              "IsNegation": true
-            },
-            "TextureKey": "Actor/Animal_Octopus",
-            "Name": "Speedy Octopus",
-            "PlayerCharacterLevel": null,
-            "JobID": null,
-            "Facing": 5,
-            "ShadowType": 2,
-            "AutoStep": false,
-            "VoxelID": null,
-            "VoxelVariantIndex": 0,
-            "PlayerCollision": 3,
-            "NpcCollision": 0,
-            "MountType": 20,
-            "JumpType": 0,
-            "KeepSpawned": false,
-            "WanderType": 2,
-            "WanderSpeed": 0.0,
-            "WanderFrequency": 0,
-            "WanderRadius": 0.0,
-            "WanderRoute": [
-              {
-                "Pos": {
-                  "X": 0,
-                  "Y": 0,
-                  "Z": 0
-                },
-                "Speed": 0.06,
-                "Wait": 0,
-                "Facing": 5
-              },
-              {
-                "Pos": {
-                  "X": 0,
-                  "Y": 0,
-                  "Z": 8
-                },
-                "Speed": 0.06,
-                "Wait": 0,
-                "Facing": 5
-              },
-              {
-                "Pos": {
-                  "X": -30,
-                  "Y": 0,
-                  "Z": 32
-                },
-                "Speed": 0.06,
-                "Wait": 0,
-                "Facing": 5
-              },
-              {
-                "Pos": {
-                  "X": -50,
-                  "Y": 0,
-                  "Z": 48
-                },
-                "Speed": 0.06,
-                "Wait": 0,
-                "Facing": 5
-              },
-              {
-                "Pos": {
-                  "X": -80,
-                  "Y": 0,
-                  "Z": 96
-                },
-                "Speed": 0.06,
-                "Wait": 0,
-                "Facing": 5
-              },
-              {
-                "Pos": {
-                  "X": -100,
-                  "Y": 0,
-                  "Z": 128
-                },
-                "Speed": 0.06,
-                "Wait": 0,
-                "Facing": 5
-              },
-              {
-                "Pos": {
-                  "X": -110,
-                  "Y": 0,
-                  "Z": 160
-                },
-                "Speed": 0.06,
-                "Wait": 0,
-                "Facing": 5
-              },
-              {
-                "Pos": {
-                  "X": -110,
-                  "Y": 0,
-                  "Z": 192
-                },
-                "Speed": 0.06,
-                "Wait": 0,
-                "Facing": 5
-              },
-              {
-                "Pos": {
-                  "X": -100,
-                  "Y": 0,
-                  "Z": 224
-                },
-                "Speed": 0.06,
-                "Wait": 0,
-                "Facing": 5
-              },
-              {
-                "Pos": {
-                  "X": -90,
-                  "Y": 0,
-                  "Z": 256
-                },
-                "Speed": 0.06,
-                "Wait": 0,
-                "Facing": 5
-              },
-              {
-                "Pos": {
-                  "X": -90,
-                  "Y": 0,
-                  "Z": 288
-                },
-                "Speed": 0.06,
-                "Wait": 0,
-                "Facing": 5
-              },
-              {
-                "Pos": {
-                  "X": -90,
-                  "Y": 0,
-                  "Z": 320
-                },
-                "Speed": 0.06,
-                "Wait": 0,
-                "Facing": 5
-              },
-              {
-                "Pos": {
-                  "X": -80,
-                  "Y": 0,
-                  "Z": 352
-                },
-                "Speed": 0.06,
-                "Wait": 0,
-                "Facing": 5
-              },
-              {
-                "Pos": {
-                  "X": -80,
-                  "Y": 0,
-                  "Z": 384
-                },
-                "Speed": 0.06,
-                "Wait": 0,
-                "Facing": 5
-              },
-              {
-                "Pos": {
-                  "X": -70,
-                  "Y": 0,
-                  "Z": 416
-                },
-                "Speed": 0.06,
-                "Wait": 0,
-                "Facing": 5
-              },
-              {
-                "Pos": {
-                  "X": -50,
-                  "Y": 0,
-                  "Z": 448
-                },
-                "Speed": 0.06,
-                "Wait": 0,
-                "Facing": 5
-              },
-              {
-                "Pos": {
-                  "X": -50,
-                  "Y": 0,
-                  "Z": 480
-                },
-                "Speed": 0.06,
-                "Wait": 0,
-                "Facing": 5
-              },
-              {
-                "Pos": {
-                  "X": -40,
-                  "Y": 0,
-                  "Z": 512
-                },
-                "Speed": 0.06,
-                "Wait": 0,
-                "Facing": 5
-              },
-              {
-                "Pos": {
-                  "X": -40,
-                  "Y": 0,
-                  "Z": 544
-                },
-                "Speed": 0.06,
-                "Wait": 0,
-                "Facing": 5
-              },
-              {
-                "Pos": {
-                  "X": -40,
-                  "Y": 0,
-                  "Z": 576
-                },
-                "Speed": 0.06,
-                "Wait": 0,
-                "Facing": 5
-              },
-              {
-                "Pos": {
-                  "X": -40,
-                  "Y": 0,
-                  "Z": 608
-                },
-                "Speed": 0.06,
-                "Wait": 0,
-                "Facing": 5
-              },
-              {
-                "Pos": {
-                  "X": -30,
-                  "Y": 0,
-                  "Z": 640
-                },
-                "Speed": 0.06,
-                "Wait": 0,
-                "Facing": 5
-              },
-              {
-                "Pos": {
-                  "X": -30,
-                  "Y": 0,
-                  "Z": 672
-                },
-                "Speed": 0.06,
-                "Wait": 0,
-                "Facing": 5
-              },
-              {
-                "Pos": {
-                  "X": -20,
-                  "Y": 0,
-                  "Z": 704
-                },
-                "Speed": 0.06,
-                "Wait": 0,
-                "Facing": 5
-              },
-              {
-                "Pos": {
-                  "X": -10,
-                  "Y": 0,
-                  "Z": 736
-                },
-                "Speed": 0.06,
-                "Wait": 0,
-                "Facing": 5
-              },
-              {
-                "Pos": {
-                  "X": 20,
-                  "Y": 0,
-                  "Z": 768
-                },
-                "Speed": 0.06,
-                "Wait": 0,
-                "Facing": 5
-              },
-              {
-                "Pos": {
-                  "X": 20,
-                  "Y": 0,
-                  "Z": 800
-                },
-                "Speed": 0.06,
-                "Wait": 0,
-                "Facing": 5
-              },
-              {
-                "Pos": {
-                  "X": 20,
-                  "Y": 0,
-                  "Z": 832
-                },
-                "Speed": 0.06,
-                "Wait": 0,
-                "Facing": 5
-              },
-              {
-                "Pos": {
-                  "X": 10,
-                  "Y": 0,
-                  "Z": 864
-                },
-                "Speed": 0.06,
-                "Wait": 0,
-                "Facing": 5
-              },
-              {
-                "Pos": {
-                  "X": 0,
-                  "Y": 0,
-                  "Z": 896
-                },
-                "Speed": 0.06,
-                "Wait": 0,
-                "Facing": 5
-              }
-            ],
-            "WanderRouteIsLine": true
-          }
-        ],
-        "Pages": [
-          {
-            "Condition": {
-              "ConditionType": 0,
-              "Data": null,
-              "IsNegation": false
-            },
-            "TriggerType": 0,
-            "TriggerProximityRadius": 1.0,
-            "TriggerProximityBox": {
-              "XNeg": 0.0,
-              "YNeg": 0.0,
-              "ZNeg": 0.0,
-              "XPos": 0.0,
-              "YPos": 0.0,
-              "ZPos": 0.0
-            },
-            "TriggerOnExitProximity": false,
-            "TriggerTouchType": 0,
-            "Actions": [
-              {
-                "ActionType": 0,
-                "Data": null
-              },
-              {
-                "ActionType": 1,
-                "Data": {
-                  "Message": "AHHH my knees! I dont even have knees!",
-                  "NpcKey": null,
-                  "Choices": [],
-                  "AnswerVariableKey": null,
-                  "ShowPartyStatus": false
-                }
-              },
-              {
-                "ActionType": 8,
-                "Data": {
-                  "LootType": 2,
-                  "LootValue": 531,
-                  "Count": 1,
-                  "Redirect": false
-                }
-              },
-              {
-                "ActionType": 6,
-                "Data": {
-                  "Scope": 0,
-                  "EntityKey": null,
-                  "VariableKey": "Captured",
-                  "VariableType": 0,
-                  "Flag": true,
-                  "Number": 0,
-                  "SourceVariableScope": 0,
-                  "SourceVariableKey": null,
-                  "LootType": 0,
-                  "LootValue": 0
-                }
-              },
-              {
-                "ActionType": 10,
-                "Data": {
-                  "RefreshCurrentOutfit": true,
-                  "RefreshCurrentPage": false,
-                  "RefreshCurrentPosition": false,
-                  "CancelAllActiveActions": false,
-                  "TriggerPlayerAction": false,
-                  "TriggerPlayerProximity": false,
-                  "TriggerAuto": false,
-                  "TriggerPlayerTouch": false,
-                  "TriggerTriggerNpc": false,
-                  "GlobalRefreshOutfits": false,
-                  "GlobalRefreshPages": false,
-                  "GlobalRefreshPositions": false,
-                  "GlobalTrySpawn": false,
-                  "GlobalTryDespawn": false,
-                  "NpcKey": null
-                }
               }
             ],
             "Context": 0
@@ -33612,524 +33102,6 @@
       "MarkerData": null
     },
     {
-      "ID": 2804,
-      "Coord": {
-        "X": -139,
-        "Y": 91,
-        "Z": 123
-      },
-      "BiomeID": 34,
-      "EntityType": 0,
-      "Comments": null,
-      "NpcData": {
-        "Key": "Z27_FisherOnRaft",
-        "LinkedKey": null,
-        "TieToSpawn": false,
-        "UniquePerKey": false,
-        "Outfits": [
-          {
-            "Condition": {
-              "ConditionType": 4,
-              "Data": {
-                "Scope": 2,
-                "EntityKey": null,
-                "VariableKey": "Fished3",
-                "Eval": 2,
-                "VariableType": 0,
-                "Flag": false,
-                "Number": 0,
-                "SourceVariableScope": 0,
-                "SourceVariableKey": null,
-                "LootType": 0,
-                "LootValue": 0
-              },
-              "IsNegation": false
-            },
-            "TextureKey": null,
-            "Name": "@Fisherman",
-            "PlayerCharacterLevel": 60,
-            "JobID": null,
-            "Facing": 5,
-            "ShadowType": 2,
-            "AutoStep": false,
-            "VoxelID": null,
-            "VoxelVariantIndex": 0,
-            "PlayerCollision": 3,
-            "NpcCollision": 0,
-            "MountType": 15,
-            "JumpType": 0,
-            "KeepSpawned": false,
-            "WanderType": 0,
-            "WanderSpeed": 0.0,
-            "WanderFrequency": 0,
-            "WanderRadius": 0.0,
-            "WanderRoute": [],
-            "WanderRouteIsLine": false
-          }
-        ],
-        "Pages": [
-          {
-            "Condition": {
-              "ConditionType": 0,
-              "Data": null,
-              "IsNegation": false
-            },
-            "TriggerType": 0,
-            "TriggerProximityRadius": 0.0,
-            "TriggerProximityBox": {
-              "XNeg": 0.0,
-              "YNeg": 0.0,
-              "ZNeg": 0.0,
-              "XPos": 0.0,
-              "YPos": 0.0,
-              "ZPos": 0.0
-            },
-            "TriggerOnExitProximity": false,
-            "TriggerTouchType": 0,
-            "Actions": [
-              {
-                "ActionType": 1,
-                "Data": {
-                  "Message": "I love fishing. It's so nice having something to do all over the world.",
-                  "NpcKey": null,
-                  "Choices": [],
-                  "AnswerVariableKey": null,
-                  "ShowPartyStatus": false
-                }
-              },
-              {
-                "ActionType": 0,
-                "Data": null
-              },
-              {
-                "ActionType": 1,
-                "Data": {
-                  "Message": "If you have a Super Rod and Jigging Lure I can fish something up for you. I found someones Nuts Sack once.",
-                  "NpcKey": null,
-                  "Choices": [],
-                  "AnswerVariableKey": null,
-                  "ShowPartyStatus": false
-                }
-              },
-              {
-                "ActionType": 3,
-                "Data": {
-                  "Condition": {
-                    "ConditionType": 5,
-                    "Data": {
-                      "LootType": 1,
-                      "LootValue": 151,
-                      "Count": 1,
-                      "Redirect": false
-                    },
-                    "IsNegation": false
-                  },
-                  "ConditionActionsTrue": [
-                    {
-                      "ActionType": 3,
-                      "Data": {
-                        "Condition": {
-                          "ConditionType": 5,
-                          "Data": {
-                            "LootType": 1,
-                            "LootValue": 97,
-                            "Count": 1,
-                            "Redirect": false
-                          },
-                          "IsNegation": false
-                        },
-                        "ConditionActionsTrue": [
-                          {
-                            "ActionType": 1,
-                            "Data": {
-                              "Message": "Alright here we go.",
-                              "NpcKey": null,
-                              "Choices": [],
-                              "AnswerVariableKey": null,
-                              "ShowPartyStatus": false
-                            }
-                          },
-                          {
-                            "ActionType": 24,
-                            "Data": {
-                              "Facing": 5
-                            }
-                          },
-                          {
-                            "ActionType": 4,
-                            "Data": {
-                              "FrameCount": 60
-                            }
-                          },
-                          {
-                            "ActionType": 0,
-                            "Data": null
-                          },
-                          {
-                            "ActionType": 1,
-                            "Data": {
-                              "Message": "Here you go.",
-                              "NpcKey": null,
-                              "Choices": [],
-                              "AnswerVariableKey": null,
-                              "ShowPartyStatus": false
-                            }
-                          },
-                          {
-                            "ActionType": 8,
-                            "Data": {
-                              "LootType": 1,
-                              "LootValue": 0,
-                              "Count": 1,
-                              "Redirect": false
-                            }
-                          },
-                          {
-                            "ActionType": 7,
-                            "Data": {
-                              "Scope": 2,
-                              "EntityKey": null,
-                              "VariableKey": "Fished3",
-                              "VariableType": 0,
-                              "Flag": false,
-                              "Number": 1,
-                              "SourceVariableScope": 0,
-                              "SourceVariableKey": null,
-                              "LootType": 0,
-                              "LootValue": 0
-                            }
-                          }
-                        ],
-                        "ConditionActionsFalse": [
-                          {
-                            "ActionType": 1,
-                            "Data": {
-                              "Message": "Come back when you've found the goods.",
-                              "NpcKey": null,
-                              "Choices": [],
-                              "AnswerVariableKey": null,
-                              "ShowPartyStatus": false
-                            }
-                          }
-                        ]
-                      }
-                    }
-                  ],
-                  "ConditionActionsFalse": [
-                    {
-                      "ActionType": 1,
-                      "Data": {
-                        "Message": "Come back when you've found the goods.",
-                        "NpcKey": null,
-                        "Choices": [],
-                        "AnswerVariableKey": null,
-                        "ShowPartyStatus": false
-                      }
-                    }
-                  ]
-                }
-              },
-              {
-                "ActionType": 24,
-                "Data": {
-                  "Facing": 5
-                }
-              },
-              {
-                "ActionType": 10,
-                "Data": {
-                  "RefreshCurrentOutfit": true,
-                  "RefreshCurrentPage": false,
-                  "RefreshCurrentPosition": false,
-                  "CancelAllActiveActions": false,
-                  "TriggerPlayerAction": false,
-                  "TriggerPlayerProximity": false,
-                  "TriggerAuto": false,
-                  "TriggerPlayerTouch": false,
-                  "TriggerTriggerNpc": false,
-                  "GlobalRefreshOutfits": true,
-                  "GlobalRefreshPages": false,
-                  "GlobalRefreshPositions": false,
-                  "GlobalTrySpawn": true,
-                  "GlobalTryDespawn": false,
-                  "NpcKey": null
-                }
-              }
-            ],
-            "Context": 0
-          }
-        ]
-      },
-      "SignData": null,
-      "SparkData": null,
-      "DoorData": null,
-      "HomePointData": null,
-      "TreasureData": null,
-      "CrystalData": null,
-      "MarkerData": null
-    },
-    {
-      "ID": 121,
-      "Coord": {
-        "X": 166,
-        "Y": 133,
-        "Z": -208
-      },
-      "BiomeID": 2,
-      "EntityType": 0,
-      "Comments": null,
-      "NpcData": {
-        "Key": "Z2_FisherOnDock",
-        "LinkedKey": null,
-        "TieToSpawn": false,
-        "UniquePerKey": false,
-        "Outfits": [
-          {
-            "Condition": {
-              "ConditionType": 4,
-              "Data": {
-                "Scope": 2,
-                "EntityKey": null,
-                "VariableKey": "Fished1",
-                "Eval": 2,
-                "VariableType": 0,
-                "Flag": false,
-                "Number": 0,
-                "SourceVariableScope": 0,
-                "SourceVariableKey": null,
-                "LootType": 0,
-                "LootValue": 0
-              },
-              "IsNegation": false
-            },
-            "TextureKey": null,
-            "Name": "@Fisherman",
-            "PlayerCharacterLevel": 10,
-            "JobID": null,
-            "Facing": 2,
-            "ShadowType": 2,
-            "AutoStep": false,
-            "VoxelID": null,
-            "VoxelVariantIndex": 0,
-            "PlayerCollision": 3,
-            "NpcCollision": 0,
-            "MountType": 15,
-            "JumpType": 0,
-            "KeepSpawned": false,
-            "WanderType": 0,
-            "WanderSpeed": 0.0,
-            "WanderFrequency": 0,
-            "WanderRadius": 0.0,
-            "WanderRoute": [],
-            "WanderRouteIsLine": false
-          }
-        ],
-        "Pages": [
-          {
-            "Condition": {
-              "ConditionType": 0,
-              "Data": null,
-              "IsNegation": false
-            },
-            "TriggerType": 0,
-            "TriggerProximityRadius": 0.0,
-            "TriggerProximityBox": {
-              "XNeg": 0.0,
-              "YNeg": 0.0,
-              "ZNeg": 0.0,
-              "XPos": 0.0,
-              "YPos": 0.0,
-              "ZPos": 0.0
-            },
-            "TriggerOnExitProximity": false,
-            "TriggerTouchType": 0,
-            "Actions": [
-              {
-                "ActionType": 1,
-                "Data": {
-                  "Message": "I love fishing. It's so nice having something to do all over the world.",
-                  "NpcKey": null,
-                  "Choices": [],
-                  "AnswerVariableKey": null,
-                  "ShowPartyStatus": false
-                }
-              },
-              {
-                "ActionType": 0,
-                "Data": null
-              },
-              {
-                "ActionType": 1,
-                "Data": {
-                  "Message": "If you have a Flimsy Rod and Plug Lure I can fish something up for you. Not birds though, not sure why people ask for that but I can't do birds.",
-                  "NpcKey": null,
-                  "Choices": [],
-                  "AnswerVariableKey": null,
-                  "ShowPartyStatus": false
-                }
-              },
-              {
-                "ActionType": 3,
-                "Data": {
-                  "Condition": {
-                    "ConditionType": 5,
-                    "Data": {
-                      "LootType": 1,
-                      "LootValue": 55,
-                      "Count": 1,
-                      "Redirect": false
-                    },
-                    "IsNegation": false
-                  },
-                  "ConditionActionsTrue": [
-                    {
-                      "ActionType": 3,
-                      "Data": {
-                        "Condition": {
-                          "ConditionType": 5,
-                          "Data": {
-                            "LootType": 1,
-                            "LootValue": 91,
-                            "Count": 1,
-                            "Redirect": false
-                          },
-                          "IsNegation": false
-                        },
-                        "ConditionActionsTrue": [
-                          {
-                            "ActionType": 1,
-                            "Data": {
-                              "Message": "Alright here we go.",
-                              "NpcKey": null,
-                              "Choices": [],
-                              "AnswerVariableKey": null,
-                              "ShowPartyStatus": false
-                            }
-                          },
-                          {
-                            "ActionType": 24,
-                            "Data": {
-                              "Facing": 2
-                            }
-                          },
-                          {
-                            "ActionType": 4,
-                            "Data": {
-                              "FrameCount": 60
-                            }
-                          },
-                          {
-                            "ActionType": 59,
-                            "Data": null
-                          },
-                          {
-                            "ActionType": 0,
-                            "Data": null
-                          },
-                          {
-                            "ActionType": 1,
-                            "Data": {
-                              "Message": "Here you go.",
-                              "NpcKey": null,
-                              "Choices": [],
-                              "AnswerVariableKey": null,
-                              "ShowPartyStatus": false
-                            }
-                          },
-                          {
-                            "ActionType": 8,
-                            "Data": {
-                              "LootType": 1,
-                              "LootValue": 0,
-                              "Count": 1,
-                              "Redirect": false
-                            }
-                          },
-                          {
-                            "ActionType": 7,
-                            "Data": {
-                              "Scope": 2,
-                              "EntityKey": null,
-                              "VariableKey": "Fished1",
-                              "VariableType": 0,
-                              "Flag": false,
-                              "Number": 1,
-                              "SourceVariableScope": 0,
-                              "SourceVariableKey": null,
-                              "LootType": 0,
-                              "LootValue": 0
-                            }
-                          }
-                        ],
-                        "ConditionActionsFalse": [
-                          {
-                            "ActionType": 1,
-                            "Data": {
-                              "Message": "Come back when you've found the goods.",
-                              "NpcKey": null,
-                              "Choices": [],
-                              "AnswerVariableKey": null,
-                              "ShowPartyStatus": false
-                            }
-                          }
-                        ]
-                      }
-                    }
-                  ],
-                  "ConditionActionsFalse": [
-                    {
-                      "ActionType": 1,
-                      "Data": {
-                        "Message": "Come back when you've found the goods.",
-                        "NpcKey": null,
-                        "Choices": [],
-                        "AnswerVariableKey": null,
-                        "ShowPartyStatus": false
-                      }
-                    }
-                  ]
-                }
-              },
-              {
-                "ActionType": 24,
-                "Data": {
-                  "Facing": 2
-                }
-              },
-              {
-                "ActionType": 10,
-                "Data": {
-                  "RefreshCurrentOutfit": true,
-                  "RefreshCurrentPage": false,
-                  "RefreshCurrentPosition": false,
-                  "CancelAllActiveActions": false,
-                  "TriggerPlayerAction": false,
-                  "TriggerPlayerProximity": false,
-                  "TriggerAuto": false,
-                  "TriggerPlayerTouch": false,
-                  "TriggerTriggerNpc": false,
-                  "GlobalRefreshOutfits": true,
-                  "GlobalRefreshPages": false,
-                  "GlobalRefreshPositions": false,
-                  "GlobalTrySpawn": true,
-                  "GlobalTryDespawn": false,
-                  "NpcKey": null
-                }
-              }
-            ],
-            "Context": 0
-          }
-        ]
-      },
-      "SignData": null,
-      "SparkData": null,
-      "DoorData": null,
-      "HomePointData": null,
-      "TreasureData": null,
-      "CrystalData": null,
-      "MarkerData": null
-    },
-    {
       "ID": 1176,
       "Coord": {
         "X": 190,
@@ -34926,263 +33898,6 @@
               {
                 "ActionType": 2,
                 "Data": null
-              }
-            ],
-            "Context": 0
-          }
-        ]
-      },
-      "SignData": null,
-      "SparkData": null,
-      "DoorData": null,
-      "HomePointData": null,
-      "TreasureData": null,
-      "CrystalData": null,
-      "MarkerData": null
-    },
-    {
-      "ID": 1549,
-      "Coord": {
-        "X": 197,
-        "Y": 192,
-        "Z": -441
-      },
-      "BiomeID": 8,
-      "EntityType": 0,
-      "Comments": null,
-      "NpcData": {
-        "Key": "Z8_FisherInHut",
-        "LinkedKey": null,
-        "TieToSpawn": false,
-        "UniquePerKey": false,
-        "Outfits": [
-          {
-            "Condition": {
-              "ConditionType": 4,
-              "Data": {
-                "Scope": 2,
-                "EntityKey": null,
-                "VariableKey": "Fished2",
-                "Eval": 2,
-                "VariableType": 0,
-                "Flag": false,
-                "Number": 0,
-                "SourceVariableScope": 0,
-                "SourceVariableKey": null,
-                "LootType": 0,
-                "LootValue": 0
-              },
-              "IsNegation": false
-            },
-            "TextureKey": null,
-            "Name": "@Fisherman",
-            "PlayerCharacterLevel": 45,
-            "JobID": null,
-            "Facing": 5,
-            "ShadowType": 2,
-            "AutoStep": false,
-            "VoxelID": null,
-            "VoxelVariantIndex": 0,
-            "PlayerCollision": 3,
-            "NpcCollision": 0,
-            "MountType": 15,
-            "JumpType": 0,
-            "KeepSpawned": false,
-            "WanderType": 0,
-            "WanderSpeed": 0.0,
-            "WanderFrequency": 0,
-            "WanderRadius": 0.0,
-            "WanderRoute": [],
-            "WanderRouteIsLine": false
-          }
-        ],
-        "Pages": [
-          {
-            "Condition": {
-              "ConditionType": 0,
-              "Data": null,
-              "IsNegation": false
-            },
-            "TriggerType": 0,
-            "TriggerProximityRadius": 0.0,
-            "TriggerProximityBox": {
-              "XNeg": 0.0,
-              "YNeg": 0.0,
-              "ZNeg": 0.0,
-              "XPos": 0.0,
-              "YPos": 0.0,
-              "ZPos": 0.0
-            },
-            "TriggerOnExitProximity": false,
-            "TriggerTouchType": 0,
-            "Actions": [
-              {
-                "ActionType": 1,
-                "Data": {
-                  "Message": "I love fishing. It's so nice having something to do all over the world.",
-                  "NpcKey": null,
-                  "Choices": [],
-                  "AnswerVariableKey": null,
-                  "ShowPartyStatus": false
-                }
-              },
-              {
-                "ActionType": 0,
-                "Data": null
-              },
-              {
-                "ActionType": 1,
-                "Data": {
-                  "Message": "If you have a Tough Rod and Fly Lure I can fish something up for you. Penguins, crabs, Hot Cocoa, normal stuff like that.",
-                  "NpcKey": null,
-                  "Choices": [],
-                  "AnswerVariableKey": null,
-                  "ShowPartyStatus": false
-                }
-              },
-              {
-                "ActionType": 3,
-                "Data": {
-                  "Condition": {
-                    "ConditionType": 5,
-                    "Data": {
-                      "LootType": 1,
-                      "LootValue": 150,
-                      "Count": 1,
-                      "Redirect": false
-                    },
-                    "IsNegation": false
-                  },
-                  "ConditionActionsTrue": [
-                    {
-                      "ActionType": 3,
-                      "Data": {
-                        "Condition": {
-                          "ConditionType": 5,
-                          "Data": {
-                            "LootType": 1,
-                            "LootValue": 149,
-                            "Count": 1,
-                            "Redirect": false
-                          },
-                          "IsNegation": false
-                        },
-                        "ConditionActionsTrue": [
-                          {
-                            "ActionType": 1,
-                            "Data": {
-                              "Message": "Alright here we go.",
-                              "NpcKey": null,
-                              "Choices": [],
-                              "AnswerVariableKey": null,
-                              "ShowPartyStatus": false
-                            }
-                          },
-                          {
-                            "ActionType": 24,
-                            "Data": {
-                              "Facing": 5
-                            }
-                          },
-                          {
-                            "ActionType": 4,
-                            "Data": {
-                              "FrameCount": 60
-                            }
-                          },
-                          {
-                            "ActionType": 0,
-                            "Data": null
-                          },
-                          {
-                            "ActionType": 1,
-                            "Data": {
-                              "Message": "Here you go.",
-                              "NpcKey": null,
-                              "Choices": [],
-                              "AnswerVariableKey": null,
-                              "ShowPartyStatus": false
-                            }
-                          },
-                          {
-                            "ActionType": 8,
-                            "Data": {
-                              "LootType": 1,
-                              "LootValue": 0,
-                              "Count": 1,
-                              "Redirect": false
-                            }
-                          },
-                          {
-                            "ActionType": 7,
-                            "Data": {
-                              "Scope": 2,
-                              "EntityKey": null,
-                              "VariableKey": "Fished2",
-                              "VariableType": 0,
-                              "Flag": false,
-                              "Number": 1,
-                              "SourceVariableScope": 0,
-                              "SourceVariableKey": null,
-                              "LootType": 0,
-                              "LootValue": 0
-                            }
-                          }
-                        ],
-                        "ConditionActionsFalse": [
-                          {
-                            "ActionType": 1,
-                            "Data": {
-                              "Message": "Come back when you've found the goods.",
-                              "NpcKey": null,
-                              "Choices": [],
-                              "AnswerVariableKey": null,
-                              "ShowPartyStatus": false
-                            }
-                          }
-                        ]
-                      }
-                    }
-                  ],
-                  "ConditionActionsFalse": [
-                    {
-                      "ActionType": 1,
-                      "Data": {
-                        "Message": "Come back when you've found the goods.",
-                        "NpcKey": null,
-                        "Choices": [],
-                        "AnswerVariableKey": null,
-                        "ShowPartyStatus": false
-                      }
-                    }
-                  ]
-                }
-              },
-              {
-                "ActionType": 24,
-                "Data": {
-                  "Facing": 5
-                }
-              },
-              {
-                "ActionType": 10,
-                "Data": {
-                  "RefreshCurrentOutfit": true,
-                  "RefreshCurrentPage": false,
-                  "RefreshCurrentPosition": false,
-                  "CancelAllActiveActions": false,
-                  "TriggerPlayerAction": false,
-                  "TriggerPlayerProximity": false,
-                  "TriggerAuto": false,
-                  "TriggerPlayerTouch": false,
-                  "TriggerTriggerNpc": false,
-                  "GlobalRefreshOutfits": true,
-                  "GlobalRefreshPages": false,
-                  "GlobalRefreshPositions": false,
-                  "GlobalTrySpawn": true,
-                  "GlobalTryDespawn": false,
-                  "NpcKey": null
-                }
               }
             ],
             "Context": 0
@@ -36551,350 +35266,8 @@
         "Pages": [
           {
             "Condition": {
-              "ConditionType": 2,
-              "Data": {
-                "LHS": {
-                  "ConditionType": 4,
-                  "Data": {
-                    "Scope": 2,
-                    "EntityKey": null,
-                    "VariableKey": "Bouncer2",
-                    "Eval": 2,
-                    "VariableType": 0,
-                    "Flag": false,
-                    "Number": 0,
-                    "SourceVariableScope": 0,
-                    "SourceVariableKey": null,
-                    "LootType": 0,
-                    "LootValue": 0
-                  },
-                  "IsNegation": false
-                },
-                "Op": 0,
-                "RHS": {
-                  "ConditionType": 7,
-                  "Data": {
-                    "LootType": 0,
-                    "LootValue": 0,
-                    "Count": 11,
-                    "Redirect": false
-                  },
-                  "IsNegation": false
-                }
-              },
-              "IsNegation": false
-            },
-            "TriggerType": 1,
-            "TriggerProximityRadius": 0.0,
-            "TriggerProximityBox": {
-              "XNeg": -1.0,
-              "YNeg": 0.0,
-              "ZNeg": 0.0,
-              "XPos": 2.0,
-              "YPos": 3.0,
-              "ZPos": 1.0
-            },
-            "TriggerOnExitProximity": false,
-            "TriggerTouchType": 0,
-            "Actions": [
-              {
-                "ActionType": 31,
-                "Data": {
-                  "Offset": {
-                    "X": 1,
-                    "Y": 0,
-                    "Z": 0
-                  },
-                  "PostMoveFacing": 0,
-                  "IsRelative": false,
-                  "TargetMarkerKey": null,
-                  "Speed": 0.1,
-                  "WaitType": 1,
-                  "CollisionFree": true,
-                  "JumpType": null,
-                  "TeleportPoint": 0
-                }
-              },
-              {
-                "ActionType": 0,
-                "Data": null
-              },
-              {
-                "ActionType": 19,
-                "Data": {
-                  "EntityKey": "Z14_ArtisanGuard",
-                  "TriggerType": 4
-                }
-              },
-              {
-                "ActionType": 2,
-                "Data": null
-              },
-              {
-                "ActionType": 10,
-                "Data": {
-                  "RefreshCurrentOutfit": false,
-                  "RefreshCurrentPage": true,
-                  "RefreshCurrentPosition": false,
-                  "CancelAllActiveActions": false,
-                  "TriggerPlayerAction": false,
-                  "TriggerPlayerProximity": false,
-                  "TriggerAuto": false,
-                  "TriggerPlayerTouch": false,
-                  "TriggerTriggerNpc": false,
-                  "GlobalRefreshOutfits": false,
-                  "GlobalRefreshPages": false,
-                  "GlobalRefreshPositions": false,
-                  "GlobalTrySpawn": false,
-                  "GlobalTryDespawn": false,
-                  "NpcKey": null
-                }
-              }
-            ],
-            "Context": 0
-          },
-          {
-            "Condition": {
-              "ConditionType": 2,
-              "Data": {
-                "LHS": {
-                  "ConditionType": 5,
-                  "Data": {
-                    "LootType": 1,
-                    "LootValue": 93,
-                    "Count": 1,
-                    "Redirect": false
-                  },
-                  "IsNegation": false
-                },
-                "Op": 1,
-                "RHS": {
-                  "ConditionType": 5,
-                  "Data": {
-                    "LootType": 1,
-                    "LootValue": 148,
-                    "Count": 1,
-                    "Redirect": false
-                  },
-                  "IsNegation": false
-                }
-              },
-              "IsNegation": true
-            },
-            "TriggerType": 1,
-            "TriggerProximityRadius": 0.0,
-            "TriggerProximityBox": {
-              "XNeg": 0.0,
-              "YNeg": 0.0,
-              "ZNeg": 0.0,
-              "XPos": 1.0,
-              "YPos": 1.0,
-              "ZPos": 1.5
-            },
-            "TriggerOnExitProximity": false,
-            "TriggerTouchType": 0,
-            "Actions": [
-              {
-                "ActionType": 3,
-                "Data": {
-                  "Condition": {
-                    "ConditionType": 2,
-                    "Data": {
-                      "LHS": {
-                        "ConditionType": 5,
-                        "Data": {
-                          "LootType": 1,
-                          "LootValue": 93,
-                          "Count": 1,
-                          "Redirect": false
-                        },
-                        "IsNegation": false
-                      },
-                      "Op": 1,
-                      "RHS": {
-                        "ConditionType": 5,
-                        "Data": {
-                          "LootType": 1,
-                          "LootValue": 148,
-                          "Count": 1,
-                          "Redirect": false
-                        },
-                        "IsNegation": false
-                      }
-                    },
-                    "IsNegation": false
-                  },
-                  "ConditionActionsTrue": [
-                    {
-                      "ActionType": 10,
-                      "Data": {
-                        "RefreshCurrentOutfit": false,
-                        "RefreshCurrentPage": true,
-                        "RefreshCurrentPosition": false,
-                        "CancelAllActiveActions": false,
-                        "TriggerPlayerAction": false,
-                        "TriggerPlayerProximity": false,
-                        "TriggerAuto": false,
-                        "TriggerPlayerTouch": false,
-                        "TriggerTriggerNpc": false,
-                        "GlobalRefreshOutfits": false,
-                        "GlobalRefreshPages": false,
-                        "GlobalRefreshPositions": false,
-                        "GlobalTrySpawn": false,
-                        "GlobalTryDespawn": false,
-                        "NpcKey": null
-                      }
-                    }
-                  ],
-                  "ConditionActionsFalse": []
-                }
-              },
-              {
-                "ActionType": 0,
-                "Data": null
-              },
-              {
-                "ActionType": 19,
-                "Data": {
-                  "EntityKey": "Z14_ArtisanGuard",
-                  "TriggerType": 4
-                }
-              },
-              {
-                "ActionType": 3,
-                "Data": {
-                  "Condition": {
-                    "ConditionType": 2,
-                    "Data": {
-                      "LHS": {
-                        "ConditionType": 5,
-                        "Data": {
-                          "LootType": 1,
-                          "LootValue": 93,
-                          "Count": 1,
-                          "Redirect": false
-                        },
-                        "IsNegation": false
-                      },
-                      "Op": 1,
-                      "RHS": {
-                        "ConditionType": 5,
-                        "Data": {
-                          "LootType": 1,
-                          "LootValue": 148,
-                          "Count": 1,
-                          "Redirect": false
-                        },
-                        "IsNegation": false
-                      }
-                    },
-                    "IsNegation": false
-                  },
-                  "ConditionActionsTrue": [
-                    {
-                      "ActionType": 12,
-                      "Data": {
-                        "Offset": {
-                          "X": -1,
-                          "Y": 0,
-                          "Z": 0
-                        },
-                        "PostMoveFacing": 3,
-                        "IsRelative": false,
-                        "TargetMarkerKey": null,
-                        "Speed": 0.05,
-                        "WaitType": 1,
-                        "CollisionFree": true,
-                        "JumpType": null,
-                        "TeleportPoint": 0
-                      }
-                    },
-                    {
-                      "ActionType": 10,
-                      "Data": {
-                        "RefreshCurrentOutfit": false,
-                        "RefreshCurrentPage": true,
-                        "RefreshCurrentPosition": false,
-                        "CancelAllActiveActions": false,
-                        "TriggerPlayerAction": false,
-                        "TriggerPlayerProximity": false,
-                        "TriggerAuto": false,
-                        "TriggerPlayerTouch": false,
-                        "TriggerTriggerNpc": false,
-                        "GlobalRefreshOutfits": false,
-                        "GlobalRefreshPages": false,
-                        "GlobalRefreshPositions": false,
-                        "GlobalTrySpawn": false,
-                        "GlobalTryDespawn": false,
-                        "NpcKey": null
-                      }
-                    }
-                  ],
-                  "ConditionActionsFalse": [
-                    {
-                      "ActionType": 1,
-                      "Data": {
-                        "Message": "No Luxury Pass? No can do, my friend. Come back when you've got it.",
-                        "NpcKey": null,
-                        "Choices": [],
-                        "AnswerVariableKey": null,
-                        "ShowPartyStatus": false
-                      }
-                    },
-                    {
-                      "ActionType": 31,
-                      "Data": {
-                        "Offset": {
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 2
-                        },
-                        "PostMoveFacing": 5,
-                        "IsRelative": true,
-                        "TargetMarkerKey": null,
-                        "Speed": 0.1,
-                        "WaitType": 1,
-                        "CollisionFree": true,
-                        "JumpType": null,
-                        "TeleportPoint": 0
-                      }
-                    },
-                    {
-                      "ActionType": 2,
-                      "Data": null
-                    }
-                  ]
-                }
-              }
-            ],
-            "Context": 0
-          },
-          {
-            "Condition": {
-              "ConditionType": 2,
-              "Data": {
-                "LHS": {
-                  "ConditionType": 5,
-                  "Data": {
-                    "LootType": 1,
-                    "LootValue": 93,
-                    "Count": 1,
-                    "Redirect": false
-                  },
-                  "IsNegation": false
-                },
-                "Op": 1,
-                "RHS": {
-                  "ConditionType": 5,
-                  "Data": {
-                    "LootType": 1,
-                    "LootValue": 148,
-                    "Count": 1,
-                    "Redirect": false
-                  },
-                  "IsNegation": false
-                }
-              },
+              "ConditionType": 0,
+              "Data": null,
               "IsNegation": false
             },
             "TriggerType": 0,
@@ -36924,123 +35297,6 @@
                   "ShowPartyStatus": false
                 }
               },
-              {
-                "ActionType": 19,
-                "Data": {
-                  "EntityKey": "Z14_ArtisanGuard",
-                  "TriggerType": 4
-                }
-              },
-              {
-                "ActionType": 3,
-                "Data": {
-                  "Condition": {
-                    "ConditionType": 5,
-                    "Data": {
-                      "LootType": 1,
-                      "LootValue": 93,
-                      "Count": 1,
-                      "Redirect": false
-                    },
-                    "IsNegation": false
-                  },
-                  "ConditionActionsTrue": [
-                    {
-                      "ActionType": 3,
-                      "Data": {
-                        "Condition": {
-                          "ConditionType": 5,
-                          "Data": {
-                            "LootType": 1,
-                            "LootValue": 148,
-                            "Count": 1,
-                            "Redirect": false
-                          },
-                          "IsNegation": false
-                        },
-                        "ConditionActionsTrue": [
-                          {
-                            "ActionType": 1,
-                            "Data": {
-                              "Message": "Ah, the Luxury Pass V2! Welcome, V2alued customer. (That's one's not in my contract. A little extra, just from me.)",
-                              "NpcKey": null,
-                              "Choices": [],
-                              "AnswerVariableKey": null,
-                              "ShowPartyStatus": false
-                            }
-                          },
-                          {
-                            "ActionType": 1,
-                            "Data": {
-                              "Message": "You've got full access to the merchandise now!",
-                              "NpcKey": null,
-                              "Choices": [],
-                              "AnswerVariableKey": null,
-                              "ShowPartyStatus": false
-                            }
-                          }
-                        ],
-                        "ConditionActionsFalse": [
-                          {
-                            "ActionType": 1,
-                            "Data": {
-                              "Message": "Ah, the Luxury Pass - welcome, valued customer. (Gotta call you that, it's in my contract.)",
-                              "NpcKey": null,
-                              "Choices": [],
-                              "AnswerVariableKey": null,
-                              "ShowPartyStatus": false
-                            }
-                          },
-                          {
-                            "ActionType": 1,
-                            "Data": {
-                              "Message": "You know, with the Luxury Pass V2, they'll have even better stuff in stock.",
-                              "NpcKey": null,
-                              "Choices": [],
-                              "AnswerVariableKey": null,
-                              "ShowPartyStatus": false
-                            }
-                          }
-                        ]
-                      }
-                    }
-                  ],
-                  "ConditionActionsFalse": [
-                    {
-                      "ActionType": 1,
-                      "Data": {
-                        "Message": "No Luxury Pass? No can do, my friend. Come back when you've got it.",
-                        "NpcKey": null,
-                        "Choices": [],
-                        "AnswerVariableKey": null,
-                        "ShowPartyStatus": false
-                      }
-                    }
-                  ]
-                }
-              }
-            ],
-            "Context": 0
-          },
-          {
-            "Condition": {
-              "ConditionType": 0,
-              "Data": null,
-              "IsNegation": false
-            },
-            "TriggerType": 4,
-            "TriggerProximityRadius": 1.0,
-            "TriggerProximityBox": {
-              "XNeg": 0.0,
-              "YNeg": 0.0,
-              "ZNeg": 0.0,
-              "XPos": 0.0,
-              "YPos": 0.0,
-              "ZPos": 0.0
-            },
-            "TriggerOnExitProximity": false,
-            "TriggerTouchType": 0,
-            "Actions": [
               {
                 "ActionType": 3,
                 "Data": {
@@ -37079,27 +35335,7 @@
                           {
                             "ActionType": 1,
                             "Data": {
-                              "Message": "You know, it takes a lot to impress me, adventurer, but-",
-                              "NpcKey": null,
-                              "Choices": [],
-                              "AnswerVariableKey": null,
-                              "ShowPartyStatus": false
-                            }
-                          },
-                          {
-                            "ActionType": 1,
-                            "Data": {
-                              "Message": "6 jobs? Nice.",
-                              "NpcKey": null,
-                              "Choices": [],
-                              "AnswerVariableKey": null,
-                              "ShowPartyStatus": false
-                            }
-                          },
-                          {
-                            "ActionType": 1,
-                            "Data": {
-                              "Message": "I used to be an adventurer, but then I took an arrow to the knee.",
+                              "Message": "I used to be an adventurer but than I took an arrow to the knee.",
                               "NpcKey": null,
                               "Choices": [],
                               "AnswerVariableKey": null,
@@ -37110,7 +35346,7 @@
                             "ActionType": 8,
                             "Data": {
                               "LootType": 1,
-                              "LootValue": 93,
+                              "LootValue": 0,
                               "Count": 1,
                               "Redirect": false
                             }
@@ -37129,48 +35365,9 @@
                               "LootType": 0,
                               "LootValue": 0
                             }
-                          },
-                          {
-                            "ActionType": 3,
-                            "Data": {
-                              "Condition": {
-                                "ConditionType": 5,
-                                "Data": {
-                                  "LootType": 1,
-                                  "LootValue": 93,
-                                  "Count": 1,
-                                  "Redirect": false
-                                },
-                                "IsNegation": true
-                              },
-                              "ConditionActionsTrue": [
-                                {
-                                  "ActionType": 1,
-                                  "Data": {
-                                    "Message": "Impressing me isn't enough to get in the store, though.",
-                                    "NpcKey": null,
-                                    "Choices": [],
-                                    "AnswerVariableKey": null,
-                                    "ShowPartyStatus": false
-                                  }
-                                }
-                              ],
-                              "ConditionActionsFalse": []
-                            }
                           }
                         ],
-                        "ConditionActionsFalse": [
-                          {
-                            "ActionType": 1,
-                            "Data": {
-                              "Message": "You know, it takes a lot to impress me, adventurer, but I think you've got potential. Talk to me when you've collected 6 jobs.",
-                              "NpcKey": null,
-                              "Choices": [],
-                              "AnswerVariableKey": null,
-                              "ShowPartyStatus": false
-                            }
-                          }
-                        ]
+                        "ConditionActionsFalse": []
                       }
                     }
                   ],
@@ -37206,7 +35403,7 @@
                           "Data": {
                             "LootType": 0,
                             "LootValue": 0,
-                            "Count": 11,
+                            "Count": 15,
                             "Redirect": false
                           },
                           "IsNegation": false
@@ -37215,17 +35412,7 @@
                           {
                             "ActionType": 1,
                             "Data": {
-                              "Message": "(Actually I lied about the knee thing don't tell my boss.)",
-                              "NpcKey": null,
-                              "Choices": [],
-                              "AnswerVariableKey": null,
-                              "ShowPartyStatus": false
-                            }
-                          },
-                          {
-                            "ActionType": 1,
-                            "Data": {
-                              "Message": "Congratulations. I see that you have collected at least eleven jobs.",
+                              "Message": "Actually I lied about the knee thing don't tell my boss.",
                               "NpcKey": null,
                               "Choices": [],
                               "AnswerVariableKey": null,
@@ -37236,7 +35423,7 @@
                             "ActionType": 8,
                             "Data": {
                               "LootType": 1,
-                              "LootValue": 148,
+                              "LootValue": 0,
                               "Count": 1,
                               "Redirect": false
                             }
@@ -37257,11 +35444,108 @@
                             }
                           }
                         ],
+                        "ConditionActionsFalse": []
+                      }
+                    }
+                  ],
+                  "ConditionActionsFalse": []
+                }
+              }
+            ],
+            "Context": 0
+          },
+          {
+            "Condition": {
+              "ConditionType": 0,
+              "Data": null,
+              "IsNegation": false
+            },
+            "TriggerType": 4,
+            "TriggerProximityRadius": 1.0,
+            "TriggerProximityBox": {
+              "XNeg": 0.0,
+              "YNeg": 0.0,
+              "ZNeg": 0.0,
+              "XPos": 0.0,
+              "YPos": 0.0,
+              "ZPos": 0.0
+            },
+            "TriggerOnExitProximity": false,
+            "TriggerTouchType": 0,
+            "Actions": [
+              {
+                "ActionType": 3,
+                "Data": {
+                  "Condition": {
+                    "ConditionType": 5,
+                    "Data": {
+                      "LootType": 1,
+                      "LootValue": 93,
+                      "Count": 1,
+                      "Redirect": true
+                    },
+                    "IsNegation": true
+                  },
+                  "ConditionActionsTrue": [
+                    {
+                      "ActionType": 3,
+                      "Data": {
+                        "Condition": {
+                          "ConditionType": 7,
+                          "Data": {
+                            "LootType": 0,
+                            "LootValue": 0,
+                            "Count": 6,
+                            "Redirect": false
+                          },
+                          "IsNegation": false
+                        },
+                        "ConditionActionsTrue": [
+                          {
+                            "ActionType": 1,
+                            "Data": {
+                              "Message": "You must discover at least six crystals before you are permitted to enter the Luxury Equipment Shop.",
+                              "NpcKey": null,
+                              "Choices": [],
+                              "AnswerVariableKey": null,
+                              "ShowPartyStatus": false
+                            }
+                          },
+                          {
+                            "ActionType": 1,
+                            "Data": {
+                              "Message": "Ah, my sincerest apologies. I see that you have already found at least six crystals.",
+                              "NpcKey": null,
+                              "Choices": [],
+                              "AnswerVariableKey": null,
+                              "ShowPartyStatus": false
+                            }
+                          },
+                          {
+                            "ActionType": 1,
+                            "Data": {
+                              "Message": "You may henceforth freely enter the Luxury Equipment Shop.",
+                              "NpcKey": null,
+                              "Choices": [],
+                              "AnswerVariableKey": null,
+                              "ShowPartyStatus": false
+                            }
+                          },
+                          {
+                            "ActionType": 8,
+                            "Data": {
+                              "LootType": 1,
+                              "LootValue": 93,
+                              "Count": 1,
+                              "Redirect": false
+                            }
+                          }
+                        ],
                         "ConditionActionsFalse": [
                           {
                             "ActionType": 1,
                             "Data": {
-                              "Message": "If you collect 11 jobs, I'll be really impressed.",
+                              "Message": "You must discover at least six crystals before you are permitted to enter the Luxury Equipment Shop.",
                               "NpcKey": null,
                               "Choices": [],
                               "AnswerVariableKey": null,
@@ -37269,6 +35553,100 @@
                             }
                           }
                         ]
+                      }
+                    }
+                  ],
+                  "ConditionActionsFalse": []
+                }
+              },
+              {
+                "ActionType": 3,
+                "Data": {
+                  "Condition": {
+                    "ConditionType": 5,
+                    "Data": {
+                      "LootType": 1,
+                      "LootValue": 93,
+                      "Count": 1,
+                      "Redirect": true
+                    },
+                    "IsNegation": false
+                  },
+                  "ConditionActionsTrue": [
+                    {
+                      "ActionType": 3,
+                      "Data": {
+                        "Condition": {
+                          "ConditionType": 5,
+                          "Data": {
+                            "LootType": 1,
+                            "LootValue": 148,
+                            "Count": 1,
+                            "Redirect": true
+                          },
+                          "IsNegation": true
+                        },
+                        "ConditionActionsTrue": [
+                          {
+                            "ActionType": 3,
+                            "Data": {
+                              "Condition": {
+                                "ConditionType": 7,
+                                "Data": {
+                                  "LootType": 0,
+                                  "LootValue": 0,
+                                  "Count": 15,
+                                  "Redirect": false
+                                },
+                                "IsNegation": false
+                              },
+                              "ConditionActionsTrue": [
+                                {
+                                  "ActionType": 1,
+                                  "Data": {
+                                    "Message": "Congratulations. I see that you have found at least fifteen crystals.",
+                                    "NpcKey": null,
+                                    "Choices": [],
+                                    "AnswerVariableKey": null,
+                                    "ShowPartyStatus": false
+                                  }
+                                },
+                                {
+                                  "ActionType": 1,
+                                  "Data": {
+                                    "Message": "With this achievement, your are now permitted to purchase our most exclusive equipment.",
+                                    "NpcKey": null,
+                                    "Choices": [],
+                                    "AnswerVariableKey": null,
+                                    "ShowPartyStatus": false
+                                  }
+                                },
+                                {
+                                  "ActionType": 8,
+                                  "Data": {
+                                    "LootType": 1,
+                                    "LootValue": 148,
+                                    "Count": 1,
+                                    "Redirect": false
+                                  }
+                                }
+                              ],
+                              "ConditionActionsFalse": [
+                                {
+                                  "ActionType": 1,
+                                  "Data": {
+                                    "Message": "You may upgrade your membership once you have found at least fifteen crystals.",
+                                    "NpcKey": null,
+                                    "Choices": [],
+                                    "AnswerVariableKey": null,
+                                    "ShowPartyStatus": false
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ],
+                        "ConditionActionsFalse": []
                       }
                     }
                   ],
@@ -37433,7 +35811,7 @@
               {
                 "ActionType": 1,
                 "Data": {
-                  "Message": "I took too long to work up the nerve to steal the luxury shop's stuff.",
+                  "Message": "I took too long to work up the nerve to steal the luxary shop's stuff.",
                   "NpcKey": null,
                   "Choices": [],
                   "AnswerVariableKey": null,

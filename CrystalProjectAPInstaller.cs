@@ -107,7 +107,7 @@ class CrystalProjectAPInstaller
 			try
 			{
 				string archipelagoBranchHashString = "9a1e47b7fb5198f86b13279beb9f6f50"; //1.6.5 Archipelago Branch hash
-				string archipelagoModdedVersionString = "87e9f3e63c0877482cb80098f2ced509"; //v0.9.0 Archipelago Modded hash
+				string archipelagoModdedVersionString = "40800fe12fffb957276a7f7ee740b170"; //v0.10.0 Archipelago Modded hash
 
 				//Open crystal project exe path and compute the hash to make sure that it's the right version
 				FileStream crystalProjectBeforeStream = new(crystalProjectExePath, FileMode.Open, FileAccess.Read, FileShare.Read);
