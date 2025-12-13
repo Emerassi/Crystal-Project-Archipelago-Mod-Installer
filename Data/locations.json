@@ -31,7 +31,7 @@
             "Rule": "lambda state: (state.has(\"Item - Ganymede Stone\", world.player)) and logic.is_area_in_level_range(state, 0)"
           },
           {
-            "ConnectionName": "Dione Shrine",
+            "ConnectionName": "Dione Shrine Roof",
             "Rule": "lambda state: (state.has(\"Item - Dione Stone\", world.player)) and logic.is_area_in_level_range(state, 0)"
           },
           {
@@ -39,7 +39,7 @@
             "Rule": "lambda state: (state.has(\"Item - Triton Stone\", world.player)) and logic.is_area_in_level_range(state, 41)"
           },
           {
-            "ConnectionName": "Land's End",
+            "ConnectionName": "Owl Tree",
             "Rule": "lambda state: (state.has(\"Item - Callisto Stone\", world.player)) and logic.is_area_in_level_range(state, 44)"
           },
           {
@@ -84,7 +84,7 @@
             "Rule": "lambda state: (logic.has_vertical_movement(state)) and logic.is_area_in_level_range(state, 0)"
           },
           {
-            "ConnectionName": "Poko Poko Desert",
+            "ConnectionName": "Poko Poko Spawning Meadows Mountain Pass",
             "Rule": "lambda state: (logic.has_vertical_movement(state) or logic.obscure_routes_on(state)) and logic.is_area_in_level_range(state, 30)"
           },
           {
@@ -408,16 +408,24 @@
         "Name": "Delende",
         "Connections": [
           {
-            "ConnectionName": "Gran",
-            "Rule": "lambda state: (logic.can_fight_gran(state)) and logic.is_area_in_level_range(state, 5)"
+            "ConnectionName": "Atop Fish Hatchery",
+            "Rule": "lambda state: (logic.obscure_routes_on(state) or logic.has_vertical_movement(state) or logic.has_glide(state)) and logic.is_area_in_level_range(state, 5)"
           },
           {
-            "ConnectionName": "Below Gran",
-            "Rule": "lambda state: (logic.obscure_routes_on(state)) and logic.is_area_in_level_range(state, 5)"
+            "ConnectionName": "Delende High Bridges",
+            "Rule": "lambda state: (logic.obscure_routes_on(state) or logic.has_horizontal_movement(state) or logic.has_vertical_movement(state)) and logic.is_area_in_level_range(state, 5)"
+          },
+          {
+            "ConnectionName": "Delende Mesa Over Spooky Cave",
+            "Rule": "lambda state: (logic.obscure_routes_on(state) or logic.has_vertical_movement(state) or logic.has_glide(state)) and logic.is_area_in_level_range(state, 5)"
           },
           {
             "ConnectionName": "Spawning Meadows",
             "Rule": "lambda state: logic.is_area_in_level_range(state, 3)"
+          },
+          {
+            "ConnectionName": "Mercury Shrine",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 0)"
           },
           {
             "ConnectionName": "Soiled Den",
@@ -428,96 +436,32 @@
             "Rule": "lambda state: logic.is_area_in_level_range(state, 7)"
           },
           {
-            "ConnectionName": "Yamagawa M.A.",
-            "Rule": "lambda state: logic.is_area_in_level_range(state, 15)"
-          },
-          {
             "ConnectionName": "Seaside Cliffs",
             "Rule": "lambda state: logic.is_area_in_level_range(state, 10)"
           },
           {
-            "ConnectionName": "Mercury Shrine",
-            "Rule": "lambda state: logic.is_area_in_level_range(state, 0)"
+            "ConnectionName": "Greenshire Reprise",
+            "Rule": "lambda state: (logic.has_vertical_movement(state) or logic.has_glide(state) or logic.has_swimming(state)) and logic.is_area_in_level_range(state, 33)"
           },
           {
-            "ConnectionName": "Greenshire Reprise",
-            "Rule": "lambda state: (logic.has_swimming(state) or logic.obscure_routes_on(state)) and logic.is_area_in_level_range(state, 33)"
+            "ConnectionName": "Salmon Pass West",
+            "Rule": "lambda state: (logic.has_swimming(state)) and logic.is_area_in_level_range(state, 0)"
           },
           {
             "ConnectionName": "Salmon Pass East",
             "Rule": "lambda state: (logic.has_swimming(state)) and logic.is_area_in_level_range(state, 0)"
           },
           {
-            "ConnectionName": "Proving Meadows",
-            "Rule": "lambda state: (logic.has_horizontal_movement(state) or logic.has_vertical_movement(state)) and logic.is_area_in_level_range(state, 0)"
-          },
-          {
             "ConnectionName": "Lake Delende",
-            "Rule": "lambda state: (logic.has_vertical_movement(state) or logic.obscure_routes_on(state)) and logic.is_area_in_level_range(state, 40)"
+            "Rule": "lambda state: (logic.has_vertical_movement(state) or logic.has_glide(state)) and logic.is_area_in_level_range(state, 40)"
           }
         ],
         "Locations": [
-          {
-            "LocationId": 263,
-            "LocationName": "Delende Chest - In front of camp",
-            "Rule": null,
-            "Coordinates": "268, 130, -175",
-            "MapLayer": 0
-          },
-          {
-            "LocationId": 210,
-            "LocationName": "Delende Chest - In front of fish hatchery lower level",
-            "Rule": null,
-            "Coordinates": "171, 128, -193",
-            "MapLayer": 0
-          },
-          {
-            "LocationId": 34,
-            "LocationName": "Delende Chest - Return from fish hatchery",
-            "Rule": null,
-            "Coordinates": "207, 128, -156",
-            "MapLayer": 0
-          },
-          {
-            "LocationId": 1554,
-            "LocationName": "Delende Chest - Looking for love in all the high places (glide to the heart tarn)",
-            "Rule": "lambda state: logic.has_swimming(state) and logic.has_glide(state)",
-            "Coordinates": "224, 145, -111",
-            "MapLayer": 0
-          },
-          {
-            "LocationId": 262,
-            "LocationName": "Delende Chest - Mushroom underpass",
-            "Rule": null,
-            "Coordinates": "243, 125, -154",
-            "MapLayer": 0
-          },
           {
             "LocationId": 208,
             "LocationName": "Delende Chest - Fallen log parkour",
             "Rule": null,
             "Coordinates": "214, 128, -49",
-            "MapLayer": 0
-          },
-          {
-            "LocationId": 213,
-            "LocationName": "Delende Chest - Across river",
-            "Rule": null,
-            "Coordinates": "219, 125, -73",
-            "MapLayer": 0
-          },
-          {
-            "LocationId": 43,
-            "LocationName": "Delende Chest - Next to river",
-            "Rule": null,
-            "Coordinates": "340, 124, -175",
-            "MapLayer": 0
-          },
-          {
-            "LocationId": 212,
-            "LocationName": "Delende Chest - Under ambush tree",
-            "Rule": null,
-            "Coordinates": "273, 125, -87",
             "MapLayer": 0
           },
           {
@@ -528,38 +472,10 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 123,
-            "LocationName": "Delende Chest - Across river from fish hatchery",
+            "LocationId": 259,
+            "LocationName": "Delende Chest - Off north path",
             "Rule": null,
-            "Coordinates": "158, 132, -200",
-            "MapLayer": 0
-          },
-          {
-            "LocationId": 33,
-            "LocationName": "Delende Chest - High up west mountainside",
-            "Rule": null,
-            "Coordinates": "153, 132, -50",
-            "MapLayer": 0
-          },
-          {
-            "LocationId": 169,
-            "LocationName": "Delende Chest - Up near hatchery",
-            "Rule": null,
-            "Coordinates": "196, 134, -173",
-            "MapLayer": 0
-          },
-          {
-            "LocationId": 27,
-            "LocationName": "Delende Chest - Outside spooky cave",
-            "Rule": null,
-            "Coordinates": "195, 132, -79",
-            "MapLayer": 0
-          },
-          {
-            "LocationId": 39,
-            "LocationName": "Delende Chest - In fish hatchery",
-            "Rule": null,
-            "Coordinates": "172, 130, -199",
+            "Coordinates": "199, 125, -107",
             "MapLayer": 0
           },
           {
@@ -570,38 +486,17 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 261,
-            "LocationName": "Delende Chest - Under tree",
+            "LocationId": 210,
+            "LocationName": "Delende Chest - In front of fish hatchery lower level",
             "Rule": null,
-            "Coordinates": "217, 125, -162",
+            "Coordinates": "171, 128, -193",
             "MapLayer": 0
           },
           {
-            "LocationId": 73,
-            "LocationName": "Delende Chest - Top of spooky cave",
+            "LocationId": 169,
+            "LocationName": "Delende Chest - Up near hatchery",
             "Rule": null,
-            "Coordinates": "243, 140, -114",
-            "MapLayer": 0
-          },
-          {
-            "LocationId": 451,
-            "LocationName": "Delende Chest - Troll",
-            "Rule": null,
-            "Coordinates": "312, 140, -148",
-            "MapLayer": 0
-          },
-          {
-            "LocationId": 259,
-            "LocationName": "Delende Chest - Off north path",
-            "Rule": null,
-            "Coordinates": "199, 125, -107",
-            "MapLayer": 0
-          },
-          {
-            "LocationId": 216,
-            "LocationName": "Delende Chest - Before Proving Meadows",
-            "Rule": null,
-            "Coordinates": "366, 128, -197",
+            "Coordinates": "196, 134, -173",
             "MapLayer": 0
           },
           {
@@ -612,6 +507,69 @@
             "MapLayer": 0
           },
           {
+            "LocationId": 39,
+            "LocationName": "Delende Chest - In fish hatchery",
+            "Rule": null,
+            "Coordinates": "172, 130, -199",
+            "MapLayer": 0
+          },
+          {
+            "LocationId": 123,
+            "LocationName": "Delende Chest - Across river from fish hatchery",
+            "Rule": null,
+            "Coordinates": "158, 132, -200",
+            "MapLayer": 0
+          },
+          {
+            "LocationId": 34,
+            "LocationName": "Delende Chest - Return from fish hatchery",
+            "Rule": null,
+            "Coordinates": "207, 128, -156",
+            "MapLayer": 0
+          },
+          {
+            "LocationId": 261,
+            "LocationName": "Delende Chest - Under tree",
+            "Rule": null,
+            "Coordinates": "217, 125, -162",
+            "MapLayer": 0
+          },
+          {
+            "LocationId": 262,
+            "LocationName": "Delende Chest - Mushroom underpass",
+            "Rule": null,
+            "Coordinates": "243, 125, -154",
+            "MapLayer": 0
+          },
+          {
+            "LocationId": 263,
+            "LocationName": "Delende Chest - In front of camp",
+            "Rule": null,
+            "Coordinates": "268, 130, -175",
+            "MapLayer": 0
+          },
+          {
+            "LocationId": 212,
+            "LocationName": "Delende Chest - Under ambush tree",
+            "Rule": null,
+            "Coordinates": "273, 125, -87",
+            "MapLayer": 0
+          },
+          {
+            "LocationId": 27,
+            "LocationName": "Delende Chest - Outside spooky cave",
+            "Rule": null,
+            "Coordinates": "195, 132, -79",
+            "MapLayer": 0
+          },
+          {
+            "LocationId": 213,
+            "LocationName": "Delende Chest - Across river",
+            "Rule": null,
+            "Coordinates": "219, 125, -73",
+            "MapLayer": 0
+          },
+          {
             "LocationId": 28,
             "LocationName": "Delende NPC - Astley gives you a home point stone",
             "Rule": null,
@@ -619,10 +577,24 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 1915,
-            "LocationName": "Delende NPC - Dog Bone in spooky cave",
+            "LocationId": 124,
+            "LocationName": "Delende NPC - Not-at-all shady guy",
             "Rule": null,
-            "Coordinates": "210, 125, -105",
+            "Coordinates": "181, 132, -200",
+            "MapLayer": 0
+          },
+          {
+            "LocationId": 121,
+            "LocationName": "Delende NPC - Fish at the hatchery",
+            "Rule": "lambda state: state.has(\"Item - Flimsy Rod\", player) and state.has(\"Item - Plug Lure\", player)",
+            "Coordinates": "166, 133, -208",
+            "MapLayer": 0
+          },
+          {
+            "LocationId": 831,
+            "LocationName": "Delende NPC - Dizzy noob chucks something at your face",
+            "Rule": null,
+            "Coordinates": "276, 116, -204",
             "MapLayer": 0
           },
           {
@@ -640,17 +612,10 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 831,
-            "LocationName": "Delende NPC - Dizzy noob chucks something at your face",
+            "LocationId": 1915,
+            "LocationName": "Delende NPC - Dog Bone in spooky cave",
             "Rule": null,
-            "Coordinates": "276, 116, -204",
-            "MapLayer": 0
-          },
-          {
-            "LocationId": 124,
-            "LocationName": "Delende NPC - Not-at-all shady guy",
-            "Rule": null,
-            "Coordinates": "181, 132, -200",
+            "Coordinates": "210, 125, -105",
             "MapLayer": 0
           },
           {
@@ -658,62 +623,6 @@
             "LocationName": "Delende NPC - Cartographer",
             "Rule": null,
             "Coordinates": "198, 131, -74",
-            "MapLayer": 0
-          },
-          {
-            "LocationId": 121,
-            "LocationName": "Delende NPC - Fish at the hatchery",
-            "Rule": "lambda state: state.has(\"Item - Flimsy Rod\", player) and state.has(\"Item - Plug Lure\", player)",
-            "Coordinates": "166, 133, -208",
-            "MapLayer": 0
-          },
-          {
-            "LocationId": 87,
-            "LocationName": "Delende Chest - Gran's House 1",
-            "Rule": null,
-            "Coordinates": "126, 128, -58",
-            "MapLayer": 0
-          },
-          {
-            "LocationId": 100,
-            "LocationName": "Delende Chest - Gran's House 2",
-            "Rule": null,
-            "Coordinates": "127, 128, -58",
-            "MapLayer": 0
-          },
-          {
-            "LocationId": 177,
-            "LocationName": "Delende Chest - Gran's House 3",
-            "Rule": null,
-            "Coordinates": "137, 128, -57",
-            "MapLayer": 0
-          },
-          {
-            "LocationId": 178,
-            "LocationName": "Delende Chest - Gran's House 4",
-            "Rule": null,
-            "Coordinates": "137, 128, -56",
-            "MapLayer": 0
-          },
-          {
-            "LocationId": 179,
-            "LocationName": "Basement Chest - Gran...?",
-            "Rule": null,
-            "Coordinates": "136, 124, -56",
-            "MapLayer": 1
-          },
-          {
-            "LocationId": 180,
-            "LocationName": "Basement Chest - Gran......?",
-            "Rule": null,
-            "Coordinates": "126, 124, -56",
-            "MapLayer": 1
-          },
-          {
-            "LocationId": 153,
-            "LocationName": "Delende Boss - Troll",
-            "Rule": "lambda state: logic.is_area_in_level_range(state, 50)",
-            "Coordinates": "313, 140, -142",
             "MapLayer": 0
           },
           {
@@ -958,10 +867,156 @@
         "TeleportLocationString": "173,132,-194"
       },
       {
-        "Name": "Gran",
+        "Name": "Atop Fish Hatchery",
         "Connections": [
           {
             "ConnectionName": "Delende",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 5)"
+          },
+          {
+            "ConnectionName": "Greenshire Reprise",
+            "Rule": "lambda state: (logic.obscure_routes_on(state)) and logic.is_area_in_level_range(state, 33)"
+          }
+        ],
+        "Locations": [],
+        "TeleportLocationString": null
+      },
+      {
+        "Name": "Delende High Bridges",
+        "Connections": [
+          {
+            "ConnectionName": "Delende",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 5)"
+          },
+          {
+            "ConnectionName": "Gran",
+            "Rule": "lambda state: (logic.can_fight_gran(state)) and logic.is_area_in_level_range(state, 5)"
+          },
+          {
+            "ConnectionName": "Below Gran",
+            "Rule": "lambda state: (logic.obscure_routes_on(state)) and logic.is_area_in_level_range(state, 5)"
+          },
+          {
+            "ConnectionName": "Delende Mesa Over Spooky Cave",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 5)"
+          },
+          {
+            "ConnectionName": "Delende Peak",
+            "Rule": "lambda state: (logic.has_vertical_movement(state)) and logic.is_area_in_level_range(state, 5)"
+          },
+          {
+            "ConnectionName": "Heart Tarn",
+            "Rule": "lambda state: (logic.has_vertical_movement(state) and logic.has_glide(state)) and logic.is_area_in_level_range(state, 5)"
+          },
+          {
+            "ConnectionName": "Yamagawa M.A.",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 15)"
+          },
+          {
+            "ConnectionName": "Fencer's Keep Chest",
+            "Rule": "lambda state: (logic.has_vertical_movement(state) or logic.has_glide(state)) and logic.is_area_in_level_range(state, 15)"
+          },
+          {
+            "ConnectionName": "The Pale Grotto",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 7)"
+          },
+          {
+            "ConnectionName": "Seaside Cliffs",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 10)"
+          },
+          {
+            "ConnectionName": "Cliff Over Seaside Camp",
+            "Rule": "lambda state: (logic.obscure_routes_on(state)) and logic.is_area_in_level_range(state, 10)"
+          },
+          {
+            "ConnectionName": "Proving Meadows",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 0)"
+          },
+          {
+            "ConnectionName": "Capital Moat",
+            "Rule": "lambda state: (logic.has_swimming(state)) and logic.is_area_in_level_range(state, 0)"
+          },
+          {
+            "ConnectionName": "Greenshire Reprise",
+            "Rule": "lambda state: (logic.has_swimming(state)) and logic.is_area_in_level_range(state, 33)"
+          },
+          {
+            "ConnectionName": "Lake Delende",
+            "Rule": "lambda state: (logic.obscure_routes_on(state)) and logic.is_area_in_level_range(state, 40)"
+          }
+        ],
+        "Locations": [
+          {
+            "LocationId": 43,
+            "LocationName": "Delende Chest - Hollow riverbank",
+            "Rule": null,
+            "Coordinates": "340, 124, -175",
+            "MapLayer": 0
+          },
+          {
+            "LocationId": 216,
+            "LocationName": "Delende Chest - Before Proving Meadows",
+            "Rule": null,
+            "Coordinates": "366, 128, -197",
+            "MapLayer": 0
+          },
+          {
+            "LocationId": 33,
+            "LocationName": "Delende Chest - High up west mountainside",
+            "Rule": null,
+            "Coordinates": "153, 132, -50",
+            "MapLayer": 0
+          },
+          {
+            "LocationId": 87,
+            "LocationName": "Delende Chest - Gran's House 1",
+            "Rule": null,
+            "Coordinates": "126, 128, -58",
+            "MapLayer": 0
+          },
+          {
+            "LocationId": 100,
+            "LocationName": "Delende Chest - Gran's House 2",
+            "Rule": null,
+            "Coordinates": "127, 128, -58",
+            "MapLayer": 0
+          },
+          {
+            "LocationId": 177,
+            "LocationName": "Delende Chest - Gran's House 3",
+            "Rule": null,
+            "Coordinates": "137, 128, -57",
+            "MapLayer": 0
+          },
+          {
+            "LocationId": 178,
+            "LocationName": "Delende Chest - Gran's House 4",
+            "Rule": null,
+            "Coordinates": "137, 128, -56",
+            "MapLayer": 0
+          },
+          {
+            "LocationId": 179,
+            "LocationName": "Basement Chest - Gran...?",
+            "Rule": null,
+            "Coordinates": "136, 124, -56",
+            "MapLayer": 1
+          },
+          {
+            "LocationId": 180,
+            "LocationName": "Basement Chest - Gran......?",
+            "Rule": null,
+            "Coordinates": "126, 124, -56",
+            "MapLayer": 1
+          }
+        ],
+        "TeleportLocationString": null
+      },
+      {
+        "Name": "Gran",
+        "Connections": [
+          {
+            "ConnectionName": "Delende High Bridges",
             "Rule": "lambda state: logic.is_area_in_level_range(state, 5)"
           },
           {
@@ -1024,6 +1079,90 @@
             "Rule": null,
             "Coordinates": "119, 98, -110",
             "MapLayer": 1
+          }
+        ],
+        "TeleportLocationString": null
+      },
+      {
+        "Name": "Delende Mesa Over Spooky Cave",
+        "Connections": [
+          {
+            "ConnectionName": "Delende",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 5)"
+          },
+          {
+            "ConnectionName": "Delende High Bridges",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 5)"
+          }
+        ],
+        "Locations": [
+          {
+            "LocationId": 73,
+            "LocationName": "Delende Chest - Top of spooky cave",
+            "Rule": null,
+            "Coordinates": "243, 140, -114",
+            "MapLayer": 0
+          }
+        ],
+        "TeleportLocationString": null
+      },
+      {
+        "Name": "Heart Tarn",
+        "Connections": [
+          {
+            "ConnectionName": "Delende Mesa Over Spooky Cave",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 5)"
+          },
+          {
+            "ConnectionName": "Delende Peak",
+            "Rule": "lambda state: (logic.has_glide(state)) and logic.is_area_in_level_range(state, 5)"
+          },
+          {
+            "ConnectionName": "Greenshire Reprise",
+            "Rule": "lambda state: (logic.has_glide(state)) and logic.is_area_in_level_range(state, 33)"
+          }
+        ],
+        "Locations": [
+          {
+            "LocationId": 1554,
+            "LocationName": "Delende Chest - Looking for love in all the high places (glide to the heart tarn)",
+            "Rule": "lambda state: logic.has_swimming(state)",
+            "Coordinates": "224, 145, -111",
+            "MapLayer": 0
+          }
+        ],
+        "TeleportLocationString": null
+      },
+      {
+        "Name": "Delende Peak",
+        "Connections": [
+          {
+            "ConnectionName": "Delende High Bridges",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 5)"
+          },
+          {
+            "ConnectionName": "Seaside Cliffs",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 10)"
+          },
+          {
+            "ConnectionName": "Cliff Over Seaside Camp",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 10)"
+          }
+        ],
+        "Locations": [
+          {
+            "LocationId": 451,
+            "LocationName": "Delende Chest - Troll",
+            "Rule": null,
+            "Coordinates": "312, 140, -148",
+            "MapLayer": 0
+          },
+          {
+            "LocationId": 153,
+            "LocationName": "Delende Boss - Troll",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 50)",
+            "Coordinates": "313, 140, -142",
+            "MapLayer": 0
           }
         ],
         "TeleportLocationString": null
@@ -1145,7 +1284,7 @@
             "MapLayer": -1
           }
         ],
-        "TeleportLocationString": "276,120,-128"
+        "TeleportLocationString": "269,118,-139"
       },
       {
         "Name": "Huntie the Bangler's Seaside Cavern",
@@ -1202,6 +1341,10 @@
             "Rule": "lambda state: logic.is_area_in_level_range(state, 5)"
           },
           {
+            "ConnectionName": "Delende High Bridges",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 5)"
+          },
+          {
             "ConnectionName": "Soiled Den",
             "Rule": "lambda state: (logic.has_swimming(state)) and logic.is_area_in_level_range(state, 7)"
           },
@@ -1254,14 +1397,14 @@
           {
             "LocationId": 3622,
             "LocationName": "The Pale Grotto Chest - Island 1",
-            "Rule": "lambda state: logic.has_swimming(state)",
+            "Rule": "lambda state: logic.has_swimming(state) or logic.has_glide(state)",
             "Coordinates": "214, 114, -292",
             "MapLayer": 1
           },
           {
             "LocationId": 3077,
             "LocationName": "The Pale Grotto Chest - Island 2",
-            "Rule": "lambda state: logic.has_swimming(state)",
+            "Rule": "lambda state: logic.has_swimming(state) or logic.has_glide(state)",
             "Coordinates": "209, 116, -290",
             "MapLayer": 1
           },
@@ -1348,8 +1491,24 @@
         "Name": "Seaside Cliffs",
         "Connections": [
           {
+            "ConnectionName": "Cliff Over Seaside Camp",
+            "Rule": "lambda state: (logic.has_vertical_movement(state)) and logic.is_area_in_level_range(state, 10)"
+          },
+          {
             "ConnectionName": "Delende",
             "Rule": "lambda state: logic.is_area_in_level_range(state, 5)"
+          },
+          {
+            "ConnectionName": "Delende High Bridges",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 5)"
+          },
+          {
+            "ConnectionName": "Delende Peak",
+            "Rule": "lambda state: (logic.has_horizontal_movement(state) or logic.has_vertical_movement(state)) and logic.is_area_in_level_range(state, 5)"
+          },
+          {
+            "ConnectionName": "Mercury Shrine",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 0)"
           },
           {
             "ConnectionName": "Huntie the Bangler's Seaside Cavern",
@@ -1362,10 +1521,6 @@
           {
             "ConnectionName": "The Open Sea",
             "Rule": "lambda state: (logic.has_swimming(state)) and logic.is_area_in_level_range(state, 54)"
-          },
-          {
-            "ConnectionName": "Mercury Shrine",
-            "Rule": "lambda state: (logic.has_vertical_movement(state)) and logic.is_area_in_level_range(state, 0)"
           },
           {
             "ConnectionName": "Beaurior Volcano",
@@ -1669,6 +1824,25 @@
           }
         ],
         "TeleportLocationString": "308,119,-63"
+      },
+      {
+        "Name": "Cliff Over Seaside Camp",
+        "Connections": [
+          {
+            "ConnectionName": "Seaside Cliffs",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 10)"
+          },
+          {
+            "ConnectionName": "Delende High Bridges",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 5)"
+          },
+          {
+            "ConnectionName": "Delende Peak",
+            "Rule": "lambda state: (logic.obscure_routes_on(state)) and logic.is_area_in_level_range(state, 5)"
+          }
+        ],
+        "Locations": [],
+        "TeleportLocationString": null
       }
     ]
   },
@@ -1737,16 +1911,44 @@
         "Name": "Yamagawa M.A.",
         "Connections": [
           {
+            "ConnectionName": "Fencer's Keep Chest",
+            "Rule": "lambda state: (logic.obscure_routes_on(state) or logic.has_vertical_movement(state)) and logic.is_area_in_level_range(state, 15)"
+          },
+          {
             "ConnectionName": "Spawning Meadows",
             "Rule": "lambda state: logic.is_area_in_level_range(state, 3)"
           },
           {
-            "ConnectionName": "Delende",
+            "ConnectionName": "Delende High Bridges",
             "Rule": "lambda state: logic.is_area_in_level_range(state, 5)"
+          },
+          {
+            "ConnectionName": "Heart Tarn",
+            "Rule": "lambda state: ((logic.obscure_routes_on(state) or logic.has_vertical_movement(state)) and logic.has_glide(state)) and logic.is_area_in_level_range(state, 5)"
           },
           {
             "ConnectionName": "Lake Delende",
             "Rule": "lambda state: (logic.has_vertical_movement(state) or logic.obscure_routes_on(state)) and logic.is_area_in_level_range(state, 40)"
+          },
+          {
+            "ConnectionName": "Atop Salmon River Dam",
+            "Rule": "lambda state: (logic.has_glide(state) and logic.obscure_routes_on(state)) and logic.is_area_in_level_range(state, 40)"
+          },
+          {
+            "ConnectionName": "South Salmon River",
+            "Rule": "lambda state: (logic.has_glide(state) and logic.obscure_routes_on(state)) and logic.is_area_in_level_range(state, 26)"
+          },
+          {
+            "ConnectionName": "Salmon River Mouth",
+            "Rule": "lambda state: (logic.has_glide(state) and logic.obscure_routes_on(state)) and logic.is_area_in_level_range(state, 0)"
+          },
+          {
+            "ConnectionName": "Tower of Zot",
+            "Rule": "lambda state: (logic.has_glide(state) and logic.obscure_routes_on(state)) and logic.is_area_in_level_range(state, 30)"
+          },
+          {
+            "ConnectionName": "Poko Poko Lake Delende Mountain Pass",
+            "Rule": "lambda state: (logic.has_glide(state) and logic.obscure_routes_on(state)) and logic.is_area_in_level_range(state, 30)"
           }
         ],
         "Locations": [
@@ -1793,13 +1995,6 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 3537,
-            "LocationName": "Overpass Chest - Hop over from Yamagawa to dead tree by Fencers Keep",
-            "Rule": null,
-            "Coordinates": "148, 151, -114",
-            "MapLayer": 0
-          },
-          {
             "LocationId": 628,
             "LocationName": "Yamagawa M.A. NPC - Hidden inside waterfall source",
             "Rule": "lambda state: logic.has_swimming(state)",
@@ -1829,6 +2024,29 @@
           }
         ],
         "TeleportLocationString": "66,183,-95"
+      },
+      {
+        "Name": "Fencer's Keep Chest",
+        "Connections": [
+          {
+            "ConnectionName": "Yamagawa M.A.",
+            "Rule": "lambda state: (logic.has_vertical_movement(state)) and logic.is_area_in_level_range(state, 15)"
+          },
+          {
+            "ConnectionName": "Delende High Bridges",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 5)"
+          }
+        ],
+        "Locations": [
+          {
+            "LocationId": 3537,
+            "LocationName": "Overpass Chest - Hop over from Yamagawa to dead tree by Fencers Keep",
+            "Rule": null,
+            "Coordinates": "148, 151, -114",
+            "MapLayer": 0
+          }
+        ],
+        "TeleportLocationString": null
       }
     ]
   },
@@ -1840,7 +2058,7 @@
         "Name": "Proving Meadows",
         "Connections": [
           {
-            "ConnectionName": "Delende",
+            "ConnectionName": "Delende High Bridges",
             "Rule": "lambda state: logic.is_area_in_level_range(state, 5)"
           },
           {
@@ -1850,6 +2068,18 @@
           {
             "ConnectionName": "Proving Meadows Skumparadise Connector",
             "Rule": "lambda state: logic.is_area_in_level_range(state, 0)"
+          },
+          {
+            "ConnectionName": "Capital Sequoia",
+            "Rule": "lambda state: (logic.has_glide(state)) and logic.is_area_in_level_range(state, 0)"
+          },
+          {
+            "ConnectionName": "Capital Moat",
+            "Rule": "lambda state: (logic.has_swimming(state)) and logic.is_area_in_level_range(state, 0)"
+          },
+          {
+            "ConnectionName": "Cobblestone Crag",
+            "Rule": "lambda state: (logic.has_swimming(state)) and logic.is_area_in_level_range(state, 0)"
           },
           {
             "ConnectionName": "The Open Sea",
@@ -2292,8 +2522,24 @@
         "Name": "Capital Sequoia",
         "Connections": [
           {
+            "ConnectionName": "Capital Moat Shallows",
+            "Rule": "lambda state: (logic.has_key(state, \"Item - Courtyard Key\") or (logic.has_rental_quintar(state, \"Rolling Quintar Fields\") and logic.obscure_routes_on(state)) or logic.has_horizontal_movement(state) or logic.has_vertical_movement(state)) and logic.is_area_in_level_range(state, 0)"
+          },
+          {
+            "ConnectionName": "Capital Moat",
+            "Rule": "lambda state: ((logic.has_jobs(state, 5) or state.has(\"Item - Gaea Stone\", player) or (logic.obscure_routes_on(state) and logic.has_rental_quintar(state, \"Rolling Quintar Fields\")) or logic.has_horizontal_movement(state) or logic.has_vertical_movement(state)) and logic.has_swimming(state)) and logic.is_area_in_level_range(state, 0)"
+          },
+          {
+            "ConnectionName": "Beatsmith Disco",
+            "Rule": "lambda state: (logic.has_vertical_movement(state)) and logic.is_area_in_level_range(state, 0)"
+          },
+          {
             "ConnectionName": "Proving Meadows",
             "Rule": "lambda state: logic.is_area_in_level_range(state, 0)"
+          },
+          {
+            "ConnectionName": "Skumparadise",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 15)"
           },
           {
             "ConnectionName": "Jojo Sewers Main (lol)",
@@ -2309,11 +2555,11 @@
           },
           {
             "ConnectionName": "Cobblestone Crag",
-            "Rule": "lambda state: (logic.has_key(state, \"Item - Courtyard Key\") or logic.has_rental_quintar(state, \"Rolling Quintar Fields\")) and logic.is_area_in_level_range(state, 0)"
+            "Rule": "lambda state: (logic.has_key(state, \"Item - Courtyard Key\") or logic.has_rental_quintar(state, \"Rolling Quintar Fields\") or logic.has_vertical_movement(state)) and logic.is_area_in_level_range(state, 0)"
           },
           {
             "ConnectionName": "Greenshire Reprise",
-            "Rule": "lambda state: (logic.has_jobs(state, 5)) and logic.is_area_in_level_range(state, 33)"
+            "Rule": "lambda state: (logic.has_jobs(state, 5) or state.has(\"Item - Gaea Stone\", player) or (logic.obscure_routes_on(state) and logic.has_rental_quintar(state, \"Rolling Quintar Fields\")) or logic.has_horizontal_movement(state) or logic.has_vertical_movement(state)) and logic.is_area_in_level_range(state, 33)"
           },
           {
             "ConnectionName": "Rampart Atop Portcullis",
@@ -2322,20 +2568,9 @@
           {
             "ConnectionName": "Castle Sequoia",
             "Rule": "lambda state: (logic.has_vertical_movement(state) or logic.has_glide(state)) and logic.is_area_in_level_range(state, 56)"
-          },
-          {
-            "ConnectionName": "Skumparadise",
-            "Rule": "lambda state: logic.is_area_in_level_range(state, 15)"
           }
         ],
         "Locations": [
-          {
-            "LocationId": 2671,
-            "LocationName": "Capital Sequoia Chest - Beyond the courtyard wall",
-            "Rule": null,
-            "Coordinates": "369, 148, -217",
-            "MapLayer": 0
-          },
           {
             "LocationId": 1388,
             "LocationName": "Capital Sequoia Chest - Inn room",
@@ -2450,8 +2685,8 @@
           },
           {
             "LocationId": 1391,
-            "LocationName": "Capital Sequoia Chest - Clerics Lounge",
-            "Rule": "lambda state: logic.has_vertical_movement(state) or logic.has_horizontal_movement(state) or state.has(\"Item - Gaea Stone\", player)",
+            "LocationName": "Capital Sequoia Chest - Cleric's Lounge",
+            "Rule": "lambda state: state.has(\"Item - Gaea Stone\", player) or (logic.has_rental_quintar(state, \"Rolling Quintar Fields\") and logic.obscure_routes_on(state)) or logic.has_horizontal_movement(state) or logic.has_vertical_movement(state)",
             "Coordinates": "357, 166, -264",
             "MapLayer": 0
           },
@@ -2464,14 +2699,14 @@
           },
           {
             "LocationId": 2732,
-            "LocationName": "Capital Sequoia Chest - Master Warlocks chambers atop Weapons R Us",
-            "Rule": "lambda state: logic.has_vertical_movement(state)",
+            "LocationName": "Capital Sequoia Chest - Master Warlock's chambers atop Weapons R Us",
+            "Rule": "lambda state: logic.has_vertical_movement(state) or logic.has_glide(state)",
             "Coordinates": "403, 171, -267",
             "MapLayer": 0
           },
           {
             "LocationId": 168,
-            "LocationName": "Capital Sequoia Chest - Master Wizards Library atop Weapons R Us",
+            "LocationName": "Capital Sequoia Chest - Master Wizard's Library atop Weapons R Us",
             "Rule": null,
             "Coordinates": "388, 168, -265",
             "MapLayer": 0
@@ -2534,21 +2769,21 @@
           },
           {
             "LocationId": 2652,
-            "LocationName": "Capital Sequoia Chest - Gardeners Shed 1",
+            "LocationName": "Capital Sequoia Chest - Gardener's Shed 1",
             "Rule": "lambda state: logic.has_key(state, \"Item - Gardeners Key\")",
             "Coordinates": "426, 178, -348",
             "MapLayer": 0
           },
           {
             "LocationId": 2663,
-            "LocationName": "Capital Sequoia Chest - Gardeners Shed 2",
+            "LocationName": "Capital Sequoia Chest - Gardener's Shed 2",
             "Rule": "lambda state: logic.has_key(state, \"Item - Gardeners Key\")",
             "Coordinates": "430, 178, -349",
             "MapLayer": 0
           },
           {
             "LocationId": 2664,
-            "LocationName": "Capital Sequoia Chest - Gardeners Shed 3",
+            "LocationName": "Capital Sequoia Chest - Gardener's Shed 3",
             "Rule": "lambda state: logic.has_key(state, \"Item - Gardeners Key\")",
             "Coordinates": "428, 178, -349",
             "MapLayer": 0
@@ -2584,7 +2819,7 @@
           {
             "LocationId": 1661,
             "LocationName": "Capital Sequoia NPC - Courtyard Chloe",
-            "Rule": "lambda state: logic.has_vertical_movement(state) or logic.has_horizontal_movement(state)",
+            "Rule": "lambda state: (logic.has_rental_quintar(state, \"Rolling Quintar Fields\") and logic.obscure_routes_on(state)) or logic.has_horizontal_movement(state) or logic.has_vertical_movement(state)",
             "Coordinates": "399, 155, -219",
             "MapLayer": 0
           },
@@ -2674,8 +2909,8 @@
           },
           {
             "LocationId": 564,
-            "LocationName": "Capital Sequoia NPC - Lost Penguin trampling Clerics flowers",
-            "Rule": "lambda state: logic.has_vertical_movement(state) or logic.has_horizontal_movement(state) or state.has(\"Item - Gaea Stone\", player)",
+            "LocationName": "Capital Sequoia NPC - Lost Penguin trampling Cleric's flowers",
+            "Rule": "lambda state: state.has(\"Item - Gaea Stone\", player) or (logic.has_rental_quintar(state, \"Rolling Quintar Fields\") and logic.obscure_routes_on(state)) or logic.has_horizontal_movement(state) or logic.has_vertical_movement(state)",
             "Coordinates": "363, 168, -267",
             "MapLayer": 0
           },
@@ -2729,13 +2964,6 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 1087,
-            "LocationName": "Capital Sequoia Crystal - Beatsmith",
-            "Rule": "lambda state: logic.has_vertical_movement(state)",
-            "Coordinates": "361, 170, -266",
-            "MapLayer": 0
-          },
-          {
             "LocationId": 1109,
             "LocationName": "Capital Sequoia Boss - Niltsi Summon",
             "Rule": "lambda state: state.has(\"Job - Summoner\", player) and logic.is_area_in_level_range(state, 54)",
@@ -2747,13 +2975,6 @@
             "LocationName": "Capital Sequoia Boss - Defeat L60 dummy and it shall appear...!",
             "Rule": "lambda state: logic.is_area_in_level_range(state, 60)",
             "Coordinates": "374, 171, -297",
-            "MapLayer": 0
-          },
-          {
-            "LocationId": 458,
-            "LocationName": "Capital Sequoia Boss - Enami",
-            "Rule": "lambda state: (logic.has_key(state, \"Item - Courtyard Key\") or logic.has_rental_quintar(state, \"Rolling Quintar Fields\") or logic.has_horizontal_movement(state)) and logic.is_area_in_level_range(state, 58)",
-            "Coordinates": "379, 144, -235",
             "MapLayer": 0
           },
           {
@@ -3703,6 +3924,98 @@
           }
         ],
         "TeleportLocationString": "409,169,-286"
+      },
+      {
+        "Name": "Capital Moat Shallows",
+        "Connections": [
+          {
+            "ConnectionName": "Capital Sequoia",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 0)"
+          },
+          {
+            "ConnectionName": "Capital Moat",
+            "Rule": "lambda state: (logic.has_swimming(state)) and logic.is_area_in_level_range(state, 0)"
+          },
+          {
+            "ConnectionName": "Delende High Bridges",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 5)"
+          },
+          {
+            "ConnectionName": "Jojo Sewers Main (lol)",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 20)"
+          },
+          {
+            "ConnectionName": "Cobblestone Crag",
+            "Rule": "lambda state: (logic.has_vertical_movement(state) or logic.has_glide(state)) and logic.is_area_in_level_range(state, 0)"
+          }
+        ],
+        "Locations": [
+          {
+            "LocationId": 2671,
+            "LocationName": "Capital Sequoia Chest - Beyond the courtyard wall",
+            "Rule": null,
+            "Coordinates": "369, 148, -217",
+            "MapLayer": 0
+          },
+          {
+            "LocationId": 458,
+            "LocationName": "Capital Sequoia Boss - Enami",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 58)",
+            "Coordinates": "379, 144, -235",
+            "MapLayer": 0
+          }
+        ],
+        "TeleportLocationString": null
+      },
+      {
+        "Name": "Capital Moat",
+        "Connections": [
+          {
+            "ConnectionName": "Capital Moat Shallows",
+            "Rule": "lambda state: (logic.has_swimming(state)) and logic.is_area_in_level_range(state, 0)"
+          },
+          {
+            "ConnectionName": "Delende High Bridges",
+            "Rule": "lambda state: (logic.has_swimming(state)) and logic.is_area_in_level_range(state, 5)"
+          },
+          {
+            "ConnectionName": "Jojo Sewers Main (lol)",
+            "Rule": "lambda state: (logic.has_swimming(state)) and logic.is_area_in_level_range(state, 20)"
+          },
+          {
+            "ConnectionName": "Cobblestone Crag",
+            "Rule": "lambda state: (logic.has_swimming(state)) and logic.is_area_in_level_range(state, 0)"
+          },
+          {
+            "ConnectionName": "Greenshire Reprise",
+            "Rule": "lambda state: (logic.has_swimming(state)) and logic.is_area_in_level_range(state, 33)"
+          },
+          {
+            "ConnectionName": "The Open Sea",
+            "Rule": "lambda state: (logic.has_swimming(state)) and logic.is_area_in_level_range(state, 54)"
+          }
+        ],
+        "Locations": [],
+        "TeleportLocationString": null
+      },
+      {
+        "Name": "Beatsmith Disco",
+        "Connections": [
+          {
+            "ConnectionName": "Capital Sequoia",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 0)"
+          }
+        ],
+        "Locations": [
+          {
+            "LocationId": 1087,
+            "LocationName": "Capital Sequoia Crystal - Beatsmith",
+            "Rule": null,
+            "Coordinates": "361, 170, -266",
+            "MapLayer": 0
+          }
+        ],
+        "TeleportLocationString": null
       }
     ]
   },
@@ -3716,6 +4029,14 @@
           {
             "ConnectionName": "Capital Sequoia",
             "Rule": "lambda state: logic.is_area_in_level_range(state, 0)"
+          },
+          {
+            "ConnectionName": "Capital Moat Shallows",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 0)"
+          },
+          {
+            "ConnectionName": "Capital Moat",
+            "Rule": "lambda state: (logic.has_swimming(state)) and logic.is_area_in_level_range(state, 0)"
           },
           {
             "ConnectionName": "Sewers Secret Password",
@@ -3796,11 +4117,11 @@
         "Connections": [
           {
             "ConnectionName": "Jojo Sewers Main (lol)",
-            "Rule": "lambda state: (state.has(\"Item - Jojo Sewers Pass\", player) or logic.options.regionsanity.value == logic.options.regionsanity.option_disabled) and logic.is_area_in_level_range(state, 20)"
+            "Rule": "lambda state: (state.has(\"Item - Jojo Sewers Pass\", player) or options.regionsanity.value == options.regionsanity.option_disabled) and logic.is_area_in_level_range(state, 20)"
           },
           {
             "ConnectionName": "Sewers to Boomer Society",
-            "Rule": "lambda state: (state.has(\"Item - Jojo Sewers Pass\", player) or logic.options.regionsanity.value == logic.options.regionsanity.option_disabled) and logic.is_area_in_level_range(state, 20)"
+            "Rule": "lambda state: (state.has(\"Item - Jojo Sewers Pass\", player) or options.regionsanity.value == options.regionsanity.option_disabled) and logic.is_area_in_level_range(state, 20)"
           }
         ],
         "Locations": [],
@@ -3859,6 +4180,10 @@
           {
             "ConnectionName": "Capital Sequoia",
             "Rule": "lambda state: logic.is_area_in_level_range(state, 0)"
+          },
+          {
+            "ConnectionName": "Beatsmith Disco",
+            "Rule": "lambda state: (logic.has_glide(state) and logic.obscure_routes_on(state)) and logic.is_area_in_level_range(state, 0)"
           },
           {
             "ConnectionName": "Sewers to Boomer Society",
@@ -3922,6 +4247,14 @@
         "Name": "Rolling Quintar Fields",
         "Connections": [
           {
+            "ConnectionName": "Rolling Treetop Highway",
+            "Rule": "lambda state: (logic.has_rental_quintar(state, \"Rolling Quintar Fields\") or logic.has_vertical_movement(state)) and logic.is_area_in_level_range(state, 18)"
+          },
+          {
+            "ConnectionName": "Quintar Sanctum Entrance",
+            "Rule": "lambda state: (logic.obscure_routes_on(state)) and logic.is_area_in_level_range(state, 18)"
+          },
+          {
             "ConnectionName": "Capital Sequoia",
             "Rule": "lambda state: logic.is_area_in_level_range(state, 0)"
           },
@@ -3930,8 +4263,8 @@
             "Rule": "lambda state: logic.is_area_in_level_range(state, 18)"
           },
           {
-            "ConnectionName": "Quintar Sanctum",
-            "Rule": "lambda state: ((logic.has_rental_quintar(state, \"Rolling Quintar Fields\") or logic.has_vertical_movement(state))) and logic.is_area_in_level_range(state, 21)"
+            "ConnectionName": "Okimoto N.S.",
+            "Rule": "lambda state: (logic.has_vertical_movement(state)) and logic.is_area_in_level_range(state, 27)"
           },
           {
             "ConnectionName": "Quintar Reserve",
@@ -3989,36 +4322,8 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 338,
-            "LocationName": "Rolling Quintar Fields Chest - West of and above sneaky chest",
-            "Rule": "lambda state: logic.has_rental_quintar(state, \"Rolling Quintar Fields\") or logic.has_horizontal_movement(state)",
-            "Coordinates": "530, 177, -362",
-            "MapLayer": 0
-          },
-          {
-            "LocationId": 471,
-            "LocationName": "Rolling Quintar Fields Chest - Pinnacle by short and tall box friends",
-            "Rule": "lambda state: logic.has_rental_quintar(state, \"Rolling Quintar Fields\") or logic.has_horizontal_movement(state)",
-            "Coordinates": "567, 179, -370",
-            "MapLayer": 0
-          },
-          {
-            "LocationId": 365,
-            "LocationName": "Rolling Quintar Fields Chest - Treetop west of Quintar Sanctum",
-            "Rule": "lambda state: logic.has_rental_quintar(state, \"Rolling Quintar Fields\") or logic.has_horizontal_movement(state)",
-            "Coordinates": "544, 181, -386",
-            "MapLayer": 0
-          },
-          {
-            "LocationId": 3532,
-            "LocationName": "Overpass Chest - Climb the mountain west of Quintar Sanctum entrance",
-            "Rule": "lambda state: logic.has_horizontal_movement(state)",
-            "Coordinates": "501, 186, -378",
-            "MapLayer": 0
-          },
-          {
             "LocationId": 375,
-            "LocationName": "Rolling Quintar Fields NPC - Quintar Stable Owner by Capital Sequoias eastern gate",
+            "LocationName": "Rolling Quintar Fields NPC - Quintar Stable Owner by Capital Sequoia's eastern gate",
             "Rule": "lambda state: logic.has_jobs(state, 7)",
             "Coordinates": "462, 169, -293",
             "MapLayer": 0
@@ -4045,13 +4350,6 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 323,
-            "LocationName": "Rolling Quintar Fields NPC - Silver behind Quintar Nest befriending a stack of boxes",
-            "Rule": "lambda state: logic.has_rental_quintar(state, \"Rolling Quintar Fields\") or logic.has_horizontal_movement(state)",
-            "Coordinates": "510, 175, -319",
-            "MapLayer": 0
-          },
-          {
             "LocationId": 6014,
             "LocationName": "Rolling Quintar Fields Region Completion",
             "Rule": "regionsanity=True",
@@ -4060,6 +4358,113 @@
           }
         ],
         "TeleportLocationString": "467,169,-287"
+      },
+      {
+        "Name": "Rolling Treetop Highway",
+        "Connections": [
+          {
+            "ConnectionName": "Rolling Quintar Fields",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 18)"
+          },
+          {
+            "ConnectionName": "Quintar Sanctum Entrance",
+            "Rule": "lambda state: ((logic.has_rental_quintar(state, \"Rolling Quintar Fields\") or logic.has_vertical_movement(state))) and logic.is_area_in_level_range(state, 18)"
+          }
+        ],
+        "Locations": [
+          {
+            "LocationId": 338,
+            "LocationName": "Rolling Quintar Fields Chest - West of and above sneaky chest",
+            "Rule": null,
+            "Coordinates": "530, 177, -362",
+            "MapLayer": 0
+          },
+          {
+            "LocationId": 323,
+            "LocationName": "Rolling Quintar Fields NPC - Silver behind Quintar Nest befriending a stack of boxes",
+            "Rule": null,
+            "Coordinates": "510, 175, -319",
+            "MapLayer": 0
+          }
+        ],
+        "TeleportLocationString": null
+      },
+      {
+        "Name": "Quintar Sanctum Entrance",
+        "Connections": [
+          {
+            "ConnectionName": "Rolling Quintar Fields",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 18)"
+          },
+          {
+            "ConnectionName": "Rolling Treetop Highway",
+            "Rule": "lambda state: (logic.has_rental_quintar(state, \"Rolling Quintar Fields\") or logic.has_vertical_movement(state)) and logic.is_area_in_level_range(state, 18)"
+          },
+          {
+            "ConnectionName": "Hunter's Tower",
+            "Rule": "lambda state: (logic.obscure_routes_on(state) or logic.has_vertical_movement(state)) and logic.is_area_in_level_range(state, 18)"
+          },
+          {
+            "ConnectionName": "Quintar Sanctum",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 21)"
+          },
+          {
+            "ConnectionName": "Quintar Sanctum Exit Clifftop",
+            "Rule": "lambda state: (logic.has_horizontal_movement(state) or logic.has_vertical_movement(state)) and logic.is_area_in_level_range(state, 21)"
+          }
+        ],
+        "Locations": [
+          {
+            "LocationId": 471,
+            "LocationName": "Rolling Quintar Fields Chest - Pinnacle by short and tall box friends",
+            "Rule": null,
+            "Coordinates": "567, 179, -370",
+            "MapLayer": 0
+          },
+          {
+            "LocationId": 365,
+            "LocationName": "Rolling Quintar Fields Chest - Treetop west of Quintar Sanctum",
+            "Rule": null,
+            "Coordinates": "544, 181, -386",
+            "MapLayer": 0
+          }
+        ],
+        "TeleportLocationString": null
+      },
+      {
+        "Name": "Hunter's Tower",
+        "Connections": [
+          {
+            "ConnectionName": "Rolling Quintar Fields",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 18)"
+          },
+          {
+            "ConnectionName": "Rolling Treetop Highway",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 18)"
+          },
+          {
+            "ConnectionName": "Quintar Sanctum Entrance",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 18)"
+          },
+          {
+            "ConnectionName": "Quintar Sanctum Exit Clifftop",
+            "Rule": "lambda state: (logic.has_horizontal_movement(state) or logic.has_vertical_movement(state)) and logic.is_area_in_level_range(state, 21)"
+          },
+          {
+            "ConnectionName": "Rampart Atop Portcullis",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 50)"
+          }
+        ],
+        "Locations": [
+          {
+            "LocationId": 3532,
+            "LocationName": "Overpass Chest - Climb the mountain west of Quintar Sanctum entrance",
+            "Rule": null,
+            "Coordinates": "501, 186, -378",
+            "MapLayer": 0
+          }
+        ],
+        "TeleportLocationString": null
       }
     ]
   },
@@ -4209,8 +4614,8 @@
         "Name": "Quintar Sanctum",
         "Connections": [
           {
-            "ConnectionName": "Rolling Quintar Fields",
-            "Rule": "lambda state: logic.is_area_in_level_range(state, 18)"
+            "ConnectionName": "Quintar Sanctum Exit Clifftop",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 21)"
           },
           {
             "ConnectionName": "Quintar Nest",
@@ -4256,13 +4661,6 @@
             "Rule": null,
             "Coordinates": "534, 149, -479",
             "MapLayer": 1
-          },
-          {
-            "LocationId": 3533,
-            "LocationName": "Overpass Chest - Lonely chest above Quintar Sanctum",
-            "Rule": null,
-            "Coordinates": "626, 189, -388",
-            "MapLayer": 0
           },
           {
             "LocationId": 802,
@@ -4343,6 +4741,45 @@
           }
         ],
         "TeleportLocationString": "560,188,-478"
+      },
+      {
+        "Name": "Quintar Sanctum Exit Clifftop",
+        "Connections": [
+          {
+            "ConnectionName": "Quintar Sanctum",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 21)"
+          },
+          {
+            "ConnectionName": "Rolling Quintar Fields",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 18)"
+          },
+          {
+            "ConnectionName": "Quintar Sanctum Entrance",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 18)"
+          },
+          {
+            "ConnectionName": "Hunter's Tower",
+            "Rule": "lambda state: (logic.has_horizontal_movement(state) or logic.has_vertical_movement(state)) and logic.is_area_in_level_range(state, 18)"
+          },
+          {
+            "ConnectionName": "Okimoto N.S.",
+            "Rule": "lambda state: (logic.has_vertical_movement(state)) and logic.is_area_in_level_range(state, 27)"
+          },
+          {
+            "ConnectionName": "Quintar Reserve",
+            "Rule": "lambda state: (logic.has_vertical_movement(state)) and logic.is_area_in_level_range(state, 0)"
+          }
+        ],
+        "Locations": [
+          {
+            "LocationId": 3533,
+            "LocationName": "Overpass Chest - Lonely chest above Quintar Sanctum",
+            "Rule": null,
+            "Coordinates": "626, 189, -388",
+            "MapLayer": 0
+          }
+        ],
+        "TeleportLocationString": null
       }
     ]
   },
@@ -4693,7 +5130,7 @@
         "Locations": [
           {
             "LocationId": 2897,
-            "LocationName": "Jidamba Eaclaneya NPC - Diamond down Pipeline elevator into Jidamba",
+            "LocationName": "Jidamba Eaclaneya NPC - Ride the Pipeline elevator for Jidamba diamond heist",
             "Rule": null,
             "Coordinates": "662, 33, 65",
             "MapLayer": 5
@@ -4711,8 +5148,16 @@
         "Name": "Cobblestone Crag",
         "Connections": [
           {
+            "ConnectionName": "Proving Meadows",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 0)"
+          },
+          {
             "ConnectionName": "Capital Sequoia",
             "Rule": "lambda state: logic.is_area_in_level_range(state, 0)"
+          },
+          {
+            "ConnectionName": "Capital Moat",
+            "Rule": "lambda state: (logic.has_swimming(state)) and logic.is_area_in_level_range(state, 0)"
           },
           {
             "ConnectionName": "The Open Sea",
@@ -4991,8 +5436,20 @@
         "Name": "Greenshire Reprise",
         "Connections": [
           {
+            "ConnectionName": "Delende",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 5)"
+          },
+          {
+            "ConnectionName": "Delende High Bridges",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 5)"
+          },
+          {
             "ConnectionName": "Capital Sequoia",
             "Rule": "lambda state: logic.is_area_in_level_range(state, 0)"
+          },
+          {
+            "ConnectionName": "Capital Moat",
+            "Rule": "lambda state: (logic.has_swimming(state)) and logic.is_area_in_level_range(state, 0)"
           },
           {
             "ConnectionName": "Salmon Pass East",
@@ -5007,7 +5464,7 @@
           {
             "LocationId": 483,
             "LocationName": "Greenshire Reprise Chest - Jump off bridge 4",
-            "Rule": "lambda state: logic.has_vertical_movement(state)",
+            "Rule": "lambda state: logic.has_horizontal_movement(state) or logic.has_vertical_movement(state)",
             "Coordinates": "267, 169, -326",
             "MapLayer": 0
           },
@@ -5021,14 +5478,14 @@
           {
             "LocationId": 482,
             "LocationName": "Greenshire Reprise Chest - Jump off bridge 3",
-            "Rule": "lambda state: logic.has_vertical_movement(state)",
+            "Rule": "lambda state: logic.has_horizontal_movement(state) or logic.has_vertical_movement(state)",
             "Coordinates": "306, 163, -301",
             "MapLayer": 0
           },
           {
             "LocationId": 373,
             "LocationName": "Greenshire Reprise Chest - Tall taunter",
-            "Rule": "lambda state: logic.has_vertical_movement(state)",
+            "Rule": null,
             "Coordinates": "289, 166, -259",
             "MapLayer": 0
           },
@@ -5132,8 +5589,16 @@
             "Rule": "lambda state: (logic.has_horizontal_movement(state) or logic.has_swimming(state)) and logic.is_area_in_level_range(state, 0)"
           },
           {
+            "ConnectionName": "Delende",
+            "Rule": "lambda state: (logic.has_swimming(state)) and logic.is_area_in_level_range(state, 5)"
+          },
+          {
             "ConnectionName": "Salmon River",
             "Rule": "lambda state: logic.is_area_in_level_range(state, 26)"
+          },
+          {
+            "ConnectionName": "South Salmon River",
+            "Rule": "lambda state: (logic.has_swimming(state)) and logic.is_area_in_level_range(state, 26)"
           }
         ],
         "Locations": [
@@ -5163,6 +5628,10 @@
           {
             "ConnectionName": "River Cat's Ego",
             "Rule": "lambda state: ((logic.obscure_routes_on(state) and logic.has_rental_salmon(state)) or logic.has_swimming(state)) and logic.is_area_in_level_range(state, 26)"
+          },
+          {
+            "ConnectionName": "South Salmon River",
+            "Rule": "lambda state: (logic.has_vertical_movement(state) or logic.has_glide(state)) and logic.is_area_in_level_range(state, 26)"
           },
           {
             "ConnectionName": "Salmon Pass West",
@@ -5229,56 +5698,56 @@
           },
           {
             "LocationId": 50640,
-            "LocationName": "Salmon River NPC - Salmon Race 14th place price",
+            "LocationName": "Salmon River NPC - Salmon Race 14th place prize",
             "Rule": "lambda state: logic.has_swimming(state)",
             "Coordinates": "120, 174, -372",
             "MapLayer": 0
           },
           {
             "LocationId": 50641,
-            "LocationName": "Salmon River NPC - Salmon Race 12th place price",
+            "LocationName": "Salmon River NPC - Salmon Race 12th place prize",
             "Rule": "lambda state: logic.has_swimming(state)",
             "Coordinates": "120, 174, -372",
             "MapLayer": 0
           },
           {
             "LocationId": 50642,
-            "LocationName": "Salmon River NPC - Salmon Race 10th place price",
+            "LocationName": "Salmon River NPC - Salmon Race 10th place prize",
             "Rule": "lambda state: logic.has_swimming(state)",
             "Coordinates": "120, 174, -372",
             "MapLayer": 0
           },
           {
             "LocationId": 50643,
-            "LocationName": "Salmon River NPC - Salmon Race 8th place price",
+            "LocationName": "Salmon River NPC - Salmon Race 8th place prize",
             "Rule": "lambda state: logic.has_swimming(state)",
             "Coordinates": "120, 174, -372",
             "MapLayer": 0
           },
           {
             "LocationId": 50644,
-            "LocationName": "Salmon River NPC - Salmon Race 6th place price",
+            "LocationName": "Salmon River NPC - Salmon Race 6th place prize",
             "Rule": "lambda state: logic.has_swimming(state)",
             "Coordinates": "120, 174, -372",
             "MapLayer": 0
           },
           {
             "LocationId": 50645,
-            "LocationName": "Salmon River NPC - Salmon Race 4th place price",
+            "LocationName": "Salmon River NPC - Salmon Race 4th place prize",
             "Rule": "lambda state: logic.has_swimming(state)",
             "Coordinates": "120, 174, -372",
             "MapLayer": 0
           },
           {
             "LocationId": 50646,
-            "LocationName": "Salmon River NPC - Salmon Race 3rd place price",
+            "LocationName": "Salmon River NPC - Salmon Race 3rd place prize",
             "Rule": "lambda state: logic.has_swimming(state)",
             "Coordinates": "120, 174, -372",
             "MapLayer": 0
           },
           {
             "LocationId": 50647,
-            "LocationName": "Salmon River NPC - Salmon Race 2nd place price",
+            "LocationName": "Salmon River NPC - Salmon Race 2nd place prize",
             "Rule": "lambda state: logic.has_swimming(state)",
             "Coordinates": "120, 174, -372",
             "MapLayer": 0
@@ -5396,11 +5865,11 @@
         "Connections": [
           {
             "ConnectionName": "Salmon River",
-            "Rule": "lambda state: logic.is_area_in_level_range(state, 26)"
+            "Rule": "lambda state: (logic.has_horizontal_movement(state) or logic.has_vertical_movement(state) or logic.has_swimming(state)) and logic.is_area_in_level_range(state, 26)"
           },
           {
             "ConnectionName": "River Cat's Ego",
-            "Rule": "lambda state: ((logic.has_vertical_movement(state) or logic.has_glide(state)) and logic.has_swimming(state)) and logic.is_area_in_level_range(state, 26)"
+            "Rule": "lambda state: (logic.has_glide(state) and logic.has_swimming(state)) and logic.is_area_in_level_range(state, 26)"
           },
           {
             "ConnectionName": "Salmon Bay",
@@ -5418,21 +5887,21 @@
           {
             "LocationId": 3654,
             "LocationName": "Overpass Chest - Frigid dip high behind River Cat",
-            "Rule": "lambda state: logic.has_vertical_movement(state) or logic.has_glide(state) or logic.has_swimming(state)",
+            "Rule": "lambda state: logic.has_glide(state) or logic.has_swimming(state)",
             "Coordinates": "60, 225, -435",
             "MapLayer": 0
           },
           {
             "LocationId": 3676,
             "LocationName": "Overpass Chest - Chilling by Nomad's Outpost",
-            "Rule": "lambda state: logic.has_vertical_movement(state) or logic.has_glide(state) or logic.has_swimming(state)",
+            "Rule": "lambda state: logic.has_horizontal_movement(state) or logic.has_swimming(state)",
             "Coordinates": "45, 215, -465",
             "MapLayer": 0
           },
           {
             "LocationId": 1401,
             "LocationName": "Overpass Chest - Ultimate Mulan challenge past mushroom mountain",
-            "Rule": "lambda state: (logic.has_vertical_movement(state) and logic.has_horizontal_movement(state)) or logic.has_glide(state)",
+            "Rule": "lambda state: logic.has_horizontal_movement(state)",
             "Coordinates": "-35, 166, -387",
             "MapLayer": 0
           },
@@ -5444,6 +5913,29 @@
             "MapLayer": 0
           }
         ],
+        "TeleportLocationString": null
+      },
+      {
+        "Name": "South Salmon River",
+        "Connections": [
+          {
+            "ConnectionName": "Salmon River",
+            "Rule": "lambda state: (logic.has_vertical_movement(state) and logic.has_glide(state)) and logic.is_area_in_level_range(state, 26)"
+          },
+          {
+            "ConnectionName": "Salmon River Mouth",
+            "Rule": "lambda state: (logic.has_swimming(state) or logic.has_vertical_movement(state) or logic.has_glide(state)) and logic.is_area_in_level_range(state, 0)"
+          },
+          {
+            "ConnectionName": "Salmon Pass West",
+            "Rule": "lambda state: (logic.has_swimming(state)) and logic.is_area_in_level_range(state, 0)"
+          },
+          {
+            "ConnectionName": "Atop Salmon River Dam",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 40)"
+          }
+        ],
+        "Locations": [],
         "TeleportLocationString": null
       }
     ]
@@ -5510,27 +6002,34 @@
         "Name": "Poko Poko Desert",
         "Connections": [
           {
+            "ConnectionName": "Poko Poko Eastern Plateau",
+            "Rule": "lambda state: (logic.has_vertical_movement(state) or logic.has_glide(state)) and logic.is_area_in_level_range(state, 30)"
+          },
+          {
+            "ConnectionName": "Poko Poko Sara Sara Beach West Mountain Pass",
+            "Rule": "lambda state: ((logic.has_horizontal_movement(state) and logic.has_vertical_movement(state)) or logic.has_glide(state)) and logic.is_area_in_level_range(state, 30)"
+          },
+          {
+            "ConnectionName": "Tower of Zot",
+            "Rule": "lambda state: (logic.has_vertical_movement(state) and logic.has_glide(state)) and logic.is_area_in_level_range(state, 30)"
+          },
+          {
             "ConnectionName": "Sara Sara Bazaar",
             "Rule": "lambda state: logic.is_area_in_level_range(state, 0)"
           },
           {
             "ConnectionName": "Ancient Reservoir",
             "Rule": "lambda state: (logic.has_key(state, \"Item - Pyramid Key\")) and logic.is_area_in_level_range(state, 33)"
-          },
-          {
-            "ConnectionName": "Lake Delende",
-            "Rule": "lambda state: (logic.has_vertical_movement(state)) and logic.is_area_in_level_range(state, 40)"
-          },
-          {
-            "ConnectionName": "Salmon Bay",
-            "Rule": "lambda state: (logic.has_horizontal_movement(state) and logic.has_vertical_movement(state)) and logic.is_area_in_level_range(state, 0)"
-          },
-          {
-            "ConnectionName": "Ancient Labyrinth",
-            "Rule": "lambda state: ((state.has(\"Item - Ancient Tablet A\", player) or logic.obscure_routes_on(state)) and logic.has_vertical_movement(state) and logic.has_glide(state)) and logic.is_area_in_level_range(state, 62)"
           }
         ],
         "Locations": [
+          {
+            "LocationId": 1170,
+            "LocationName": "Poko Poko Desert Chest - West Lookout Tower",
+            "Rule": null,
+            "Coordinates": "-189, 120, -20",
+            "MapLayer": 0
+          },
           {
             "LocationId": 1080,
             "LocationName": "Poko Poko Desert Chest - Quintar leapfrog",
@@ -5546,17 +6045,17 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 1190,
-            "LocationName": "Poko Poko Desert Chest - North Lookout Tower",
-            "Rule": "lambda state: logic.has_rental_quintar(state, \"Sara Sara Bazaar\") or logic.has_vertical_movement(state)",
-            "Coordinates": "-104, 122, -182",
-            "MapLayer": 0
-          },
-          {
             "LocationId": 1169,
             "LocationName": "Poko Poko Desert Chest - This chests (on) a butte",
             "Rule": "lambda state: logic.has_rental_quintar(state, \"Sara Sara Bazaar\")",
             "Coordinates": "-114, 118, -105",
+            "MapLayer": 0
+          },
+          {
+            "LocationId": 1190,
+            "LocationName": "Poko Poko Desert Chest - North Lookout Tower",
+            "Rule": "lambda state: logic.has_rental_quintar(state, \"Sara Sara Bazaar\") or logic.has_vertical_movement(state)",
+            "Coordinates": "-104, 122, -182",
             "MapLayer": 0
           },
           {
@@ -5567,12 +6066,103 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 1170,
-            "LocationName": "Poko Poko Desert Chest - West Lookout Tower",
+            "LocationId": 2675,
+            "LocationName": "Poko Poko Desert NPC - Silver beneath overhang in ruins south of shrine",
             "Rule": null,
-            "Coordinates": "-189, 120, -20",
+            "Coordinates": "-179, 108, -67",
             "MapLayer": 0
           },
+          {
+            "LocationId": 1081,
+            "LocationName": "Poko Poko Desert NPC - Silver slumbering in broken house NE of shrine",
+            "Rule": null,
+            "Coordinates": "-146, 112, -124",
+            "MapLayer": 0
+          },
+          {
+            "LocationId": 2817,
+            "LocationName": "Poko Poko Desert NPC - Rocky outcropping Gold will put your Quintar to the test",
+            "Rule": "lambda state: logic.has_horizontal_movement(state) or logic.has_vertical_movement(state)",
+            "Coordinates": "-116, 117, -132",
+            "MapLayer": 0
+          },
+          {
+            "LocationId": 2677,
+            "LocationName": "Poko Poko Desert NPC - Stormy Silver atop ruins",
+            "Rule": null,
+            "Coordinates": "-100, 117, -126",
+            "MapLayer": 0
+          },
+          {
+            "LocationId": 2818,
+            "LocationName": "Poko Poko Desert NPC - Gold Ingot atop ridge south of North Lookout Tower",
+            "Rule": null,
+            "Coordinates": "-76, 119, -105",
+            "MapLayer": 0
+          },
+          {
+            "LocationId": 1201,
+            "LocationName": "Poko Poko Desert NPC - Thirsty Lad",
+            "Rule": "lambda state: state.has(\"Item - Special Milk\", player)",
+            "Coordinates": "-118, 116, -205",
+            "MapLayer": 0
+          },
+          {
+            "LocationId": 2682,
+            "LocationName": "Poko Poko Desert NPC - Silver in desert arch shade",
+            "Rule": null,
+            "Coordinates": "-73, 119, -209",
+            "MapLayer": 0
+          },
+          {
+            "LocationId": 2680,
+            "LocationName": "Poko Poko Desert NPC - Silver in the sandstorm on ruins 2nd floor",
+            "Rule": "lambda state: logic.has_horizontal_movement(state) or logic.has_vertical_movement(state)",
+            "Coordinates": "-58, 120, -96",
+            "MapLayer": 0
+          },
+          {
+            "LocationId": 2681,
+            "LocationName": "Poko Poko Desert NPC - Stormy Silver on ruined building floor",
+            "Rule": null,
+            "Coordinates": "-32, 113, -77",
+            "MapLayer": 0
+          },
+          {
+            "LocationId": 6024,
+            "LocationName": "Poko Poko Desert Region Completion",
+            "Rule": "regionsanity=True",
+            "Coordinates": "",
+            "MapLayer": -1
+          }
+        ],
+        "TeleportLocationString": "-189,111,-94"
+      },
+      {
+        "Name": "Poko Poko Eastern Plateau",
+        "Connections": [
+          {
+            "ConnectionName": "Poko Poko Desert",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 30)"
+          },
+          {
+            "ConnectionName": "Tower of Zot",
+            "Rule": "lambda state: (logic.has_vertical_movement(state) and logic.has_glide(state)) and logic.is_area_in_level_range(state, 30)"
+          },
+          {
+            "ConnectionName": "Poko Poko Lake Delende Mountain Pass",
+            "Rule": "lambda state: (logic.has_vertical_movement(state)) and logic.is_area_in_level_range(state, 30)"
+          },
+          {
+            "ConnectionName": "Poko Poko Spawning Meadows Mountain Pass",
+            "Rule": "lambda state: (logic.has_vertical_movement(state)) and logic.is_area_in_level_range(state, 30)"
+          },
+          {
+            "ConnectionName": "Sara Sara Bazaar",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 0)"
+          }
+        ],
+        "Locations": [
           {
             "LocationId": 2708,
             "LocationName": "Poko Poko Desert Chest - Potion chest to fortify you for jumping puzzle from hell",
@@ -5602,104 +6192,6 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 2914,
-            "LocationName": "Poko Poko Desert Chest - Cooling off in the tent before the Tower of Zot",
-            "Rule": "lambda state: logic.has_horizontal_movement(state) and logic.has_vertical_movement(state)",
-            "Coordinates": "-159, 125, -242",
-            "MapLayer": 0
-          },
-          {
-            "LocationId": 2675,
-            "LocationName": "Poko Poko Desert NPC - Silver beneath overhang in ruins south of shrine",
-            "Rule": null,
-            "Coordinates": "-179, 108, -67",
-            "MapLayer": 0
-          },
-          {
-            "LocationId": 1081,
-            "LocationName": "Poko Poko Desert NPC - Silver slumbering in broken house NE of shrine",
-            "Rule": null,
-            "Coordinates": "-146, 112, -124",
-            "MapLayer": 0
-          },
-          {
-            "LocationId": 2817,
-            "LocationName": "Poko Poko Desert NPC - Rocky outcropping Gold will put your Quintar to the test",
-            "Rule": "lambda state: logic.has_horizontal_movement(state) or logic.has_vertical_movement(state)",
-            "Coordinates": "-116, 117, -132",
-            "MapLayer": 0
-          },
-          {
-            "LocationId": 2682,
-            "LocationName": "Poko Poko Desert NPC - Silver in desert arch shade",
-            "Rule": null,
-            "Coordinates": "-73, 119, -209",
-            "MapLayer": 0
-          },
-          {
-            "LocationId": 1201,
-            "LocationName": "Poko Poko Desert NPC - Thirsty Lad",
-            "Rule": "lambda state: state.has(\"Item - Special Milk\", player)",
-            "Coordinates": "-118, 116, -205",
-            "MapLayer": 0
-          },
-          {
-            "LocationId": 2677,
-            "LocationName": "Poko Poko Desert NPC - Stormy Silver atop ruins",
-            "Rule": null,
-            "Coordinates": "-100, 117, -126",
-            "MapLayer": 0
-          },
-          {
-            "LocationId": 2681,
-            "LocationName": "Poko Poko Desert NPC - Stormy Silver on ruined building floor",
-            "Rule": null,
-            "Coordinates": "-32, 113, -77",
-            "MapLayer": 0
-          },
-          {
-            "LocationId": 2818,
-            "LocationName": "Poko Poko Desert NPC - Gold Ingot atop ridge south of North Lookout Tower",
-            "Rule": null,
-            "Coordinates": "-76, 119, -105",
-            "MapLayer": 0
-          },
-          {
-            "LocationId": 2680,
-            "LocationName": "Poko Poko Desert NPC - Silver in the sandstorm on ruins 2nd floor",
-            "Rule": "lambda state: logic.has_horizontal_movement(state) or logic.has_vertical_movement(state)",
-            "Coordinates": "-58, 120, -96",
-            "MapLayer": 0
-          },
-          {
-            "LocationId": 2707,
-            "LocationName": "Poko Poko Desert NPC - Gold overlooking Sara Sara Bazaar",
-            "Rule": "lambda state: logic.has_vertical_movement(state)",
-            "Coordinates": "-136, 121, 47",
-            "MapLayer": 0
-          },
-          {
-            "LocationId": 2711,
-            "LocationName": "Poko Poko Desert NPC - Gold accessible from beach reacharound",
-            "Rule": "lambda state: logic.has_horizontal_movement(state) and logic.has_vertical_movement(state)",
-            "Coordinates": "-215, 117, -45",
-            "MapLayer": 0
-          },
-          {
-            "LocationId": 2879,
-            "LocationName": "Poko Poko Desert NPC - Diamond on Tower of Zots outside",
-            "Rule": "lambda state: logic.has_vertical_movement(state) and logic.has_glide(state)",
-            "Coordinates": "-185, 142, -257",
-            "MapLayer": 0
-          },
-          {
-            "LocationId": 2816,
-            "LocationName": "Poko Poko Desert NPC - Gold on far end of the Tower of Zot",
-            "Rule": "lambda state: logic.has_vertical_movement(state) and logic.has_glide(state)",
-            "Coordinates": "-247, 124, -258",
-            "MapLayer": 0
-          },
-          {
             "LocationId": 2706,
             "LocationName": "Poko Poko Desert NPC - Gold on an outcropping by long loop-around chest",
             "Rule": null,
@@ -5707,14 +6199,128 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 6024,
-            "LocationName": "Poko Poko Desert Region Completion",
-            "Rule": "regionsanity=True",
-            "Coordinates": "",
-            "MapLayer": -1
+            "LocationId": 2707,
+            "LocationName": "Poko Poko Desert NPC - Gold overlooking Sara Sara Bazaar",
+            "Rule": "lambda state: logic.has_vertical_movement(state) or logic.has_glide(state)",
+            "Coordinates": "-136, 121, 47",
+            "MapLayer": 0
           }
         ],
-        "TeleportLocationString": "-189,111,-94"
+        "TeleportLocationString": null
+      },
+      {
+        "Name": "Poko Poko Sara Sara Beach West Mountain Pass",
+        "Connections": [
+          {
+            "ConnectionName": "Poko Poko Desert",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 30)"
+          },
+          {
+            "ConnectionName": "Sara Sara Beach West",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 38)"
+          }
+        ],
+        "Locations": [
+          {
+            "LocationId": 2711,
+            "LocationName": "Poko Poko Desert NPC - High western gold (approach from the Lookout Tower or the Beach Nest)",
+            "Rule": "lambda state: logic.has_horizontal_movement(state)",
+            "Coordinates": "-215, 117, -45",
+            "MapLayer": 0
+          }
+        ],
+        "TeleportLocationString": null
+      },
+      {
+        "Name": "Tower of Zot",
+        "Connections": [
+          {
+            "ConnectionName": "Poko Poko Desert",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 30)"
+          },
+          {
+            "ConnectionName": "Poko Poko Eastern Plateau",
+            "Rule": "lambda state: (logic.has_glide(state)) and logic.is_area_in_level_range(state, 30)"
+          },
+          {
+            "ConnectionName": "Sara Sara Beach West",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 38)"
+          },
+          {
+            "ConnectionName": "Ancient Labyrinth",
+            "Rule": "lambda state: ((state.has(\"Item - Poko Poko Desert Pass\", player) or options.regionsanity.value == options.regionsanity.option_disabled) and (state.has(\"Item - Ancient Tablet A\", player) or logic.obscure_routes_on(state)) and logic.has_vertical_movement(state) and logic.has_glide(state)) and logic.is_area_in_level_range(state, 62)"
+          },
+          {
+            "ConnectionName": "Salmon Bay",
+            "Rule": "lambda state: (logic.has_vertical_movement(state)) and logic.is_area_in_level_range(state, 0)"
+          },
+          {
+            "ConnectionName": "Salmon River Mouth",
+            "Rule": "lambda state: (logic.has_vertical_movement(state) and logic.has_glide(state)) and logic.is_area_in_level_range(state, 0)"
+          }
+        ],
+        "Locations": [
+          {
+            "LocationId": 2914,
+            "LocationName": "Poko Poko Desert Chest - Cooling off in the tent before the Tower of Zot",
+            "Rule": null,
+            "Coordinates": "-159, 125, -242",
+            "MapLayer": 0
+          },
+          {
+            "LocationId": 2879,
+            "LocationName": "Poko Poko Desert NPC - Diamond bedazzling the Tower of Zot",
+            "Rule": "lambda state: logic.has_vertical_movement(state) and logic.has_glide(state)",
+            "Coordinates": "-185, 142, -257",
+            "MapLayer": 0
+          },
+          {
+            "LocationId": 2816,
+            "LocationName": "Poko Poko Desert NPC - Gold bedazzling the Tower of Zot",
+            "Rule": "lambda state: logic.has_vertical_movement(state) and logic.has_glide(state)",
+            "Coordinates": "-247, 124, -258",
+            "MapLayer": 0
+          }
+        ],
+        "TeleportLocationString": null
+      },
+      {
+        "Name": "Poko Poko Lake Delende Mountain Pass",
+        "Connections": [
+          {
+            "ConnectionName": "Poko Poko Eastern Plateau",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 30)"
+          },
+          {
+            "ConnectionName": "Poko Poko Spawning Meadows Mountain Pass",
+            "Rule": "lambda state: (logic.has_glide(state)) and logic.is_area_in_level_range(state, 30)"
+          },
+          {
+            "ConnectionName": "Lake Delende",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 40)"
+          },
+          {
+            "ConnectionName": "Salmon River Mouth",
+            "Rule": "lambda state: (logic.has_vertical_movement(state) and logic.has_glide(state)) and logic.is_area_in_level_range(state, 0)"
+          }
+        ],
+        "Locations": [],
+        "TeleportLocationString": null
+      },
+      {
+        "Name": "Poko Poko Spawning Meadows Mountain Pass",
+        "Connections": [
+          {
+            "ConnectionName": "Poko Poko Eastern Plateau",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 30)"
+          },
+          {
+            "ConnectionName": "Spawning Meadows",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 3)"
+          }
+        ],
+        "Locations": [],
+        "TeleportLocationString": null
       }
     ]
   },
@@ -5730,6 +6336,10 @@
             "Rule": "lambda state: logic.is_area_in_level_range(state, 30)"
           },
           {
+            "ConnectionName": "Poko Poko Eastern Plateau",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 30)"
+          },
+          {
             "ConnectionName": "Sara Sara Beach East",
             "Rule": "lambda state: logic.is_area_in_level_range(state, 30)"
           },
@@ -5742,7 +6352,7 @@
             "Rule": "lambda state: ((state.has(\"Item - The Open Sea Pass\", player) or options.regionsanity.value != options.regionsanity.option_extreme) and state.has(\"Item - Ferry Pass\", player)) and logic.is_area_in_level_range(state, 36)"
           },
           {
-            "ConnectionName": "The Open Sea",
+            "ConnectionName": "Sara Sara Bazaar Coast",
             "Rule": "lambda state: (logic.has_swimming(state)) and logic.is_area_in_level_range(state, 54)"
           },
           {
@@ -5802,7 +6412,7 @@
           },
           {
             "LocationId": 940,
-            "LocationName": "Sara Sara Bazaar NPC - Ferry Ticket Agent grants Ferry Pass in case you hate children",
+            "LocationName": "Sara Sara Bazaar NPC - Ferry Ticket Agent forgot what Ferry Passes are but she found something in her desk",
             "Rule": "lambda state: logic.has_jobs(state, 11)",
             "Coordinates": "-166, 93, 56",
             "MapLayer": 0
@@ -5824,7 +6434,7 @@
           {
             "LocationId": 1196,
             "LocationName": "Sara Sara Bazaar NPC - Circle the eastern desert wall for Worried Moms Lost Son",
-            "Rule": null,
+            "Rule": "lambda state: (state.has(\"Item - Poko Poko Desert Pass\", player) or logic.options.regionsanity.value != options.regionsanity.option_extreme) and logic.is_area_in_level_range(state, 30)",
             "Coordinates": "-107, 113, 54",
             "MapLayer": 0
           },
@@ -6284,8 +6894,12 @@
         "Name": "Sara Sara Beach West",
         "Connections": [
           {
-            "ConnectionName": "Poko Poko Desert",
+            "ConnectionName": "Poko Poko Sara Sara Beach West Mountain Pass",
             "Rule": "lambda state: (logic.has_vertical_movement(state)) and logic.is_area_in_level_range(state, 30)"
+          },
+          {
+            "ConnectionName": "Tower of Zot",
+            "Rule": "lambda state: (logic.has_horizontal_movement(state) and logic.has_vertical_movement(state)) and logic.is_area_in_level_range(state, 30)"
           },
           {
             "ConnectionName": "Sara Sara Bazaar",
@@ -6406,7 +7020,7 @@
           },
           {
             "ConnectionName": "Ibek Cave",
-            "Rule": "lambda state: (logic.has_vertical_movement(state)) and logic.is_area_in_level_range(state, 33)"
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 33)"
           },
           {
             "ConnectionName": "Below Gran",
@@ -6583,8 +7197,8 @@
             "Rule": "lambda state: (logic.has_swimming(state)) and logic.is_area_in_level_range(state, 54)"
           },
           {
-            "ConnectionName": "Salmon River",
-            "Rule": "lambda state: (logic.has_swimming(state)) and logic.is_area_in_level_range(state, 26)"
+            "ConnectionName": "Salmon River Mouth",
+            "Rule": "lambda state: (logic.has_swimming(state)) and logic.is_area_in_level_range(state, 0)"
           }
         ],
         "Locations": [
@@ -6600,13 +7214,6 @@
             "LocationName": "Salmon Bay Chest - Across the bridge",
             "Rule": null,
             "Coordinates": "-122, 97, -330",
-            "MapLayer": 0
-          },
-          {
-            "LocationId": 3677,
-            "LocationName": "Overpass Chest - Lonely scrap among half-dead pines above Salmon Bay",
-            "Rule": null,
-            "Coordinates": "-32, 135, -250",
             "MapLayer": 0
           },
           {
@@ -6646,6 +7253,37 @@
           }
         ],
         "TeleportLocationString": "-37,97,-265"
+      },
+      {
+        "Name": "Salmon River Mouth",
+        "Connections": [
+          {
+            "ConnectionName": "Salmon Bay",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 0)"
+          },
+          {
+            "ConnectionName": "South Salmon River",
+            "Rule": "lambda state: ((logic.has_vertical_movement(state) and logic.has_glide(state)) or logic.has_swimming(state)) and logic.is_area_in_level_range(state, 26)"
+          },
+          {
+            "ConnectionName": "Poko Poko Eastern Plateau",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 30)"
+          },
+          {
+            "ConnectionName": "Tower of Zot",
+            "Rule": "lambda state: (logic.has_glide(state)) and logic.is_area_in_level_range(state, 30)"
+          }
+        ],
+        "Locations": [
+          {
+            "LocationId": 3677,
+            "LocationName": "Overpass Chest - Lonely scrap among half-dead pines above Salmon Bay",
+            "Rule": null,
+            "Coordinates": "-32, 135, -250",
+            "MapLayer": 0
+          }
+        ],
+        "TeleportLocationString": null
       }
     ]
   },
@@ -6665,6 +7303,14 @@
             "Rule": "lambda state: (logic.has_swimming(state)) and logic.is_area_in_level_range(state, 0)"
           },
           {
+            "ConnectionName": "Capital Moat",
+            "Rule": "lambda state: (logic.has_swimming(state)) and logic.is_area_in_level_range(state, 0)"
+          },
+          {
+            "ConnectionName": "Cobblestone Crag",
+            "Rule": "lambda state: (logic.has_swimming(state)) and logic.is_area_in_level_range(state, 0)"
+          },
+          {
             "ConnectionName": "Okimoto N.S.",
             "Rule": "lambda state: (logic.has_swimming(state)) and logic.is_area_in_level_range(state, 27)"
           },
@@ -6673,8 +7319,8 @@
             "Rule": "lambda state: (logic.has_swimming(state)) and logic.is_area_in_level_range(state, 0)"
           },
           {
-            "ConnectionName": "Sara Sara Bazaar",
-            "Rule": "lambda state: (logic.has_swimming(state)) and logic.is_area_in_level_range(state, 0)"
+            "ConnectionName": "Sara Sara Bazaar Coast",
+            "Rule": "lambda state: (logic.has_swimming(state)) and logic.is_area_in_level_range(state, 54)"
           },
           {
             "ConnectionName": "Sara Sara Beach East",
@@ -6755,6 +7401,25 @@
             "MapLayer": 0
           }
         ],
+        "TeleportLocationString": null
+      },
+      {
+        "Name": "Sara Sara Bazaar Coast",
+        "Connections": [
+          {
+            "ConnectionName": "The Open Sea",
+            "Rule": "lambda state: (logic.has_swimming(state)) and logic.is_area_in_level_range(state, 54)"
+          },
+          {
+            "ConnectionName": "Sara Sara Bazaar",
+            "Rule": "lambda state: (logic.has_swimming(state)) and logic.is_area_in_level_range(state, 0)"
+          },
+          {
+            "ConnectionName": "Continental Tram",
+            "Rule": "lambda state: (logic.has_swimming(state)) and logic.is_area_in_level_range(state, 0)"
+          }
+        ],
+        "Locations": [],
         "TeleportLocationString": null
       }
     ]
@@ -8138,11 +8803,19 @@
         "Name": "Lake Delende",
         "Connections": [
           {
-            "ConnectionName": "Poko Poko Desert",
+            "ConnectionName": "Atop Salmon River Dam",
+            "Rule": "lambda state: (logic.has_vertical_movement(state) and logic.has_glide(state)) and logic.is_area_in_level_range(state, 40)"
+          },
+          {
+            "ConnectionName": "Poko Poko Lake Delende Mountain Pass",
             "Rule": "lambda state: (logic.has_vertical_movement(state)) and logic.is_area_in_level_range(state, 30)"
           },
           {
             "ConnectionName": "Delende",
+            "Rule": "lambda state: (logic.has_vertical_movement(state)) and logic.is_area_in_level_range(state, 5)"
+          },
+          {
+            "ConnectionName": "Delende High Bridges",
             "Rule": "lambda state: (logic.has_vertical_movement(state)) and logic.is_area_in_level_range(state, 5)"
           }
         ],
@@ -8162,13 +8835,6 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 2854,
-            "LocationName": "Lake Delende NPC - Panning for Gold down Salmon Creek without a paddle",
-            "Rule": "lambda state: logic.has_vertical_movement(state)",
-            "Coordinates": "115, 142, -231",
-            "MapLayer": 0
-          },
-          {
             "LocationId": 1111,
             "LocationName": "Lake Delende Boss - Ioske Summon",
             "Rule": "lambda state: state.has(\"Job - Summoner\", player) and logic.is_area_in_level_range(state, 57)",
@@ -8184,6 +8850,37 @@
           }
         ],
         "TeleportLocationString": "105,128,-201"
+      },
+      {
+        "Name": "Atop Salmon River Dam",
+        "Connections": [
+          {
+            "ConnectionName": "Lake Delende",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 40)"
+          },
+          {
+            "ConnectionName": "Poko Poko Lake Delende Mountain Pass",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 30)"
+          },
+          {
+            "ConnectionName": "South Salmon River",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 26)"
+          },
+          {
+            "ConnectionName": "Delende",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 5)"
+          }
+        ],
+        "Locations": [
+          {
+            "LocationId": 2854,
+            "LocationName": "Lake Delende NPC - Panning for Gold down Salmon Creek without a paddle",
+            "Rule": null,
+            "Coordinates": "115, 142, -231",
+            "MapLayer": 0
+          }
+        ],
+        "TeleportLocationString": null
       }
     ]
   },
@@ -8279,13 +8976,6 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 2262,
-            "LocationName": "Quintar Reserve NPC - Shedding atop the Mausoleum",
-            "Rule": "lambda state: state.has(\"Item - Dione Stone\", player) and logic.has_glide(state)",
-            "Coordinates": "698, 213, -320",
-            "MapLayer": 0
-          },
-          {
             "LocationId": 2263,
             "LocationName": "Quintar Reserve NPC - Treetop shedding north of Mausoleum",
             "Rule": "lambda state: logic.has_vertical_movement(state) and logic.has_horizontal_movement(state)",
@@ -8325,13 +9015,6 @@
             "LocationName": "Quintar Reserve NPC - Climb the center mountain for Gold",
             "Rule": "lambda state: logic.has_vertical_movement(state) and logic.has_horizontal_movement(state)",
             "Coordinates": "682, 208, -382",
-            "MapLayer": 0
-          },
-          {
-            "LocationId": 2840,
-            "LocationName": "Quintar Reserve NPC - Jump across the treetops for Gold",
-            "Rule": "lambda state: logic.has_vertical_movement(state) and logic.has_horizontal_movement(state) and state.has(\"Item - Dione Stone\", player)",
-            "Coordinates": "685, 208, -417",
             "MapLayer": 0
           },
           {
@@ -8378,6 +9061,32 @@
           }
         ],
         "TeleportLocationString": "683,204,-437"
+      },
+      {
+        "Name": "Quintar Reserve Treetops",
+        "Connections": [
+          {
+            "ConnectionName": "Quintar Reserve",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 0)"
+          }
+        ],
+        "Locations": [
+          {
+            "LocationId": 2262,
+            "LocationName": "Quintar Reserve NPC - Shedding atop the Mausoleum",
+            "Rule": "lambda state: logic.has_glide(state)",
+            "Coordinates": "698, 213, -320",
+            "MapLayer": 0
+          },
+          {
+            "LocationId": 2840,
+            "LocationName": "Quintar Reserve NPC - Jump across the treetops for Gold",
+            "Rule": "lambda state: logic.has_horizontal_movement(state)",
+            "Coordinates": "685, 208, -417",
+            "MapLayer": 0
+          }
+        ],
+        "TeleportLocationString": null
       }
     ]
   },
@@ -8393,26 +9102,15 @@
             "Rule": "lambda state: logic.is_area_in_level_range(state, 0)"
           },
           {
-            "ConnectionName": "Eastern Chasm",
-            "Rule": "lambda state: (logic.has_glide(state) and logic.has_vertical_movement(state)) and logic.is_area_in_level_range(state, 0)"
+            "ConnectionName": "Dione Shrine Roof",
+            "Rule": "lambda state: (logic.has_glide(state) and logic.has_vertical_movement(state) and logic.obscure_routes_on(state)) and logic.is_area_in_level_range(state, 0)"
           },
           {
             "ConnectionName": "Jidamba Summit",
-            "Rule": "lambda state: (logic.has_glide(state)) and logic.is_area_in_level_range(state, 50)"
-          },
-          {
-            "ConnectionName": "The Chalice of Tar",
-            "Rule": "lambda state: (logic.has_glide(state) and state.has(\"Item - Dione Stone\", player)) and logic.is_area_in_level_range(state, 60)"
+            "Rule": "lambda state: ((state.has(\"Item - The Open Sea Pass\", player) or options.regionsanity.value != options.regionsanity.option_extreme) and logic.has_glide(state)) and logic.is_area_in_level_range(state, 50)"
           }
         ],
         "Locations": [
-          {
-            "LocationId": 2154,
-            "LocationName": "Dione Shrine Chest - Roof",
-            "Rule": "lambda state: state.has(\"Item - Dione Stone\", player)",
-            "Coordinates": "684, 220, -452",
-            "MapLayer": 0
-          },
           {
             "LocationId": 2791,
             "LocationName": "Dione Shrine Chest - Lobby",
@@ -8432,34 +9130,6 @@
             "LocationName": "Dione Shrine Chest - 2nd floor balcony",
             "Rule": null,
             "Coordinates": "708, 215, -467",
-            "MapLayer": 0
-          },
-          {
-            "LocationId": 3535,
-            "LocationName": "Overpass Chest - Glide SW from top of shrine 1",
-            "Rule": "lambda state: logic.has_glide(state) and state.has(\"Item - Dione Stone\", player)",
-            "Coordinates": "647, 220, -423",
-            "MapLayer": 0
-          },
-          {
-            "LocationId": 2749,
-            "LocationName": "Overpass Chest - Glide SW from top of shrine 2",
-            "Rule": "lambda state: logic.has_glide(state) and state.has(\"Item - Dione Stone\", player)",
-            "Coordinates": "643, 216, -405",
-            "MapLayer": 0
-          },
-          {
-            "LocationId": 2264,
-            "LocationName": "Dione Shrine NPC - Shedding on roof",
-            "Rule": "lambda state: state.has(\"Item - Dione Stone\", player)",
-            "Coordinates": "667, 220, -438",
-            "MapLayer": 0
-          },
-          {
-            "LocationId": 2838,
-            "LocationName": "Dione Shrine NPC - Glide SW from top of shrine to Gold",
-            "Rule": "lambda state: logic.has_glide(state) and state.has(\"Item - Dione Stone\", player)",
-            "Coordinates": "642, 220, -409",
             "MapLayer": 0
           },
           {
@@ -8547,6 +9217,65 @@
             "MapLayer": -1
           }
         ],
+        "TeleportLocationString": null
+      },
+      {
+        "Name": "Dione Shrine Roof",
+        "Connections": [
+          {
+            "ConnectionName": "Dione Shrine",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 0)"
+          },
+          {
+            "ConnectionName": "Quintar Reserve",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 0)"
+          },
+          {
+            "ConnectionName": "Quintar Reserve Treetops",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 0)"
+          },
+          {
+            "ConnectionName": "The Chalice of Tar",
+            "Rule": "lambda state: (logic.has_glide(state)) and logic.is_area_in_level_range(state, 60)"
+          }
+        ],
+        "Locations": [
+          {
+            "LocationId": 2154,
+            "LocationName": "Dione Shrine Chest - Roof",
+            "Rule": null,
+            "Coordinates": "684, 220, -452",
+            "MapLayer": 0
+          },
+          {
+            "LocationId": 3535,
+            "LocationName": "Overpass Chest - Glide SW from top of shrine 1",
+            "Rule": "lambda state: logic.has_glide(state)",
+            "Coordinates": "647, 220, -423",
+            "MapLayer": 0
+          },
+          {
+            "LocationId": 2749,
+            "LocationName": "Overpass Chest - Glide SW from top of shrine 2",
+            "Rule": "lambda state: logic.has_glide(state)",
+            "Coordinates": "643, 216, -405",
+            "MapLayer": 0
+          },
+          {
+            "LocationId": 2264,
+            "LocationName": "Dione Shrine NPC - Shedding on roof",
+            "Rule": null,
+            "Coordinates": "667, 220, -438",
+            "MapLayer": 0
+          },
+          {
+            "LocationId": 2838,
+            "LocationName": "Dione Shrine NPC - Glide SW from top of shrine to Gold",
+            "Rule": "lambda state: logic.has_glide(state)",
+            "Coordinates": "642, 220, -409",
+            "MapLayer": 0
+          }
+        ],
         "TeleportLocationString": "680,221,-447"
       }
     ]
@@ -8617,11 +9346,19 @@
         "Connections": [
           {
             "ConnectionName": "Quintar Reserve",
-            "Rule": "lambda state: (logic.has_glide(state)) and logic.is_area_in_level_range(state, 0)"
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 0)"
+          },
+          {
+            "ConnectionName": "Dione Shrine Roof",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 0)"
           },
           {
             "ConnectionName": "The Open Sea",
             "Rule": "lambda state: (logic.has_swimming(state)) and logic.is_area_in_level_range(state, 54)"
+          },
+          {
+            "ConnectionName": "Jidamba Summit",
+            "Rule": "lambda state: ((state.has(\"Item - The Open Sea Pass\", player) or options.regionsanity.value != options.regionsanity.option_extreme) and logic.has_glide(state) and logic.obscure_routes_on(state)) and logic.is_area_in_level_range(state, 50)"
           }
         ],
         "Locations": [
@@ -9397,12 +10134,16 @@
         "Name": "Pamoa Tree",
         "Connections": [
           {
-            "ConnectionName": "Castle Sequoia",
-            "Rule": "lambda state: logic.is_area_in_level_range(state, 56)"
-          },
-          {
             "ConnectionName": "Icy Spikes Madness",
             "Rule": "lambda state: (logic.has_glide(state)) and logic.is_area_in_level_range(state, 41)"
+          },
+          {
+            "ConnectionName": "Capital Sequoia",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 0)"
+          },
+          {
+            "ConnectionName": "Hunter's Tower",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 18)"
           },
           {
             "ConnectionName": "Ramparts Tall, Tall Traverse",
@@ -9545,16 +10286,36 @@
         "Name": "Land's End",
         "Connections": [
           {
-            "ConnectionName": "Lower Ice Lakes",
-            "Rule": "lambda state: logic.is_area_in_level_range(state, 41)"
-          },
-          {
             "ConnectionName": "Land's End Northern Peak",
             "Rule": "lambda state: (logic.has_vertical_movement(state) or logic.has_glide(state)) and logic.is_area_in_level_range(state, 44)"
           },
           {
-            "ConnectionName": "Jidamba Summit",
-            "Rule": "lambda state: (logic.has_glide(state)) and logic.is_area_in_level_range(state, 50)"
+            "ConnectionName": "Owl Tree",
+            "Rule": "lambda state: (logic.has_vertical_movement(state)) and logic.is_area_in_level_range(state, 44)"
+          },
+          {
+            "ConnectionName": "Atop Fish Hatchery",
+            "Rule": "lambda state: (logic.obscure_routes_on(state)) and logic.is_area_in_level_range(state, 5)"
+          },
+          {
+            "ConnectionName": "Heart Tarn",
+            "Rule": "lambda state: (logic.has_glide(state)) and logic.is_area_in_level_range(state, 5)"
+          },
+          {
+            "ConnectionName": "South Salmon River",
+            "Rule": "lambda state: (logic.has_horizontal_movement(state) and logic.obscure_routes_on(state)) and logic.is_area_in_level_range(state, 26)"
+          },
+          {
+            "ConnectionName": "Atop Salmon River Dam",
+            "Rule": "lambda state: (logic.has_horizontal_movement(state) and logic.obscure_routes_on(state)) and logic.is_area_in_level_range(state, 40)"
+          },
+          {
+            "ConnectionName": "Lower Ice Lakes",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 41)"
+          },
+          {
+            "ConnectionName": "Land's End Cottage Ridge",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 41)"
           },
           {
             "ConnectionName": "The Open Sea",
@@ -9605,13 +10366,6 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 1561,
-            "LocationName": "Land's End Chest - By the lovely owl tree",
-            "Rule": null,
-            "Coordinates": "195, 245, -256",
-            "MapLayer": 0
-          },
-          {
             "LocationId": 3017,
             "LocationName": "Land's End Chest - Inside the shrine",
             "Rule": null,
@@ -9621,7 +10375,7 @@
           {
             "LocationId": 3678,
             "LocationName": "Overpass Chest - Lonely mountain ledge below owl shrine",
-            "Rule": "lambda state: logic.has_glide(state)",
+            "Rule": null,
             "Coordinates": "191, 177, -214",
             "MapLayer": 0
           },
@@ -9647,13 +10401,6 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 1176,
-            "LocationName": "Land's End NPC - Owl Drum",
-            "Rule": null,
-            "Coordinates": "190, 251, -253",
-            "MapLayer": 0
-          },
-          {
             "LocationId": 2104,
             "LocationName": "Land's End Boss - The Owlbear",
             "Rule": "lambda state: logic.is_area_in_level_range(state, 47)",
@@ -9668,7 +10415,7 @@
             "MapLayer": -1
           }
         ],
-        "TeleportLocationString": "115,189,-487"
+        "TeleportLocationString": "124,192,-488"
       },
       {
         "Name": "Land's End Northern Peak",
@@ -9703,6 +10450,32 @@
           }
         ],
         "TeleportLocationString": null
+      },
+      {
+        "Name": "Owl Tree",
+        "Connections": [
+          {
+            "ConnectionName": "Land's End",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 44)"
+          }
+        ],
+        "Locations": [
+          {
+            "LocationId": 1561,
+            "LocationName": "Land's End Chest - By the lovely owl tree",
+            "Rule": null,
+            "Coordinates": "195, 245, -256",
+            "MapLayer": 0
+          },
+          {
+            "LocationId": 1176,
+            "LocationName": "Land's End NPC - Owl Drum",
+            "Rule": null,
+            "Coordinates": "190, 251, -253",
+            "MapLayer": 0
+          }
+        ],
+        "TeleportLocationString": null
       }
     ]
   },
@@ -9722,7 +10495,15 @@
             "Rule": "lambda state: (logic.has_glide(state)) and logic.is_area_in_level_range(state, 46)"
           }
         ],
-        "Locations": [],
+        "Locations": [
+          {
+            "LocationId": 6046,
+            "LocationName": "Slip Glide Ride Region Completion",
+            "Rule": "regionsanity=True",
+            "Coordinates": "",
+            "MapLayer": -1
+          }
+        ],
         "TeleportLocationString": "119,182,-520"
       },
       {
@@ -9796,13 +10577,6 @@
             "Rule": "lambda state: logic.has_key(state, \"Item - Red Door Key\", 3) and logic.is_area_in_level_range(state, 49)",
             "Coordinates": "254, 156, -556",
             "MapLayer": 4
-          },
-          {
-            "LocationId": 6046,
-            "LocationName": "Slip Glide Ride Region Completion",
-            "Rule": "regionsanity=True",
-            "Coordinates": "",
-            "MapLayer": -1
           }
         ],
         "TeleportLocationString": null
@@ -9929,7 +10703,15 @@
             "Rule": "lambda state: (logic.has_swimming(state)) and logic.is_area_in_level_range(state, 54)"
           }
         ],
-        "Locations": [],
+        "Locations": [
+          {
+            "LocationId": 6048,
+            "LocationName": "Northern Stretch Region Completion",
+            "Rule": "regionsanity=True",
+            "Coordinates": "",
+            "MapLayer": -1
+          }
+        ],
         "TeleportLocationString": "211,222,-567"
       },
       {
@@ -9982,13 +10764,6 @@
             "Rule": null,
             "Coordinates": "374, 234, -573",
             "MapLayer": 0
-          },
-          {
-            "LocationId": 6048,
-            "LocationName": "Northern Stretch Region Completion",
-            "Rule": "regionsanity=True",
-            "Coordinates": "",
-            "MapLayer": -1
           }
         ],
         "TeleportLocationString": null
@@ -10005,6 +10780,10 @@
           {
             "ConnectionName": "Capital Sequoia",
             "Rule": "lambda state: logic.is_area_in_level_range(state, 0)"
+          },
+          {
+            "ConnectionName": "Hunter's Tower",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 18)"
           },
           {
             "ConnectionName": "Lone Chest Rampart",
@@ -10024,6 +10803,10 @@
           {
             "ConnectionName": "Boomer Overlook",
             "Rule": "lambda state: logic.is_area_in_level_range(state, 41)"
+          },
+          {
+            "ConnectionName": "Beatsmith Disco",
+            "Rule": "lambda state: (logic.has_glide(state) and logic.obscure_routes_on(state)) and logic.is_area_in_level_range(state, 0)"
           }
         ],
         "Locations": [
@@ -10040,6 +10823,10 @@
       {
         "Name": "Ramparts Tall, Tall Traverse",
         "Connections": [
+          {
+            "ConnectionName": "Lone Chest Rampart",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 50)"
+          },
           {
             "ConnectionName": "Boomer Overlook",
             "Rule": "lambda state: logic.is_area_in_level_range(state, 41)"
@@ -10148,6 +10935,18 @@
         "Name": "The Chalice of Tar",
         "Connections": [
           {
+            "ConnectionName": "Quintar Sanctum Entrance",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 18)"
+          },
+          {
+            "ConnectionName": "Hunter's Tower",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 18)"
+          },
+          {
+            "ConnectionName": "Quintar Sanctum Exit Clifftop",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 21)"
+          },
+          {
             "ConnectionName": "Tall, Tall Tall Chest",
             "Rule": "lambda state: (logic.has_glide(state)) and logic.is_area_in_level_range(state, 41)"
           },
@@ -10162,6 +10961,18 @@
           {
             "ConnectionName": "Quintar Reserve",
             "Rule": "lambda state: (logic.has_glide(state)) and logic.is_area_in_level_range(state, 0)"
+          },
+          {
+            "ConnectionName": "Dione Shrine Roof",
+            "Rule": "lambda state: (logic.has_glide(state)) and logic.is_area_in_level_range(state, 0)"
+          },
+          {
+            "ConnectionName": "Eastern Chasm",
+            "Rule": "lambda state: ((state.has(\"Item - Dione Shrine Pass\", player) or options.regionsanity.value != options.regionsanity.option_extreme) and logic.has_glide(state) and logic.has_vertical_movement(state)) and logic.is_area_in_level_range(state, 0)"
+          },
+          {
+            "ConnectionName": "Jidamba Summit",
+            "Rule": "lambda state: ((state.has(\"Item - The Open Sea Pass\", player) or options.regionsanity.value != options.regionsanity.option_extreme) and logic.has_glide(state) and logic.obscure_routes_on(state)) and logic.is_area_in_level_range(state, 50)"
           }
         ],
         "Locations": [
@@ -10225,7 +11036,7 @@
           },
           {
             "ConnectionName": "Jidamba Summit",
-            "Rule": "lambda state: (logic.has_glide(state)) and logic.is_area_in_level_range(state, 50)"
+            "Rule": "lambda state: ((state.has(\"Item - The Open Sea Pass\", player) or options.regionsanity.value != options.regionsanity.option_extreme) and logic.has_glide(state)) and logic.is_area_in_level_range(state, 50)"
           }
         ],
         "Locations": [
@@ -10360,13 +11171,6 @@
             "Rule": "lambda state: logic.has_glide(state)",
             "Coordinates": "763, 95, 170",
             "MapLayer": 0
-          },
-          {
-            "LocationId": 6052,
-            "LocationName": "Jidamba Tangle Region Completion",
-            "Rule": "regionsanity=True",
-            "Coordinates": "",
-            "MapLayer": -1
           }
         ],
         "TeleportLocationString": null
@@ -10455,6 +11259,13 @@
             "Rule": "lambda state: logic.can_earn_money(state, \"Europa Shrine\")",
             "Coordinates": "760, 101, 31",
             "MapLayer": 0
+          },
+          {
+            "LocationId": 6052,
+            "LocationName": "Jidamba Tangle Region Completion",
+            "Rule": "regionsanity=True",
+            "Coordinates": "",
+            "MapLayer": -1
           }
         ],
         "TeleportLocationString": "762,100,43"
@@ -11379,6 +12190,10 @@
           {
             "ConnectionName": "Sara Sara Bazaar",
             "Rule": "lambda state: (logic.has_swimming(state) or state.has(\"Item - Tram Key\", player)) and logic.is_area_in_level_range(state, 0)"
+          },
+          {
+            "ConnectionName": "Sara Sara Bazaar Coast",
+            "Rule": "lambda state: (logic.has_swimming(state)) and logic.is_area_in_level_range(state, 54)"
           }
         ],
         "Locations": [
@@ -11444,7 +12259,7 @@
         "Name": "Ancient Labyrinth",
         "Connections": [
           {
-            "ConnectionName": "Poko Poko Desert",
+            "ConnectionName": "Tower of Zot",
             "Rule": "lambda state: logic.is_area_in_level_range(state, 30)"
           },
           {
@@ -12045,6 +12860,13 @@
             "Rule": null,
             "Coordinates": "-232, 4, 158",
             "MapLayer": 1
+          },
+          {
+            "LocationId": 6064,
+            "LocationName": "The Old World Region Completion",
+            "Rule": "regionsanity=True",
+            "Coordinates": "",
+            "MapLayer": -1
           }
         ],
         "TeleportLocationString": "-233,12,184"

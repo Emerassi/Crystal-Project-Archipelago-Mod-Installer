@@ -6,7 +6,7 @@
   "Version": "1.0",
   "EditorVersion": 30,
   "SteamWorkshopFileID": 0,
-  "Timestamp": "2025-10-30T22:20:17.3790818Z",
+  "Timestamp": "2025-11-09T19:10:34.3254273Z",
   "IsLocalization": false,
   "Language": null,
   "HasCustomContent": true,
@@ -9391,6 +9391,21 @@
                 }
               ],
               "IsExpanded": false
+            },
+            {
+              "ModelTypeID": 4,
+              "ModelID": 233,
+              "SortOrder": 25,
+              "Children": [
+                {
+                  "ModelTypeID": 0,
+                  "ModelID": 508,
+                  "SortOrder": 0,
+                  "Children": [],
+                  "IsExpanded": true
+                }
+              ],
+              "IsExpanded": false
             }
           ],
           "IsExpanded": false
@@ -18040,7 +18055,7 @@
           "IsExpanded": false
         }
       ],
-      "IsExpanded": true
+      "IsExpanded": false
     },
     {
       "ModelTypeID": 3,
@@ -21276,7 +21291,7 @@
               "IsExpanded": false
             }
           ],
-          "IsExpanded": true
+          "IsExpanded": false
         },
         {
           "ModelTypeID": 14,
@@ -21295,21 +21310,21 @@
               "ModelID": 83,
               "SortOrder": 1,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 14,
               "ModelID": 109,
               "SortOrder": 2,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 14,
               "ModelID": 71,
               "SortOrder": 3,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 3,
@@ -21673,7 +21688,7 @@
               "IsExpanded": false
             }
           ],
-          "IsExpanded": false
+          "IsExpanded": true
         },
         {
           "ModelTypeID": 14,
@@ -25033,7 +25048,7 @@
               "IsExpanded": false
             }
           ],
-          "IsExpanded": true
+          "IsExpanded": false
         },
         {
           "ModelTypeID": 14,
@@ -27245,9 +27260,121 @@
       "IsExpanded": false
     }
   ],
-  "Abilities": [],
+  "Abilities": [
+    {
+      "ID": 508,
+      "Name": "Archipelago Stone",
+      "Comments": null,
+      "Flavor": null,
+      "Description": null,
+      "SortOrder": 457,
+      "TexturePath": null,
+      "TextureIndex": 0,
+      "HideDamageFromDescription": false,
+      "HideScopeFromDescription": true,
+      "HideStatusesFromDescription": false,
+      "HideModsFromDescription": false,
+      "UsageAnimationID": null,
+      "AnimationID": null,
+      "JP": 0,
+      "HPCost": 0,
+      "MPCost": 0,
+      "APCost": 0,
+      "CTCost": 0,
+      "CDCost": 0,
+      "IsDefaultLocked": false,
+      "IsSightLearned": false,
+      "BattleDisabled": false,
+      "FieldEnabled": true,
+      "ScopeLocked": false,
+      "Scope": 0,
+      "Target": 1,
+      "EnabledWeaponTypes": [],
+      "EnabledUnarmed": false,
+      "InvertEnabledTypesDisplay": false,
+      "Attribute": 0,
+      "IsPAbil": false,
+      "IsMAbil": false,
+      "IsBasic": false,
+      "PDefAsPAtk": false,
+      "StrRate": 0,
+      "VitRate": 0,
+      "DexRate": 0,
+      "AgiRate": 0,
+      "MndRate": 0,
+      "SpiRate": 0,
+      "SpdRate": 0,
+      "LckRate": 0,
+      "ScalingPAtkRate": null,
+      "ScalingPower": null,
+      "BasePAtkRate": 0,
+      "BasePower": 0,
+      "BaseAcc": 0,
+      "BaseCritChance": 0,
+      "BaseCritDmg": 0,
+      "BaseVar": 0,
+      "PDefRate": 0,
+      "MDefRate": 0,
+      "Element": null,
+      "TargetStatuses": [],
+      "UserStatuses": [],
+      "AbilityMods": [
+        {
+          "Tag": 124,
+          "Value1": 32,
+          "Value2": 0
+        }
+      ]
+    }
+  ],
   "Animations": [],
   "Biomes": [
+    {
+      "ID": 109,
+      "Name": "Shoudu Province (Map Only)",
+      "SortOrder": 93,
+      "BaseID": 38,
+      "IsMapOnly": true,
+      "IsMapAlt": false,
+      "IndColor": {
+        "R": 0.9411765,
+        "G": 0.972549,
+        "B": 1.0
+      },
+      "IsInDemo": false,
+      "WeatherType": null,
+      "WorldR": null,
+      "WorldG": null,
+      "WorldB": null,
+      "FogR": null,
+      "FogG": null,
+      "FogB": null,
+      "FogNear": null,
+      "FogFar": null,
+      "WorldHdrMultiplier": null,
+      "WorldBloomThreshold": null,
+      "WorldBloomIntensity": null,
+      "CameraZoomOffset": null,
+      "CameraAngleOffset": null,
+      "CameraIndoorZoomOffset": null,
+      "CameraIndoorFarClipOverride": null,
+      "CameraIndoorFarClipIsBlack": null,
+      "EnableCameraPeeking": null,
+      "UnderwaterCamera": null,
+      "DisableSunlight": null,
+      "ForceIsIndoor": null,
+      "IndoorHeight": null,
+      "MapLayer": 0,
+      "MapCenterXOverride": null,
+      "MapCenterYOverride": null,
+      "MusicCue": null,
+      "BattleMusicCue": null,
+      "BossMusicCue": null,
+      "InherentStatusID": null,
+      "InherentStatusMessage": null,
+      "Arena": null,
+      "ArenaIndoor": null
+    },
     {
       "ID": 189,
       "Name": "The Open Sea",
@@ -28062,7 +28189,7 @@
       "Comments": null,
       "Flavor": "Not your Mother's Stew",
       "Description": null,
-      "SortOrder": 155,
+      "SortOrder": 156,
       "ScaledOrder": 0,
       "LocationBiomeID": null,
       "TexturePath": "Icon/ItemC",
@@ -28085,7 +28212,7 @@
       "Comments": null,
       "Flavor": "Not your Mother's Milk",
       "Description": null,
-      "SortOrder": 156,
+      "SortOrder": 157,
       "ScaledOrder": 0,
       "LocationBiomeID": null,
       "TexturePath": "Icon/ItemC",
@@ -28108,7 +28235,7 @@
       "Comments": null,
       "Flavor": "Not your Mother's Salmon",
       "Description": null,
-      "SortOrder": 157,
+      "SortOrder": 158,
       "ScaledOrder": 0,
       "LocationBiomeID": null,
       "TexturePath": "Icon/ItemC",
@@ -28131,7 +28258,7 @@
       "Comments": null,
       "Flavor": "Not your Mother's Rotten Salmon",
       "Description": null,
-      "SortOrder": 158,
+      "SortOrder": 159,
       "ScaledOrder": 0,
       "LocationBiomeID": null,
       "TexturePath": "Icon/ItemC",
@@ -28143,6 +28270,29 @@
       "IsSellable": false,
       "AutoLostAndFound": false,
       "AbilityID": null,
+      "MapForBiomeID": null,
+      "IncreaseMaxCapacityForItemID": null,
+      "IncreaseMaxCapacityBy": null,
+      "SpecialBonus": 0
+    },
+    {
+      "ID": 233,
+      "Name": "Archipelago Stone",
+      "Comments": null,
+      "Flavor": null,
+      "Description": null,
+      "SortOrder": 63,
+      "ScaledOrder": 1,
+      "LocationBiomeID": 14,
+      "TexturePath": "Icon/ArchipelagoStone",
+      "TextureIndex": 0,
+      "Cost": 400,
+      "MaxCapacity": 0,
+      "IsConsumable": false,
+      "IsCombat": false,
+      "IsSellable": false,
+      "AutoLostAndFound": false,
+      "AbilityID": 508,
       "MapForBiomeID": null,
       "IncreaseMaxCapacityForItemID": null,
       "IncreaseMaxCapacityBy": null,
@@ -31047,7 +31197,7 @@
                     },
                     {
                       "LootType": 1,
-                      "LootValue": 150,
+                      "LootValue": 10,
                       "CostRate": 100,
                       "Condition": {
                         "ConditionType": 0,
@@ -34115,6 +34265,178 @@
                   "GlobalTryDespawn": false,
                   "NpcKey": null
                 }
+              }
+            ],
+            "Context": 0
+          }
+        ]
+      },
+      "SignData": null,
+      "SparkData": null,
+      "DoorData": null,
+      "HomePointData": null,
+      "TreasureData": null,
+      "CrystalData": null,
+      "MarkerData": null
+    },
+    {
+      "ID": 199,
+      "Coord": {
+        "X": 178,
+        "Y": 133,
+        "Z": -202
+      },
+      "BiomeID": 2,
+      "EntityType": 0,
+      "Comments": null,
+      "NpcData": {
+        "Key": "Z2_ShopFishItems",
+        "LinkedKey": null,
+        "TieToSpawn": false,
+        "UniquePerKey": false,
+        "Outfits": [
+          {
+            "Condition": {
+              "ConditionType": 0,
+              "Data": null,
+              "IsNegation": false
+            },
+            "TextureKey": "Actor/Npc_MerchantC",
+            "Name": "Fish Merchant",
+            "PlayerCharacterLevel": null,
+            "JobID": null,
+            "Facing": 0,
+            "ShadowType": 2,
+            "AutoStep": false,
+            "VoxelID": null,
+            "VoxelVariantIndex": 0,
+            "PlayerCollision": 3,
+            "NpcCollision": 0,
+            "MountType": 15,
+            "JumpType": 0,
+            "KeepSpawned": false,
+            "WanderType": 0,
+            "WanderSpeed": 0.0,
+            "WanderFrequency": 0,
+            "WanderRadius": 0.0,
+            "WanderRoute": [],
+            "WanderRouteIsLine": false
+          }
+        ],
+        "Pages": [
+          {
+            "Condition": {
+              "ConditionType": 0,
+              "Data": null,
+              "IsNegation": false
+            },
+            "TriggerType": 0,
+            "TriggerProximityRadius": 1.0,
+            "TriggerProximityBox": {
+              "XNeg": 0.0,
+              "YNeg": 0.0,
+              "ZNeg": 0.0,
+              "XPos": 0.0,
+              "YPos": 0.0,
+              "ZPos": 0.0
+            },
+            "TriggerOnExitProximity": false,
+            "TriggerTouchType": 0,
+            "Actions": [
+              {
+                "ActionType": 0,
+                "Data": null
+              },
+              {
+                "ActionType": 1,
+                "Data": {
+                  "Message": "We have the best fish in the land, right here!",
+                  "NpcKey": null,
+                  "Choices": [],
+                  "AnswerVariableKey": null,
+                  "ShowPartyStatus": false
+                }
+              },
+              {
+                "ActionType": 5,
+                "Data": {
+                  "Stock": [
+                    {
+                      "LootType": 1,
+                      "LootValue": 10,
+                      "CostRate": 100,
+                      "Condition": {
+                        "ConditionType": 0,
+                        "Data": null,
+                        "IsNegation": false
+                      }
+                    },
+                    {
+                      "LootType": 1,
+                      "LootValue": 25,
+                      "CostRate": 100,
+                      "Condition": {
+                        "ConditionType": 0,
+                        "Data": null,
+                        "IsNegation": false
+                      }
+                    },
+                    {
+                      "LootType": 1,
+                      "LootValue": 18,
+                      "CostRate": 100,
+                      "Condition": {
+                        "ConditionType": 0,
+                        "Data": null,
+                        "IsNegation": false
+                      }
+                    },
+                    {
+                      "LootType": 1,
+                      "LootValue": 47,
+                      "CostRate": 100,
+                      "Condition": {
+                        "ConditionType": 0,
+                        "Data": null,
+                        "IsNegation": false
+                      }
+                    },
+                    {
+                      "LootType": 1,
+                      "LootValue": 2,
+                      "CostRate": 100,
+                      "Condition": {
+                        "ConditionType": 0,
+                        "Data": null,
+                        "IsNegation": false
+                      }
+                    },
+                    {
+                      "LootType": 1,
+                      "LootValue": 74,
+                      "CostRate": 100,
+                      "Condition": {
+                        "ConditionType": 0,
+                        "Data": null,
+                        "IsNegation": false
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "ActionType": 1,
+                "Data": {
+                  "Message": "Come again, my friend!",
+                  "NpcKey": null,
+                  "Choices": [],
+                  "AnswerVariableKey": null,
+                  "ShowPartyStatus": false
+                }
+              },
+              {
+                "ActionType": 2,
+                "Data": null
               }
             ],
             "Context": 0
@@ -38381,7 +38703,7 @@
                   "Stock": [
                     {
                       "LootType": 1,
-                      "LootValue": 97,
+                      "LootValue": 25,
                       "CostRate": 100,
                       "Condition": {
                         "ConditionType": 0,
@@ -39780,69 +40102,6 @@
             "WanderRadius": 0.0,
             "WanderRoute": null,
             "WanderRouteIsLine": false
-          },
-          {
-            "Condition": {
-              "ConditionType": 2,
-              "Data": {
-                "LHS": {
-                  "ConditionType": 3,
-                  "Data": {
-                    "Scope": 0,
-                    "EntityKey": null,
-                    "VariableKey": "GotRod",
-                    "Eval": 2,
-                    "VariableType": 0,
-                    "Flag": false,
-                    "Number": 0,
-                    "SourceVariableScope": 0,
-                    "SourceVariableKey": null,
-                    "LootType": 0,
-                    "LootValue": 0
-                  },
-                  "IsNegation": true
-                },
-                "Op": 0,
-                "RHS": {
-                  "ConditionType": 4,
-                  "Data": {
-                    "Scope": 2,
-                    "EntityKey": null,
-                    "VariableKey": "Q_Chloe",
-                    "Eval": 3,
-                    "VariableType": 0,
-                    "Flag": false,
-                    "Number": 50,
-                    "SourceVariableScope": 0,
-                    "SourceVariableKey": null,
-                    "LootType": 0,
-                    "LootValue": 0
-                  },
-                  "IsNegation": false
-                }
-              },
-              "IsNegation": false
-            },
-            "TextureKey": "Actor/Effect_Sparkle",
-            "Name": null,
-            "PlayerCharacterLevel": null,
-            "JobID": null,
-            "Facing": 5,
-            "ShadowType": 0,
-            "AutoStep": true,
-            "VoxelID": null,
-            "VoxelVariantIndex": 0,
-            "PlayerCollision": 0,
-            "NpcCollision": 0,
-            "MountType": 20,
-            "JumpType": 0,
-            "KeepSpawned": false,
-            "WanderType": 0,
-            "WanderSpeed": 0.0,
-            "WanderFrequency": 0,
-            "WanderRadius": 0.0,
-            "WanderRoute": [],
-            "WanderRouteIsLine": false
           }
         ],
         "Pages": [
@@ -41059,6 +41318,30 @@
       "HomePointData": {
         "Name": "AP Spawn Point"
       },
+      "TreasureData": null,
+      "CrystalData": null,
+      "MarkerData": null
+    },
+    {
+      "ID": 5004,
+      "Coord": {
+        "X": 766,
+        "Y": 125,
+        "Z": -241
+      },
+      "BiomeID": 38,
+      "EntityType": 1,
+      "Comments": null,
+      "NpcData": null,
+      "SignData": {
+        "Title": "Sky Arena Prize Counter",
+        "Message": null,
+        "Facing": 5,
+        "SignType": 0
+      },
+      "SparkData": null,
+      "DoorData": null,
+      "HomePointData": null,
       "TreasureData": null,
       "CrystalData": null,
       "MarkerData": null

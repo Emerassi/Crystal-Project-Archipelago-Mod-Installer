@@ -16,7 +16,6 @@ class CrystalProjectAPInstaller
 	{
 		const string originalCrystalProjectExeName = "Crystal Project.exe.original";
 		const string crystalProjectExeName = "Crystal Project.exe";
-		const string crystalProjectArchipelagoName = "CrystalProjectTemp.exe";
 		const string patchName = "CrystalProjectAP.bsdiff";
 
 		Console.WriteLine("Crystal Project Archipelago Installer");
@@ -94,7 +93,6 @@ class CrystalProjectAPInstaller
 		{
 			string crystalProjectExePath = Path.Combine(crystalProjectPath, crystalProjectExeName);
 			string originalCrystalProjectExePath = Path.Combine(crystalProjectPath, originalCrystalProjectExeName);
-			string crystalProjectArchipelagoExePath = Path.Combine(crystalProjectPath, crystalProjectArchipelagoName);
 
 			// We used to keep backup files around in the directory, but this is pointless because we have Steam.  It is the backup.
 			// Running verify files will restore a mistake in 2 seconds.
@@ -107,7 +105,7 @@ class CrystalProjectAPInstaller
 			try
 			{
 				string archipelagoBranchHashString = "9a1e47b7fb5198f86b13279beb9f6f50"; //1.6.5 Archipelago Branch hash
-				string archipelagoModdedVersionString = "40800fe12fffb957276a7f7ee740b170"; //v0.10.0 Archipelago Modded hash
+				string archipelagoModdedVersionString = "2b0938f5b70858849c0cef114eb525ad"; //v0.11.3 Archipelago Modded hash
 
 				//Open crystal project exe path and compute the hash to make sure that it's the right version
 				FileStream crystalProjectBeforeStream = new(crystalProjectExePath, FileMode.Open, FileAccess.Read, FileShare.Read);
@@ -127,13 +125,8 @@ class CrystalProjectAPInstaller
 				}
 				else
 				{
-					//Reopen the crystal project exe(should be vanilla at this point) and apply the bsdiff
-					FileStream input = new(crystalProjectExePath, FileMode.Open, FileAccess.Read, FileShare.Read);
-					FileStream output = new(crystalProjectArchipelagoExePath, FileMode.Create);
-					BinaryPatchUtility.Apply(input, () => new FileStream(Path.Combine(installerPath, patchName), FileMode.Open, FileAccess.Read, FileShare.Read), output);
-					input.Dispose();
-					output.Dispose();
-					File.Move(crystalProjectArchipelagoExePath, crystalProjectExePath, true);
+					//Apply the bsdiff to the cry pro exe which should be vanilla still
+					ApplyDiff(crystalProjectExePath, Path.Combine(installerPath, patchName));
 
 					FileStream crystalProjectAfterStream = new(crystalProjectExePath, FileMode.Open, FileAccess.Read, FileShare.Read);
 					string exeAfterHashString = BitConverter.ToString(md5.ComputeHash(crystalProjectAfterStream)).Replace("-", "").ToLower();
@@ -145,6 +138,9 @@ class CrystalProjectAPInstaller
 						Exit();
 						return;
 					}
+
+					DeepApplyDiff(Path.Combine(installerPath, "Content"), Path.Combine(crystalProjectPath, "Content"));
+					DeepApplyDiff(Path.Combine(installerPath, "Crystal Edit"), Path.Combine(crystalProjectPath, "Crystal Edit"));
 				}				
 			}
 			catch (FileNotFoundException ex)
@@ -156,7 +152,7 @@ class CrystalProjectAPInstaller
 			}
 
 			// Don't attempt the copies until after we've finished all other verifications (i.e. file hash)
-			DeepCopy(installerPath, crystalProjectPath, new List<string>
+			DeepCopy(installerPath, crystalProjectPath, excludedFiles: new List<string>
 			{
 				"Bsdiff.Core.dll",
 				"CrystalProjectAPInstaller.deps.json",
@@ -184,13 +180,13 @@ class CrystalProjectAPInstaller
 		Console.ReadKey(true);
 	}
 
-	private static void DeepCopy(string fromFolder, string toFolder, List<string> exceptionFiles = null)
+	private static void DeepCopy(string fromFolder, string toFolder, List<string> excludedFiles = null)
 	{
 		string[] files = Directory.GetFiles(fromFolder);
-		Directory.CreateDirectory(toFolder);
 		foreach (string file in files)
 		{
-			if (exceptionFiles != null && exceptionFiles.Contains(Path.GetFileName(file))) continue;
+			if (excludedFiles != null && excludedFiles.Contains(Path.GetFileName(file)))
+				continue;
 			string dest = Path.Combine(toFolder, Path.GetFileName(file));
 			File.Copy(file, dest, true);
 		}
@@ -199,5 +195,36 @@ class CrystalProjectAPInstaller
 		{
 			DeepCopy(folder, Path.Combine(toFolder, Path.GetFileNameWithoutExtension(folder)));
 		}
+	}
+
+	private static void DeepApplyDiff(string fromFolder, string toFolder)
+	{
+		string[] files = Directory.GetFiles(fromFolder);
+		Directory.CreateDirectory(toFolder);
+		foreach (string file in files)
+		{
+			if (file.EndsWith(".bsdiff"))
+			{
+				string originalFileName = Path.GetFileName(file.Substring(0, file.Length - ".bsdiff".Length));
+				string dest = Path.Combine(toFolder, originalFileName);
+				ApplyDiff(dest, file);
+			}
+		}
+		string[] folders = Directory.GetDirectories(fromFolder);
+		foreach (string folder in folders)
+		{
+			DeepApplyDiff(folder, Path.Combine(toFolder, Path.GetFileNameWithoutExtension(folder)));
+		}
+	}
+
+	private static void ApplyDiff(string fileToUpdatePath, string diffFilePath)
+	{
+		string tempFilePath = Path.Combine(Directory.GetCurrentDirectory(), "Temp");
+		FileStream input = new(fileToUpdatePath, FileMode.Open, FileAccess.Read, FileShare.Read);
+		FileStream output = new(tempFilePath, FileMode.Create);
+		BinaryPatchUtility.Apply(input, () => new FileStream(diffFilePath, FileMode.Open, FileAccess.Read, FileShare.Read), output);
+		input.Dispose();
+		output.Dispose();
+		File.Move(tempFilePath, fileToUpdatePath, true);
 	}
 }

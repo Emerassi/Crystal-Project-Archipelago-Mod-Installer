@@ -32,14 +32,6 @@
     "Rule": null
   },
   {
-    "Name": "Cabin On The Cliff",
-    "LocationId": 94,
-    "APRegion": "Delende",
-    "Coordinates": "126, 132, -52",
-    "MapLayer": 0,
-    "Rule": null
-  },
-  {
     "Name": "Fish Hatchery",
     "LocationId": 127,
     "APRegion": "Delende",
@@ -48,18 +40,26 @@
     "Rule": null
   },
   {
-    "Name": "Delende Peak",
-    "LocationId": 160,
-    "APRegion": "Delende",
-    "Coordinates": "296, 137, -97",
+    "Name": "Cabin On The Cliff",
+    "LocationId": 94,
+    "APRegion": "Delende High Bridges",
+    "Coordinates": "126, 132, -52",
     "MapLayer": 0,
     "Rule": null
   },
   {
     "Name": "Delende Falls",
     "LocationId": 186,
-    "APRegion": "Delende",
+    "APRegion": "Delende High Bridges",
     "Coordinates": "331, 124, -221",
+    "MapLayer": 0,
+    "Rule": null
+  },
+  {
+    "Name": "Delende Peak",
+    "LocationId": 160,
+    "APRegion": "Delende Peak",
+    "Coordinates": "296, 137, -97",
     "MapLayer": 0,
     "Rule": null
   },
@@ -210,10 +210,10 @@
   {
     "Name": "Quintar Sanctum",
     "LocationId": 917,
-    "APRegion": "Rolling Quintar Fields",
+    "APRegion": "Quintar Sanctum Entrance",
     "Coordinates": "565, 183, -409",
     "MapLayer": 0,
-    "Rule": "lambda state: logic.has_rental_quintar(state, \"Rolling Quintar Fields\") or logic.has_vertical_movement(state)"
+    "Rule": null
   },
   {
     "Name": "Quintar Nameko",
@@ -274,10 +274,10 @@
   {
     "Name": "Labyrinth Encampment",
     "LocationId": 2712,
-    "APRegion": "Poko Poko Desert",
+    "APRegion": "Tower of Zot",
     "Coordinates": "-150, 125, -238",
     "MapLayer": 0,
-    "Rule": "lambda state: logic.has_horizontal_movement(state) and logic.has_vertical_movement(state)"
+    "Rule": null
   },
   {
     "Name": "Sara Sara Bazaar Port",

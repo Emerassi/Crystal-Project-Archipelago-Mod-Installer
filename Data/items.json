@@ -312,31 +312,31 @@
     "Classification": "KEY"
   },
   {
-    "ItemId": 501,
+    "ItemId": 650,
     "Name": "Item - Prison Key Ring",
     "CategoryCode": "ItemClassification.progression",
     "Classification": "KEY"
   },
   {
-    "ItemId": 502,
+    "ItemId": 651,
     "Name": "Item - Beaurior Key Ring",
     "CategoryCode": "ItemClassification.progression",
     "Classification": "KEY"
   },
   {
-    "ItemId": 503,
+    "ItemId": 652,
     "Name": "Item - Ice Puzzle Key Ring",
     "CategoryCode": "ItemClassification.progression",
     "Classification": "KEY"
   },
   {
-    "ItemId": 504,
+    "ItemId": 653,
     "Name": "Item - Slip Glide Ride Key Ring",
     "CategoryCode": "ItemClassification.progression",
     "Classification": "KEY"
   },
   {
-    "ItemId": 505,
+    "ItemId": 654,
     "Name": "Item - Jidamba Key Ring",
     "CategoryCode": "ItemClassification.progression",
     "Classification": "KEY"
