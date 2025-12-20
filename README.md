@@ -6,7 +6,7 @@ the [Archipelago GitHub](https://github.com/ArchipelagoMW/Archipelago/releases) 
 ## Crystal Project Mod Installation Procedures
 
 .Net 8.0 Desktop Runtime x64 (not .Net Core or the SDK!) is required to run the Crystal Project Archipelago Mod Installer: 
-https://dotnet.microsoft.com/en-us/download/dotnet/8.0
+https://dotnet.microsoft.com/en-us/download/dotnet/8.0. If you're on Linux you can donwload the non-desktop runtime and it will also work.
 
 In your Steam library, right-click Crystal Project in the list and select "Properties...". Go to the Betas section, 
 open the Beta Participation dropdown, and select the archipelago branch (version 1.6.5).
@@ -15,7 +15,9 @@ Download and extract the .zip file containing the installer and necessary files 
 [Releases](https://github.com/Emerassi/Crystal-Project-Archipelago-Mod-Installer) page. Run CrystalProjectAPInstaller.exe, and
 in the file dialogue box select your Crystal Project executable (Crystal Project.exe), or navigate to it if it is not
 automatically selected. If the installer displays the message "Patching successful!" you know the mod is successfully
-installed! You may launch Crystal Project as normal using Steam to play with Archipelago.
+installed! You may launch Crystal Project as normal using Steam to play with Archipelago.  If the installer closes immediately instead,
+there's a very good chance that you did not install the correct .Net Runtime.  Make sure that you didn't select ASP.NET Core Runtime
+or the SDK when you downloaded it.  
 
 To uninstall, verify integrity of game files on Steam and it will return you to the unmodified version.
 
