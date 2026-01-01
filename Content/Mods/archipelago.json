@@ -4,9 +4,9 @@
   "Description": "Archipelago",
   "Author": "FabulaFey",
   "Version": "1.0",
-  "EditorVersion": 30,
+  "EditorVersion": 32,
   "SteamWorkshopFileID": 0,
-  "Timestamp": "2025-11-09T19:10:34.3254273Z",
+  "Timestamp": "2025-12-22T21:28:43.5376487Z",
   "IsLocalization": false,
   "Language": null,
   "HasCustomContent": true,
@@ -2449,7 +2449,7 @@
           "ModelID": 101,
           "SortOrder": 6,
           "Children": [],
-          "IsExpanded": false
+          "IsExpanded": true
         },
         {
           "ModelTypeID": 15,
@@ -20422,7 +20422,7 @@
               "IsExpanded": false
             }
           ],
-          "IsExpanded": false
+          "IsExpanded": true
         },
         {
           "ModelTypeID": 14,
@@ -21688,7 +21688,7 @@
               "IsExpanded": false
             }
           ],
-          "IsExpanded": true
+          "IsExpanded": false
         },
         {
           "ModelTypeID": 14,
@@ -24566,49 +24566,49 @@
               "ModelID": 96,
               "SortOrder": 0,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 14,
               "ModelID": 82,
               "SortOrder": 1,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 14,
               "ModelID": 100,
               "SortOrder": 2,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 14,
               "ModelID": 103,
               "SortOrder": 3,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 14,
               "ModelID": 104,
               "SortOrder": 4,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 14,
               "ModelID": 186,
               "SortOrder": 5,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 14,
               "ModelID": 120,
               "SortOrder": 6,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 3,
@@ -25170,7 +25170,7 @@
           "IsExpanded": false
         }
       ],
-      "IsExpanded": true
+      "IsExpanded": false
     },
     {
       "ModelTypeID": 3,
@@ -26292,14 +26292,14 @@
               "ModelID": 180,
               "SortOrder": 0,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 14,
               "ModelID": 111,
               "SortOrder": 1,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 3,
@@ -26525,7 +26525,7 @@
                   "IsExpanded": false
                 }
               ],
-              "IsExpanded": true
+              "IsExpanded": false
             },
             {
               "ModelTypeID": 4,
@@ -27329,6 +27329,60 @@
   ],
   "Animations": [],
   "Biomes": [
+    {
+      "ID": 103,
+      "Name": "The Deep Sea (Near Water Summon)",
+      "SortOrder": 156,
+      "BaseID": 35,
+      "IsMapOnly": false,
+      "IsMapAlt": false,
+      "IndColor": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.0
+      },
+      "IsInDemo": false,
+      "WeatherType": null,
+      "WorldR": null,
+      "WorldG": null,
+      "WorldB": null,
+      "FogR": null,
+      "FogG": null,
+      "FogB": null,
+      "FogNear": null,
+      "FogFar": null,
+      "WorldHdrMultiplier": null,
+      "WorldBloomThreshold": null,
+      "WorldBloomIntensity": null,
+      "CameraZoomOffset": null,
+      "CameraAngleOffset": null,
+      "CameraIndoorZoomOffset": null,
+      "CameraIndoorFarClipOverride": null,
+      "CameraIndoorFarClipIsBlack": null,
+      "EnableCameraPeeking": null,
+      "UnderwaterCamera": null,
+      "DisableSunlight": null,
+      "ForceIsIndoor": null,
+      "IndoorHeight": null,
+      "MapLayer": 0,
+      "MapCenterXOverride": null,
+      "MapCenterYOverride": null,
+      "MusicCue": 57,
+      "BattleMusicCue": 19,
+      "BossMusicCue": 20,
+      "InherentStatusID": null,
+      "InherentStatusMessage": null,
+      "Arena": {
+        "GlobalIndexOrigin": {
+          "X": -6,
+          "Y": 7,
+          "Z": 24
+        },
+        "IsIndoor": false,
+        "IsUnderwater": true
+      },
+      "ArenaIndoor": null
+    },
     {
       "ID": 109,
       "Name": "Shoudu Province (Map Only)",
@@ -29817,6 +29871,8 @@
                         "GlobalRefreshPositions": false,
                         "GlobalTrySpawn": false,
                         "GlobalTryDespawn": false,
+                        "ClearTempNpcVariables": false,
+                        "ClearTempGlobalVariables": false,
                         "NpcKey": null
                       }
                     }
@@ -30085,6 +30141,8 @@
                         "GlobalRefreshPositions": false,
                         "GlobalTrySpawn": false,
                         "GlobalTryDespawn": false,
+                        "ClearTempNpcVariables": false,
+                        "ClearTempGlobalVariables": false,
                         "NpcKey": null
                       }
                     }
@@ -30894,6 +30952,8 @@
                                     "GlobalRefreshPositions": false,
                                     "GlobalTrySpawn": false,
                                     "GlobalTryDespawn": false,
+                                    "ClearTempNpcVariables": false,
+                                    "ClearTempGlobalVariables": false,
                                     "NpcKey": null
                                   }
                                 }
@@ -31141,6 +31201,8 @@
                                           "GlobalRefreshPositions": false,
                                           "GlobalTrySpawn": false,
                                           "GlobalTryDespawn": false,
+                                          "ClearTempNpcVariables": false,
+                                          "ClearTempGlobalVariables": false,
                                           "NpcKey": null
                                         }
                                       }
@@ -31345,6 +31407,8 @@
                         "GlobalRefreshPositions": false,
                         "GlobalTrySpawn": false,
                         "GlobalTryDespawn": false,
+                        "ClearTempNpcVariables": false,
+                        "ClearTempGlobalVariables": false,
                         "NpcKey": null
                       }
                     }
@@ -32201,6 +32265,8 @@
                   "GlobalRefreshPositions": false,
                   "GlobalTrySpawn": false,
                   "GlobalTryDespawn": false,
+                  "ClearTempNpcVariables": false,
+                  "ClearTempGlobalVariables": false,
                   "NpcKey": null
                 }
               }
@@ -32212,6 +32278,31 @@
       "SignData": null,
       "SparkData": null,
       "DoorData": null,
+      "HomePointData": null,
+      "TreasureData": null,
+      "CrystalData": null,
+      "MarkerData": null
+    },
+    {
+      "ID": 3796,
+      "Coord": {
+        "X": -97,
+        "Y": 4,
+        "Z": -538
+      },
+      "BiomeID": 59,
+      "EntityType": 3,
+      "Comments": null,
+      "NpcData": null,
+      "SignData": null,
+      "SparkData": null,
+      "DoorData": {
+        "DoorType": 5,
+        "IsLocked": false,
+        "RequiredItemID": 191,
+        "RequiredGlobalFlag": "",
+        "RequiredGlobalFlagIsNegation": false
+      },
       "HomePointData": null,
       "TreasureData": null,
       "CrystalData": null,
@@ -32518,6 +32609,8 @@
                         "GlobalRefreshPositions": false,
                         "GlobalTrySpawn": true,
                         "GlobalTryDespawn": false,
+                        "ClearTempNpcVariables": false,
+                        "ClearTempGlobalVariables": false,
                         "NpcKey": null
                       }
                     }
@@ -32657,6 +32750,8 @@
                         "GlobalRefreshPositions": false,
                         "GlobalTrySpawn": false,
                         "GlobalTryDespawn": false,
+                        "ClearTempNpcVariables": false,
+                        "ClearTempGlobalVariables": false,
                         "NpcKey": null
                       }
                     }
@@ -33336,6 +33431,8 @@
                   "GlobalRefreshPositions": false,
                   "GlobalTrySpawn": false,
                   "GlobalTryDespawn": false,
+                  "ClearTempNpcVariables": false,
+                  "ClearTempGlobalVariables": false,
                   "NpcKey": null
                 }
               }
@@ -33745,6 +33842,8 @@
                   "GlobalRefreshPositions": false,
                   "GlobalTrySpawn": false,
                   "GlobalTryDespawn": false,
+                  "ClearTempNpcVariables": false,
+                  "ClearTempGlobalVariables": false,
                   "NpcKey": null
                 }
               }
@@ -34002,6 +34101,8 @@
                   "GlobalRefreshPositions": false,
                   "GlobalTrySpawn": true,
                   "GlobalTryDespawn": false,
+                  "ClearTempNpcVariables": false,
+                  "ClearTempGlobalVariables": false,
                   "NpcKey": null
                 }
               }
@@ -34263,6 +34364,8 @@
                   "GlobalRefreshPositions": false,
                   "GlobalTrySpawn": true,
                   "GlobalTryDespawn": false,
+                  "ClearTempNpcVariables": false,
+                  "ClearTempGlobalVariables": false,
                   "NpcKey": null
                 }
               }
@@ -34544,6 +34647,8 @@
                   "GlobalRefreshPositions": false,
                   "GlobalTrySpawn": false,
                   "GlobalTryDespawn": false,
+                  "ClearTempNpcVariables": false,
+                  "ClearTempGlobalVariables": false,
                   "NpcKey": null
                 }
               }
@@ -34610,6 +34715,8 @@
                   "GlobalRefreshPositions": false,
                   "GlobalTrySpawn": false,
                   "GlobalTryDespawn": false,
+                  "ClearTempNpcVariables": false,
+                  "ClearTempGlobalVariables": false,
                   "NpcKey": null
                 }
               }
@@ -34779,6 +34886,8 @@
                   "GlobalRefreshPositions": false,
                   "GlobalTrySpawn": false,
                   "GlobalTryDespawn": false,
+                  "ClearTempNpcVariables": false,
+                  "ClearTempGlobalVariables": false,
                   "NpcKey": null
                 }
               }
@@ -34836,6 +34945,8 @@
                   "GlobalRefreshPositions": false,
                   "GlobalTrySpawn": true,
                   "GlobalTryDespawn": false,
+                  "ClearTempNpcVariables": false,
+                  "ClearTempGlobalVariables": false,
                   "NpcKey": null
                 }
               },
@@ -34889,6 +35000,8 @@
                   "GlobalRefreshPositions": false,
                   "GlobalTrySpawn": false,
                   "GlobalTryDespawn": false,
+                  "ClearTempNpcVariables": false,
+                  "ClearTempGlobalVariables": false,
                   "NpcKey": null
                 }
               }
@@ -35114,6 +35227,8 @@
                   "GlobalRefreshPositions": false,
                   "GlobalTrySpawn": true,
                   "GlobalTryDespawn": false,
+                  "ClearTempNpcVariables": false,
+                  "ClearTempGlobalVariables": false,
                   "NpcKey": null
                 }
               }
@@ -35503,6 +35618,8 @@
                   "GlobalRefreshPositions": false,
                   "GlobalTrySpawn": true,
                   "GlobalTryDespawn": false,
+                  "ClearTempNpcVariables": false,
+                  "ClearTempGlobalVariables": false,
                   "NpcKey": null
                 }
               }
@@ -35950,6 +36067,8 @@
                   "GlobalRefreshPositions": false,
                   "GlobalTrySpawn": false,
                   "GlobalTryDespawn": false,
+                  "ClearTempNpcVariables": false,
+                  "ClearTempGlobalVariables": false,
                   "NpcKey": null
                 }
               }
@@ -36083,6 +36202,8 @@
                   "GlobalRefreshPositions": false,
                   "GlobalTrySpawn": false,
                   "GlobalTryDespawn": false,
+                  "ClearTempNpcVariables": false,
+                  "ClearTempGlobalVariables": false,
                   "NpcKey": null
                 }
               }
@@ -36502,6 +36623,8 @@
                   "GlobalRefreshPositions": false,
                   "GlobalTrySpawn": false,
                   "GlobalTryDespawn": false,
+                  "ClearTempNpcVariables": false,
+                  "ClearTempGlobalVariables": false,
                   "NpcKey": null
                 }
               }
@@ -36810,6 +36933,8 @@
                   "GlobalRefreshPositions": false,
                   "GlobalTrySpawn": false,
                   "GlobalTryDespawn": false,
+                  "ClearTempNpcVariables": false,
+                  "ClearTempGlobalVariables": false,
                   "NpcKey": null
                 }
               }
@@ -36969,6 +37094,8 @@
                   "GlobalRefreshPositions": false,
                   "GlobalTrySpawn": false,
                   "GlobalTryDespawn": false,
+                  "ClearTempNpcVariables": false,
+                  "ClearTempGlobalVariables": false,
                   "NpcKey": null
                 }
               }
@@ -37064,6 +37191,8 @@
                         "GlobalRefreshPositions": false,
                         "GlobalTrySpawn": false,
                         "GlobalTryDespawn": false,
+                        "ClearTempNpcVariables": false,
+                        "ClearTempGlobalVariables": false,
                         "NpcKey": null
                       }
                     }
@@ -37148,6 +37277,8 @@
                         "GlobalRefreshPositions": false,
                         "GlobalTrySpawn": false,
                         "GlobalTryDespawn": false,
+                        "ClearTempNpcVariables": false,
+                        "ClearTempGlobalVariables": false,
                         "NpcKey": null
                       }
                     }
@@ -37946,6 +38077,8 @@
                         "GlobalRefreshPositions": false,
                         "GlobalTrySpawn": false,
                         "GlobalTryDespawn": false,
+                        "ClearTempNpcVariables": false,
+                        "ClearTempGlobalVariables": false,
                         "NpcKey": null
                       }
                     }
@@ -38306,6 +38439,8 @@
                   "GlobalRefreshPositions": false,
                   "GlobalTrySpawn": false,
                   "GlobalTryDespawn": false,
+                  "ClearTempNpcVariables": false,
+                  "ClearTempGlobalVariables": false,
                   "NpcKey": null
                 }
               }
@@ -38603,6 +38738,8 @@
                   "GlobalRefreshPositions": false,
                   "GlobalTrySpawn": false,
                   "GlobalTryDespawn": false,
+                  "ClearTempNpcVariables": false,
+                  "ClearTempGlobalVariables": false,
                   "NpcKey": null
                 }
               }
@@ -38859,6 +38996,8 @@
                         "GlobalRefreshPositions": false,
                         "GlobalTrySpawn": false,
                         "GlobalTryDespawn": false,
+                        "ClearTempNpcVariables": false,
+                        "ClearTempGlobalVariables": false,
                         "NpcKey": null
                       }
                     }
@@ -39571,6 +39710,8 @@
                   "GlobalRefreshPositions": false,
                   "GlobalTrySpawn": true,
                   "GlobalTryDespawn": false,
+                  "ClearTempNpcVariables": false,
+                  "ClearTempGlobalVariables": false,
                   "NpcKey": null
                 }
               }
@@ -39824,6 +39965,8 @@
                   "GlobalRefreshPositions": false,
                   "GlobalTrySpawn": false,
                   "GlobalTryDespawn": false,
+                  "ClearTempNpcVariables": false,
+                  "ClearTempGlobalVariables": false,
                   "NpcKey": null
                 }
               }
@@ -40233,6 +40376,8 @@
                   "GlobalRefreshPositions": false,
                   "GlobalTrySpawn": false,
                   "GlobalTryDespawn": false,
+                  "ClearTempNpcVariables": false,
+                  "ClearTempGlobalVariables": false,
                   "NpcKey": null
                 }
               }
@@ -40498,6 +40643,8 @@
                   "GlobalRefreshPositions": false,
                   "GlobalTrySpawn": false,
                   "GlobalTryDespawn": false,
+                  "ClearTempNpcVariables": false,
+                  "ClearTempGlobalVariables": false,
                   "NpcKey": null
                 }
               }
@@ -40659,6 +40806,8 @@
                   "GlobalRefreshPositions": false,
                   "GlobalTrySpawn": false,
                   "GlobalTryDespawn": false,
+                  "ClearTempNpcVariables": false,
+                  "ClearTempGlobalVariables": false,
                   "NpcKey": null
                 }
               }
@@ -41336,6 +41485,624 @@
       "SignData": {
         "Title": "Sky Arena Prize Counter",
         "Message": null,
+        "Facing": 5,
+        "SignType": 0
+      },
+      "SparkData": null,
+      "DoorData": null,
+      "HomePointData": null,
+      "TreasureData": null,
+      "CrystalData": null,
+      "MarkerData": null
+    },
+    {
+      "ID": 5006,
+      "Coord": {
+        "X": -72,
+        "Y": 18,
+        "Z": 139
+      },
+      "BiomeID": 111,
+      "EntityType": 0,
+      "Comments": null,
+      "NpcData": {
+        "Key": "Block0",
+        "LinkedKey": null,
+        "TieToSpawn": false,
+        "UniquePerKey": true,
+        "Outfits": [
+          {
+            "Condition": {
+              "ConditionType": 3,
+              "Data": {
+                "Scope": 2,
+                "EntityKey": null,
+                "VariableKey": "Jobs_Collected",
+                "Eval": 2,
+                "VariableType": 0,
+                "Flag": false,
+                "Number": 0,
+                "SourceVariableScope": 0,
+                "SourceVariableKey": null,
+                "LootType": 0,
+                "LootValue": 0
+              },
+              "IsNegation": true
+            },
+            "TextureKey": null,
+            "Name": null,
+            "PlayerCharacterLevel": null,
+            "JobID": null,
+            "Facing": 5,
+            "ShadowType": 2,
+            "AutoStep": false,
+            "VoxelID": 129,
+            "VoxelVariantIndex": 2,
+            "PlayerCollision": 2,
+            "NpcCollision": 0,
+            "MountType": 20,
+            "JumpType": 0,
+            "KeepSpawned": false,
+            "WanderType": 0,
+            "WanderSpeed": 0.0,
+            "WanderFrequency": 0,
+            "WanderRadius": 0.0,
+            "WanderRoute": [],
+            "WanderRouteIsLine": false
+          }
+        ],
+        "Pages": []
+      },
+      "SignData": null,
+      "SparkData": null,
+      "DoorData": null,
+      "HomePointData": null,
+      "TreasureData": null,
+      "CrystalData": null,
+      "MarkerData": null
+    },
+    {
+      "ID": 5007,
+      "Coord": {
+        "X": -72,
+        "Y": 17,
+        "Z": 139
+      },
+      "BiomeID": 111,
+      "EntityType": 0,
+      "Comments": null,
+      "NpcData": {
+        "Key": "Block1",
+        "LinkedKey": null,
+        "TieToSpawn": false,
+        "UniquePerKey": true,
+        "Outfits": [
+          {
+            "Condition": {
+              "ConditionType": 3,
+              "Data": {
+                "Scope": 2,
+                "EntityKey": null,
+                "VariableKey": "Jobs_Collected",
+                "Eval": 2,
+                "VariableType": 0,
+                "Flag": false,
+                "Number": 0,
+                "SourceVariableScope": 0,
+                "SourceVariableKey": null,
+                "LootType": 0,
+                "LootValue": 0
+              },
+              "IsNegation": true
+            },
+            "TextureKey": null,
+            "Name": null,
+            "PlayerCharacterLevel": null,
+            "JobID": null,
+            "Facing": 5,
+            "ShadowType": 2,
+            "AutoStep": false,
+            "VoxelID": 129,
+            "VoxelVariantIndex": 2,
+            "PlayerCollision": 2,
+            "NpcCollision": 0,
+            "MountType": 20,
+            "JumpType": 0,
+            "KeepSpawned": false,
+            "WanderType": 0,
+            "WanderSpeed": 0.0,
+            "WanderFrequency": 0,
+            "WanderRadius": 0.0,
+            "WanderRoute": [],
+            "WanderRouteIsLine": false
+          }
+        ],
+        "Pages": []
+      },
+      "SignData": null,
+      "SparkData": null,
+      "DoorData": null,
+      "HomePointData": null,
+      "TreasureData": null,
+      "CrystalData": null,
+      "MarkerData": null
+    },
+    {
+      "ID": 5005,
+      "Coord": {
+        "X": -72,
+        "Y": 16,
+        "Z": 139
+      },
+      "BiomeID": 111,
+      "EntityType": 0,
+      "Comments": null,
+      "NpcData": {
+        "Key": "Block2",
+        "LinkedKey": null,
+        "TieToSpawn": false,
+        "UniquePerKey": true,
+        "Outfits": [
+          {
+            "Condition": {
+              "ConditionType": 3,
+              "Data": {
+                "Scope": 2,
+                "EntityKey": null,
+                "VariableKey": "Jobs_Collected",
+                "Eval": 2,
+                "VariableType": 0,
+                "Flag": false,
+                "Number": 0,
+                "SourceVariableScope": 0,
+                "SourceVariableKey": null,
+                "LootType": 0,
+                "LootValue": 0
+              },
+              "IsNegation": true
+            },
+            "TextureKey": null,
+            "Name": null,
+            "PlayerCharacterLevel": null,
+            "JobID": null,
+            "Facing": 5,
+            "ShadowType": 2,
+            "AutoStep": false,
+            "VoxelID": 129,
+            "VoxelVariantIndex": 2,
+            "PlayerCollision": 2,
+            "NpcCollision": 0,
+            "MountType": 20,
+            "JumpType": 0,
+            "KeepSpawned": false,
+            "WanderType": 0,
+            "WanderSpeed": 0.0,
+            "WanderFrequency": 0,
+            "WanderRadius": 0.0,
+            "WanderRoute": [],
+            "WanderRouteIsLine": false
+          }
+        ],
+        "Pages": []
+      },
+      "SignData": null,
+      "SparkData": null,
+      "DoorData": null,
+      "HomePointData": null,
+      "TreasureData": null,
+      "CrystalData": null,
+      "MarkerData": null
+    },
+    {
+      "ID": 5008,
+      "Coord": {
+        "X": -71,
+        "Y": 18,
+        "Z": 139
+      },
+      "BiomeID": 111,
+      "EntityType": 0,
+      "Comments": null,
+      "NpcData": {
+        "Key": "Block3",
+        "LinkedKey": null,
+        "TieToSpawn": false,
+        "UniquePerKey": true,
+        "Outfits": [
+          {
+            "Condition": {
+              "ConditionType": 3,
+              "Data": {
+                "Scope": 2,
+                "EntityKey": null,
+                "VariableKey": "Jobs_Collected",
+                "Eval": 2,
+                "VariableType": 0,
+                "Flag": false,
+                "Number": 0,
+                "SourceVariableScope": 0,
+                "SourceVariableKey": null,
+                "LootType": 0,
+                "LootValue": 0
+              },
+              "IsNegation": true
+            },
+            "TextureKey": null,
+            "Name": null,
+            "PlayerCharacterLevel": null,
+            "JobID": null,
+            "Facing": 5,
+            "ShadowType": 2,
+            "AutoStep": false,
+            "VoxelID": 129,
+            "VoxelVariantIndex": 2,
+            "PlayerCollision": 2,
+            "NpcCollision": 0,
+            "MountType": 20,
+            "JumpType": 0,
+            "KeepSpawned": false,
+            "WanderType": 0,
+            "WanderSpeed": 0.0,
+            "WanderFrequency": 0,
+            "WanderRadius": 0.0,
+            "WanderRoute": [],
+            "WanderRouteIsLine": false
+          }
+        ],
+        "Pages": []
+      },
+      "SignData": null,
+      "SparkData": null,
+      "DoorData": null,
+      "HomePointData": null,
+      "TreasureData": null,
+      "CrystalData": null,
+      "MarkerData": null
+    },
+    {
+      "ID": 5009,
+      "Coord": {
+        "X": -71,
+        "Y": 17,
+        "Z": 139
+      },
+      "BiomeID": 111,
+      "EntityType": 0,
+      "Comments": null,
+      "NpcData": {
+        "Key": "Block4",
+        "LinkedKey": null,
+        "TieToSpawn": false,
+        "UniquePerKey": true,
+        "Outfits": [
+          {
+            "Condition": {
+              "ConditionType": 3,
+              "Data": {
+                "Scope": 2,
+                "EntityKey": null,
+                "VariableKey": "Jobs_Collected",
+                "Eval": 2,
+                "VariableType": 0,
+                "Flag": false,
+                "Number": 0,
+                "SourceVariableScope": 0,
+                "SourceVariableKey": null,
+                "LootType": 0,
+                "LootValue": 0
+              },
+              "IsNegation": true
+            },
+            "TextureKey": null,
+            "Name": null,
+            "PlayerCharacterLevel": null,
+            "JobID": null,
+            "Facing": 5,
+            "ShadowType": 2,
+            "AutoStep": false,
+            "VoxelID": 129,
+            "VoxelVariantIndex": 2,
+            "PlayerCollision": 2,
+            "NpcCollision": 0,
+            "MountType": 20,
+            "JumpType": 0,
+            "KeepSpawned": false,
+            "WanderType": 0,
+            "WanderSpeed": 0.0,
+            "WanderFrequency": 0,
+            "WanderRadius": 0.0,
+            "WanderRoute": [],
+            "WanderRouteIsLine": false
+          }
+        ],
+        "Pages": []
+      },
+      "SignData": null,
+      "SparkData": null,
+      "DoorData": null,
+      "HomePointData": null,
+      "TreasureData": null,
+      "CrystalData": null,
+      "MarkerData": null
+    },
+    {
+      "ID": 5010,
+      "Coord": {
+        "X": -71,
+        "Y": 16,
+        "Z": 139
+      },
+      "BiomeID": 111,
+      "EntityType": 0,
+      "Comments": null,
+      "NpcData": {
+        "Key": "Block5",
+        "LinkedKey": null,
+        "TieToSpawn": false,
+        "UniquePerKey": true,
+        "Outfits": [
+          {
+            "Condition": {
+              "ConditionType": 3,
+              "Data": {
+                "Scope": 2,
+                "EntityKey": null,
+                "VariableKey": "Jobs_Collected",
+                "Eval": 2,
+                "VariableType": 0,
+                "Flag": false,
+                "Number": 0,
+                "SourceVariableScope": 0,
+                "SourceVariableKey": null,
+                "LootType": 0,
+                "LootValue": 0
+              },
+              "IsNegation": true
+            },
+            "TextureKey": null,
+            "Name": null,
+            "PlayerCharacterLevel": null,
+            "JobID": null,
+            "Facing": 5,
+            "ShadowType": 2,
+            "AutoStep": false,
+            "VoxelID": 129,
+            "VoxelVariantIndex": 2,
+            "PlayerCollision": 2,
+            "NpcCollision": 0,
+            "MountType": 20,
+            "JumpType": 0,
+            "KeepSpawned": false,
+            "WanderType": 0,
+            "WanderSpeed": 0.0,
+            "WanderFrequency": 0,
+            "WanderRadius": 0.0,
+            "WanderRoute": [],
+            "WanderRouteIsLine": false
+          }
+        ],
+        "Pages": []
+      },
+      "SignData": null,
+      "SparkData": null,
+      "DoorData": null,
+      "HomePointData": null,
+      "TreasureData": null,
+      "CrystalData": null,
+      "MarkerData": null
+    },
+    {
+      "ID": 5011,
+      "Coord": {
+        "X": -70,
+        "Y": 18,
+        "Z": 139
+      },
+      "BiomeID": 111,
+      "EntityType": 0,
+      "Comments": null,
+      "NpcData": {
+        "Key": "Block6",
+        "LinkedKey": null,
+        "TieToSpawn": false,
+        "UniquePerKey": true,
+        "Outfits": [
+          {
+            "Condition": {
+              "ConditionType": 3,
+              "Data": {
+                "Scope": 2,
+                "EntityKey": null,
+                "VariableKey": "Jobs_Collected",
+                "Eval": 2,
+                "VariableType": 0,
+                "Flag": false,
+                "Number": 0,
+                "SourceVariableScope": 0,
+                "SourceVariableKey": null,
+                "LootType": 0,
+                "LootValue": 0
+              },
+              "IsNegation": true
+            },
+            "TextureKey": null,
+            "Name": null,
+            "PlayerCharacterLevel": null,
+            "JobID": null,
+            "Facing": 5,
+            "ShadowType": 2,
+            "AutoStep": false,
+            "VoxelID": 129,
+            "VoxelVariantIndex": 2,
+            "PlayerCollision": 2,
+            "NpcCollision": 0,
+            "MountType": 20,
+            "JumpType": 0,
+            "KeepSpawned": false,
+            "WanderType": 0,
+            "WanderSpeed": 0.0,
+            "WanderFrequency": 0,
+            "WanderRadius": 0.0,
+            "WanderRoute": [],
+            "WanderRouteIsLine": false
+          }
+        ],
+        "Pages": []
+      },
+      "SignData": null,
+      "SparkData": null,
+      "DoorData": null,
+      "HomePointData": null,
+      "TreasureData": null,
+      "CrystalData": null,
+      "MarkerData": null
+    },
+    {
+      "ID": 5012,
+      "Coord": {
+        "X": -70,
+        "Y": 17,
+        "Z": 139
+      },
+      "BiomeID": 111,
+      "EntityType": 0,
+      "Comments": null,
+      "NpcData": {
+        "Key": "Block7",
+        "LinkedKey": null,
+        "TieToSpawn": false,
+        "UniquePerKey": true,
+        "Outfits": [
+          {
+            "Condition": {
+              "ConditionType": 3,
+              "Data": {
+                "Scope": 2,
+                "EntityKey": null,
+                "VariableKey": "Jobs_Collected",
+                "Eval": 2,
+                "VariableType": 0,
+                "Flag": false,
+                "Number": 0,
+                "SourceVariableScope": 0,
+                "SourceVariableKey": null,
+                "LootType": 0,
+                "LootValue": 0
+              },
+              "IsNegation": true
+            },
+            "TextureKey": null,
+            "Name": null,
+            "PlayerCharacterLevel": null,
+            "JobID": null,
+            "Facing": 5,
+            "ShadowType": 2,
+            "AutoStep": false,
+            "VoxelID": 129,
+            "VoxelVariantIndex": 2,
+            "PlayerCollision": 2,
+            "NpcCollision": 0,
+            "MountType": 20,
+            "JumpType": 0,
+            "KeepSpawned": false,
+            "WanderType": 0,
+            "WanderSpeed": 0.0,
+            "WanderFrequency": 0,
+            "WanderRadius": 0.0,
+            "WanderRoute": [],
+            "WanderRouteIsLine": false
+          }
+        ],
+        "Pages": []
+      },
+      "SignData": null,
+      "SparkData": null,
+      "DoorData": null,
+      "HomePointData": null,
+      "TreasureData": null,
+      "CrystalData": null,
+      "MarkerData": null
+    },
+    {
+      "ID": 5013,
+      "Coord": {
+        "X": -70,
+        "Y": 16,
+        "Z": 139
+      },
+      "BiomeID": 111,
+      "EntityType": 0,
+      "Comments": null,
+      "NpcData": {
+        "Key": "Block8",
+        "LinkedKey": null,
+        "TieToSpawn": false,
+        "UniquePerKey": true,
+        "Outfits": [
+          {
+            "Condition": {
+              "ConditionType": 3,
+              "Data": {
+                "Scope": 2,
+                "EntityKey": null,
+                "VariableKey": "Jobs_Collected",
+                "Eval": 2,
+                "VariableType": 0,
+                "Flag": false,
+                "Number": 0,
+                "SourceVariableScope": 0,
+                "SourceVariableKey": null,
+                "LootType": 0,
+                "LootValue": 0
+              },
+              "IsNegation": true
+            },
+            "TextureKey": null,
+            "Name": null,
+            "PlayerCharacterLevel": null,
+            "JobID": null,
+            "Facing": 5,
+            "ShadowType": 2,
+            "AutoStep": false,
+            "VoxelID": 129,
+            "VoxelVariantIndex": 2,
+            "PlayerCollision": 2,
+            "NpcCollision": 0,
+            "MountType": 20,
+            "JumpType": 0,
+            "KeepSpawned": false,
+            "WanderType": 0,
+            "WanderSpeed": 0.0,
+            "WanderFrequency": 0,
+            "WanderRadius": 0.0,
+            "WanderRoute": [],
+            "WanderRouteIsLine": false
+          }
+        ],
+        "Pages": []
+      },
+      "SignData": null,
+      "SparkData": null,
+      "DoorData": null,
+      "HomePointData": null,
+      "TreasureData": null,
+      "CrystalData": null,
+      "MarkerData": null
+    },
+    {
+      "ID": 5014,
+      "Coord": {
+        "X": -73,
+        "Y": 16,
+        "Z": 140
+      },
+      "BiomeID": 111,
+      "EntityType": 1,
+      "Comments": null,
+      "NpcData": null,
+      "SignData": {
+        "Title": null,
+        "Message": "I'm not letting you in here.\r\nCollecting jobs will not make the wall disapear.\r\nDon't try it.\r\n- Grandmaster",
         "Facing": 5,
         "SignType": 0
       },

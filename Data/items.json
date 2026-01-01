@@ -661,13 +661,7 @@
   },
   {
     "ItemId": 827,
-    "Name": "Item - Sara Sara Beach East Pass",
-    "CategoryCode": "ItemClassification.progression",
-    "Classification": "PASS"
-  },
-  {
-    "ItemId": 828,
-    "Name": "Item - Sara Sara Beach West Pass",
+    "Name": "Item - Sara Sara Beach Pass",
     "CategoryCode": "ItemClassification.progression",
     "Classification": "PASS"
   },
