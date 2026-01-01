@@ -183,6 +183,7 @@ class CrystalProjectAPInstaller
 	private static void DeepCopy(string fromFolder, string toFolder, List<string> excludedFiles = null)
 	{
 		string[] files = Directory.GetFiles(fromFolder);
+		Directory.CreateDirectory(toFolder);
 		foreach (string file in files)
 		{
 			if (excludedFiles != null && excludedFiles.Contains(Path.GetFileName(file)))
