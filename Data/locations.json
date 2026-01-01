@@ -669,7 +669,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 6001,
+            "LocationId": 19001,
             "LocationName": "Spawning Meadows Region Completion",
             "Rule": "regionsanity=True",
             "Coordinates": "",
@@ -1213,7 +1213,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 6002,
+            "LocationId": 19002,
             "LocationName": "Delende Region Completion",
             "Rule": "regionsanity=True",
             "Coordinates": "",
@@ -1614,7 +1614,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 6007,
+            "LocationId": 19007,
             "LocationName": "Mercury Shrine Region Completion",
             "Rule": "regionsanity=True",
             "Coordinates": "",
@@ -1678,7 +1678,7 @@
             "MapLayer": 1
           },
           {
-            "LocationId": 6003,
+            "LocationId": 19003,
             "LocationName": "Soiled Den Region Completion",
             "Rule": "regionsanity=True",
             "Coordinates": "",
@@ -1906,7 +1906,7 @@
             "MapLayer": 1
           },
           {
-            "LocationId": 6004,
+            "LocationId": 19004,
             "LocationName": "The Pale Grotto Region Completion",
             "Rule": "regionsanity=True",
             "Coordinates": "",
@@ -2341,7 +2341,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 6005,
+            "LocationId": 19005,
             "LocationName": "Seaside Cliffs Region Completion",
             "Rule": "regionsanity=True",
             "Coordinates": "",
@@ -2422,7 +2422,7 @@
             "MapLayer": 1
           },
           {
-            "LocationId": 6006,
+            "LocationId": 19006,
             "LocationName": "Draft Shaft Conduit Region Completion",
             "Rule": "regionsanity=True",
             "Coordinates": "",
@@ -2556,7 +2556,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 6008,
+            "LocationId": 19008,
             "LocationName": "Yamagawa M.A. Region Completion",
             "Rule": "regionsanity=True",
             "Coordinates": "",
@@ -2958,7 +2958,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 6009,
+            "LocationId": 19009,
             "LocationName": "Proving Meadows Region Completion",
             "Rule": "regionsanity=True",
             "Coordinates": "",
@@ -3099,7 +3099,7 @@
             "MapLayer": 1
           },
           {
-            "LocationId": 6010,
+            "LocationId": 19010,
             "LocationName": "Skumparadise Region Completion",
             "Rule": "regionsanity=True",
             "Coordinates": "",
@@ -4848,7 +4848,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 6011,
+            "LocationId": 19011,
             "LocationName": "Capital Sequoia Region Completion",
             "Rule": "regionsanity=True",
             "Coordinates": "",
@@ -5037,7 +5037,7 @@
             "MapLayer": 1
           },
           {
-            "LocationId": 6012,
+            "LocationId": 19012,
             "LocationName": "Jojo Sewers Region Completion",
             "Rule": "regionsanity=True",
             "Coordinates": "",
@@ -5236,7 +5236,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 6013,
+            "LocationId": 19013,
             "LocationName": "Boomer Society Region Completion",
             "Rule": "regionsanity=True",
             "Coordinates": "",
@@ -5403,7 +5403,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 6014,
+            "LocationId": 19014,
             "LocationName": "Rolling Quintar Fields Region Completion",
             "Rule": "regionsanity=True",
             "Coordinates": "",
@@ -5720,7 +5720,7 @@
             "MapLayer": 1
           },
           {
-            "LocationId": 6015,
+            "LocationId": 19015,
             "LocationName": "Quintar Nest Region Completion",
             "Rule": "regionsanity=True",
             "Coordinates": "",
@@ -5916,7 +5916,7 @@
             "MapLayer": 1
           },
           {
-            "LocationId": 6016,
+            "LocationId": 19016,
             "LocationName": "Quintar Sanctum Region Completion",
             "Rule": "regionsanity=True",
             "Coordinates": "",
@@ -6134,7 +6134,7 @@
             "MapLayer": 4
           },
           {
-            "LocationId": 6017,
+            "LocationId": 19017,
             "LocationName": "Capital Jail Region Completion",
             "Rule": "regionsanity=True",
             "Coordinates": "",
@@ -6386,7 +6386,7 @@
             "MapLayer": 1
           },
           {
-            "LocationId": 6018,
+            "LocationId": 19018,
             "LocationName": "Capital Pipeline Region Completion",
             "Rule": "regionsanity=True",
             "Coordinates": "",
@@ -6516,7 +6516,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 6019,
+            "LocationId": 19019,
             "LocationName": "Cobblestone Crag Region Completion",
             "Rule": "regionsanity=True",
             "Coordinates": "",
@@ -6818,7 +6818,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 6020,
+            "LocationId": 19020,
             "LocationName": "Okimoto N.S. Region Completion",
             "Rule": "regionsanity=True",
             "Coordinates": "",
@@ -6934,7 +6934,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 6021,
+            "LocationId": 19021,
             "LocationName": "Greenshire Reprise Region Completion",
             "Rule": "regionsanity=True",
             "Coordinates": "",
@@ -7055,7 +7055,7 @@
             "MapLayer": 1
           },
           {
-            "LocationId": 6022,
+            "LocationId": 19022,
             "LocationName": "Salmon Pass Region Completion",
             "Rule": "regionsanity=True",
             "Coordinates": "",
@@ -7292,7 +7292,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 6023,
+            "LocationId": 19023,
             "LocationName": "Salmon River Region Completion",
             "Rule": "regionsanity=True",
             "Coordinates": "",
@@ -7570,7 +7570,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 6032,
+            "LocationId": 19032,
             "LocationName": "Shoudu Waterfront Region Completion",
             "Rule": "regionsanity=True",
             "Coordinates": "",
@@ -7754,7 +7754,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 6024,
+            "LocationId": 19024,
             "LocationName": "Poko Poko Desert Region Completion",
             "Rule": "regionsanity=True",
             "Coordinates": "",
@@ -8591,7 +8591,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 6025,
+            "LocationId": 19025,
             "LocationName": "Sara Sara Bazaar Region Completion",
             "Rule": "regionsanity=True",
             "Coordinates": "",
@@ -8717,7 +8717,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 6026,
+            "LocationId": 19026,
             "LocationName": "Sara Sara Beach Region Completion",
             "Rule": "regionsanity=True",
             "Coordinates": "",
@@ -9267,7 +9267,7 @@
             "MapLayer": 1
           },
           {
-            "LocationId": 6028,
+            "LocationId": 19028,
             "LocationName": "Ancient Reservoir Region Completion",
             "Rule": "regionsanity=True",
             "Coordinates": "",
@@ -9424,7 +9424,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 6030,
+            "LocationId": 19030,
             "LocationName": "Salmon Bay Region Completion",
             "Rule": "regionsanity=True",
             "Coordinates": "",
@@ -9603,7 +9603,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 6031,
+            "LocationId": 19031,
             "LocationName": "The Open Sea Region Completion",
             "Rule": "regionsanity=True",
             "Coordinates": "",
@@ -9816,7 +9816,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 6033,
+            "LocationId": 19033,
             "LocationName": "Shoudu Province Region Completion",
             "Rule": "regionsanity=True",
             "Coordinates": "",
@@ -11190,7 +11190,7 @@
             "MapLayer": 1
           },
           {
-            "LocationId": 6034,
+            "LocationId": 19034,
             "LocationName": "The Undercity Region Completion",
             "Rule": "regionsanity=True",
             "Coordinates": "",
@@ -11529,7 +11529,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 6035,
+            "LocationId": 19035,
             "LocationName": "Ganymede Shrine Region Completion",
             "Rule": "regionsanity=True",
             "Coordinates": "",
@@ -11619,7 +11619,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 6036,
+            "LocationId": 19036,
             "LocationName": "Beaurior Volcano Region Completion",
             "Rule": "regionsanity=True",
             "Coordinates": "",
@@ -11869,7 +11869,7 @@
             "MapLayer": 8
           },
           {
-            "LocationId": 6037,
+            "LocationId": 19037,
             "LocationName": "Beaurior Rock Region Completion",
             "Rule": "regionsanity=True",
             "Coordinates": "",
@@ -12156,7 +12156,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 6038,
+            "LocationId": 19038,
             "LocationName": "Lake Delende Region Completion",
             "Rule": "regionsanity=True",
             "Coordinates": "",
@@ -12338,7 +12338,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 6039,
+            "LocationId": 19039,
             "LocationName": "Quintar Reserve Region Completion",
             "Rule": "regionsanity=True",
             "Coordinates": "",
@@ -12782,7 +12782,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 6040,
+            "LocationId": 19040,
             "LocationName": "Dione Shrine Region Completion",
             "Rule": "regionsanity=True",
             "Coordinates": "",
@@ -12920,7 +12920,7 @@
             "MapLayer": 1
           },
           {
-            "LocationId": 6041,
+            "LocationId": 19041,
             "LocationName": "Quintar Mausoleum Region Completion",
             "Rule": "regionsanity=True",
             "Coordinates": "",
@@ -12984,7 +12984,7 @@
             "MapLayer": 1
           },
           {
-            "LocationId": 6042,
+            "LocationId": 19042,
             "LocationName": "Eastern Chasm Region Completion",
             "Rule": "regionsanity=True",
             "Coordinates": "",
@@ -13285,7 +13285,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 6043,
+            "LocationId": 19043,
             "LocationName": "Tall, Tall Heights Region Completion",
             "Rule": "regionsanity=True",
             "Coordinates": "",
@@ -13912,7 +13912,7 @@
             "MapLayer": 1
           },
           {
-            "LocationId": 6044,
+            "LocationId": 19044,
             "LocationName": "Northern Cave Region Completion",
             "Rule": "regionsanity=True",
             "Coordinates": "",
@@ -14153,7 +14153,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 6045,
+            "LocationId": 19045,
             "LocationName": "Land's End Region Completion",
             "Rule": "regionsanity=True",
             "Coordinates": "",
@@ -14261,7 +14261,7 @@
         ],
         "Locations": [
           {
-            "LocationId": 6046,
+            "LocationId": 19046,
             "LocationName": "Slip Glide Ride Region Completion",
             "Rule": "regionsanity=True",
             "Coordinates": "",
@@ -14499,7 +14499,7 @@
             "MapLayer": 7
           },
           {
-            "LocationId": 6047,
+            "LocationId": 19047,
             "LocationName": "Sequoia Athenaeum Region Completion",
             "Rule": "regionsanity=True",
             "Coordinates": "",
@@ -14549,7 +14549,7 @@
         ],
         "Locations": [
           {
-            "LocationId": 6048,
+            "LocationId": 19048,
             "LocationName": "Northern Stretch Region Completion",
             "Rule": "regionsanity=True",
             "Coordinates": "",
@@ -14768,7 +14768,7 @@
           {
             "LocationId": 1370,
             "LocationName": "Castle Ramparts Crystal - Beastmaster (say high to the Ramparts Demon!)",
-            "Rule": "lambda state: logic.has_glide(state)",
+            "Rule": "lambda state: logic.has_vertical_movement(state)",
             "Coordinates": "404, 243, -386",
             "LocationGroups": [],
             "MapLayer": 0
@@ -14776,13 +14776,13 @@
           {
             "LocationId": 1373,
             "LocationName": "Castle Ramparts Boss - Rampart Demon",
-            "Rule": "lambda state: logic.has_glide(state) and logic.is_area_in_level_range(state, 54)",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 54)",
             "Coordinates": "404, 245, -377",
             "LocationGroups": [],
             "MapLayer": 0
           },
           {
-            "LocationId": 6049,
+            "LocationId": 19049,
             "LocationName": "Castle Ramparts Region Completion",
             "Rule": "regionsanity=True",
             "Coordinates": "",
@@ -14866,7 +14866,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 6050,
+            "LocationId": 19050,
             "LocationName": "The Chalice of Tar Region Completion",
             "Rule": "regionsanity=True",
             "Coordinates": "",
@@ -15029,7 +15029,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 6051,
+            "LocationId": 19051,
             "LocationName": "Flyer's Crag Region Completion",
             "Rule": "regionsanity=True",
             "Coordinates": "",
@@ -15299,7 +15299,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 6052,
+            "LocationId": 19052,
             "LocationName": "Jidamba Tangle Region Completion",
             "Rule": "regionsanity=True",
             "Coordinates": "",
@@ -15844,7 +15844,7 @@
             "MapLayer": 5
           },
           {
-            "LocationId": 6053,
+            "LocationId": 19053,
             "LocationName": "Jidamba Eaclaneya Region Completion",
             "Rule": "regionsanity=True",
             "Coordinates": "",
@@ -16281,7 +16281,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 6054,
+            "LocationId": 19054,
             "LocationName": "The Deep Sea Region Completion",
             "Rule": "regionsanity=True",
             "Coordinates": "",
@@ -16393,7 +16393,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 6055,
+            "LocationId": 19055,
             "LocationName": "Neptune Shrine Region Completion",
             "Rule": "regionsanity=True",
             "Coordinates": "",
@@ -16449,7 +16449,7 @@
             "MapLayer": 1
           },
           {
-            "LocationId": 6056,
+            "LocationId": 19056,
             "LocationName": "Jade Cavern Region Completion",
             "Rule": "regionsanity=True",
             "Coordinates": "",
@@ -16543,7 +16543,7 @@
             "MapLayer": 1
           },
           {
-            "LocationId": 6057,
+            "LocationId": 19057,
             "LocationName": "Continental Tram Region Completion",
             "Rule": "regionsanity=True",
             "Coordinates": "",
@@ -16627,7 +16627,7 @@
             "MapLayer": 5
           },
           {
-            "LocationId": 6058,
+            "LocationId": 19058,
             "LocationName": "Ancient Labyrinth Region Completion",
             "Rule": "regionsanity=True",
             "Coordinates": "",
@@ -16847,7 +16847,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 6059,
+            "LocationId": 19059,
             "LocationName": "The Sequoia Region Completion",
             "Rule": "regionsanity=True",
             "Coordinates": "",
@@ -17102,7 +17102,7 @@
             "MapLayer": 1
           },
           {
-            "LocationId": 6060,
+            "LocationId": 19060,
             "LocationName": "The Depths Region Completion",
             "Rule": "regionsanity=True",
             "Coordinates": "",
@@ -17274,7 +17274,7 @@
             "MapLayer": 6
           },
           {
-            "LocationId": 6061,
+            "LocationId": 19061,
             "LocationName": "Castle Sequoia Region Completion",
             "Rule": "regionsanity=True",
             "Coordinates": "",
@@ -17310,7 +17310,7 @@
             "MapLayer": 1
           },
           {
-            "LocationId": 6064,
+            "LocationId": 19064,
             "LocationName": "The Old World Region Completion",
             "Rule": "regionsanity=True",
             "Coordinates": "",
@@ -17378,7 +17378,7 @@
             "MapLayer": 1
           },
           {
-            "LocationId": 6063,
+            "LocationId": 19063,
             "LocationName": "The New World Region Completion",
             "Rule": "regionsanity=True",
             "Coordinates": "",
