@@ -105,7 +105,7 @@ class CrystalProjectAPInstaller
 			try
 			{
 				string archipelagoBranchHashString = "9a1e47b7fb5198f86b13279beb9f6f50"; //1.6.5 Archipelago Branch hash
-				string archipelagoModdedVersionString = "6425f1c30e14b021965587213670853a"; //v0.14.0 Archipelago Modded hash
+				string archipelagoModdedVersionString = "1c802add5a70fba1c9abb8ae04fef9af"; //v0.14.0 Archipelago Modded hash
 
 				//Open crystal project exe path and compute the hash to make sure that it's the right version
 				FileStream crystalProjectBeforeStream = new(crystalProjectExePath, FileMode.Open, FileAccess.Read, FileShare.Read);
@@ -132,7 +132,7 @@ class CrystalProjectAPInstaller
 					string exeAfterHashString = BitConverter.ToString(md5.ComputeHash(crystalProjectAfterStream)).Replace("-", "").ToLower();
 					crystalProjectAfterStream.Dispose();
 
-					if (exeAfterHashString != archipelagoModdedVersionString)
+                    if (exeAfterHashString != archipelagoModdedVersionString)
 					{
 						Console.Error.WriteLine("\nSomething went wrong and the final version does not have the correct file hash.  Verify File Integrity in Steam and try again, or contact the developers.\n");
 						Exit();
