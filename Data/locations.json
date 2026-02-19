@@ -557,7 +557,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 10013,
+            "LocationId": 100013,
             "LocationName": "Spawning Meadows Shop - Nan's Knick Knacks 1",
             "Rule": "lambda state: logic.can_earn_money(state, \"Spawning Meadows\")",
             "Coordinates": "112, 110, -29",
@@ -565,7 +565,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 20013,
+            "LocationId": 200013,
             "LocationName": "Spawning Meadows Shop - Nan's Knick Knacks 2",
             "Rule": "lambda state: logic.can_earn_money(state, \"Spawning Meadows\")",
             "Coordinates": "112, 110, -29",
@@ -573,7 +573,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 30013,
+            "LocationId": 300013,
             "LocationName": "Spawning Meadows Shop - Nan's Knick Knacks 3",
             "Rule": "lambda state: logic.can_earn_money(state, \"Spawning Meadows\")",
             "Coordinates": "112, 110, -29",
@@ -581,7 +581,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 40013,
+            "LocationId": 400013,
             "LocationName": "Spawning Meadows Shop - Nan's Knick Knacks 4",
             "Rule": "lambda state: logic.can_earn_money(state, \"Spawning Meadows\")",
             "Coordinates": "112, 110, -29",
@@ -589,7 +589,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 50013,
+            "LocationId": 500013,
             "LocationName": "Spawning Meadows Shop - Nan's Knick Knacks 5",
             "Rule": "lambda state: logic.can_earn_money(state, \"Spawning Meadows\")",
             "Coordinates": "112, 110, -29",
@@ -597,7 +597,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 60013,
+            "LocationId": 600013,
             "LocationName": "Spawning Meadows Shop - Nan's Knick Knacks 6",
             "Rule": "lambda state: logic.can_earn_money(state, \"Spawning Meadows\")",
             "Coordinates": "112, 110, -29",
@@ -605,7 +605,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 70013,
+            "LocationId": 700013,
             "LocationName": "Spawning Meadows Shop - Nan's Knick Knacks 7",
             "Rule": "lambda state: logic.can_earn_money(state, \"Spawning Meadows\")",
             "Coordinates": "112, 110, -29",
@@ -613,7 +613,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 80013,
+            "LocationId": 800013,
             "LocationName": "Spawning Meadows Shop - Nan's Knick Knacks 8",
             "Rule": "lambda state: logic.can_earn_money(state, \"Spawning Meadows\")",
             "Coordinates": "112, 110, -29",
@@ -621,7 +621,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 90013,
+            "LocationId": 900013,
             "LocationName": "Spawning Meadows Shop - Nan's Knick Knacks 9",
             "Rule": "lambda state: logic.can_earn_money(state, \"Spawning Meadows\")",
             "Coordinates": "112, 110, -29",
@@ -629,7 +629,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 100013,
+            "LocationId": 1000013,
             "LocationName": "Spawning Meadows Shop - Nan's Knick Knacks 10",
             "Rule": "lambda state: logic.can_earn_money(state, \"Spawning Meadows\")",
             "Coordinates": "112, 110, -29",
@@ -637,7 +637,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 110013,
+            "LocationId": 1100013,
             "LocationName": "Spawning Meadows Shop - Nan's Knick Knacks 11",
             "Rule": "lambda state: logic.can_earn_money(state, \"Spawning Meadows\")",
             "Coordinates": "112, 110, -29",
@@ -645,7 +645,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 120013,
+            "LocationId": 1200013,
             "LocationName": "Spawning Meadows Shop - Nan's Knick Knacks 12",
             "Rule": "lambda state: logic.can_earn_money(state, \"Spawning Meadows\")",
             "Coordinates": "112, 110, -29",
@@ -653,7 +653,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 10014,
+            "LocationId": 100014,
             "LocationName": "Spawning Meadows Shop - Nan's Stew 1",
             "Rule": "lambda state: logic.can_earn_money(state, \"Spawning Meadows\")",
             "Coordinates": "113, 110, -29",
@@ -661,7 +661,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 20014,
+            "LocationId": 200014,
             "LocationName": "Spawning Meadows Shop - Nan's Stew 2",
             "Rule": "lambda state: logic.can_earn_money(state, \"Spawning Meadows\")",
             "Coordinates": "113, 110, -29",
@@ -949,7 +949,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 10052,
+            "LocationId": 100052,
             "LocationName": "Delende Shop - Fish Hatchery Weapon Merchant 1",
             "Rule": "lambda state: logic.can_earn_money(state, \"Delende\")",
             "Coordinates": "172, 133, -203",
@@ -957,7 +957,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 20052,
+            "LocationId": 200052,
             "LocationName": "Delende Shop - Fish Hatchery Weapon Merchant 2",
             "Rule": "lambda state: logic.can_earn_money(state, \"Delende\")",
             "Coordinates": "172, 133, -203",
@@ -965,7 +965,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 30052,
+            "LocationId": 300052,
             "LocationName": "Delende Shop - Fish Hatchery Weapon Merchant 3",
             "Rule": "lambda state: logic.can_earn_money(state, \"Delende\")",
             "Coordinates": "172, 133, -203",
@@ -973,7 +973,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 10063,
+            "LocationId": 100063,
             "LocationName": "Delende Shop - Fish Hatchery Armor Merchant 1",
             "Rule": "lambda state: logic.can_earn_money(state, \"Delende\")",
             "Coordinates": "172, 133, -201",
@@ -981,7 +981,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 20063,
+            "LocationId": 200063,
             "LocationName": "Delende Shop - Fish Hatchery Armor Merchant 2",
             "Rule": "lambda state: logic.can_earn_money(state, \"Delende\")",
             "Coordinates": "172, 133, -201",
@@ -989,7 +989,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 30063,
+            "LocationId": 300063,
             "LocationName": "Delende Shop - Fish Hatchery Armor Merchant 3",
             "Rule": "lambda state: logic.can_earn_money(state, \"Delende\")",
             "Coordinates": "172, 133, -201",
@@ -997,7 +997,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 40063,
+            "LocationId": 400063,
             "LocationName": "Delende Shop - Fish Hatchery Armor Merchant 4",
             "Rule": "lambda state: logic.can_earn_money(state, \"Delende\")",
             "Coordinates": "172, 133, -201",
@@ -1005,7 +1005,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 50063,
+            "LocationId": 500063,
             "LocationName": "Delende Shop - Fish Hatchery Armor Merchant 5",
             "Rule": "lambda state: logic.can_earn_money(state, \"Delende\")",
             "Coordinates": "172, 133, -201",
@@ -1013,7 +1013,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 60063,
+            "LocationId": 600063,
             "LocationName": "Delende Shop - Fish Hatchery Armor Merchant 6",
             "Rule": "lambda state: logic.can_earn_money(state, \"Delende\")",
             "Coordinates": "172, 133, -201",
@@ -1021,7 +1021,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 70063,
+            "LocationId": 700063,
             "LocationName": "Delende Shop - Fish Hatchery Armor Merchant 7",
             "Rule": "lambda state: logic.can_earn_money(state, \"Delende\")",
             "Coordinates": "172, 133, -201",
@@ -1029,7 +1029,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 80063,
+            "LocationId": 800063,
             "LocationName": "Delende Shop - Fish Hatchery Armor Merchant 8",
             "Rule": "lambda state: logic.can_earn_money(state, \"Delende\")",
             "Coordinates": "172, 133, -201",
@@ -1037,7 +1037,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 10199,
+            "LocationId": 100199,
             "LocationName": "Delende Shop - Fish Hatchery Fish Merchant 1",
             "Rule": "lambda state: logic.can_earn_money(state, \"Delende\")",
             "Coordinates": "178, 133, -202",
@@ -1045,7 +1045,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 20199,
+            "LocationId": 200199,
             "LocationName": "Delende Shop - Fish Hatchery Fish Merchant 2",
             "Rule": "lambda state: logic.can_earn_money(state, \"Delende\")",
             "Coordinates": "178, 133, -202",
@@ -1053,7 +1053,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 30199,
+            "LocationId": 300199,
             "LocationName": "Delende Shop - Fish Hatchery Fish Merchant 3",
             "Rule": "lambda state: logic.can_earn_money(state, \"Delende\")",
             "Coordinates": "178, 133, -202",
@@ -1061,7 +1061,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 40199,
+            "LocationId": 400199,
             "LocationName": "Delende Shop - Fish Hatchery Fish Merchant 4",
             "Rule": "lambda state: logic.can_earn_money(state, \"Delende\")",
             "Coordinates": "178, 133, -202",
@@ -1069,7 +1069,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 50199,
+            "LocationId": 500199,
             "LocationName": "Delende Shop - Fish Hatchery Fish Merchant 5",
             "Rule": "lambda state: logic.can_earn_money(state, \"Delende\")",
             "Coordinates": "178, 133, -202",
@@ -1077,7 +1077,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 60199,
+            "LocationId": 600199,
             "LocationName": "Delende Shop - Fish Hatchery Fish Merchant 6",
             "Rule": "lambda state: logic.can_earn_money(state, \"Delende\")",
             "Coordinates": "178, 133, -202",
@@ -1085,7 +1085,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 10115,
+            "LocationId": 100115,
             "LocationName": "Delende Shop - Weapons Merchant camped in front of Pale Grotto 1",
             "Rule": "lambda state: logic.can_earn_money(state, \"Delende\")",
             "Coordinates": "278, 116, -206",
@@ -1093,7 +1093,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 20115,
+            "LocationId": 200115,
             "LocationName": "Delende Shop - Weapons Merchant camped in front of Pale Grotto 2",
             "Rule": "lambda state: logic.can_earn_money(state, \"Delende\")",
             "Coordinates": "278, 116, -206",
@@ -1101,7 +1101,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 30115,
+            "LocationId": 300115,
             "LocationName": "Delende Shop - Weapons Merchant camped in front of Pale Grotto 3",
             "Rule": "lambda state: logic.can_earn_money(state, \"Delende\")",
             "Coordinates": "278, 116, -206",
@@ -1109,7 +1109,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 40115,
+            "LocationId": 400115,
             "LocationName": "Delende Shop - Weapons Merchant camped in front of Pale Grotto 4",
             "Rule": "lambda state: logic.can_earn_money(state, \"Delende\")",
             "Coordinates": "278, 116, -206",
@@ -1117,7 +1117,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 50115,
+            "LocationId": 500115,
             "LocationName": "Delende Shop - Weapons Merchant camped in front of Pale Grotto 5",
             "Rule": "lambda state: logic.can_earn_money(state, \"Delende\")",
             "Coordinates": "278, 116, -206",
@@ -1125,7 +1125,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 10446,
+            "LocationId": 100446,
             "LocationName": "Delende Shop - Armor Merchant camped in front of Pale Grotto 1",
             "Rule": "lambda state: logic.can_earn_money(state, \"Delende\")",
             "Coordinates": "279, 116, -206",
@@ -1133,7 +1133,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 20446,
+            "LocationId": 200446,
             "LocationName": "Delende Shop - Armor Merchant camped in front of Pale Grotto 2",
             "Rule": "lambda state: logic.can_earn_money(state, \"Delende\")",
             "Coordinates": "279, 116, -206",
@@ -1141,7 +1141,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 30446,
+            "LocationId": 300446,
             "LocationName": "Delende Shop - Armor Merchant camped in front of Pale Grotto 3",
             "Rule": "lambda state: logic.can_earn_money(state, \"Delende\")",
             "Coordinates": "279, 116, -206",
@@ -1149,7 +1149,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 40446,
+            "LocationId": 400446,
             "LocationName": "Delende Shop - Armor Merchant camped in front of Pale Grotto 4",
             "Rule": "lambda state: logic.can_earn_money(state, \"Delende\")",
             "Coordinates": "279, 116, -206",
@@ -1157,7 +1157,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 50446,
+            "LocationId": 500446,
             "LocationName": "Delende Shop - Armor Merchant camped in front of Pale Grotto 5",
             "Rule": "lambda state: logic.can_earn_money(state, \"Delende\")",
             "Coordinates": "279, 116, -206",
@@ -1165,7 +1165,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 60446,
+            "LocationId": 600446,
             "LocationName": "Delende Shop - Armor Merchant camped in front of Pale Grotto 6",
             "Rule": "lambda state: logic.can_earn_money(state, \"Delende\")",
             "Coordinates": "279, 116, -206",
@@ -1173,7 +1173,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 70446,
+            "LocationId": 700446,
             "LocationName": "Delende Shop - Armor Merchant camped in front of Pale Grotto 7",
             "Rule": "lambda state: logic.can_earn_money(state, \"Delende\")",
             "Coordinates": "279, 116, -206",
@@ -1181,7 +1181,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 80446,
+            "LocationId": 800446,
             "LocationName": "Delende Shop - Armor Merchant camped in front of Pale Grotto 8",
             "Rule": "lambda state: logic.can_earn_money(state, \"Delende\")",
             "Coordinates": "279, 116, -206",
@@ -1189,7 +1189,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 10266,
+            "LocationId": 100266,
             "LocationName": "Delende Shop - Item Merchant camped in front of Pale Grotto 1",
             "Rule": "lambda state: logic.can_earn_money(state, \"Delende\")",
             "Coordinates": "274, 116, -202",
@@ -1197,7 +1197,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 20266,
+            "LocationId": 200266,
             "LocationName": "Delende Shop - Item Merchant camped in front of Pale Grotto 2",
             "Rule": "lambda state: logic.can_earn_money(state, \"Delende\")",
             "Coordinates": "274, 116, -202",
@@ -1205,7 +1205,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 30266,
+            "LocationId": 300266,
             "LocationName": "Delende Shop - Item Merchant camped in front of Pale Grotto 3",
             "Rule": "lambda state: logic.can_earn_money(state, \"Delende\")",
             "Coordinates": "274, 116, -202",
@@ -1590,7 +1590,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 10132,
+            "LocationId": 100132,
             "LocationName": "Mercury Shrine Shop - Attendant 1",
             "Rule": "lambda state: logic.can_earn_money(state, \"Mercury Shrine\")",
             "Coordinates": "202, 129, -4",
@@ -1598,7 +1598,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 20132,
+            "LocationId": 200132,
             "LocationName": "Mercury Shrine Shop - Attendant 2",
             "Rule": "lambda state: logic.can_earn_money(state, \"Mercury Shrine\")",
             "Coordinates": "202, 129, -4",
@@ -1606,7 +1606,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 30132,
+            "LocationId": 300132,
             "LocationName": "Mercury Shrine Shop - Attendant 3",
             "Rule": "lambda state: logic.can_earn_money(state, \"Mercury Shrine\")",
             "Coordinates": "202, 129, -4",
@@ -2269,7 +2269,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 10116,
+            "LocationId": 100116,
             "LocationName": "Seaside Cliffs Shop - Camp Merchant 1",
             "Rule": "lambda state: logic.can_earn_money(state, \"Seaside Cliffs\")",
             "Coordinates": "302, 119, -64",
@@ -2277,7 +2277,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 20116,
+            "LocationId": 200116,
             "LocationName": "Seaside Cliffs Shop - Camp Merchant 2",
             "Rule": "lambda state: logic.can_earn_money(state, \"Seaside Cliffs\")",
             "Coordinates": "302, 119, -64",
@@ -2285,7 +2285,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 30116,
+            "LocationId": 300116,
             "LocationName": "Seaside Cliffs Shop - Camp Merchant 3",
             "Rule": "lambda state: logic.can_earn_money(state, \"Seaside Cliffs\")",
             "Coordinates": "302, 119, -64",
@@ -2293,7 +2293,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 40116,
+            "LocationId": 400116,
             "LocationName": "Seaside Cliffs Shop - Camp Merchant 4",
             "Rule": "lambda state: logic.can_earn_money(state, \"Seaside Cliffs\")",
             "Coordinates": "302, 119, -64",
@@ -2301,7 +2301,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 50116,
+            "LocationId": 500116,
             "LocationName": "Seaside Cliffs Shop - Camp Merchant 5",
             "Rule": "lambda state: logic.can_earn_money(state, \"Seaside Cliffs\")",
             "Coordinates": "302, 119, -64",
@@ -2309,7 +2309,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 60116,
+            "LocationId": 600116,
             "LocationName": "Seaside Cliffs Shop - Camp Merchant 6",
             "Rule": "lambda state: logic.can_earn_money(state, \"Seaside Cliffs\")",
             "Coordinates": "302, 119, -64",
@@ -2317,7 +2317,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 70116,
+            "LocationId": 700116,
             "LocationName": "Seaside Cliffs Shop - Camp Merchant 7",
             "Rule": "lambda state: logic.can_earn_money(state, \"Seaside Cliffs\")",
             "Coordinates": "302, 119, -64",
@@ -2325,7 +2325,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 80116,
+            "LocationId": 800116,
             "LocationName": "Seaside Cliffs Shop - Camp Merchant 8",
             "Rule": "lambda state: logic.can_earn_money(state, \"Seaside Cliffs\")",
             "Coordinates": "302, 119, -64",
@@ -2333,7 +2333,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 90116,
+            "LocationId": 900116,
             "LocationName": "Seaside Cliffs Shop - Camp Merchant 9",
             "Rule": "lambda state: logic.can_earn_money(state, \"Seaside Cliffs\")",
             "Coordinates": "302, 119, -64",
@@ -2686,7 +2686,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 10253,
+            "LocationId": 100253,
             "LocationName": "Proving Meadows Shop - Item Merchant 1",
             "Rule": "lambda state: logic.can_earn_money(state, \"Proving Meadows\")",
             "Coordinates": "387, 109, -193",
@@ -2694,7 +2694,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 20253,
+            "LocationId": 200253,
             "LocationName": "Proving Meadows Shop - Item Merchant 2",
             "Rule": "lambda state: logic.can_earn_money(state, \"Proving Meadows\")",
             "Coordinates": "387, 109, -193",
@@ -2702,7 +2702,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 30253,
+            "LocationId": 300253,
             "LocationName": "Proving Meadows Shop - Item Merchant 3",
             "Rule": "lambda state: logic.can_earn_money(state, \"Proving Meadows\")",
             "Coordinates": "387, 109, -193",
@@ -2710,7 +2710,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 40253,
+            "LocationId": 400253,
             "LocationName": "Proving Meadows Shop - Item Merchant 4",
             "Rule": "lambda state: logic.can_earn_money(state, \"Proving Meadows\")",
             "Coordinates": "387, 109, -193",
@@ -2718,7 +2718,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 50253,
+            "LocationId": 500253,
             "LocationName": "Proving Meadows Shop - Item Merchant 5",
             "Rule": "lambda state: logic.can_earn_money(state, \"Proving Meadows\")",
             "Coordinates": "387, 109, -193",
@@ -2726,7 +2726,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 60253,
+            "LocationId": 600253,
             "LocationName": "Proving Meadows Shop - Item Merchant 6",
             "Rule": "lambda state: logic.can_earn_money(state, \"Proving Meadows\")",
             "Coordinates": "387, 109, -193",
@@ -2734,7 +2734,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 10133,
+            "LocationId": 100133,
             "LocationName": "Proving Meadows Shop - Armor Merchant 1",
             "Rule": "lambda state: logic.can_earn_money(state, \"Proving Meadows\")",
             "Coordinates": "426, 109, -185",
@@ -2742,7 +2742,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 20133,
+            "LocationId": 200133,
             "LocationName": "Proving Meadows Shop - Armor Merchant 2",
             "Rule": "lambda state: logic.can_earn_money(state, \"Proving Meadows\")",
             "Coordinates": "426, 109, -185",
@@ -2750,7 +2750,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 30133,
+            "LocationId": 300133,
             "LocationName": "Proving Meadows Shop - Armor Merchant 3",
             "Rule": "lambda state: logic.can_earn_money(state, \"Proving Meadows\")",
             "Coordinates": "426, 109, -185",
@@ -2758,7 +2758,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 40133,
+            "LocationId": 400133,
             "LocationName": "Proving Meadows Shop - Armor Merchant 4",
             "Rule": "lambda state: logic.can_earn_money(state, \"Proving Meadows\")",
             "Coordinates": "426, 109, -185",
@@ -2766,7 +2766,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 50133,
+            "LocationId": 500133,
             "LocationName": "Proving Meadows Shop - Armor Merchant 5",
             "Rule": "lambda state: logic.can_earn_money(state, \"Proving Meadows\")",
             "Coordinates": "426, 109, -185",
@@ -2774,7 +2774,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 60133,
+            "LocationId": 600133,
             "LocationName": "Proving Meadows Shop - Armor Merchant 6",
             "Rule": "lambda state: logic.can_earn_money(state, \"Proving Meadows\")",
             "Coordinates": "426, 109, -185",
@@ -2782,7 +2782,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 70133,
+            "LocationId": 700133,
             "LocationName": "Proving Meadows Shop - Armor Merchant 7",
             "Rule": "lambda state: logic.can_earn_money(state, \"Proving Meadows\")",
             "Coordinates": "426, 109, -185",
@@ -2790,7 +2790,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 80133,
+            "LocationId": 800133,
             "LocationName": "Proving Meadows Shop - Armor Merchant 8",
             "Rule": "lambda state: logic.can_earn_money(state, \"Proving Meadows\")",
             "Coordinates": "426, 109, -185",
@@ -2798,7 +2798,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 90133,
+            "LocationId": 900133,
             "LocationName": "Proving Meadows Shop - Armor Merchant 9",
             "Rule": "lambda state: logic.can_earn_money(state, \"Proving Meadows\")",
             "Coordinates": "426, 109, -185",
@@ -2806,7 +2806,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 100133,
+            "LocationId": 1000133,
             "LocationName": "Proving Meadows Shop - Armor Merchant 10",
             "Rule": "lambda state: logic.can_earn_money(state, \"Proving Meadows\")",
             "Coordinates": "426, 109, -185",
@@ -2814,7 +2814,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 110133,
+            "LocationId": 1100133,
             "LocationName": "Proving Meadows Shop - Armor Merchant 11",
             "Rule": "lambda state: logic.can_earn_money(state, \"Proving Meadows\")",
             "Coordinates": "426, 109, -185",
@@ -2822,7 +2822,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 120133,
+            "LocationId": 1200133,
             "LocationName": "Proving Meadows Shop - Armor Merchant 12",
             "Rule": "lambda state: logic.can_earn_money(state, \"Proving Meadows\")",
             "Coordinates": "426, 109, -185",
@@ -2830,7 +2830,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 130133,
+            "LocationId": 1300133,
             "LocationName": "Proving Meadows Shop - Armor Merchant 13",
             "Rule": "lambda state: logic.can_earn_money(state, \"Proving Meadows\")",
             "Coordinates": "426, 109, -185",
@@ -2838,7 +2838,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 140133,
+            "LocationId": 1400133,
             "LocationName": "Proving Meadows Shop - Armor Merchant 14",
             "Rule": "lambda state: logic.can_earn_money(state, \"Proving Meadows\")",
             "Coordinates": "426, 109, -185",
@@ -2846,7 +2846,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 10117,
+            "LocationId": 100117,
             "LocationName": "Proving Meadows Shop - Weapon Merchant 1",
             "Rule": "lambda state: logic.can_earn_money(state, \"Proving Meadows\")",
             "Coordinates": "420, 109, -185",
@@ -2854,7 +2854,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 20117,
+            "LocationId": 200117,
             "LocationName": "Proving Meadows Shop - Weapon Merchant 2",
             "Rule": "lambda state: logic.can_earn_money(state, \"Proving Meadows\")",
             "Coordinates": "420, 109, -185",
@@ -2862,7 +2862,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 30117,
+            "LocationId": 300117,
             "LocationName": "Proving Meadows Shop - Weapon Merchant 3",
             "Rule": "lambda state: logic.can_earn_money(state, \"Proving Meadows\")",
             "Coordinates": "420, 109, -185",
@@ -2870,7 +2870,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 40117,
+            "LocationId": 400117,
             "LocationName": "Proving Meadows Shop - Weapon Merchant 4",
             "Rule": "lambda state: logic.can_earn_money(state, \"Proving Meadows\")",
             "Coordinates": "420, 109, -185",
@@ -2878,7 +2878,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 50117,
+            "LocationId": 500117,
             "LocationName": "Proving Meadows Shop - Weapon Merchant 5",
             "Rule": "lambda state: logic.can_earn_money(state, \"Proving Meadows\")",
             "Coordinates": "420, 109, -185",
@@ -2886,7 +2886,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 60117,
+            "LocationId": 600117,
             "LocationName": "Proving Meadows Shop - Weapon Merchant 6",
             "Rule": "lambda state: logic.can_earn_money(state, \"Proving Meadows\")",
             "Coordinates": "420, 109, -185",
@@ -2894,7 +2894,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 70117,
+            "LocationId": 700117,
             "LocationName": "Proving Meadows Shop - Weapon Merchant 7",
             "Rule": "lambda state: logic.can_earn_money(state, \"Proving Meadows\")",
             "Coordinates": "420, 109, -185",
@@ -2902,7 +2902,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 80117,
+            "LocationId": 800117,
             "LocationName": "Proving Meadows Shop - Weapon Merchant 8",
             "Rule": "lambda state: logic.can_earn_money(state, \"Proving Meadows\")",
             "Coordinates": "420, 109, -185",
@@ -2910,7 +2910,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 90117,
+            "LocationId": 900117,
             "LocationName": "Proving Meadows Shop - Weapon Merchant 9",
             "Rule": "lambda state: logic.can_earn_money(state, \"Proving Meadows\")",
             "Coordinates": "420, 109, -185",
@@ -2918,7 +2918,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 100117,
+            "LocationId": 1000117,
             "LocationName": "Proving Meadows Shop - Weapon Merchant 10",
             "Rule": "lambda state: logic.can_earn_money(state, \"Proving Meadows\")",
             "Coordinates": "420, 109, -185",
@@ -2926,7 +2926,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 10134,
+            "LocationId": 100134,
             "LocationName": "Proving Meadows Shop - Accessories Merchant 1",
             "Rule": "lambda state: logic.can_earn_money(state, \"Proving Meadows\")",
             "Coordinates": "428, 109, -185",
@@ -2934,7 +2934,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 20134,
+            "LocationId": 200134,
             "LocationName": "Proving Meadows Shop - Accessories Merchant 2",
             "Rule": "lambda state: logic.can_earn_money(state, \"Proving Meadows\")",
             "Coordinates": "428, 109, -185",
@@ -2942,7 +2942,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 30134,
+            "LocationId": 300134,
             "LocationName": "Proving Meadows Shop - Accessories Merchant 3",
             "Rule": "lambda state: logic.can_earn_money(state, \"Proving Meadows\")",
             "Coordinates": "428, 109, -185",
@@ -2950,7 +2950,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 40134,
+            "LocationId": 400134,
             "LocationName": "Proving Meadows Shop - Accessories Merchant 4",
             "Rule": "lambda state: logic.can_earn_money(state, \"Proving Meadows\")",
             "Coordinates": "428, 109, -185",
@@ -3700,7 +3700,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 10379,
+            "LocationId": 100379,
             "LocationName": "Gaea Shrine Shop - Attendant 1",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "374, 179, -328",
@@ -3708,7 +3708,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 20379,
+            "LocationId": 200379,
             "LocationName": "Gaea Shrine Shop - Attendant 2",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "374, 179, -328",
@@ -3716,7 +3716,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 10575,
+            "LocationId": 100575,
             "LocationName": "Capital Sequoia Shop - Candy Merchant 1",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "415, 160, -254",
@@ -3724,7 +3724,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 20575,
+            "LocationId": 200575,
             "LocationName": "Capital Sequoia Shop - Candy Merchant 2",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "415, 160, -254",
@@ -3732,7 +3732,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 11158,
+            "LocationId": 101158,
             "LocationName": "Capital Sequoia Shop - Map Seller 1",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "437, 171, -290",
@@ -3740,7 +3740,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 21158,
+            "LocationId": 201158,
             "LocationName": "Capital Sequoia Shop - Map Seller 2",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "437, 171, -290",
@@ -3748,7 +3748,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 31158,
+            "LocationId": 301158,
             "LocationName": "Capital Sequoia Shop - Map Seller 3",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "437, 171, -290",
@@ -3756,7 +3756,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 41158,
+            "LocationId": 401158,
             "LocationName": "Capital Sequoia Shop - Map Seller 4",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "437, 171, -290",
@@ -3764,7 +3764,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 51158,
+            "LocationId": 501158,
             "LocationName": "Capital Sequoia Shop - Map Seller 5",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "437, 171, -290",
@@ -3772,7 +3772,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 61158,
+            "LocationId": 601158,
             "LocationName": "Capital Sequoia Shop - Map Seller 6",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "437, 171, -290",
@@ -3780,7 +3780,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 71158,
+            "LocationId": 701158,
             "LocationName": "Capital Sequoia Shop - Map Seller 7",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "437, 171, -290",
@@ -3788,7 +3788,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 81158,
+            "LocationId": 801158,
             "LocationName": "Capital Sequoia Shop - Map Seller 8",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "437, 171, -290",
@@ -3796,7 +3796,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 91158,
+            "LocationId": 901158,
             "LocationName": "Capital Sequoia Shop - Map Seller 9",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "437, 171, -290",
@@ -3804,7 +3804,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 101158,
+            "LocationId": 1001158,
             "LocationName": "Capital Sequoia Shop - Map Seller 10",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "437, 171, -290",
@@ -3812,7 +3812,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 10599,
+            "LocationId": 100599,
             "LocationName": "Capital Sequoia Shop - Luxury Shop Martial Weapons 1",
             "Rule": "lambda state: (state.has(\"Item - Progressive Luxury Pass\", player)) and logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "417, 175, -294",
@@ -3822,7 +3822,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 20599,
+            "LocationId": 200599,
             "LocationName": "Capital Sequoia Shop - Luxury Shop Martial Weapons 2",
             "Rule": "lambda state: (state.has(\"Item - Progressive Luxury Pass\", player)) and logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "417, 175, -294",
@@ -3832,7 +3832,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 30599,
+            "LocationId": 300599,
             "LocationName": "Capital Sequoia Shop - Luxury Shop Martial Weapons 3",
             "Rule": "lambda state: (state.has(\"Item - Progressive Luxury Pass\", player)) and logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "417, 175, -294",
@@ -3842,7 +3842,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 40599,
+            "LocationId": 400599,
             "LocationName": "Capital Sequoia Shop - Luxury Shop Martial Weapons 4",
             "Rule": "lambda state: (state.has(\"Item - Progressive Luxury Pass\", player)) and logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "417, 175, -294",
@@ -3852,7 +3852,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 50599,
+            "LocationId": 500599,
             "LocationName": "Capital Sequoia Shop - Upgraded Luxury Shop Martial Weapons 1",
             "Rule": "lambda state: (state.has(\"Item - Progressive Luxury Pass\", player, 2)) and logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "417, 175, -294",
@@ -3862,7 +3862,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 60599,
+            "LocationId": 600599,
             "LocationName": "Capital Sequoia Shop - Upgraded Luxury Shop Martial Weapons 2",
             "Rule": "lambda state: (state.has(\"Item - Progressive Luxury Pass\", player, 2)) and logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "417, 175, -294",
@@ -3872,7 +3872,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 70599,
+            "LocationId": 700599,
             "LocationName": "Capital Sequoia Shop - Upgraded Luxury Shop Martial Weapons 3",
             "Rule": "lambda state: (state.has(\"Item - Progressive Luxury Pass\", player, 2)) and logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "417, 175, -294",
@@ -3882,7 +3882,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 80599,
+            "LocationId": 800599,
             "LocationName": "Capital Sequoia Shop - Upgraded Luxury Shop Martial Weapons 4",
             "Rule": "lambda state: (state.has(\"Item - Progressive Luxury Pass\", player, 2)) and logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "417, 175, -294",
@@ -3892,7 +3892,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 90599,
+            "LocationId": 900599,
             "LocationName": "Capital Sequoia Shop - Upgraded Luxury Shop Martial Weapons 5",
             "Rule": "lambda state: (state.has(\"Item - Progressive Luxury Pass\", player, 2)) and logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "417, 175, -294",
@@ -3902,7 +3902,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 100599,
+            "LocationId": 1000599,
             "LocationName": "Capital Sequoia Shop - Upgraded Luxury Shop Martial Weapons 6",
             "Rule": "lambda state: (state.has(\"Item - Progressive Luxury Pass\", player, 2)) and logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "417, 175, -294",
@@ -3912,7 +3912,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 10600,
+            "LocationId": 100600,
             "LocationName": "Capital Sequoia Shop - Luxury Shop Exotic Weapons 1",
             "Rule": "lambda state: (state.has(\"Item - Progressive Luxury Pass\", player)) and logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "413, 175, -292",
@@ -3922,7 +3922,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 20600,
+            "LocationId": 200600,
             "LocationName": "Capital Sequoia Shop - Luxury Shop Exotic Weapons 2",
             "Rule": "lambda state: (state.has(\"Item - Progressive Luxury Pass\", player)) and logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "413, 175, -292",
@@ -3932,7 +3932,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 30600,
+            "LocationId": 300600,
             "LocationName": "Capital Sequoia Shop - Luxury Shop Exotic Weapons 3",
             "Rule": "lambda state: (state.has(\"Item - Progressive Luxury Pass\", player)) and logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "413, 175, -292",
@@ -3942,7 +3942,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 40600,
+            "LocationId": 400600,
             "LocationName": "Capital Sequoia Shop - Luxury Shop Exotic Weapons 4",
             "Rule": "lambda state: (state.has(\"Item - Progressive Luxury Pass\", player)) and logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "413, 175, -292",
@@ -3952,7 +3952,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 50600,
+            "LocationId": 500600,
             "LocationName": "Capital Sequoia Shop - Upgraded Luxury Shop Exotic Weapons 1",
             "Rule": "lambda state: (state.has(\"Item - Progressive Luxury Pass\", player, 2)) and logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "413, 175, -292",
@@ -3962,7 +3962,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 60600,
+            "LocationId": 600600,
             "LocationName": "Capital Sequoia Shop - Upgraded Luxury Shop Exotic Weapons 2",
             "Rule": "lambda state: (state.has(\"Item - Progressive Luxury Pass\", player, 2)) and logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "413, 175, -292",
@@ -3972,7 +3972,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 70600,
+            "LocationId": 700600,
             "LocationName": "Capital Sequoia Shop - Upgraded Luxury Shop Exotic Weapons 3",
             "Rule": "lambda state: (state.has(\"Item - Progressive Luxury Pass\", player, 2)) and logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "413, 175, -292",
@@ -3982,7 +3982,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 80600,
+            "LocationId": 800600,
             "LocationName": "Capital Sequoia Shop - Upgraded Luxury Shop Exotic Weapons 4",
             "Rule": "lambda state: (state.has(\"Item - Progressive Luxury Pass\", player, 2)) and logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "413, 175, -292",
@@ -3992,7 +3992,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 10601,
+            "LocationId": 100601,
             "LocationName": "Capital Sequoia Shop - Luxury Shop Heavy Armor 1",
             "Rule": "lambda state: (state.has(\"Item - Progressive Luxury Pass\", player)) and logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "417, 171, -293",
@@ -4002,7 +4002,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 20601,
+            "LocationId": 200601,
             "LocationName": "Capital Sequoia Shop - Luxury Shop Heavy Armor 2",
             "Rule": "lambda state: (state.has(\"Item - Progressive Luxury Pass\", player)) and logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "417, 171, -293",
@@ -4012,7 +4012,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 30601,
+            "LocationId": 300601,
             "LocationName": "Capital Sequoia Shop - Luxury Shop Heavy Armor 3",
             "Rule": "lambda state: (state.has(\"Item - Progressive Luxury Pass\", player)) and logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "417, 171, -293",
@@ -4022,7 +4022,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 40601,
+            "LocationId": 400601,
             "LocationName": "Capital Sequoia Shop - Upgraded Luxury Shop Heavy Armor 1",
             "Rule": "lambda state: (state.has(\"Item - Progressive Luxury Pass\", player, 2)) and logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "417, 171, -293",
@@ -4032,7 +4032,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 50601,
+            "LocationId": 500601,
             "LocationName": "Capital Sequoia Shop - Upgraded Luxury Shop Heavy Armor 2",
             "Rule": "lambda state: (state.has(\"Item - Progressive Luxury Pass\", player, 2)) and logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "417, 171, -293",
@@ -4042,7 +4042,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 60601,
+            "LocationId": 600601,
             "LocationName": "Capital Sequoia Shop - Upgraded Luxury Shop Heavy Armor 3",
             "Rule": "lambda state: (state.has(\"Item - Progressive Luxury Pass\", player, 2)) and logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "417, 171, -293",
@@ -4052,7 +4052,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 10602,
+            "LocationId": 100602,
             "LocationName": "Capital Sequoia Shop - Luxury Shop Medium Armor 1",
             "Rule": "lambda state: (state.has(\"Item - Progressive Luxury Pass\", player)) and logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "419, 171, -293",
@@ -4062,7 +4062,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 20602,
+            "LocationId": 200602,
             "LocationName": "Capital Sequoia Shop - Luxury Shop Medium Armor 2",
             "Rule": "lambda state: (state.has(\"Item - Progressive Luxury Pass\", player)) and logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "419, 171, -293",
@@ -4072,7 +4072,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 30602,
+            "LocationId": 300602,
             "LocationName": "Capital Sequoia Shop - Upgraded Luxury Shop Medium Armor 1",
             "Rule": "lambda state: (state.has(\"Item - Progressive Luxury Pass\", player, 2)) and logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "419, 171, -293",
@@ -4082,7 +4082,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 40602,
+            "LocationId": 400602,
             "LocationName": "Capital Sequoia Shop - Upgraded Luxury Shop Medium Armor 2",
             "Rule": "lambda state: (state.has(\"Item - Progressive Luxury Pass\", player, 2)) and logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "419, 171, -293",
@@ -4092,7 +4092,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 10603,
+            "LocationId": 100603,
             "LocationName": "Capital Sequoia Shop - Luxury Shop Magic Weapons 1",
             "Rule": "lambda state: (state.has(\"Item - Progressive Luxury Pass\", player)) and logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "418, 175, -289",
@@ -4102,7 +4102,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 20603,
+            "LocationId": 200603,
             "LocationName": "Capital Sequoia Shop - Luxury Shop Magic Weapons 2",
             "Rule": "lambda state: (state.has(\"Item - Progressive Luxury Pass\", player)) and logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "418, 175, -289",
@@ -4112,7 +4112,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 30603,
+            "LocationId": 300603,
             "LocationName": "Capital Sequoia Shop - Luxury Shop Magic Weapons 3",
             "Rule": "lambda state: (state.has(\"Item - Progressive Luxury Pass\", player)) and logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "418, 175, -289",
@@ -4122,7 +4122,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 40603,
+            "LocationId": 400603,
             "LocationName": "Capital Sequoia Shop - Upgraded Luxury Shop Magic Weapons 1",
             "Rule": "lambda state: (state.has(\"Item - Progressive Luxury Pass\", player, 2)) and logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "418, 175, -289",
@@ -4132,7 +4132,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 50603,
+            "LocationId": 500603,
             "LocationName": "Capital Sequoia Shop - Upgraded Luxury Shop Magic Weapons 2",
             "Rule": "lambda state: (state.has(\"Item - Progressive Luxury Pass\", player, 2)) and logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "418, 175, -289",
@@ -4142,7 +4142,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 60603,
+            "LocationId": 600603,
             "LocationName": "Capital Sequoia Shop - Upgraded Luxury Shop Magic Weapons 3",
             "Rule": "lambda state: (state.has(\"Item - Progressive Luxury Pass\", player, 2)) and logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "418, 175, -289",
@@ -4152,7 +4152,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 10604,
+            "LocationId": 100604,
             "LocationName": "Capital Sequoia Shop - Luxury Shop Light Armor 1",
             "Rule": "lambda state: (state.has(\"Item - Progressive Luxury Pass\", player)) and logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "415, 171, -292",
@@ -4162,7 +4162,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 20604,
+            "LocationId": 200604,
             "LocationName": "Capital Sequoia Shop - Luxury Shop Light Armor 2",
             "Rule": "lambda state: (state.has(\"Item - Progressive Luxury Pass\", player)) and logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "415, 171, -292",
@@ -4172,7 +4172,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 30604,
+            "LocationId": 300604,
             "LocationName": "Capital Sequoia Shop - Upgraded Luxury Shop Light Armor 1",
             "Rule": "lambda state: (state.has(\"Item - Progressive Luxury Pass\", player, 2)) and logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "415, 171, -292",
@@ -4182,7 +4182,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 40604,
+            "LocationId": 400604,
             "LocationName": "Capital Sequoia Shop - Upgraded Luxury Shop Light Armor 2",
             "Rule": "lambda state: (state.has(\"Item - Progressive Luxury Pass\", player, 2)) and logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "415, 171, -292",
@@ -4192,7 +4192,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 10500,
+            "LocationId": 100500,
             "LocationName": "Capital Sequoia Shop - Martial Weapons R Us 1",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "388, 161, -266",
@@ -4200,7 +4200,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 20500,
+            "LocationId": 200500,
             "LocationName": "Capital Sequoia Shop - Martial Weapons R Us 2",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "388, 161, -266",
@@ -4208,7 +4208,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 30500,
+            "LocationId": 300500,
             "LocationName": "Capital Sequoia Shop - Martial Weapons R Us 3",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "388, 161, -266",
@@ -4216,7 +4216,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 40500,
+            "LocationId": 400500,
             "LocationName": "Capital Sequoia Shop - Martial Weapons R Us 4",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "388, 161, -266",
@@ -4224,7 +4224,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 50500,
+            "LocationId": 500500,
             "LocationName": "Capital Sequoia Shop - Martial Weapons R Us 5",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "388, 161, -266",
@@ -4232,7 +4232,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 60500,
+            "LocationId": 600500,
             "LocationName": "Capital Sequoia Shop - Martial Weapons R Us 6",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "388, 161, -266",
@@ -4240,7 +4240,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 70500,
+            "LocationId": 700500,
             "LocationName": "Capital Sequoia Shop - Martial Weapons R Us 7",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "388, 161, -266",
@@ -4248,7 +4248,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 80500,
+            "LocationId": 800500,
             "LocationName": "Capital Sequoia Shop - Martial Weapons R Us 8",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "388, 161, -266",
@@ -4256,7 +4256,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 90500,
+            "LocationId": 900500,
             "LocationName": "Capital Sequoia Shop - Martial Weapons R Us 9",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "388, 161, -266",
@@ -4264,7 +4264,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 100500,
+            "LocationId": 1000500,
             "LocationName": "Capital Sequoia Shop - Martial Weapons R Us 10",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "388, 161, -266",
@@ -4272,7 +4272,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 110500,
+            "LocationId": 1100500,
             "LocationName": "Capital Sequoia Shop - Martial Weapons R Us 11",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "388, 161, -266",
@@ -4280,7 +4280,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 120500,
+            "LocationId": 1200500,
             "LocationName": "Capital Sequoia Shop - Martial Weapons R Us 12",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "388, 161, -266",
@@ -4288,7 +4288,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 130500,
+            "LocationId": 1300500,
             "LocationName": "Capital Sequoia Shop - Martial Weapons R Us 13",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "388, 161, -266",
@@ -4296,7 +4296,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 140500,
+            "LocationId": 1400500,
             "LocationName": "Capital Sequoia Shop - Martial Weapons R Us 14",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "388, 161, -266",
@@ -4304,7 +4304,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 150500,
+            "LocationId": 1500500,
             "LocationName": "Capital Sequoia Shop - Martial Weapons R Us 15",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "388, 161, -266",
@@ -4312,7 +4312,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 160500,
+            "LocationId": 1600500,
             "LocationName": "Capital Sequoia Shop - Martial Weapons R Us 16",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "388, 161, -266",
@@ -4320,7 +4320,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 170500,
+            "LocationId": 1700500,
             "LocationName": "Capital Sequoia Shop - Martial Weapons R Us 17",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "388, 161, -266",
@@ -4328,7 +4328,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 10501,
+            "LocationId": 100501,
             "LocationName": "Capital Sequoia Shop - Exotic Weapons R Us 1",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "390, 161, -266",
@@ -4336,7 +4336,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 20501,
+            "LocationId": 200501,
             "LocationName": "Capital Sequoia Shop - Exotic Weapons R Us 2",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "390, 161, -266",
@@ -4344,7 +4344,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 30501,
+            "LocationId": 300501,
             "LocationName": "Capital Sequoia Shop - Exotic Weapons R Us 3",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "390, 161, -266",
@@ -4352,7 +4352,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 40501,
+            "LocationId": 400501,
             "LocationName": "Capital Sequoia Shop - Exotic Weapons R Us 4",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "390, 161, -266",
@@ -4360,7 +4360,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 50501,
+            "LocationId": 500501,
             "LocationName": "Capital Sequoia Shop - Exotic Weapons R Us 5",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "390, 161, -266",
@@ -4368,7 +4368,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 60501,
+            "LocationId": 600501,
             "LocationName": "Capital Sequoia Shop - Exotic Weapons R Us 6",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "390, 161, -266",
@@ -4376,7 +4376,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 10579,
+            "LocationId": 100579,
             "LocationName": "Capital Sequoia Shop - Milk Man",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "422, 160, -254",
@@ -4384,7 +4384,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 10416,
+            "LocationId": 100416,
             "LocationName": "Capital Sequoia Shop - Heavy Armor 4 All 1",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "360, 161, -265",
@@ -4392,7 +4392,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 20416,
+            "LocationId": 200416,
             "LocationName": "Capital Sequoia Shop - Heavy Armor 4 All 2",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "360, 161, -265",
@@ -4400,7 +4400,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 30416,
+            "LocationId": 300416,
             "LocationName": "Capital Sequoia Shop - Heavy Armor 4 All 3",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "360, 161, -265",
@@ -4408,7 +4408,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 40416,
+            "LocationId": 400416,
             "LocationName": "Capital Sequoia Shop - Heavy Armor 4 All 4",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "360, 161, -265",
@@ -4416,7 +4416,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 50416,
+            "LocationId": 500416,
             "LocationName": "Capital Sequoia Shop - Heavy Armor 4 All 5",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "360, 161, -265",
@@ -4424,7 +4424,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 60416,
+            "LocationId": 600416,
             "LocationName": "Capital Sequoia Shop - Heavy Armor 4 All 6",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "360, 161, -265",
@@ -4432,7 +4432,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 70416,
+            "LocationId": 700416,
             "LocationName": "Capital Sequoia Shop - Heavy Armor 4 All 7",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "360, 161, -265",
@@ -4440,7 +4440,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 80416,
+            "LocationId": 800416,
             "LocationName": "Capital Sequoia Shop - Heavy Armor 4 All 8",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "360, 161, -265",
@@ -4448,7 +4448,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 90416,
+            "LocationId": 900416,
             "LocationName": "Capital Sequoia Shop - Heavy Armor 4 All 9",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "360, 161, -265",
@@ -4456,7 +4456,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 100416,
+            "LocationId": 1000416,
             "LocationName": "Capital Sequoia Shop - Heavy Armor 4 All 10",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "360, 161, -265",
@@ -4464,7 +4464,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 110416,
+            "LocationId": 1100416,
             "LocationName": "Capital Sequoia Shop - Heavy Armor 4 All 11",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "360, 161, -265",
@@ -4472,7 +4472,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 120416,
+            "LocationId": 1200416,
             "LocationName": "Capital Sequoia Shop - Heavy Armor 4 All 12",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "360, 161, -265",
@@ -4480,7 +4480,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 10417,
+            "LocationId": 100417,
             "LocationName": "Capital Sequoia Shop - Medium Armor 4 All 1",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "366, 161, -265",
@@ -4488,7 +4488,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 20417,
+            "LocationId": 200417,
             "LocationName": "Capital Sequoia Shop - Medium Armor 4 All 2",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "366, 161, -265",
@@ -4496,7 +4496,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 30417,
+            "LocationId": 300417,
             "LocationName": "Capital Sequoia Shop - Medium Armor 4 All 3",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "366, 161, -265",
@@ -4504,7 +4504,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 40417,
+            "LocationId": 400417,
             "LocationName": "Capital Sequoia Shop - Medium Armor 4 All 4",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "366, 161, -265",
@@ -4512,7 +4512,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 50417,
+            "LocationId": 500417,
             "LocationName": "Capital Sequoia Shop - Medium Armor 4 All 5",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "366, 161, -265",
@@ -4520,7 +4520,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 60417,
+            "LocationId": 600417,
             "LocationName": "Capital Sequoia Shop - Medium Armor 4 All 6",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "366, 161, -265",
@@ -4528,7 +4528,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 70417,
+            "LocationId": 700417,
             "LocationName": "Capital Sequoia Shop - Medium Armor 4 All 7",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "366, 161, -265",
@@ -4536,7 +4536,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 80417,
+            "LocationId": 800417,
             "LocationName": "Capital Sequoia Shop - Medium Armor 4 All 8",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "366, 161, -265",
@@ -4544,7 +4544,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 90417,
+            "LocationId": 900417,
             "LocationName": "Capital Sequoia Shop - Medium Armor 4 All 9",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "366, 161, -265",
@@ -4552,7 +4552,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 10455,
+            "LocationId": 100455,
             "LocationName": "Capital Sequoia Shop - Magic and Magic Things Light Armor 1",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "425, 160, -265",
@@ -4560,7 +4560,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 20455,
+            "LocationId": 200455,
             "LocationName": "Capital Sequoia Shop - Magic and Magic Things Light Armor 2",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "425, 160, -265",
@@ -4568,7 +4568,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 30455,
+            "LocationId": 300455,
             "LocationName": "Capital Sequoia Shop - Magic and Magic Things Light Armor 3",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "425, 160, -265",
@@ -4576,7 +4576,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 40455,
+            "LocationId": 400455,
             "LocationName": "Capital Sequoia Shop - Magic and Magic Things Light Armor 4",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "425, 160, -265",
@@ -4584,7 +4584,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 50455,
+            "LocationId": 500455,
             "LocationName": "Capital Sequoia Shop - Magic and Magic Things Light Armor 5",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "425, 160, -265",
@@ -4592,7 +4592,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 60455,
+            "LocationId": 600455,
             "LocationName": "Capital Sequoia Shop - Magic and Magic Things Light Armor 6",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "425, 160, -265",
@@ -4600,7 +4600,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 70455,
+            "LocationId": 700455,
             "LocationName": "Capital Sequoia Shop - Magic and Magic Things Light Armor 7",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "425, 160, -265",
@@ -4608,7 +4608,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 80455,
+            "LocationId": 800455,
             "LocationName": "Capital Sequoia Shop - Magic and Magic Things Light Armor 8",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "425, 160, -265",
@@ -4616,7 +4616,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 10499,
+            "LocationId": 100499,
             "LocationName": "Capital Sequoia Shop - Magic and Magic Things Weapons 1",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "425, 160, -267",
@@ -4624,7 +4624,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 20499,
+            "LocationId": 200499,
             "LocationName": "Capital Sequoia Shop - Magic and Magic Things Weapons 2",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "425, 160, -267",
@@ -4632,7 +4632,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 30499,
+            "LocationId": 300499,
             "LocationName": "Capital Sequoia Shop - Magic and Magic Things Weapons 3",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "425, 160, -267",
@@ -4640,7 +4640,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 40499,
+            "LocationId": 400499,
             "LocationName": "Capital Sequoia Shop - Magic and Magic Things Weapons 4",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "425, 160, -267",
@@ -4648,7 +4648,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 50499,
+            "LocationId": 500499,
             "LocationName": "Capital Sequoia Shop - Magic and Magic Things Weapons 5",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "425, 160, -267",
@@ -4656,7 +4656,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 60499,
+            "LocationId": 600499,
             "LocationName": "Capital Sequoia Shop - Magic and Magic Things Weapons 6",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "425, 160, -267",
@@ -4664,7 +4664,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 70499,
+            "LocationId": 700499,
             "LocationName": "Capital Sequoia Shop - Magic and Magic Things Weapons 7",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "425, 160, -267",
@@ -4672,7 +4672,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 80499,
+            "LocationId": 800499,
             "LocationName": "Capital Sequoia Shop - Magic and Magic Things Weapons 8",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "425, 160, -267",
@@ -4680,7 +4680,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 90499,
+            "LocationId": 900499,
             "LocationName": "Capital Sequoia Shop - Magic and Magic Things Weapons 9",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "425, 160, -267",
@@ -4688,7 +4688,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 100499,
+            "LocationId": 1000499,
             "LocationName": "Capital Sequoia Shop - Magic and Magic Things Weapons 10",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "425, 160, -267",
@@ -4696,7 +4696,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 10398,
+            "LocationId": 100398,
             "LocationName": "Capital Sequoia Shop - Accessory Merchant 1",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "395, 160, -254",
@@ -4704,7 +4704,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 20398,
+            "LocationId": 200398,
             "LocationName": "Capital Sequoia Shop - Accessory Merchant 2",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "395, 160, -254",
@@ -4712,7 +4712,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 30398,
+            "LocationId": 300398,
             "LocationName": "Capital Sequoia Shop - Accessory Merchant 3",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "395, 160, -254",
@@ -4720,7 +4720,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 40398,
+            "LocationId": 400398,
             "LocationName": "Capital Sequoia Shop - Accessory Merchant 4",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "395, 160, -254",
@@ -4728,7 +4728,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 50398,
+            "LocationId": 500398,
             "LocationName": "Capital Sequoia Shop - Accessory Merchant 5",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "395, 160, -254",
@@ -4736,7 +4736,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 60398,
+            "LocationId": 600398,
             "LocationName": "Capital Sequoia Shop - Accessory Merchant 6",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "395, 160, -254",
@@ -4744,7 +4744,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 70398,
+            "LocationId": 700398,
             "LocationName": "Capital Sequoia Shop - Accessory Merchant 7",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "395, 160, -254",
@@ -4752,7 +4752,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 80398,
+            "LocationId": 800398,
             "LocationName": "Capital Sequoia Shop - Accessory Merchant 8",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "395, 160, -254",
@@ -4760,7 +4760,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 90398,
+            "LocationId": 900398,
             "LocationName": "Capital Sequoia Shop - Accessory Merchant 9",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "395, 160, -254",
@@ -4768,7 +4768,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 100398,
+            "LocationId": 1000398,
             "LocationName": "Capital Sequoia Shop - Accessory Merchant 10",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "395, 160, -254",
@@ -4776,7 +4776,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 110398,
+            "LocationId": 1100398,
             "LocationName": "Capital Sequoia Shop - Accessory Merchant 11",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "395, 160, -254",
@@ -4784,7 +4784,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 120398,
+            "LocationId": 1200398,
             "LocationName": "Capital Sequoia Shop - Accessory Merchant 12",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "395, 160, -254",
@@ -4792,7 +4792,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 10456,
+            "LocationId": 100456,
             "LocationName": "Capital Sequoia Shop - Item Merchant 1",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "369, 160, -254",
@@ -4800,7 +4800,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 20456,
+            "LocationId": 200456,
             "LocationName": "Capital Sequoia Shop - Item Merchant 2",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "369, 160, -254",
@@ -4808,7 +4808,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 30456,
+            "LocationId": 300456,
             "LocationName": "Capital Sequoia Shop - Item Merchant 3",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "369, 160, -254",
@@ -4816,7 +4816,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 40456,
+            "LocationId": 400456,
             "LocationName": "Capital Sequoia Shop - Item Merchant 4",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "369, 160, -254",
@@ -4824,7 +4824,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 50456,
+            "LocationId": 500456,
             "LocationName": "Capital Sequoia Shop - Item Merchant 5",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "369, 160, -254",
@@ -4832,7 +4832,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 60456,
+            "LocationId": 600456,
             "LocationName": "Capital Sequoia Shop - Item Merchant 6",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "369, 160, -254",
@@ -4840,7 +4840,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 10423,
+            "LocationId": 100423,
             "LocationName": "Capital Sequoia Shop - Old Nan's Stew",
             "Rule": "lambda state: logic.can_earn_money(state, \"Capital Sequoia\")",
             "Coordinates": "440, 160, -254",
@@ -5009,14 +5009,6 @@
             "MapLayer": 1
           },
           {
-            "LocationId": 2658,
-            "LocationName": "Jojo Sewers Chest - Eastside sewer green room",
-            "Rule": null,
-            "Coordinates": "417, 152, -273",
-            "LocationGroups": [],
-            "MapLayer": 1
-          },
-          {
             "LocationId": 3670,
             "LocationName": "Underpass Chest - Walking the plank above Pale Grotto waterfall",
             "Rule": "lambda state: logic.has_swimming(state)",
@@ -5064,6 +5056,14 @@
           }
         ],
         "Locations": [
+          {
+            "LocationId": 2658,
+            "LocationName": "Jojo Sewers Chest - Eastside sewer green room",
+            "Rule": null,
+            "Coordinates": "417, 152, -273",
+            "LocationGroups": [],
+            "MapLayer": 1
+          },
           {
             "LocationId": 744,
             "LocationName": "Jojo Sewers Chest - Invisible maze",
@@ -6126,14 +6126,6 @@
             "MapLayer": 4
           },
           {
-            "LocationId": 907,
-            "LocationName": "Capital Jail Boss - Warden",
-            "Rule": "lambda state: logic.has_key(state, \"Item - Dark Wing Key\") and logic.is_area_in_level_range(state, 27)",
-            "Coordinates": "402, 85, -401",
-            "LocationGroups": [],
-            "MapLayer": 4
-          },
-          {
             "LocationId": 19017,
             "LocationName": "Capital Jail Region Completion",
             "Rule": "regionsanity=True",
@@ -6302,6 +6294,14 @@
             "LocationName": "Capital Jail Crystal - Reaper, above hell pool",
             "Rule": null,
             "Coordinates": "402, 86, -397",
+            "LocationGroups": [],
+            "MapLayer": 4
+          },
+          {
+            "LocationId": 907,
+            "LocationName": "Capital Jail Boss - Warden",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 27)",
+            "Coordinates": "402, 85, -401",
             "LocationGroups": [],
             "MapLayer": 4
           }
@@ -7324,7 +7324,7 @@
         ],
         "Locations": [
           {
-            "LocationId": 10631,
+            "LocationId": 100631,
             "LocationName": "Poseidon Shrine Shop - Attendant 1",
             "Rule": "lambda state: logic.can_earn_money(state, \"Poseidon Shrine\")",
             "Coordinates": "111, 180, -393",
@@ -7332,7 +7332,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 20631,
+            "LocationId": 200631,
             "LocationName": "Poseidon Shrine Shop - Attendant 2",
             "Rule": "lambda state: logic.can_earn_money(state, \"Poseidon Shrine\")",
             "Coordinates": "111, 180, -393",
@@ -7340,7 +7340,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 30631,
+            "LocationId": 300631,
             "LocationName": "Poseidon Shrine Shop - Attendant 3",
             "Rule": "lambda state: logic.can_earn_money(state, \"Poseidon Shrine\")",
             "Coordinates": "111, 180, -393",
@@ -8295,7 +8295,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 10957,
+            "LocationId": 100957,
             "LocationName": "Sara Sara Bazaar Shop - Old Nan's Stew Subsidiary",
             "Rule": "lambda state: logic.can_earn_money(state, \"Sara Sara Bazaar\")",
             "Coordinates": "-150, 105, 52",
@@ -8303,7 +8303,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 11386,
+            "LocationId": 101386,
             "LocationName": "Sara Sara Bazaar Shop - Accessory Merchant 1",
             "Rule": "lambda state: logic.can_earn_money(state, \"Sara Sara Bazaar\")",
             "Coordinates": "-156, 105, 52",
@@ -8311,7 +8311,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 21386,
+            "LocationId": 201386,
             "LocationName": "Sara Sara Bazaar Shop - Accessory Merchant 2",
             "Rule": "lambda state: logic.can_earn_money(state, \"Sara Sara Bazaar\")",
             "Coordinates": "-156, 105, 52",
@@ -8319,7 +8319,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 31386,
+            "LocationId": 301386,
             "LocationName": "Sara Sara Bazaar Shop - Accessory Merchant 3",
             "Rule": "lambda state: logic.can_earn_money(state, \"Sara Sara Bazaar\")",
             "Coordinates": "-156, 105, 52",
@@ -8327,7 +8327,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 41386,
+            "LocationId": 401386,
             "LocationName": "Sara Sara Bazaar Shop - Accessory Merchant 4",
             "Rule": "lambda state: logic.can_earn_money(state, \"Sara Sara Bazaar\")",
             "Coordinates": "-156, 105, 52",
@@ -8335,7 +8335,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 51386,
+            "LocationId": 501386,
             "LocationName": "Sara Sara Bazaar Shop - Accessory Merchant 5",
             "Rule": "lambda state: logic.can_earn_money(state, \"Sara Sara Bazaar\")",
             "Coordinates": "-156, 105, 52",
@@ -8343,7 +8343,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 61386,
+            "LocationId": 601386,
             "LocationName": "Sara Sara Bazaar Shop - Accessory Merchant 6",
             "Rule": "lambda state: logic.can_earn_money(state, \"Sara Sara Bazaar\")",
             "Coordinates": "-156, 105, 52",
@@ -8351,7 +8351,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 11193,
+            "LocationId": 101193,
             "LocationName": "Sara Sara Bazaar Shop - Item Merchant 1",
             "Rule": "lambda state: logic.can_earn_money(state, \"Sara Sara Bazaar\")",
             "Coordinates": "-125, 105, 52",
@@ -8359,7 +8359,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 21193,
+            "LocationId": 201193,
             "LocationName": "Sara Sara Bazaar Shop - Item Merchant 2",
             "Rule": "lambda state: logic.can_earn_money(state, \"Sara Sara Bazaar\")",
             "Coordinates": "-125, 105, 52",
@@ -8367,7 +8367,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 31193,
+            "LocationId": 301193,
             "LocationName": "Sara Sara Bazaar Shop - Item Merchant 3",
             "Rule": "lambda state: logic.can_earn_money(state, \"Sara Sara Bazaar\")",
             "Coordinates": "-125, 105, 52",
@@ -8375,7 +8375,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 41193,
+            "LocationId": 401193,
             "LocationName": "Sara Sara Bazaar Shop - Item Merchant 4",
             "Rule": "lambda state: logic.can_earn_money(state, \"Sara Sara Bazaar\")",
             "Coordinates": "-125, 105, 52",
@@ -8383,7 +8383,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 51193,
+            "LocationId": 501193,
             "LocationName": "Sara Sara Bazaar Shop - Item Merchant 5",
             "Rule": "lambda state: logic.can_earn_money(state, \"Sara Sara Bazaar\")",
             "Coordinates": "-125, 105, 52",
@@ -8391,7 +8391,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 61193,
+            "LocationId": 601193,
             "LocationName": "Sara Sara Bazaar Shop - Item Merchant 6",
             "Rule": "lambda state: logic.can_earn_money(state, \"Sara Sara Bazaar\")",
             "Coordinates": "-125, 105, 52",
@@ -8399,7 +8399,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 71193,
+            "LocationId": 701193,
             "LocationName": "Sara Sara Bazaar Shop - Item Merchant 7",
             "Rule": "lambda state: logic.can_earn_money(state, \"Sara Sara Bazaar\")",
             "Coordinates": "-125, 105, 52",
@@ -8407,7 +8407,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 81193,
+            "LocationId": 801193,
             "LocationName": "Sara Sara Bazaar Shop - Item Merchant 8",
             "Rule": "lambda state: logic.can_earn_money(state, \"Sara Sara Bazaar\")",
             "Coordinates": "-125, 105, 52",
@@ -8415,7 +8415,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 10942,
+            "LocationId": 100942,
             "LocationName": "Sara Sara Bazaar Shop - Fish Merchant 1",
             "Rule": "lambda state: logic.can_earn_money(state, \"Sara Sara Bazaar\")",
             "Coordinates": "-174, 105, 49",
@@ -8423,7 +8423,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 20942,
+            "LocationId": 200942,
             "LocationName": "Sara Sara Bazaar Shop - Fish Merchant 2",
             "Rule": "lambda state: logic.can_earn_money(state, \"Sara Sara Bazaar\")",
             "Coordinates": "-174, 105, 49",
@@ -8431,7 +8431,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 11603,
+            "LocationId": 101603,
             "LocationName": "Sara Sara Bazaar Shop - Armor Merchant 1",
             "Rule": "lambda state: logic.can_earn_money(state, \"Sara Sara Bazaar\")",
             "Coordinates": "-158, 93, 56",
@@ -8439,7 +8439,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 21603,
+            "LocationId": 201603,
             "LocationName": "Sara Sara Bazaar Shop - Armor Merchant 2",
             "Rule": "lambda state: logic.can_earn_money(state, \"Sara Sara Bazaar\")",
             "Coordinates": "-158, 93, 56",
@@ -8447,7 +8447,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 31603,
+            "LocationId": 301603,
             "LocationName": "Sara Sara Bazaar Shop - Armor Merchant 3",
             "Rule": "lambda state: logic.can_earn_money(state, \"Sara Sara Bazaar\")",
             "Coordinates": "-158, 93, 56",
@@ -8455,7 +8455,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 41603,
+            "LocationId": 401603,
             "LocationName": "Sara Sara Bazaar Shop - Armor Merchant 4",
             "Rule": "lambda state: logic.can_earn_money(state, \"Sara Sara Bazaar\")",
             "Coordinates": "-158, 93, 56",
@@ -8463,7 +8463,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 51603,
+            "LocationId": 501603,
             "LocationName": "Sara Sara Bazaar Shop - Armor Merchant 5",
             "Rule": "lambda state: logic.can_earn_money(state, \"Sara Sara Bazaar\")",
             "Coordinates": "-158, 93, 56",
@@ -8471,7 +8471,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 61603,
+            "LocationId": 601603,
             "LocationName": "Sara Sara Bazaar Shop - Armor Merchant 6",
             "Rule": "lambda state: logic.can_earn_money(state, \"Sara Sara Bazaar\")",
             "Coordinates": "-158, 93, 56",
@@ -8479,7 +8479,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 71603,
+            "LocationId": 701603,
             "LocationName": "Sara Sara Bazaar Shop - Armor Merchant 7",
             "Rule": "lambda state: logic.can_earn_money(state, \"Sara Sara Bazaar\")",
             "Coordinates": "-158, 93, 56",
@@ -8487,7 +8487,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 11604,
+            "LocationId": 101604,
             "LocationName": "Sara Sara Bazaar Shop - Weapon Merchant 1",
             "Rule": "lambda state: logic.can_earn_money(state, \"Sara Sara Bazaar\")",
             "Coordinates": "-160, 93, 56",
@@ -8495,7 +8495,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 21604,
+            "LocationId": 201604,
             "LocationName": "Sara Sara Bazaar Shop - Weapon Merchant 2",
             "Rule": "lambda state: logic.can_earn_money(state, \"Sara Sara Bazaar\")",
             "Coordinates": "-160, 93, 56",
@@ -8503,7 +8503,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 31604,
+            "LocationId": 301604,
             "LocationName": "Sara Sara Bazaar Shop - Weapon Merchant 3",
             "Rule": "lambda state: logic.can_earn_money(state, \"Sara Sara Bazaar\")",
             "Coordinates": "-160, 93, 56",
@@ -8511,7 +8511,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 41604,
+            "LocationId": 401604,
             "LocationName": "Sara Sara Bazaar Shop - Weapon Merchant 4",
             "Rule": "lambda state: logic.can_earn_money(state, \"Sara Sara Bazaar\")",
             "Coordinates": "-160, 93, 56",
@@ -8519,7 +8519,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 51604,
+            "LocationId": 501604,
             "LocationName": "Sara Sara Bazaar Shop - Weapon Merchant 5",
             "Rule": "lambda state: logic.can_earn_money(state, \"Sara Sara Bazaar\")",
             "Coordinates": "-160, 93, 56",
@@ -8527,7 +8527,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 61604,
+            "LocationId": 601604,
             "LocationName": "Sara Sara Bazaar Shop - Weapon Merchant 6",
             "Rule": "lambda state: logic.can_earn_money(state, \"Sara Sara Bazaar\")",
             "Coordinates": "-160, 93, 56",
@@ -8535,7 +8535,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 71604,
+            "LocationId": 701604,
             "LocationName": "Sara Sara Bazaar Shop - Weapon Merchant 7",
             "Rule": "lambda state: logic.can_earn_money(state, \"Sara Sara Bazaar\")",
             "Coordinates": "-160, 93, 56",
@@ -8543,7 +8543,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 81604,
+            "LocationId": 801604,
             "LocationName": "Sara Sara Bazaar Shop - Weapon Merchant 8",
             "Rule": "lambda state: logic.can_earn_money(state, \"Sara Sara Bazaar\")",
             "Coordinates": "-160, 93, 56",
@@ -8551,7 +8551,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 91604,
+            "LocationId": 901604,
             "LocationName": "Sara Sara Bazaar Shop - Weapon Merchant 9",
             "Rule": "lambda state: logic.can_earn_money(state, \"Sara Sara Bazaar\")",
             "Coordinates": "-160, 93, 56",
@@ -8559,7 +8559,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 101604,
+            "LocationId": 1001604,
             "LocationName": "Sara Sara Bazaar Shop - Weapon Merchant 10",
             "Rule": "lambda state: logic.can_earn_money(state, \"Sara Sara Bazaar\")",
             "Coordinates": "-160, 93, 56",
@@ -8567,7 +8567,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 111604,
+            "LocationId": 1101604,
             "LocationName": "Sara Sara Bazaar Shop - Weapon Merchant 11",
             "Rule": "lambda state: logic.can_earn_money(state, \"Sara Sara Bazaar\")",
             "Coordinates": "-160, 93, 56",
@@ -8575,7 +8575,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 121604,
+            "LocationId": 1201604,
             "LocationName": "Sara Sara Bazaar Shop - Weapon Merchant 12",
             "Rule": "lambda state: logic.can_earn_money(state, \"Sara Sara Bazaar\")",
             "Coordinates": "-160, 93, 56",
@@ -8583,7 +8583,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 131604,
+            "LocationId": 1301604,
             "LocationName": "Sara Sara Bazaar Shop - Weapon Merchant 13",
             "Rule": "lambda state: logic.can_earn_money(state, \"Sara Sara Bazaar\")",
             "Coordinates": "-160, 93, 56",
@@ -9736,7 +9736,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 10951,
+            "LocationId": 100951,
             "LocationName": "Shoudu Province Shop - Item Merchant 1",
             "Rule": "lambda state: logic.can_earn_money(state, \"Shoudu Province Dockside\")",
             "Coordinates": "767, 96, -170",
@@ -9744,7 +9744,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 20951,
+            "LocationId": 200951,
             "LocationName": "Shoudu Province Shop - Item Merchant 2",
             "Rule": "lambda state: logic.can_earn_money(state, \"Shoudu Province Dockside\")",
             "Coordinates": "767, 96, -170",
@@ -9752,7 +9752,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 30951,
+            "LocationId": 300951,
             "LocationName": "Shoudu Province Shop - Item Merchant 3",
             "Rule": "lambda state: logic.can_earn_money(state, \"Shoudu Province Dockside\")",
             "Coordinates": "767, 96, -170",
@@ -9760,7 +9760,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 40951,
+            "LocationId": 400951,
             "LocationName": "Shoudu Province Shop - Item Merchant 4",
             "Rule": "lambda state: logic.can_earn_money(state, \"Shoudu Province Dockside\")",
             "Coordinates": "767, 96, -170",
@@ -9768,7 +9768,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 50951,
+            "LocationId": 500951,
             "LocationName": "Shoudu Province Shop - Item Merchant 5",
             "Rule": "lambda state: logic.can_earn_money(state, \"Shoudu Province Dockside\")",
             "Coordinates": "767, 96, -170",
@@ -9776,7 +9776,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 60951,
+            "LocationId": 600951,
             "LocationName": "Shoudu Province Shop - Item Merchant 6",
             "Rule": "lambda state: logic.can_earn_money(state, \"Shoudu Province Dockside\")",
             "Coordinates": "767, 96, -170",
@@ -9784,7 +9784,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 70951,
+            "LocationId": 700951,
             "LocationName": "Shoudu Province Shop - Item Merchant 7",
             "Rule": "lambda state: logic.can_earn_money(state, \"Shoudu Province Dockside\")",
             "Coordinates": "767, 96, -170",
@@ -9792,7 +9792,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 80951,
+            "LocationId": 800951,
             "LocationName": "Shoudu Province Shop - Item Merchant 8",
             "Rule": "lambda state: logic.can_earn_money(state, \"Shoudu Province Dockside\")",
             "Coordinates": "767, 96, -170",
@@ -9800,7 +9800,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 90951,
+            "LocationId": 900951,
             "LocationName": "Shoudu Province Shop - Item Merchant 9",
             "Rule": "lambda state: logic.can_earn_money(state, \"Shoudu Province Dockside\")",
             "Coordinates": "767, 96, -170",
@@ -9808,7 +9808,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 11199,
+            "LocationId": 101199,
             "LocationName": "Shoudu Province Shop - No Shoudu Stew for you 1",
             "Rule": "lambda state: logic.can_earn_money(state, \"Shoudu Province Dockside\")",
             "Coordinates": "781, 96, -170",
@@ -10122,7 +10122,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 11614,
+            "LocationId": 101614,
             "LocationName": "Shoudu Province Shop - Accessory Merchant 1",
             "Rule": "lambda state: logic.can_earn_money(state, \"Shoudu Province Proper\")",
             "Coordinates": "739, 119, -221",
@@ -10130,7 +10130,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 21614,
+            "LocationId": 201614,
             "LocationName": "Shoudu Province Shop - Accessory Merchant 2",
             "Rule": "lambda state: logic.can_earn_money(state, \"Shoudu Province Proper\")",
             "Coordinates": "739, 119, -221",
@@ -10138,7 +10138,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 31614,
+            "LocationId": 301614,
             "LocationName": "Shoudu Province Shop - Accessory Merchant 3",
             "Rule": "lambda state: logic.can_earn_money(state, \"Shoudu Province Proper\")",
             "Coordinates": "739, 119, -221",
@@ -10146,7 +10146,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 41614,
+            "LocationId": 401614,
             "LocationName": "Shoudu Province Shop - Accessory Merchant 4",
             "Rule": "lambda state: logic.can_earn_money(state, \"Shoudu Province Proper\")",
             "Coordinates": "739, 119, -221",
@@ -10154,7 +10154,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 51614,
+            "LocationId": 501614,
             "LocationName": "Shoudu Province Shop - Accessory Merchant 5",
             "Rule": "lambda state: logic.can_earn_money(state, \"Shoudu Province Proper\")",
             "Coordinates": "739, 119, -221",
@@ -10162,7 +10162,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 61614,
+            "LocationId": 601614,
             "LocationName": "Shoudu Province Shop - Accessory Merchant 6",
             "Rule": "lambda state: logic.can_earn_money(state, \"Shoudu Province Proper\")",
             "Coordinates": "739, 119, -221",
@@ -10170,7 +10170,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 11535,
+            "LocationId": 101535,
             "LocationName": "Shoudu Province Shop - Armor Merchant 1",
             "Rule": "lambda state: logic.can_earn_money(state, \"Shoudu Province Proper\")",
             "Coordinates": "778, 116, -220",
@@ -10178,7 +10178,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 21535,
+            "LocationId": 201535,
             "LocationName": "Shoudu Province Shop - Armor Merchant 2",
             "Rule": "lambda state: logic.can_earn_money(state, \"Shoudu Province Proper\")",
             "Coordinates": "778, 116, -220",
@@ -10186,7 +10186,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 31535,
+            "LocationId": 301535,
             "LocationName": "Shoudu Province Shop - Armor Merchant 3",
             "Rule": "lambda state: logic.can_earn_money(state, \"Shoudu Province Proper\")",
             "Coordinates": "778, 116, -220",
@@ -10194,7 +10194,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 41535,
+            "LocationId": 401535,
             "LocationName": "Shoudu Province Shop - Armor Merchant 4",
             "Rule": "lambda state: logic.can_earn_money(state, \"Shoudu Province Proper\")",
             "Coordinates": "778, 116, -220",
@@ -10202,7 +10202,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 51535,
+            "LocationId": 501535,
             "LocationName": "Shoudu Province Shop - Armor Merchant 5",
             "Rule": "lambda state: logic.can_earn_money(state, \"Shoudu Province Proper\")",
             "Coordinates": "778, 116, -220",
@@ -10210,7 +10210,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 61535,
+            "LocationId": 601535,
             "LocationName": "Shoudu Province Shop - Armor Merchant 6",
             "Rule": "lambda state: logic.can_earn_money(state, \"Shoudu Province Proper\")",
             "Coordinates": "778, 116, -220",
@@ -10218,7 +10218,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 71535,
+            "LocationId": 701535,
             "LocationName": "Shoudu Province Shop - Armor Merchant 7",
             "Rule": "lambda state: logic.can_earn_money(state, \"Shoudu Province Proper\")",
             "Coordinates": "778, 116, -220",
@@ -10226,7 +10226,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 81535,
+            "LocationId": 801535,
             "LocationName": "Shoudu Province Shop - Armor Merchant 8",
             "Rule": "lambda state: logic.can_earn_money(state, \"Shoudu Province Proper\")",
             "Coordinates": "778, 116, -220",
@@ -10234,7 +10234,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 91535,
+            "LocationId": 901535,
             "LocationName": "Shoudu Province Shop - Armor Merchant 9",
             "Rule": "lambda state: logic.can_earn_money(state, \"Shoudu Province Proper\")",
             "Coordinates": "778, 116, -220",
@@ -10242,7 +10242,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 101535,
+            "LocationId": 1001535,
             "LocationName": "Shoudu Province Shop - Armor Merchant 10",
             "Rule": "lambda state: logic.can_earn_money(state, \"Shoudu Province Proper\")",
             "Coordinates": "778, 116, -220",
@@ -10250,7 +10250,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 11544,
+            "LocationId": 101544,
             "LocationName": "Shoudu Province Shop - Weapon Merchant 1",
             "Rule": "lambda state: logic.can_earn_money(state, \"Shoudu Province Proper\")",
             "Coordinates": "764, 116, -220",
@@ -10258,7 +10258,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 21544,
+            "LocationId": 201544,
             "LocationName": "Shoudu Province Shop - Weapon Merchant 2",
             "Rule": "lambda state: logic.can_earn_money(state, \"Shoudu Province Proper\")",
             "Coordinates": "764, 116, -220",
@@ -10266,7 +10266,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 31544,
+            "LocationId": 301544,
             "LocationName": "Shoudu Province Shop - Weapon Merchant 3",
             "Rule": "lambda state: logic.can_earn_money(state, \"Shoudu Province Proper\")",
             "Coordinates": "764, 116, -220",
@@ -10274,7 +10274,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 41544,
+            "LocationId": 401544,
             "LocationName": "Shoudu Province Shop - Weapon Merchant 4",
             "Rule": "lambda state: logic.can_earn_money(state, \"Shoudu Province Proper\")",
             "Coordinates": "764, 116, -220",
@@ -10282,7 +10282,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 51544,
+            "LocationId": 501544,
             "LocationName": "Shoudu Province Shop - Weapon Merchant 5",
             "Rule": "lambda state: logic.can_earn_money(state, \"Shoudu Province Proper\")",
             "Coordinates": "764, 116, -220",
@@ -10290,7 +10290,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 61544,
+            "LocationId": 601544,
             "LocationName": "Shoudu Province Shop - Weapon Merchant 6",
             "Rule": "lambda state: logic.can_earn_money(state, \"Shoudu Province Proper\")",
             "Coordinates": "764, 116, -220",
@@ -10298,7 +10298,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 71544,
+            "LocationId": 701544,
             "LocationName": "Shoudu Province Shop - Weapon Merchant 7",
             "Rule": "lambda state: logic.can_earn_money(state, \"Shoudu Province Proper\")",
             "Coordinates": "764, 116, -220",
@@ -10306,7 +10306,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 81544,
+            "LocationId": 801544,
             "LocationName": "Shoudu Province Shop - Weapon Merchant 8",
             "Rule": "lambda state: logic.can_earn_money(state, \"Shoudu Province Proper\")",
             "Coordinates": "764, 116, -220",
@@ -10314,7 +10314,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 91544,
+            "LocationId": 901544,
             "LocationName": "Shoudu Province Shop - Weapon Merchant 9",
             "Rule": "lambda state: logic.can_earn_money(state, \"Shoudu Province Proper\")",
             "Coordinates": "764, 116, -220",
@@ -10322,7 +10322,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 101544,
+            "LocationId": 1001544,
             "LocationName": "Shoudu Province Shop - Weapon Merchant 10",
             "Rule": "lambda state: logic.can_earn_money(state, \"Shoudu Province Proper\")",
             "Coordinates": "764, 116, -220",
@@ -10330,7 +10330,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 111544,
+            "LocationId": 1101544,
             "LocationName": "Shoudu Province Shop - Weapon Merchant 11",
             "Rule": "lambda state: logic.can_earn_money(state, \"Shoudu Province Proper\")",
             "Coordinates": "764, 116, -220",
@@ -10338,7 +10338,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 121544,
+            "LocationId": 1201544,
             "LocationName": "Shoudu Province Shop - Weapon Merchant 12",
             "Rule": "lambda state: logic.can_earn_money(state, \"Shoudu Province Proper\")",
             "Coordinates": "764, 116, -220",
@@ -10346,7 +10346,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 131544,
+            "LocationId": 1301544,
             "LocationName": "Shoudu Province Shop - Weapon Merchant 13",
             "Rule": "lambda state: logic.can_earn_money(state, \"Shoudu Province Proper\")",
             "Coordinates": "764, 116, -220",
@@ -10354,7 +10354,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 141544,
+            "LocationId": 1401544,
             "LocationName": "Shoudu Province Shop - Weapon Merchant 14",
             "Rule": "lambda state: logic.can_earn_money(state, \"Shoudu Province Proper\")",
             "Coordinates": "764, 116, -220",
@@ -10362,7 +10362,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 151544,
+            "LocationId": 1501544,
             "LocationName": "Shoudu Province Shop - Weapon Merchant 15",
             "Rule": "lambda state: logic.can_earn_money(state, \"Shoudu Province Proper\")",
             "Coordinates": "764, 116, -220",
@@ -10370,7 +10370,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 161544,
+            "LocationId": 1601544,
             "LocationName": "Shoudu Province Shop - Weapon Merchant 16",
             "Rule": "lambda state: logic.can_earn_money(state, \"Shoudu Province Proper\")",
             "Coordinates": "764, 116, -220",
@@ -11505,7 +11505,7 @@
         ],
         "Locations": [
           {
-            "LocationId": 11574,
+            "LocationId": 101574,
             "LocationName": "Ganymede Shrine Shop - Attendant 1",
             "Rule": "lambda state: logic.can_earn_money(state, \"Ganymede Shrine\")",
             "Coordinates": "687, 159, -248",
@@ -11513,7 +11513,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 21574,
+            "LocationId": 201574,
             "LocationName": "Ganymede Shrine Shop - Attendant 2",
             "Rule": "lambda state: logic.can_earn_money(state, \"Ganymede Shrine\")",
             "Coordinates": "687, 159, -248",
@@ -11521,7 +11521,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 31574,
+            "LocationId": 301574,
             "LocationName": "Ganymede Shrine Shop - Attendant 3",
             "Rule": "lambda state: logic.can_earn_money(state, \"Ganymede Shrine\")",
             "Coordinates": "687, 159, -248",
@@ -12512,7 +12512,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 10470,
+            "LocationId": 100470,
             "LocationName": "Quintar Reserve Shop - Babel to this Quintar 1",
             "Rule": "lambda state: (state.has(\"Item - Babel Quintar\", player)) and logic.can_earn_money(state, \"Quintar Mausoleum Gift Shop\")",
             "Coordinates": "724, 190, -315",
@@ -12520,7 +12520,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 20470,
+            "LocationId": 200470,
             "LocationName": "Quintar Reserve Shop - Babel to this Quintar 2",
             "Rule": "lambda state: (state.has(\"Item - Babel Quintar\", player)) and logic.can_earn_money(state, \"Quintar Mausoleum Gift Shop\")",
             "Coordinates": "724, 190, -315",
@@ -12528,7 +12528,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 30470,
+            "LocationId": 300470,
             "LocationName": "Quintar Reserve Shop - Babel to this Quintar 3",
             "Rule": "lambda state: (state.has(\"Item - Babel Quintar\", player)) and logic.can_earn_money(state, \"Quintar Mausoleum Gift Shop\")",
             "Coordinates": "724, 190, -315",
@@ -12536,7 +12536,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 40470,
+            "LocationId": 400470,
             "LocationName": "Quintar Reserve Shop - Babel to this Quintar 4",
             "Rule": "lambda state: (state.has(\"Item - Babel Quintar\", player)) and logic.can_earn_money(state, \"Quintar Mausoleum Gift Shop\")",
             "Coordinates": "724, 190, -315",
@@ -12544,7 +12544,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 50470,
+            "LocationId": 500470,
             "LocationName": "Quintar Reserve Shop - Babel to this Quintar 5",
             "Rule": "lambda state: (state.has(\"Item - Babel Quintar\", player)) and logic.can_earn_money(state, \"Quintar Mausoleum Gift Shop\")",
             "Coordinates": "724, 190, -315",
@@ -12692,7 +12692,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 12253,
+            "LocationId": 102253,
             "LocationName": "Dione Shrine Shop - Quintar Attendant 1",
             "Rule": "lambda state: (state.has(\"Item - Babel Quintar\", player)) and logic.can_earn_money(state, \"Dione Shrine\")",
             "Coordinates": "680, 216, -453",
@@ -12700,7 +12700,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 22253,
+            "LocationId": 202253,
             "LocationName": "Dione Shrine Shop - Quintar Attendant 2",
             "Rule": "lambda state: (state.has(\"Item - Babel Quintar\", player)) and logic.can_earn_money(state, \"Dione Shrine\")",
             "Coordinates": "680, 216, -453",
@@ -12708,7 +12708,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 12227,
+            "LocationId": 102227,
             "LocationName": "Dione Shrine Shop - Quintar Raising Supplies 1",
             "Rule": "lambda state: (state.has(\"Item - Babel Quintar\", player)) and logic.can_earn_money(state, \"Dione Shrine\")",
             "Coordinates": "680, 207, -459",
@@ -12718,7 +12718,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 22227,
+            "LocationId": 202227,
             "LocationName": "Dione Shrine Shop - Quintar Raising Supplies 2",
             "Rule": "lambda state: (state.has(\"Item - Babel Quintar\", player)) and logic.can_earn_money(state, \"Dione Shrine\")",
             "Coordinates": "680, 207, -459",
@@ -12726,7 +12726,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 32227,
+            "LocationId": 302227,
             "LocationName": "Dione Shrine Shop - Quintar Raising Supplies 3",
             "Rule": "lambda state: (state.has(\"Item - Babel Quintar\", player)) and logic.can_earn_money(state, \"Dione Shrine\")",
             "Coordinates": "680, 207, -459",
@@ -12734,7 +12734,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 42227,
+            "LocationId": 402227,
             "LocationName": "Dione Shrine Shop - Quintar Raising Supplies 4",
             "Rule": "lambda state: (state.has(\"Item - Babel Quintar\", player)) and logic.can_earn_money(state, \"Dione Shrine\")",
             "Coordinates": "680, 207, -459",
@@ -12742,7 +12742,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 52227,
+            "LocationId": 502227,
             "LocationName": "Dione Shrine Shop - Quintar Raising Supplies 5",
             "Rule": "lambda state: (state.has(\"Item - Babel Quintar\", player)) and logic.can_earn_money(state, \"Dione Shrine\")",
             "Coordinates": "680, 207, -459",
@@ -12750,7 +12750,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 62227,
+            "LocationId": 602227,
             "LocationName": "Dione Shrine Shop - Quintar Raising Supplies 6",
             "Rule": "lambda state: (state.has(\"Item - Babel Quintar\", player)) and logic.can_earn_money(state, \"Dione Shrine\")",
             "Coordinates": "680, 207, -459",
@@ -12758,7 +12758,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 72227,
+            "LocationId": 702227,
             "LocationName": "Dione Shrine Shop - Quintar Raising Supplies 7",
             "Rule": "lambda state: (state.has(\"Item - Babel Quintar\", player)) and logic.can_earn_money(state, \"Dione Shrine\")",
             "Coordinates": "680, 207, -459",
@@ -12766,7 +12766,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 82227,
+            "LocationId": 802227,
             "LocationName": "Dione Shrine Shop - Quintar Raising Supplies 8",
             "Rule": "lambda state: (state.has(\"Item - Babel Quintar\", player)) and logic.can_earn_money(state, \"Dione Shrine\")",
             "Coordinates": "680, 207, -459",
@@ -12774,7 +12774,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 92227,
+            "LocationId": 902227,
             "LocationName": "Dione Shrine Shop - Quintar Raising Supplies 9",
             "Rule": "lambda state: (state.has(\"Item - Babel Quintar\", player)) and logic.can_earn_money(state, \"Dione Shrine\")",
             "Coordinates": "680, 207, -459",
@@ -13355,7 +13355,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 11165,
+            "LocationId": 101165,
             "LocationName": "Triton Shrine Shop - Attendant 1",
             "Rule": "lambda state: logic.can_earn_money(state, \"Upper Ice Lakes\")",
             "Coordinates": "239, 203, -490",
@@ -13363,7 +13363,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 21165,
+            "LocationId": 201165,
             "LocationName": "Triton Shrine Shop - Attendant 2",
             "Rule": "lambda state: logic.can_earn_money(state, \"Upper Ice Lakes\")",
             "Coordinates": "239, 203, -490",
@@ -13502,7 +13502,7 @@
         ],
         "Locations": [
           {
-            "LocationId": 12746,
+            "LocationId": 102746,
             "LocationName": "Tall, Tall Heights Shop - Armor Merchant 1",
             "Rule": "lambda state: logic.can_earn_money(state, \"Souvenir Shop\")",
             "Coordinates": "339, 202, -538",
@@ -13510,7 +13510,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 22746,
+            "LocationId": 202746,
             "LocationName": "Tall, Tall Heights Shop - Armor Merchant 2",
             "Rule": "lambda state: logic.can_earn_money(state, \"Souvenir Shop\")",
             "Coordinates": "339, 202, -538",
@@ -13518,7 +13518,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 32746,
+            "LocationId": 302746,
             "LocationName": "Tall, Tall Heights Shop - Armor Merchant 3",
             "Rule": "lambda state: logic.can_earn_money(state, \"Souvenir Shop\")",
             "Coordinates": "339, 202, -538",
@@ -13526,7 +13526,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 42746,
+            "LocationId": 402746,
             "LocationName": "Tall, Tall Heights Shop - Armor Merchant 4",
             "Rule": "lambda state: logic.can_earn_money(state, \"Souvenir Shop\")",
             "Coordinates": "339, 202, -538",
@@ -13534,7 +13534,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 52746,
+            "LocationId": 502746,
             "LocationName": "Tall, Tall Heights Shop - Armor Merchant 5",
             "Rule": "lambda state: logic.can_earn_money(state, \"Souvenir Shop\")",
             "Coordinates": "339, 202, -538",
@@ -13542,7 +13542,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 62746,
+            "LocationId": 602746,
             "LocationName": "Tall, Tall Heights Shop - Armor Merchant 6",
             "Rule": "lambda state: logic.can_earn_money(state, \"Souvenir Shop\")",
             "Coordinates": "339, 202, -538",
@@ -13550,7 +13550,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 72746,
+            "LocationId": 702746,
             "LocationName": "Tall, Tall Heights Shop - Armor Merchant 7",
             "Rule": "lambda state: logic.can_earn_money(state, \"Souvenir Shop\")",
             "Coordinates": "339, 202, -538",
@@ -13558,7 +13558,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 82746,
+            "LocationId": 802746,
             "LocationName": "Tall, Tall Heights Shop - Armor Merchant 8",
             "Rule": "lambda state: logic.can_earn_money(state, \"Souvenir Shop\")",
             "Coordinates": "339, 202, -538",
@@ -13566,7 +13566,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 92746,
+            "LocationId": 902746,
             "LocationName": "Tall, Tall Heights Shop - Armor Merchant 9",
             "Rule": "lambda state: logic.can_earn_money(state, \"Souvenir Shop\")",
             "Coordinates": "339, 202, -538",
@@ -13574,7 +13574,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 102746,
+            "LocationId": 1002746,
             "LocationName": "Tall, Tall Heights Shop - Armor Merchant 10",
             "Rule": "lambda state: logic.can_earn_money(state, \"Souvenir Shop\")",
             "Coordinates": "339, 202, -538",
@@ -13582,7 +13582,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 10540,
+            "LocationId": 100540,
             "LocationName": "Tall, Tall Heights Shop - Weapon Merchant 1",
             "Rule": "lambda state: logic.can_earn_money(state, \"Souvenir Shop\")",
             "Coordinates": "337, 202, -538",
@@ -13590,7 +13590,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 20540,
+            "LocationId": 200540,
             "LocationName": "Tall, Tall Heights Shop - Weapon Merchant 2",
             "Rule": "lambda state: logic.can_earn_money(state, \"Souvenir Shop\")",
             "Coordinates": "337, 202, -538",
@@ -13598,7 +13598,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 30540,
+            "LocationId": 300540,
             "LocationName": "Tall, Tall Heights Shop - Weapon Merchant 3",
             "Rule": "lambda state: logic.can_earn_money(state, \"Souvenir Shop\")",
             "Coordinates": "337, 202, -538",
@@ -13606,7 +13606,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 40540,
+            "LocationId": 400540,
             "LocationName": "Tall, Tall Heights Shop - Weapon Merchant 4",
             "Rule": "lambda state: logic.can_earn_money(state, \"Souvenir Shop\")",
             "Coordinates": "337, 202, -538",
@@ -13614,7 +13614,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 50540,
+            "LocationId": 500540,
             "LocationName": "Tall, Tall Heights Shop - Weapon Merchant 5",
             "Rule": "lambda state: logic.can_earn_money(state, \"Souvenir Shop\")",
             "Coordinates": "337, 202, -538",
@@ -13622,7 +13622,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 60540,
+            "LocationId": 600540,
             "LocationName": "Tall, Tall Heights Shop - Weapon Merchant 6",
             "Rule": "lambda state: logic.can_earn_money(state, \"Souvenir Shop\")",
             "Coordinates": "337, 202, -538",
@@ -13630,7 +13630,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 70540,
+            "LocationId": 700540,
             "LocationName": "Tall, Tall Heights Shop - Weapon Merchant 7",
             "Rule": "lambda state: logic.can_earn_money(state, \"Souvenir Shop\")",
             "Coordinates": "337, 202, -538",
@@ -13638,7 +13638,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 80540,
+            "LocationId": 800540,
             "LocationName": "Tall, Tall Heights Shop - Weapon Merchant 8",
             "Rule": "lambda state: logic.can_earn_money(state, \"Souvenir Shop\")",
             "Coordinates": "337, 202, -538",
@@ -13646,7 +13646,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 90540,
+            "LocationId": 900540,
             "LocationName": "Tall, Tall Heights Shop - Weapon Merchant 9",
             "Rule": "lambda state: logic.can_earn_money(state, \"Souvenir Shop\")",
             "Coordinates": "337, 202, -538",
@@ -13654,7 +13654,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 100540,
+            "LocationId": 1000540,
             "LocationName": "Tall, Tall Heights Shop - Weapon Merchant 10",
             "Rule": "lambda state: logic.can_earn_money(state, \"Souvenir Shop\")",
             "Coordinates": "337, 202, -538",
@@ -13662,7 +13662,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 12918,
+            "LocationId": 102918,
             "LocationName": "Tall, Tall Heights Shop - Souvenir Merchant 1",
             "Rule": "lambda state: logic.can_earn_money(state, \"Souvenir Shop\")",
             "Coordinates": "334, 202, -535",
@@ -13670,7 +13670,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 22918,
+            "LocationId": 202918,
             "LocationName": "Tall, Tall Heights Shop - Souvenir Merchant 2",
             "Rule": "lambda state: logic.can_earn_money(state, \"Souvenir Shop\")",
             "Coordinates": "334, 202, -535",
@@ -13678,7 +13678,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 32918,
+            "LocationId": 302918,
             "LocationName": "Tall, Tall Heights Shop - Souvenir Merchant 3",
             "Rule": "lambda state: logic.can_earn_money(state, \"Souvenir Shop\")",
             "Coordinates": "334, 202, -535",
@@ -13686,7 +13686,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 42918,
+            "LocationId": 402918,
             "LocationName": "Tall, Tall Heights Shop - Souvenir Merchant 4",
             "Rule": "lambda state: logic.can_earn_money(state, \"Souvenir Shop\")",
             "Coordinates": "334, 202, -535",
@@ -15195,7 +15195,7 @@
           {
             "LocationId": 2872,
             "LocationName": "Jidamba Tangle NPC - Diamond atop broken ruins along the beach",
-            "Rule": "lambda state: logic.has_glide(state)",
+            "Rule": "lambda state: logic.has_glide(state) or logic.has_swimming(state)",
             "Coordinates": "763, 95, 170",
             "LocationGroups": [
               "Ore Nodes"
@@ -15283,7 +15283,7 @@
         ],
         "Locations": [
           {
-            "LocationId": 11163,
+            "LocationId": 101163,
             "LocationName": "Europa Shrine Shop - Attendant 1",
             "Rule": "lambda state: logic.can_earn_money(state, \"Europa Shrine\")",
             "Coordinates": "760, 101, 31",
@@ -15291,7 +15291,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 21163,
+            "LocationId": 201163,
             "LocationName": "Europa Shrine Shop - Attendant 2",
             "Rule": "lambda state: logic.can_earn_money(state, \"Europa Shrine\")",
             "Coordinates": "760, 101, 31",
@@ -16369,7 +16369,7 @@
         ],
         "Locations": [
           {
-            "LocationId": 13164,
+            "LocationId": 103164,
             "LocationName": "Neptune Shrine Shop - Attendant 1",
             "Rule": "lambda state: logic.can_earn_money(state, \"Neptune Shrine\")",
             "Coordinates": "-272, 58, 219",
@@ -16377,7 +16377,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 23164,
+            "LocationId": 203164,
             "LocationName": "Neptune Shrine Shop - Attendant 2",
             "Rule": "lambda state: logic.can_earn_money(state, \"Neptune Shrine\")",
             "Coordinates": "-272, 58, 219",
@@ -16385,7 +16385,7 @@
             "MapLayer": 0
           },
           {
-            "LocationId": 33164,
+            "LocationId": 303164,
             "LocationName": "Neptune Shrine Shop - Attendant 3",
             "Rule": "lambda state: logic.can_earn_money(state, \"Neptune Shrine\")",
             "Coordinates": "-272, 58, 219",
@@ -17122,8 +17122,8 @@
         "Name": "Castle Sequoia",
         "Connections": [
           {
-            "ConnectionName": "Capital Sequoia",
-            "Rule": "lambda state: logic.is_area_in_level_range(state, 0)"
+            "ConnectionName": "Castle Sequoia Fire Floor",
+            "Rule": "lambda state: (logic.has_horizontal_movement(state) or logic.has_vertical_movement(state)) and logic.is_area_in_level_range(state, 56)"
           }
         ],
         "Locations": [
@@ -17134,120 +17134,6 @@
             "Coordinates": "422, 169, -406",
             "LocationGroups": [],
             "MapLayer": 4
-          },
-          {
-            "LocationId": 1465,
-            "LocationName": "Castle Sequoia Chest - Stared at by lava miniboss",
-            "Rule": null,
-            "Coordinates": "427, 170, -441",
-            "LocationGroups": [],
-            "MapLayer": 4
-          },
-          {
-            "LocationId": 1447,
-            "LocationName": "Castle Sequoia Chest - Enjoy riding lava shrooms",
-            "Rule": null,
-            "Coordinates": "409, 169, -406",
-            "LocationGroups": [],
-            "MapLayer": 4
-          },
-          {
-            "LocationId": 1472,
-            "LocationName": "Castle Sequoia Chest - Biiig bounce!",
-            "Rule": null,
-            "Coordinates": "375, 153, -405",
-            "LocationGroups": [],
-            "MapLayer": 5
-          },
-          {
-            "LocationId": 2949,
-            "LocationName": "Castle Sequoia Chest - Bounce up!!",
-            "Rule": null,
-            "Coordinates": "401, 151, -404",
-            "LocationGroups": [],
-            "MapLayer": 5
-          },
-          {
-            "LocationId": 2948,
-            "LocationName": "Castle Sequoia Chest - Bounce around!",
-            "Rule": null,
-            "Coordinates": "401, 151, -424",
-            "LocationGroups": [],
-            "MapLayer": 5
-          },
-          {
-            "LocationId": 2945,
-            "LocationName": "Castle Sequoia Chest - Bounce right!",
-            "Rule": null,
-            "Coordinates": "434, 154, -441",
-            "LocationGroups": [],
-            "MapLayer": 5
-          },
-          {
-            "LocationId": 2922,
-            "LocationName": "Castle Sequoia Chest - Bounce up!",
-            "Rule": null,
-            "Coordinates": "395, 155, -453",
-            "LocationGroups": [],
-            "MapLayer": 5
-          },
-          {
-            "LocationId": 2927,
-            "LocationName": "Castle Sequoia Chest - Chilly uno in Chips Challenge of doom",
-            "Rule": null,
-            "Coordinates": "387, 134, -431",
-            "LocationGroups": [],
-            "MapLayer": 6
-          },
-          {
-            "LocationId": 1492,
-            "LocationName": "Castle Sequoia Chest - Chilly duo in Chips Challenge of doom",
-            "Rule": null,
-            "Coordinates": "387, 134, -427",
-            "LocationGroups": [],
-            "MapLayer": 6
-          },
-          {
-            "LocationId": 2479,
-            "LocationName": "Castle Sequoia Chest - One fish",
-            "Rule": null,
-            "Coordinates": "401, 119, -415",
-            "LocationGroups": [],
-            "MapLayer": 7
-          },
-          {
-            "LocationId": 2509,
-            "LocationName": "Castle Sequoia Chest - Two fish",
-            "Rule": null,
-            "Coordinates": "388, 122, -445",
-            "LocationGroups": [],
-            "MapLayer": 7
-          },
-          {
-            "LocationId": 2484,
-            "LocationName": "Castle Sequoia Chest - Redfish bluefish",
-            "Rule": null,
-            "Coordinates": "397, 119, -415",
-            "LocationGroups": [],
-            "MapLayer": 7
-          },
-          {
-            "LocationId": 2510,
-            "LocationName": "Castle Sequoia Chest - Bounce for your life",
-            "Rule": null,
-            "Coordinates": "364, 85, -424",
-            "LocationGroups": [],
-            "MapLayer": 8
-          },
-          {
-            "LocationId": 2505,
-            "LocationName": "Castle Sequoia Chest - Throne snacks",
-            "Rule": null,
-            "Coordinates": "401, 250, -478",
-            "LocationGroups": [
-              "Purple Chests"
-            ],
-            "MapLayer": 0
           },
           {
             "LocationId": 1457,
@@ -17283,6 +17169,192 @@
           }
         ],
         "TeleportLocationString": "406,180,-370"
+      },
+      {
+        "Name": "Castle Sequoia Fire Floor",
+        "Connections": [
+          {
+            "ConnectionName": "Castle Sequoia Shroom Floor",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 56)"
+          }
+        ],
+        "Locations": [
+          {
+            "LocationId": 1465,
+            "LocationName": "Castle Sequoia Chest - Stared at by lava miniboss",
+            "Rule": null,
+            "Coordinates": "427, 170, -441",
+            "LocationGroups": [],
+            "MapLayer": 4
+          },
+          {
+            "LocationId": 1447,
+            "LocationName": "Castle Sequoia Chest - Enjoy riding lava shrooms",
+            "Rule": null,
+            "Coordinates": "409, 169, -406",
+            "LocationGroups": [],
+            "MapLayer": 4
+          }
+        ],
+        "TeleportLocationString": null
+      },
+      {
+        "Name": "Castle Sequoia Shroom Floor",
+        "Connections": [
+          {
+            "ConnectionName": "Castle Sequoia Ice Floor",
+            "Rule": "lambda state: (logic.has_glide(state)) and logic.is_area_in_level_range(state, 56)"
+          }
+        ],
+        "Locations": [
+          {
+            "LocationId": 1472,
+            "LocationName": "Castle Sequoia Chest - Biiig bounce!",
+            "Rule": "lambda state: logic.has_horizontal_movement(state)",
+            "Coordinates": "375, 153, -405",
+            "LocationGroups": [],
+            "MapLayer": 5
+          },
+          {
+            "LocationId": 2949,
+            "LocationName": "Castle Sequoia Chest - Bounce up!!",
+            "Rule": null,
+            "Coordinates": "401, 151, -404",
+            "LocationGroups": [],
+            "MapLayer": 5
+          },
+          {
+            "LocationId": 2948,
+            "LocationName": "Castle Sequoia Chest - Bounce around!",
+            "Rule": null,
+            "Coordinates": "401, 151, -424",
+            "LocationGroups": [],
+            "MapLayer": 5
+          },
+          {
+            "LocationId": 2945,
+            "LocationName": "Castle Sequoia Chest - Bounce right!",
+            "Rule": null,
+            "Coordinates": "434, 154, -441",
+            "LocationGroups": [],
+            "MapLayer": 5
+          },
+          {
+            "LocationId": 2922,
+            "LocationName": "Castle Sequoia Chest - Bounce up!",
+            "Rule": "lambda state: logic.has_vertical_movement(state)",
+            "Coordinates": "395, 155, -453",
+            "LocationGroups": [],
+            "MapLayer": 5
+          }
+        ],
+        "TeleportLocationString": null
+      },
+      {
+        "Name": "Castle Sequoia Ice Floor",
+        "Connections": [
+          {
+            "ConnectionName": "Castle Sequoia Fish Floor",
+            "Rule": "lambda state: (logic.has_glide(state)) and logic.is_area_in_level_range(state, 56)"
+          }
+        ],
+        "Locations": [
+          {
+            "LocationId": 2927,
+            "LocationName": "Castle Sequoia Chest - Chilly uno in Chips Challenge of doom",
+            "Rule": null,
+            "Coordinates": "387, 134, -431",
+            "LocationGroups": [],
+            "MapLayer": 6
+          },
+          {
+            "LocationId": 1492,
+            "LocationName": "Castle Sequoia Chest - Chilly duo in Chips Challenge of doom",
+            "Rule": null,
+            "Coordinates": "387, 134, -427",
+            "LocationGroups": [],
+            "MapLayer": 6
+          }
+        ],
+        "TeleportLocationString": null
+      },
+      {
+        "Name": "Castle Sequoia Fish Floor",
+        "Connections": [
+          {
+            "ConnectionName": "Castle Sequoia 2D Floor",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 56)"
+          }
+        ],
+        "Locations": [
+          {
+            "LocationId": 2479,
+            "LocationName": "Castle Sequoia Chest - One fish",
+            "Rule": null,
+            "Coordinates": "401, 119, -415",
+            "LocationGroups": [],
+            "MapLayer": 7
+          },
+          {
+            "LocationId": 2509,
+            "LocationName": "Castle Sequoia Chest - Two fish",
+            "Rule": null,
+            "Coordinates": "388, 122, -445",
+            "LocationGroups": [],
+            "MapLayer": 7
+          },
+          {
+            "LocationId": 2484,
+            "LocationName": "Castle Sequoia Chest - Redfish bluefish",
+            "Rule": null,
+            "Coordinates": "397, 119, -415",
+            "LocationGroups": [],
+            "MapLayer": 7
+          }
+        ],
+        "TeleportLocationString": null
+      },
+      {
+        "Name": "Castle Sequoia 2D Floor",
+        "Connections": [
+          {
+            "ConnectionName": "Castle Sequoia Throne Floor",
+            "Rule": "lambda state: (logic.has_glide(state)) and logic.is_area_in_level_range(state, 56)"
+          }
+        ],
+        "Locations": [
+          {
+            "LocationId": 2510,
+            "LocationName": "Castle Sequoia Chest - Bounce for your life",
+            "Rule": null,
+            "Coordinates": "364, 85, -424",
+            "LocationGroups": [],
+            "MapLayer": 8
+          }
+        ],
+        "TeleportLocationString": null
+      },
+      {
+        "Name": "Castle Sequoia Throne Floor",
+        "Connections": [
+          {
+            "ConnectionName": "Castle Sequoia",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 56)"
+          }
+        ],
+        "Locations": [
+          {
+            "LocationId": 2505,
+            "LocationName": "Castle Sequoia Chest - Throne snacks",
+            "Rule": null,
+            "Coordinates": "401, 250, -478",
+            "LocationGroups": [
+              "Purple Chests"
+            ],
+            "MapLayer": 0
+          }
+        ],
+        "TeleportLocationString": null
       }
     ]
   },
@@ -17362,7 +17434,7 @@
             "MapLayer": 1
           },
           {
-            "LocationId": 11877,
+            "LocationId": 101877,
             "LocationName": "The New World Shrine Shop - Attendant 1",
             "Rule": "lambda state: logic.can_earn_money(state, \"The New World\")",
             "Coordinates": "-71, 5, -524",
@@ -17370,7 +17442,7 @@
             "MapLayer": 1
           },
           {
-            "LocationId": 21877,
+            "LocationId": 201877,
             "LocationName": "The New World Shrine Shop - Attendant 2",
             "Rule": "lambda state: logic.can_earn_money(state, \"The New World\")",
             "Coordinates": "-71, 5, -524",

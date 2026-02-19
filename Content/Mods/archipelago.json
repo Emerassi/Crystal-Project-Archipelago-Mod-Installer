@@ -6,7 +6,7 @@
   "Version": "1.0",
   "EditorVersion": 32,
   "SteamWorkshopFileID": 0,
-  "Timestamp": "2025-12-22T21:28:43.5376487Z",
+  "Timestamp": "2026-02-15T16:50:03.9744146Z",
   "IsLocalization": false,
   "Language": null,
   "HasCustomContent": true,
@@ -16816,7 +16816,7 @@
               "IsExpanded": false
             }
           ],
-          "IsExpanded": false
+          "IsExpanded": true
         },
         {
           "ModelTypeID": 14,
@@ -20587,7 +20587,7 @@
               "ModelID": 86,
               "SortOrder": 2,
               "Children": [],
-              "IsExpanded": false
+              "IsExpanded": true
             },
             {
               "ModelTypeID": 14,
@@ -20649,7 +20649,7 @@
                       "IsExpanded": false
                     }
                   ],
-                  "IsExpanded": false
+                  "IsExpanded": true
                 },
                 {
                   "ModelTypeID": 6,
@@ -20806,7 +20806,7 @@
               "IsExpanded": false
             }
           ],
-          "IsExpanded": false
+          "IsExpanded": true
         },
         {
           "ModelTypeID": 14,
@@ -26535,7 +26535,7 @@
               "IsExpanded": false
             }
           ],
-          "IsExpanded": false
+          "IsExpanded": true
         },
         {
           "ModelTypeID": 14,
@@ -26683,7 +26683,7 @@
           "IsExpanded": false
         }
       ],
-      "IsExpanded": false
+      "IsExpanded": true
     },
     {
       "ModelTypeID": 3,
@@ -32272,6 +32272,434 @@
               }
             ],
             "Context": 0
+          }
+        ]
+      },
+      "SignData": null,
+      "SparkData": null,
+      "DoorData": null,
+      "HomePointData": null,
+      "TreasureData": null,
+      "CrystalData": null,
+      "MarkerData": null
+    },
+    {
+      "ID": 1676,
+      "Coord": {
+        "X": -50,
+        "Y": 80,
+        "Z": 29
+      },
+      "BiomeID": 86,
+      "EntityType": 0,
+      "Comments": null,
+      "NpcData": {
+        "Key": "Z30_PostBossEvent",
+        "LinkedKey": null,
+        "TieToSpawn": false,
+        "UniquePerKey": false,
+        "Outfits": [
+          {
+            "Condition": {
+              "ConditionType": 3,
+              "Data": {
+                "Scope": 2,
+                "EntityKey": null,
+                "VariableKey": "Z30_BossDead",
+                "Eval": 2,
+                "VariableType": 0,
+                "Flag": false,
+                "Number": 0,
+                "SourceVariableScope": 0,
+                "SourceVariableKey": null,
+                "LootType": 0,
+                "LootValue": 0
+              },
+              "IsNegation": true
+            },
+            "TextureKey": null,
+            "Name": null,
+            "PlayerCharacterLevel": null,
+            "JobID": null,
+            "Facing": 5,
+            "ShadowType": 0,
+            "AutoStep": false,
+            "VoxelID": null,
+            "VoxelVariantIndex": 0,
+            "PlayerCollision": 0,
+            "NpcCollision": 0,
+            "MountType": 20,
+            "JumpType": 0,
+            "KeepSpawned": false,
+            "WanderType": 0,
+            "WanderSpeed": 0.0,
+            "WanderFrequency": 0,
+            "WanderRadius": 0.0,
+            "WanderRoute": [],
+            "WanderRouteIsLine": false
+          }
+        ],
+        "Pages": [
+          {
+            "Condition": {
+              "ConditionType": 0,
+              "Data": null,
+              "IsNegation": false
+            },
+            "TriggerType": 4,
+            "TriggerProximityRadius": 1.0,
+            "TriggerProximityBox": {
+              "XNeg": 0.0,
+              "YNeg": 0.0,
+              "ZNeg": 0.0,
+              "XPos": 0.0,
+              "YPos": 0.0,
+              "ZPos": 0.0
+            },
+            "TriggerOnExitProximity": false,
+            "TriggerTouchType": 0,
+            "Actions": [
+              {
+                "ActionType": 18,
+                "Data": {
+                  "EntityKey": "Z30_GoatBoss1",
+                  "Actions": [
+                    {
+                      "ActionType": 12,
+                      "Data": {
+                        "Offset": {
+                          "X": 5,
+                          "Y": 0,
+                          "Z": 1
+                        },
+                        "PostMoveFacing": 3,
+                        "IsRelative": false,
+                        "TargetMarkerKey": null,
+                        "Speed": 0.02,
+                        "WaitType": 0,
+                        "CollisionFree": true,
+                        "JumpType": null,
+                        "TeleportPoint": 0
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "ActionType": 18,
+                "Data": {
+                  "EntityKey": "Z30_GoatBoss2",
+                  "Actions": [
+                    {
+                      "ActionType": 12,
+                      "Data": {
+                        "Offset": {
+                          "X": 5,
+                          "Y": 0,
+                          "Z": 0
+                        },
+                        "PostMoveFacing": 2,
+                        "IsRelative": false,
+                        "TargetMarkerKey": null,
+                        "Speed": 0.02,
+                        "WaitType": 0,
+                        "CollisionFree": true,
+                        "JumpType": null,
+                        "TeleportPoint": 0
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "ActionType": 18,
+                "Data": {
+                  "EntityKey": "Z30_GoatBoss3",
+                  "Actions": [
+                    {
+                      "ActionType": 12,
+                      "Data": {
+                        "Offset": {
+                          "X": 1,
+                          "Y": 0,
+                          "Z": 5
+                        },
+                        "PostMoveFacing": 5,
+                        "IsRelative": false,
+                        "TargetMarkerKey": null,
+                        "Speed": 0.02,
+                        "WaitType": 0,
+                        "CollisionFree": true,
+                        "JumpType": null,
+                        "TeleportPoint": 0
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "ActionType": 4,
+                "Data": {
+                  "FrameCount": 30
+                }
+              },
+              {
+                "ActionType": 31,
+                "Data": {
+                  "Offset": {
+                    "X": 2,
+                    "Y": 0,
+                    "Z": 1
+                  },
+                  "PostMoveFacing": 0,
+                  "IsRelative": false,
+                  "TargetMarkerKey": null,
+                  "Speed": 0.1,
+                  "WaitType": 1,
+                  "CollisionFree": true,
+                  "JumpType": null,
+                  "TeleportPoint": 0
+                }
+              },
+              {
+                "ActionType": 18,
+                "Data": {
+                  "EntityKey": "Z30_GoatBoss1",
+                  "Actions": [
+                    {
+                      "ActionType": 12,
+                      "Data": {
+                        "Offset": {
+                          "X": 5,
+                          "Y": 0,
+                          "Z": 1
+                        },
+                        "PostMoveFacing": 3,
+                        "IsRelative": false,
+                        "TargetMarkerKey": null,
+                        "Speed": 0.02,
+                        "WaitType": 1,
+                        "CollisionFree": true,
+                        "JumpType": null,
+                        "TeleportPoint": 0
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "ActionType": 18,
+                "Data": {
+                  "EntityKey": "Z30_GoatBoss2",
+                  "Actions": [
+                    {
+                      "ActionType": 12,
+                      "Data": {
+                        "Offset": {
+                          "X": 5,
+                          "Y": 0,
+                          "Z": 0
+                        },
+                        "PostMoveFacing": 2,
+                        "IsRelative": false,
+                        "TargetMarkerKey": null,
+                        "Speed": 0.02,
+                        "WaitType": 1,
+                        "CollisionFree": true,
+                        "JumpType": null,
+                        "TeleportPoint": 0
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "ActionType": 18,
+                "Data": {
+                  "EntityKey": "Z30_GoatBoss3",
+                  "Actions": [
+                    {
+                      "ActionType": 12,
+                      "Data": {
+                        "Offset": {
+                          "X": 1,
+                          "Y": 0,
+                          "Z": 5
+                        },
+                        "PostMoveFacing": 5,
+                        "IsRelative": false,
+                        "TargetMarkerKey": null,
+                        "Speed": 0.02,
+                        "WaitType": 1,
+                        "CollisionFree": true,
+                        "JumpType": null,
+                        "TeleportPoint": 0
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "ActionType": 4,
+                "Data": {
+                  "FrameCount": 30
+                }
+              },
+              {
+                "ActionType": 8,
+                "Data": {
+                  "LootType": 1,
+                  "LootValue": 0,
+                  "Count": 1,
+                  "Redirect": false
+                }
+              },
+              {
+                "ActionType": 25,
+                "Data": {
+                  "Facing": 5
+                }
+              },
+              {
+                "ActionType": 6,
+                "Data": {
+                  "Scope": 2,
+                  "EntityKey": null,
+                  "VariableKey": "Z30_BossDead",
+                  "VariableType": 0,
+                  "Flag": true,
+                  "Number": 0,
+                  "SourceVariableScope": 0,
+                  "SourceVariableKey": null,
+                  "LootType": 0,
+                  "LootValue": 0
+                }
+              },
+              {
+                "ActionType": 19,
+                "Data": {
+                  "EntityKey": "Z30_GoatBoss1",
+                  "TriggerType": 4
+                }
+              },
+              {
+                "ActionType": 19,
+                "Data": {
+                  "EntityKey": "Z30_GoatBoss2",
+                  "TriggerType": 4
+                }
+              },
+              {
+                "ActionType": 19,
+                "Data": {
+                  "EntityKey": "Z30_GoatBoss3",
+                  "TriggerType": 4
+                }
+              },
+              {
+                "ActionType": 3,
+                "Data": {
+                  "Condition": {
+                    "ConditionType": 4,
+                    "Data": {
+                      "Scope": 2,
+                      "EntityKey": null,
+                      "VariableKey": "Q_Bulletin",
+                      "Eval": 0,
+                      "VariableType": 0,
+                      "Flag": false,
+                      "Number": 10,
+                      "SourceVariableScope": 0,
+                      "SourceVariableKey": null,
+                      "LootType": 0,
+                      "LootValue": 0
+                    },
+                    "IsNegation": false
+                  },
+                  "ConditionActionsTrue": [
+                    {
+                      "ActionType": 7,
+                      "Data": {
+                        "Scope": 2,
+                        "EntityKey": null,
+                        "VariableKey": "Q_Bulletin",
+                        "VariableType": 0,
+                        "Flag": false,
+                        "Number": 10,
+                        "SourceVariableScope": 0,
+                        "SourceVariableKey": null,
+                        "LootType": 0,
+                        "LootValue": 0
+                      }
+                    }
+                  ],
+                  "ConditionActionsFalse": []
+                }
+              },
+              {
+                "ActionType": 3,
+                "Data": {
+                  "Condition": {
+                    "ConditionType": 4,
+                    "Data": {
+                      "Scope": 2,
+                      "EntityKey": null,
+                      "VariableKey": "Q_Banish",
+                      "Eval": 0,
+                      "VariableType": 0,
+                      "Flag": false,
+                      "Number": 10,
+                      "SourceVariableScope": 0,
+                      "SourceVariableKey": null,
+                      "LootType": 0,
+                      "LootValue": 0
+                    },
+                    "IsNegation": false
+                  },
+                  "ConditionActionsTrue": [
+                    {
+                      "ActionType": 7,
+                      "Data": {
+                        "Scope": 2,
+                        "EntityKey": null,
+                        "VariableKey": "Q_Banish",
+                        "VariableType": 0,
+                        "Flag": false,
+                        "Number": 10,
+                        "SourceVariableScope": 0,
+                        "SourceVariableKey": null,
+                        "LootType": 0,
+                        "LootValue": 0
+                      }
+                    }
+                  ],
+                  "ConditionActionsFalse": []
+                }
+              },
+              {
+                "ActionType": 10,
+                "Data": {
+                  "RefreshCurrentOutfit": true,
+                  "RefreshCurrentPage": false,
+                  "RefreshCurrentPosition": false,
+                  "CancelAllActiveActions": false,
+                  "TriggerPlayerAction": false,
+                  "TriggerPlayerProximity": false,
+                  "TriggerAuto": false,
+                  "TriggerPlayerTouch": false,
+                  "TriggerTriggerNpc": false,
+                  "GlobalRefreshOutfits": false,
+                  "GlobalRefreshPages": false,
+                  "GlobalRefreshPositions": false,
+                  "GlobalTrySpawn": false,
+                  "GlobalTryDespawn": false,
+                  "ClearTempNpcVariables": false,
+                  "ClearTempGlobalVariables": false,
+                  "NpcKey": null
+                }
+              }
+            ],
+            "Context": 2
           }
         ]
       },
@@ -41446,27 +41874,6 @@
       "SparkData": null,
       "DoorData": null,
       "HomePointData": null,
-      "TreasureData": null,
-      "CrystalData": null,
-      "MarkerData": null
-    },
-    {
-      "ID": 5003,
-      "Coord": {
-        "X": 0,
-        "Y": 99,
-        "Z": -1
-      },
-      "BiomeID": 1,
-      "EntityType": 4,
-      "Comments": "Added for Archipelago to prevent players from getting stuck",
-      "NpcData": null,
-      "SignData": null,
-      "SparkData": null,
-      "DoorData": null,
-      "HomePointData": {
-        "Name": "AP Spawn Point"
-      },
       "TreasureData": null,
       "CrystalData": null,
       "MarkerData": null

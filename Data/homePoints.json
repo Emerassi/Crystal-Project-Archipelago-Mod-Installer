@@ -1,13 +1,5 @@
 [
   {
-    "Name": "Home Point - AP Spawn Point",
-    "LocationId": 5003,
-    "APRegion": "Spawning Meadows",
-    "Coordinates": "0, 99, -1",
-    "MapLayer": 0,
-    "Rule": null
-  },
-  {
     "Name": "Home Point - Old Nan's Watering Hole",
     "LocationId": 59,
     "APRegion": "Spawning Meadows",
