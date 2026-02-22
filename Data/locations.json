@@ -224,7 +224,7 @@
           },
           {
             "ConnectionName": "Ancient Labyrinth Core",
-            "Rule": "lambda state: (state.has(\"Home Point - Ancient Labyrinth Core\", player)) and logic.is_area_in_level_range(state, 62)"
+            "Rule": "lambda state: ((state.has(\"Home Point - Ancient Labyrinth Core\", player) and logic.has_a_caster(state))) and logic.is_area_in_level_range(state, 62)"
           },
           {
             "ConnectionName": "Dione Shrine",
@@ -7974,7 +7974,7 @@
           },
           {
             "ConnectionName": "Ancient Labyrinth",
-            "Rule": "lambda state: ((state.has(\"Item - Poko Poko Desert Pass\", player) or logic.is_regionsanity_disabled()) and (state.has(\"Item - Ancient Tablet A\", player) or logic.obscure_routes_on())) and logic.is_area_in_level_range(state, 62)"
+            "Rule": "lambda state: ((state.has(\"Item - Poko Poko Desert Pass\", player) or logic.is_regionsanity_disabled()) and (logic.has_a_caster(state)) and (state.has(\"Item - Ancient Tablet A\", player) or logic.obscure_routes_on())) and logic.is_area_in_level_range(state, 62)"
           }
         ],
         "Locations": [
