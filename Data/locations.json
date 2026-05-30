@@ -7970,7 +7970,7 @@
           },
           {
             "ConnectionName": "Gold Bedazzling the Ancient Labyrinth",
-            "Rule": "lambda state: (logic.has_glide(state) or (logic.has_horizontal_movement(state) and logic.has_vertical_movement(state))) and logic.is_area_in_level_range(state, 30)"
+            "Rule": "lambda state: (logic.has_glide(state) and logic.has_vertical_movement(state)) and logic.is_area_in_level_range(state, 30)"
           },
           {
             "ConnectionName": "Ancient Labyrinth",
@@ -9380,6 +9380,10 @@
             "Rule": "lambda state: (logic.has_vertical_movement(state)) and logic.is_area_in_level_range(state, 0)"
           },
           {
+            "ConnectionName": "Salmon Bay Island",
+            "Rule": "lambda state: (logic.has_swimming(state)) and logic.is_area_in_level_range(state, 0)"
+          },
+          {
             "ConnectionName": "Salmon River Mouth",
             "Rule": "lambda state: (logic.has_swimming(state)) and logic.is_area_in_level_range(state, 0)"
           },
@@ -9394,14 +9398,6 @@
             "LocationName": "Salmon Bay NPC - Moodlit shore behind waterfall",
             "Rule": null,
             "Coordinates": "2, 91, -271",
-            "LocationGroups": [],
-            "MapLayer": 0
-          },
-          {
-            "LocationId": 1272,
-            "LocationName": "Salmon Bay NPC - Quintar splish splash",
-            "Rule": null,
-            "Coordinates": "-43, 91, -330",
             "LocationGroups": [],
             "MapLayer": 0
           },
@@ -9455,10 +9451,38 @@
         "TeleportLocationString": null
       },
       {
+        "Name": "Salmon Bay Island",
+        "Connections": [
+          {
+            "ConnectionName": "Salmon Bay Basin",
+            "Rule": "lambda state: (logic.has_swimming(state)) and logic.is_area_in_level_range(state, 0)"
+          },
+          {
+            "ConnectionName": "Salmon Bay East Crag",
+            "Rule": "lambda state: (logic.has_vertical_movement(state)) and logic.is_area_in_level_range(state, 0)"
+          }
+        ],
+        "Locations": [
+          {
+            "LocationId": 1272,
+            "LocationName": "Salmon Bay NPC - Quintar splish splash",
+            "Rule": null,
+            "Coordinates": "-43, 91, -330",
+            "LocationGroups": [],
+            "MapLayer": 0
+          }
+        ],
+        "TeleportLocationString": null
+      },
+      {
         "Name": "Salmon Bay East Crag",
         "Connections": [
           {
             "ConnectionName": "Salmon Bay Basin",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 0)"
+          },
+          {
+            "ConnectionName": "Salmon Bay Island",
             "Rule": "lambda state: logic.is_area_in_level_range(state, 0)"
           }
         ],
@@ -9592,17 +9616,6 @@
         ],
         "Locations": [
           {
-            "LocationId": 2804,
-            "LocationName": "The Open Sea NPC - I'm on a raft!",
-            "Rule": "lambda state: state.has(\"Item - Super Rod\", player) and state.has(\"Item - Jigging Lure\", player)",
-            "Coordinates": "-139, 91, 123",
-            "LocationGroups": [
-              "Fishers",
-              "Fetch Quests"
-            ],
-            "MapLayer": 0
-          },
-          {
             "LocationId": 19031,
             "LocationName": "The Open Sea Region Completion",
             "Rule": "regionsanity=True",
@@ -9661,7 +9674,19 @@
             "Rule": "lambda state: (logic.has_swimming(state)) and logic.is_area_in_level_range(state, 0)"
           }
         ],
-        "Locations": [],
+        "Locations": [
+          {
+            "LocationId": 2804,
+            "LocationName": "The Open Sea NPC - I'm on a raft!",
+            "Rule": "lambda state: state.has(\"Item - Super Rod\", player) and state.has(\"Item - Jigging Lure\", player)",
+            "Coordinates": "-139, 91, 123",
+            "LocationGroups": [
+              "Fishers",
+              "Fetch Quests"
+            ],
+            "MapLayer": 0
+          }
+        ],
         "TeleportLocationString": null
       }
     ]
@@ -11451,7 +11476,7 @@
           },
           {
             "ConnectionName": "Pah Summon Cave",
-            "Rule": "lambda state: logic.is_area_in_level_range(state, 37)"
+            "Rule": "lambda state: (logic.has_swimming(state)) and logic.is_area_in_level_range(state, 37)"
           },
           {
             "ConnectionName": "Shoudu Waterfront",
@@ -17144,22 +17169,6 @@
             "MapLayer": 4
           },
           {
-            "LocationId": 1477,
-            "LocationName": "Castle Sequoia Boss - Neo Warden",
-            "Rule": "lambda state: logic.is_area_in_level_range(state, 57)",
-            "Coordinates": "422, 152, -408",
-            "LocationGroups": [],
-            "MapLayer": 5
-          },
-          {
-            "LocationId": 1503,
-            "LocationName": "Castle Sequoia Boss - Akamanto",
-            "Rule": "lambda state: logic.is_area_in_level_range(state, 58)",
-            "Coordinates": "422, 135, -445",
-            "LocationGroups": [],
-            "MapLayer": 6
-          },
-          {
             "LocationId": 19061,
             "LocationName": "Castle Sequoia Region Completion",
             "Rule": "regionsanity=True",
@@ -17246,6 +17255,14 @@
             "Coordinates": "395, 155, -453",
             "LocationGroups": [],
             "MapLayer": 5
+          },
+          {
+            "LocationId": 1477,
+            "LocationName": "Castle Sequoia Boss - Neo Warden",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 57)",
+            "Coordinates": "422, 152, -408",
+            "LocationGroups": [],
+            "MapLayer": 5
           }
         ],
         "TeleportLocationString": null
@@ -17272,6 +17289,14 @@
             "LocationName": "Castle Sequoia Chest - Chilly duo in Chips Challenge of doom",
             "Rule": null,
             "Coordinates": "387, 134, -427",
+            "LocationGroups": [],
+            "MapLayer": 6
+          },
+          {
+            "LocationId": 1503,
+            "LocationName": "Castle Sequoia Boss - Akamanto",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 58)",
+            "Coordinates": "422, 135, -445",
             "LocationGroups": [],
             "MapLayer": 6
           }
