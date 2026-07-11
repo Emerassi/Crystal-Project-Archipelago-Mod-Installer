@@ -538,7 +538,7 @@
   {
     "Name": "Home Point - West Ramparts",
     "LocationId": 1376,
-    "APRegion": "Peak Ramparts",
+    "APRegion": "West Ramparts",
     "Coordinates": "360, 234, -393",
     "MapLayer": 0,
     "Rule": null
@@ -546,7 +546,7 @@
   {
     "Name": "Home Point - East Ramparts",
     "LocationId": 1375,
-    "APRegion": "Peak Ramparts",
+    "APRegion": "East Ramparts",
     "Coordinates": "449, 234, -393",
     "MapLayer": 0,
     "Rule": null

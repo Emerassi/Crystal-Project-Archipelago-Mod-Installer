@@ -191,8 +191,12 @@
             "Rule": "lambda state: (state.has(\"Home Point - Tall, Tall Heights\", player)) and logic.is_area_in_level_range(state, 41)"
           },
           {
-            "ConnectionName": "Peak Ramparts",
-            "Rule": "lambda state: ((state.has(\"Home Point - East Ramparts\", player) or state.has(\"Home Point - West Ramparts\", player))) and logic.is_area_in_level_range(state, 50)"
+            "ConnectionName": "East Ramparts",
+            "Rule": "lambda state: (state.has(\"Home Point - East Ramparts\", player)) and logic.is_area_in_level_range(state, 50)"
+          },
+          {
+            "ConnectionName": "West Ramparts",
+            "Rule": "lambda state: (state.has(\"Home Point - West Ramparts\", player)) and logic.is_area_in_level_range(state, 50)"
           },
           {
             "ConnectionName": "Slip Glide Ride Entrance",
@@ -14727,70 +14731,6 @@
         ],
         "Locations": [
           {
-            "LocationId": 2908,
-            "LocationName": "Castle Ramparts Chest - Below the crystal",
-            "Rule": null,
-            "Coordinates": "407, 228, -383",
-            "LocationGroups": [
-              "Purple Chests"
-            ],
-            "MapLayer": 0
-          },
-          {
-            "LocationId": 2742,
-            "LocationName": "Castle Ramparts Chest - Jump down from eastern save point",
-            "Rule": null,
-            "Coordinates": "440, 227, -386",
-            "LocationGroups": [],
-            "MapLayer": 0
-          },
-          {
-            "LocationId": 2741,
-            "LocationName": "Castle Ramparts Chest - Jump down from western save point",
-            "Rule": null,
-            "Coordinates": "369, 227, -386",
-            "LocationGroups": [],
-            "MapLayer": 0
-          },
-          {
-            "LocationId": 2758,
-            "LocationName": "Castle Sequoia Chest - Locked Ramparts storage room 1",
-            "Rule": "lambda state: logic.has_key(state, \"Item - Rampart Key\")",
-            "Coordinates": "375, 232, -452",
-            "LocationGroups": [],
-            "MapLayer": 4
-          },
-          {
-            "LocationId": 3657,
-            "LocationName": "Castle Sequoia Chest - Locked Ramparts storage room 2",
-            "Rule": "lambda state: logic.has_key(state, \"Item - Rampart Key\")",
-            "Coordinates": "371, 231, -457",
-            "LocationGroups": [
-              "Purple Chests"
-            ],
-            "MapLayer": 4
-          },
-          {
-            "LocationId": 2843,
-            "LocationName": "Castle Ramparts NPC - Western Gold above spikes",
-            "Rule": null,
-            "Coordinates": "354, 231, -429",
-            "LocationGroups": [
-              "Ore Nodes"
-            ],
-            "MapLayer": 0
-          },
-          {
-            "LocationId": 2842,
-            "LocationName": "Castle Ramparts NPC - Eastern Gold above spikes",
-            "Rule": null,
-            "Coordinates": "458, 231, -436",
-            "LocationGroups": [
-              "Ore Nodes"
-            ],
-            "MapLayer": 0
-          },
-          {
             "LocationId": 1370,
             "LocationName": "Castle Ramparts Crystal - Beastmaster (say high to the Ramparts Demon!)",
             "Rule": "lambda state: logic.has_vertical_movement(state)",
@@ -14815,7 +14755,131 @@
             "MapLayer": -1
           }
         ],
+        "TeleportLocationString": null
+      },
+      {
+        "Name": "East Ramparts",
+        "Connections": [
+          {
+            "ConnectionName": "Center Ramparts",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 50)"
+          },
+          {
+            "ConnectionName": "Lone Chest Rampart",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 50)"
+          },
+          {
+            "ConnectionName": "West Ramparts",
+            "Rule": "lambda state: (logic.has_glide(state)) and logic.is_area_in_level_range(state, 50)"
+          }
+        ],
+        "Locations": [
+          {
+            "LocationId": 2742,
+            "LocationName": "Castle Ramparts Chest - Jump down from eastern save point",
+            "Rule": null,
+            "Coordinates": "440, 227, -386",
+            "LocationGroups": [],
+            "MapLayer": 0
+          },
+          {
+            "LocationId": 2842,
+            "LocationName": "Castle Ramparts NPC - Eastern Gold above spikes",
+            "Rule": "lambda state: logic.has_horizontal_movement(state)",
+            "Coordinates": "458, 231, -436",
+            "LocationGroups": [
+              "Ore Nodes"
+            ],
+            "MapLayer": 0
+          }
+        ],
+        "TeleportLocationString": null
+      },
+      {
+        "Name": "West Ramparts",
+        "Connections": [
+          {
+            "ConnectionName": "Center Ramparts",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 50)"
+          },
+          {
+            "ConnectionName": "Lone Chest Rampart",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 50)"
+          },
+          {
+            "ConnectionName": "East Ramparts",
+            "Rule": "lambda state: (logic.has_glide(state)) and logic.is_area_in_level_range(state, 50)"
+          }
+        ],
+        "Locations": [
+          {
+            "LocationId": 2741,
+            "LocationName": "Castle Ramparts Chest - Jump down from western save point",
+            "Rule": null,
+            "Coordinates": "369, 227, -386",
+            "LocationGroups": [],
+            "MapLayer": 0
+          },
+          {
+            "LocationId": 2758,
+            "LocationName": "Castle Sequoia Chest - Locked Ramparts storage room 1",
+            "Rule": "lambda state: logic.has_key(state, \"Item - Rampart Key\") and logic.has_horizontal_movement(state) and logic.has_vertical_movement(state)",
+            "Coordinates": "375, 232, -452",
+            "LocationGroups": [],
+            "MapLayer": 4
+          },
+          {
+            "LocationId": 3657,
+            "LocationName": "Castle Sequoia Chest - Locked Ramparts storage room 2",
+            "Rule": "lambda state: logic.has_key(state, \"Item - Rampart Key\") and logic.has_horizontal_movement(state) and logic.has_vertical_movement(state)",
+            "Coordinates": "371, 231, -457",
+            "LocationGroups": [
+              "Purple Chests"
+            ],
+            "MapLayer": 4
+          },
+          {
+            "LocationId": 2843,
+            "LocationName": "Castle Ramparts NPC - Western Gold above spikes",
+            "Rule": null,
+            "Coordinates": "354, 231, -429",
+            "LocationGroups": [
+              "Ore Nodes"
+            ],
+            "MapLayer": 0
+          }
+        ],
         "TeleportLocationString": "360,234,-392"
+      },
+      {
+        "Name": "Center Ramparts",
+        "Connections": [
+          {
+            "ConnectionName": "East Ramparts",
+            "Rule": "lambda state: (logic.has_vertical_movement(state)) and logic.is_area_in_level_range(state, 50)"
+          },
+          {
+            "ConnectionName": "West Ramparts",
+            "Rule": "lambda state: (logic.has_vertical_movement(state)) and logic.is_area_in_level_range(state, 50)"
+          },
+          {
+            "ConnectionName": "Peak Ramparts",
+            "Rule": "lambda state: (logic.has_vertical_movement(state)) and logic.is_area_in_level_range(state, 50)"
+          }
+        ],
+        "Locations": [
+          {
+            "LocationId": 2908,
+            "LocationName": "Castle Ramparts Chest - Below the crystal",
+            "Rule": null,
+            "Coordinates": "407, 228, -383",
+            "LocationGroups": [
+              "Purple Chests"
+            ],
+            "MapLayer": 0
+          }
+        ],
+        "TeleportLocationString": null
       }
     ]
   },
