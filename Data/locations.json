@@ -14727,6 +14727,10 @@
           {
             "ConnectionName": "Tall, Tall Tall Chest",
             "Rule": "lambda state: (logic.has_glide(state)) and logic.is_area_in_level_range(state, 41)"
+          },
+          {
+            "ConnectionName": "Center Ramparts",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 50)"
           }
         ],
         "Locations": [
@@ -17217,22 +17221,6 @@
         ],
         "Locations": [
           {
-            "LocationId": 2515,
-            "LocationName": "Castle Sequoia Chest - Hop through keyhole over lava",
-            "Rule": null,
-            "Coordinates": "422, 169, -406",
-            "LocationGroups": [],
-            "MapLayer": 4
-          },
-          {
-            "LocationId": 1457,
-            "LocationName": "Castle Sequoia Boss - Parasite X",
-            "Rule": "lambda state: logic.is_area_in_level_range(state, 56)",
-            "Coordinates": "414, 169, -441",
-            "LocationGroups": [],
-            "MapLayer": 4
-          },
-          {
             "LocationId": 19061,
             "LocationName": "Castle Sequoia Region Completion",
             "Rule": "regionsanity=True",
@@ -17248,10 +17236,18 @@
         "Connections": [
           {
             "ConnectionName": "Castle Sequoia Shroom Floor",
-            "Rule": "lambda state: logic.is_area_in_level_range(state, 56)"
+            "Rule": "lambda state: (logic.is_area_in_level_range(state, 56)) and logic.is_area_in_level_range(state, 56)"
           }
         ],
         "Locations": [
+          {
+            "LocationId": 2515,
+            "LocationName": "Castle Sequoia Chest - Hop through keyhole over lava",
+            "Rule": null,
+            "Coordinates": "422, 169, -406",
+            "LocationGroups": [],
+            "MapLayer": 4
+          },
           {
             "LocationId": 1465,
             "LocationName": "Castle Sequoia Chest - Stared at by lava miniboss",
@@ -17267,6 +17263,14 @@
             "Coordinates": "409, 169, -406",
             "LocationGroups": [],
             "MapLayer": 4
+          },
+          {
+            "LocationId": 1457,
+            "LocationName": "Castle Sequoia Boss - Parasite X",
+            "Rule": "lambda state: logic.is_area_in_level_range(state, 56)",
+            "Coordinates": "414, 169, -441",
+            "LocationGroups": [],
+            "MapLayer": 4
           }
         ],
         "TeleportLocationString": null
@@ -17276,7 +17280,7 @@
         "Connections": [
           {
             "ConnectionName": "Castle Sequoia Ice Floor",
-            "Rule": "lambda state: (logic.has_glide(state)) and logic.is_area_in_level_range(state, 56)"
+            "Rule": "lambda state: (logic.has_glide(state) and logic.is_area_in_level_range(state, 57)) and logic.is_area_in_level_range(state, 56)"
           }
         ],
         "Locations": [
@@ -17336,7 +17340,7 @@
         "Connections": [
           {
             "ConnectionName": "Castle Sequoia Fish Floor",
-            "Rule": "lambda state: (logic.has_glide(state)) and logic.is_area_in_level_range(state, 56)"
+            "Rule": "lambda state: (logic.has_glide(state) and logic.is_area_in_level_range(state, 58)) and logic.is_area_in_level_range(state, 56)"
           }
         ],
         "Locations": [
