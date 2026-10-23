@@ -1263,7 +1263,7 @@
           },
           {
             "ConnectionName": "Delende Peak",
-            "Rule": "lambda state: (logic.has_vertical_movement(state)) and logic.is_area_in_level_range(state, 5)"
+            "Rule": "lambda state: (logic.has_vertical_movement(state) or (logic.obscure_routes_on() and logic.is_hop_to_it_at_least_fancy_footwork())) and logic.is_area_in_level_range(state, 5)"
           },
           {
             "ConnectionName": "Heart Tarn",
